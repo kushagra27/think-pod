@@ -1,0 +1,12 @@
+# Audio files (too large for git)
+audio/
+*.mp3
+*.wav
+
+# Session state
+sessions/*.json
+
+# Python
+__pycache__/
+*.pyc
+.env

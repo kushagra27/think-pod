@@ -1,0 +1,1595 @@
+# #1067 - Cal Newport - The collapse of modern attention (and how to get it back)
+# Date: Thu, 05 Mar 2026 06:00:00 -0000
+# Duration: 105 minutes
+# Episode: 1067
+
+[00:00] Dude, you must be feeling like Cassandra at the moment.
+[00:04] So prescient, the distraction, the necessity of deep work, the inherent bombardment of
+[00:10] our attention.
+[00:11] Do you feel like you saw the future earlier than what even at the time maybe felt late
+[00:16] with deep work and focusing on quality over quantity and stuff?
+[00:20] I mean, I think part of what I noticed was the present was crazy to me and no one else
+[00:24] recognized it.
+[00:25] So it was less even predicting the future.
+[00:27] I feel like there was a time, God, it's like 10 years ago now, where I was looking around and, yeah, saying two things.
+[00:34] One, social media doesn't make sense.
+[00:36] Why are we all pretending like this is at the center of democracy and civic life and all business?
+[00:41] We all have to be on here all the time.
+[00:43] And two, email doesn't make sense.
+[00:45] Not what was going to happen in the future.
+[00:47] I'm just looking at the way we're working today with email and Slack and Teams was coming.
+[00:51] This completely does not make sense.
+[00:53] You're switching your context once every two or three minutes.
+[00:55] This is a terrible way to actually use your brain.
+[00:57] So I never thought of myself as predicting the future as much as just telling people what was going on then that it makes sense.
+[01:03] And everyone thought I was crazy.
+[01:04] And 10 years later, it just kind of jumped from I was crazy to it's common sense.
+[01:09] So it's not even that interesting that I'm saying it anymore.
+[01:11] So I kind of skipped the part where it sounded prescient.
+[01:15] Do you feel vindicated?
+[01:17] I think certainly on a couple issues.
+[01:20] The social media issue was a big one because I used to get a lot of flack for that.
+[01:24] for going out.
+[01:26] And I wasn't even saying
+[01:27] the social media was bad
+[01:29] or that no one should use it.
+[01:31] Really, what I was pushing back on
+[01:33] was just the idea of ubiquity,
+[01:35] the idea that everyone had to use it.
+[01:37] I said, this doesn't make sense.
+[01:37] I get there's some people
+[01:38] this makes sense for.
+[01:39] There's a lot of technologies
+[01:40] that have markets
+[01:41] that make sense for it.
+[01:42] But why is there this pressure
+[01:43] for everyone to be on these services?
+[01:45] This is not going to a good place.
+[01:47] They're spending a lot of money
+[01:49] to mine attention
+[01:50] and they're going to get better at it, right?
+[01:52] And at the time,
+[01:52] this was considered
+[01:53] crazy. What do you mean you wouldn't use social media? I wrote a New York Times op-ed back.
+[01:59] I looked this up the other day. It was 2016. And it argued maybe social media is not the biggest
+[02:07] thing for a young person to focus on if they're thinking about their career. That's what it was.
+[02:11] It was like focus on your career instead of social media. Actually doing things well is what really
+[02:14] matters. And you would think that I had just come on and said America has an idea, it's done,
+[02:20] and grandmother should be kicked.
+[02:22] Like people were upset about this.
+[02:24] The New York Times commissioned a response op two weeks later that went through mine and said this is what is wrong about Cal Newport op or whatever because it made such a
+[02:35] furor to suggest it. And today it's boring to suggest like, ah, you know, social media has
+[02:39] problems and most people probably shouldn't use it. People agree with that. The one that
+[02:42] upsets me though, that one I feel like people have come along to and more and more people are
+[02:47] being much more selective and minimalist about their social media. The distraction, email,
+[02:52] Slack, constantly jumping back and forth between different things.
+[02:56] That just got worse.
+[02:57] I mean, I think people recognize it now.
+[02:59] This is probably not a good way to work.
+[03:01] But I thought because there was dollars and cents here, this is less productive from an
+[03:05] economic productivity standpoint to have all of your workers changing their attention all
+[03:10] the time.
+[03:11] You're just getting a really low return on all the money you're investing in these human
+[03:14] brains.
+[03:14] So I thought, oh, this is dollars and cents.
+[03:15] This is the one that's going to change.
+[03:18] Social media is fun.
+[03:19] That's going to be hard to change people's behavior.
+[03:20] But certainly this hyper distraction thing in knowledge work, that'll change because we're leaving money on the table.
+[03:26] It hasn't changed at all.
+[03:27] It's gotten worse.
+[03:27] It's worse than it was.
+[03:29] I'm at the 10-year anniversary now of the book Deep Work.
+[03:33] So this month is the 10-year anniversary.
+[03:35] Congratulations, dude.
+[03:36] That's fucking seminal.
+[03:37] That has become a part of the lexicon.
+[03:39] That's really, really cool.
+[03:41] Yeah, but it's got me a little bit depressed because I've been doing this 10-year reflection.
+[03:46] Like, okay, it's been 10 years and the book was a hit and it's millions of copies, etc.
+[03:49] and that is the issues i talked about are worse they're like really worse than they were 10 years
+[03:53] ago so people know the problem nothing has changed what does the data suggest around the
+[04:01] worstness of it now i've been the the one i've been following the study that i think is useful
+[04:07] as a trend line is microsoft actually does this annual report where they gather data from microsoft
+[04:13] 365 so it's like office and word and powerpoint and excel nowadays you use this sort of the web
+[04:18] based version of these is very common. So they can gather data from just tens of thousands of
+[04:23] knowledge workers actually using all these different tools. And the latest report they put
+[04:28] out in 2025 now has the interruptions on average once every two minutes. So it's just gotten out
+[04:35] of control. So switching to a communication tool once every two minutes. They also found in the
+[04:39] latest report, and this is depressing to me as well, there's one time in the week where they see
+[04:44] a notable rise in the use of the non-communication.
+[04:49] So actually using the core productivity tools like Word or PowerPoint, and it's Saturday
+[04:53] and Sunday morning.
+[04:55] So we just put the work off until the weekend when there no expectations of responses and spend the actual weekdays talking about work Which I just don get
+[05:06] Like that is not economically productive.
+[05:08] Like companies are leaving money on the table, but it's just where we are.
+[05:11] We really can't quit this behavior.
+[05:13] Isn't it interesting that you had to try and appeal to a very utilitarian approach for this?
+[05:17] That you didn't say this is probably making staff miserable.
+[05:22] It's not a good use of time.
+[05:24] We've got some really strong evidence that suggests that doing one thing and getting better at it over a protracted period of time actually makes you feel more satisfied.
+[05:32] You get into a flow state, et cetera, et cetera.
+[05:35] You look back on your day and you can look at the things that you did.
+[05:39] None of that, which is the much more immediate experiential way that people interface with distraction.
+[05:47] You tried to appeal to the bottom line, which you thought, well, incentives, incentives align the fucking incentives.
+[05:52] and that didn't work which obviously means also that people's level of administrative burden
+[06:00] misery it's also coming along for the ride at the same time yeah it's a it's a fucking mess dude and
+[06:06] i think you know even with what i do it's not a very big team but slack slack is like it's so
+[06:12] useful and invites so much chaos at the same time it is and it was slack slack wouldn't have been
+[06:20] that big during Deep Work, I'm going to guess.
+[06:23] It wasn't big. It wasn't out yet.
+[06:25] I talk in Deep Work about these
+[06:26] very early instant messenger tools that
+[06:28] no longer exist, like HipChat.
+[06:31] It was just emerging among the
+[06:32] programmer class. I was basically saying, there
+[06:34] be dragons. Let's be careful about that.
+[06:37] But I wrote an article about Slack
+[06:38] years later
+[06:40] when Slack was bought.
+[06:42] I think Salesforce bought Slack. I wrote an
+[06:44] article about it for The New Yorker. And I think the title
+[06:46] of that article gets to the core of the issue
+[06:48] you're talking about. The title was
+[06:50] the slack is the right tool for the wrong way to work and i think what happened here's my whole
+[06:57] theory on slack is that when email arrived it moved us to this new style of collaboration that
+[07:02] i call the hyper a hyperactive hive mind where we'll just figure things out um on the go with
+[07:07] ad hoc back and forth unscheduled messaging just sort of like shooting messages back and forth
+[07:10] we'll figure things out like we're all just kind of connected all the time that's a terrible way
+[07:15] to work for all the reasons i talked about is distracting is context switching you can't do
+[07:18] anything deep, it's hard to produce value. But if that's the way you're going to work,
+[07:22] email clients are not a very good tool for that You have threads and it clunky and it hard to search through your email and find what you did before So Slack came along and said look if this is the way you going to work hyperactive hive mind constant back and forth ad hoc coordination we build you a better tool for
+[07:37] that. So that's why people both love and hate Slack. It's a really good tool for that style
+[07:42] of collaboration. It works really well, but that style of collaboration makes us miserable.
+[07:47] So it's this weird love hate relationship we have. This works great. I hate the thing that
+[07:52] is making easier. Why does it make us miserable, that style of collaboration? Because our brain
+[07:58] isn't meant to switch our target of attention that quickly. It just takes us a long time if
+[08:02] we're talking about targets that are abstract and symbolic. It takes us a long time to switch from
+[08:07] one to another. Physical world targets, we can switch quickly, right? We're wired for that.
+[08:12] If there's a tiger's roar, I can boom, 100% attention, what's going on over there. But when
+[08:17] we're thinking about abstract things, information, ideas, things that are symbolic and in our head,
+[08:23] that's us. We're basically reappropriating our brain hardware to do something we're not evolved
+[08:28] to do. It takes a lot of effort to do symbolic thinking, to think about abstract concepts.
+[08:33] And we know it takes 10 to 20 minutes to fully change our attention context from one abstract
+[08:39] target to another. It takes a long time. That's why if you sit down to write something, everyone
+[08:43] has this experience, the first five or 10 minutes, like, man, this is terrible. Like I'm making no
+[08:48] progress or whatever. And then after a while, you're like, oh, this is starting to flow. Like
+[08:52] it's going better. That's because it took that much time for your brain to load up all of the
+[08:57] relevant information and to inhibit all the unrelated circuits and get your brain really
+[09:01] ready to do that activity. So if you now interrupt that brain once every two minutes,
+[09:06] it never can lock in on anything. And what you feel then is this sort of diffuse cognitive
+[09:11] friction that we begin to experience as fatigue, cognitive fatigue. And it's a really frustrating
+[09:16] experience. It's why if you go to an email inbox, you're like, I have time. I'm going to empty this
+[09:22] inbox. I'm going to go message by message. Here's the best way to do it, right? On paper, I'm going
+[09:25] to go message by message and I'm going to answer these messages. Why does that get so hard? Why do
+[09:30] you find yourself like jumping around and looking for easier messages? Because each message is a
+[09:34] different context than the other and that's torture for the brain. It's really, really hard to go from,
+[09:39] all right, this is a complicated question one of my employees is asking me,
+[09:43] and now this is a completely different issue, completely unrelated to that, where I have to
+[09:47] think of a good title for something, and now here's a completely different issue,
+[09:50] and you're trying to switch one after another. Our brains aren't wired for that. It really
+[09:54] makes us unhappy. What would you say to someone who wants to try and retrain that
+[10:00] tension. Maybe they're going to try and make some sort of a stand inside of Slack and say,
+[10:09] I will only be available at certain times of the day. But regardless of the inbound,
+[10:14] let's say that they fix the inbound because that's a totally separate problem. That's much
+[10:17] more sort of structural, unless you've got any advice for that as well. But how does someone go
+[10:22] about reappraising retraining their mind away from that because we we do become um we get like
+[10:32] stockholm syndrome the slack stockholm syndrome where our captor tormentor becomes the way that
+[10:40] we operate we've got our favorite little ways of working and it feels like we've done but then at
+[10:44] the end of the day we look back and have this sort of odd malaise thing about well what did i actually
+[10:52] do today? What got done? Well, not much. Not much got done. Yeah. Well, it's hard unilaterally. If
+[11:00] you've changed nothing else about your workload or your communication protocols, if you just say,
+[11:05] I'm not going to be on Slack from this hour to this hour, I only check my email twice a day,
+[11:09] or whatever that standard advice was from 15 years ago, it doesn't work well. Because if you're
+[11:14] involved in a large number of projects that are timely, and the way progress is going to be made
+[11:19] is with ad hoc back and forth messaging.
+[11:21] You have to be in there checking.
+[11:23] That's the brutal part of the hyperactive hive mind
+[11:26] is that it has defenses to its elimination
+[11:28] built into its very nature.
+[11:30] Because if this is how we're going to figure this out,
+[11:32] like we have to have five or six back and forth messages
+[11:35] to figure out what we're going to do
+[11:36] about this client coming tomorrow.
+[11:37] We have to get this done today.
+[11:39] That means you have to see my next message right away
+[11:41] so that we have time for me to answer you
+[11:43] and you to answer me
+[11:44] and for that ping pong match to happen.
+[11:46] That means you have to be checking
+[11:47] your inbox or Slack constantly.
+[11:49] Otherwise, you're not going to see my next message in time for this whole game to unfold.
+[11:52] So the very nature of that style of collaboration demands constant inbox checking, which is what I think people often get wrong about this.
+[11:59] When I think about things like Slack or email, they think too often about either information like, oh, I've got so many messages in my inbox that I don't need.
+[12:08] I have all these newsletters and spam.
+[12:10] That's not a problem.
+[12:11] That's a minor problem.
+[12:13] That's an easily solvable problem.
+[12:15] It's like clutter.
+[12:16] That's not a big problem.
+[12:17] the issue is actually
+[12:19] my collaboration style
+[12:21] requires me to be in there
+[12:24] because if I miss messages in a timely fashion everything falls apart and so the issue is not how do I interact with my inbox It really has to be how do I change the way the inbox is being used
+[12:37] I mean, so I ended up, I feel like had three big ideas on this that span three different
+[12:41] books, right?
+[12:41] So in deep work, like one of the big ideas was you can train your personal ability to
+[12:47] focus.
+[12:48] Focusing is really important.
+[12:50] Putting aside for now all the things trying to prevent you from focusing, you have to
+[12:54] practice it.
+[12:54] And if you practice it, you'll get better at it. And if you get better at it, you'll be a superstar because like that's what matters in the knowledge economy. Everything good comes out of focus.
+[13:02] Then I wrote a book after that called A World Without Email. And in that book, I was arguing the way we the thing I was telling you about hyperactive, hyperactive communication is a problem. This is a real problem. The fact that we are using this method for coordination is causing all these trouble is really causing problems.
+[13:19] and I went through all the data and all the research and made the case. This is super
+[13:23] nonproductive. I went back to the archives of the New York times business session in the eighties
+[13:28] and nineties to exactly document the rise of email and how people were talking about email
+[13:32] when it first came onto the business scene. And I made the case, the way we work is arbitrary.
+[13:38] This hyperactive hive mind was not a plan. It wasn't seen to be more productive. We stumbled
+[13:42] into it. So we really should change it. So that was that book. And then the most recent book,
+[13:46] slow productivity from a couple of years ago. In that book, I argued, oh, wait a second,
+[13:51] workload matters too. The other issue of this problem is we don't put any limits or transparency
+[13:56] on how many things we're working on. And if you pile too many things on your plate,
+[14:01] too much communication interruption becomes unavoidable because they each have little
+[14:04] issues they need you to deal with. So I've now over this 10 year period,
+[14:08] have kind of broken down this problem. And there's like training yourself to focus,
+[14:11] fixing your communication protocols like how do i communicate in a professional context how do we
+[14:17] collaborate and then managing workload to be more reasonable all three of this might be why this
+[14:23] problem's not solved there's no one thing to fix right so all three of these things go into the
+[14:28] issue and they're each complicated what of across those three books all of which are great and
+[14:33] everyone needs to go and check out i think we've done episodes about each of them so they can just
+[14:36] and listen to those and then buy the books.
+[14:41] Looking back across this portfolio of productivity advice,
+[14:47] what have you heard from readers
+[14:49] or what has been the stickiest strategies for you?
+[14:55] You look back and you go okay that the 80 of what I published over the last three books To me I think the big two that give you the biggest results and I tell you the one that the hardest and that why this book probably sold the least
+[15:10] The big two that gives you the biggest results is taking focus seriously like a skill.
+[15:14] That really does make a difference.
+[15:15] Practicing focus, you get better at it, and it has a demonstrable difference.
+[15:22] You sit down to work and you're just producing better stuff or you're trying to pick up some complicated new thing like, oh, God, I can learn this faster.
+[15:30] That makes a huge difference.
+[15:31] And then the second one, which was more recent in my life, was, oh, you really got to control the workload.
+[15:36] So much is downstream from how many things you've agreed to work on.
+[15:40] You have to leave the mindset of everything I say yes to brings with it value.
+[15:44] So saying yes to more things is just going to aggregate more value.
+[15:47] That's not the right mindset.
+[15:48] That's not the way it's a nonlinear reward function there.
+[15:54] There's a certain point as you add more things that not only does value stop growing, it begins to go down on the other side.
+[16:00] And that there's a real saying no to many more things is actually a way to optimize reward and output, which is not natural.
+[16:10] It doesn't make sense at first.
+[16:11] It doesn't feel like common sense.
+[16:12] So workload and focus training, you can control those more than you think, and you're going to have huge results from those.
+[16:18] A quick aside, do you remember learning about the mighty mitochondria back in grade school?
+[16:23] Here's a quick refresher. It's the tiny engine inside of your cells that powers everything you
+[16:28] do. But here's what they didn't teach you. As you age, your mitochondria break down. That's what
+[16:33] can cause you to feel tired more often, take longer to recover, and wake up feeling like you're never
+[16:38] fully recharged, no matter how long you sleep. I started taking Timeline nearly two years ago
+[16:44] because it is the best product on the market for mitochondrial health, and that is why I partnered
+[16:49] with them. Timeline is the number one doctor-recommended urolithin A supplement with a
+[16:54] compound called Mitopure. Basically, it helps your body clear out damaged mitochondria and replace
+[17:00] them with new ones. Mitopure is backed by over 15 years of research, over 50 patents, and nearly a
+[17:05] dozen human clinical trials. It was recommended to me by my doctor, and that is why I've used it for
+[17:09] so long since way before I knew who even made the product.
+[17:13] And best of all, there's a 30 day money back guarantee plus free shipping in the US and
+[17:17] they ship internationally.
+[17:18] So right now you can get a free sample or get up to 20% off by going to the link in
+[17:23] the description below or heading to timeline slash modern wisdom That timeline slash modern wisdom The learning to say no thing is interesting especially as people progress inside of their
+[17:39] career and they get better at what they're doing. They have to learn to be able to say no to
+[17:45] opportunities that they would have only begged to have had the opportunity to be in the room to have
+[17:49] maybe said yes to yeah only half a decade ago in that time you've had to go from needing that
+[17:56] opportunity to actively being able to say no to something that's probably better than it alex my
+[18:02] friend taught me about you remember uh in the matrix the woman with the red dress and neo turns
+[18:08] around and he says we're looking at me we're looking at the woman in the red dress look again
+[18:11] and it's an agent with a gun in his face and the analogy that alex used was now imagine that she's
+[18:19] not a 10 out of 10 but imagine a thousand hypothetical one thousands out of 10 and you
+[18:25] need to be able to say no to them which previously you didn't even know existed so this i think the
+[18:31] kind of um it's almost like reverse entropy or habituation you know your opportunities get better
+[18:40] which means that your capacity to say no needs to get better more quickly than that you can't be
+[18:45] chasing your tail trying to learn to be able to say no less quickly than the opportunities get
+[18:50] more seductive yeah it's almost perverse the way that works it's like when you have all the time
+[18:57] in the world all you want is opportunities and then when you have opportunities all you want
+[19:02] is all the time in the world i had to change i don't know what you do but i had to change my
+[19:06] rule at some point this was hard for me to the default no like that's just how i have to operate
+[19:12] Because as soon as you try to have a triage rule, well, look, I'm not going to do this opportunity unless I only do speaking gigs that have this much money or this, or I'm only going to go meet with someone if they're this interesting or this or that.
+[19:28] Eventually, the number of things that satisfy that criteria overwhelm me just as well.
+[19:32] So I've just had to fall back on the default no.
+[19:36] You're talking to somebody who came back from a two-day trip to Qatar at the start of this week.
+[19:43] So I spent as much time traveling as I did in the country to give a talk.
+[19:49] And as I looked around, there was this first night dinner.
+[19:52] There was maybe 300 people there.
+[19:54] And I'm talking to Logan Paul and Stephen Bartlett over his shoulder and the CEO of Qatar Airways.
+[20:00] here and the middle eastern director for matters over there and i was looking around thinking
+[20:03] everybody here wants to be here it's very exciting everyone's really lovely but also
+[20:09] everyone here can't say no everybody in this room is chronically incapable of saying no
+[20:15] because it's no to this one several times by the way i the amount of invites to the
+[20:20] qatar and the uae and other places i have i have said no all right well consider me a fucking
+[20:26] Consider me a slut compared to you, Cal, whatever it is.
+[20:29] I must be an easy booty call.
+[20:32] They tried to get Cal Newport.
+[20:33] We couldn't get Cal, so we'll ring Chris instead.
+[20:35] The default?
+[20:36] No.
+[20:36] Oh, man.
+[20:37] Yeah.
+[20:37] It's crazy the things you end up saying no to after a while.
+[20:40] But I mean, there's a currency shift.
+[20:41] For me, time to think is such a valuable, that's a more valuable currency than money, right?
+[20:46] You get to a point where you're like, oh, I'm doing fine.
+[20:49] But if I don't have time to think, what's the point?
+[20:51] And then that becomes this really rare currency that's much harder to get a hold of. And that's the only way I can protect it now is anything that requires me to go somewhere. It's a default. And then I can talk myself out of it later. I'm like, you know what? I could bring my family with it. We could have a trip.
+[21:07] Right. So actually, you know what, I will do this. Or, you know, I just did a master class course released this week. I spent a year and a half saying no to that. And then like eventually I sort of talked myself, I talked to some people. They're like, we'll come to DC to do it. I talked to, you know, James Clear had just done one and I had a good talk with him about it. And I'm like, you know what, this is, this will be interesting. And it took me a year and a half, but I finally talked myself into it.
+[21:35] So I will say yes, but the default no means that you don't have to –
+[21:39] You're high standard.
+[21:40] Yeah, you don't have to run it through the ringer.
+[21:41] And then you're like, okay, if it really sticks with me, then maybe I'll be like, all right, all right, I'll do it.
+[21:46] How much should people actually be working?
+[21:49] Well, it depends what you mean by work and what they're doing.
+[21:52] Because think about it.
+[21:53] Let's say you're an athlete.
+[21:55] It's super well-defined.
+[21:56] Here's optimal training.
+[21:58] Here's optimal rest.
+[21:59] And that's what you should be doing.
+[22:01] That's really clear.
+[22:02] We don't have those limits as clear in the culture for other types of jobs, but we probably should. If you're at a high-wage hourly bill job, like a law partner at a big law firm, there the economic model is the more you work, the more profitable it is.
+[22:19] and we'll pay you big money to do this,
+[22:21] but you should basically work as much as you can
+[22:23] that your body will take it.
+[22:24] That the economic engine That why I think those jobs are scary If you a novelist that writes literary fiction so you like I really need to be award nominated for each book or I going
+[22:36] to fall out of this slipstream of, because no one's going to read these books unless they're
+[22:39] some of the best books, then you should be doing four hours in the morning and then just
+[22:44] disappear. You should be doing very little more work than that, because almost anything else will
+[22:50] get in the way of you sticking in that position. And so it all just depends on what you do.
+[22:56] Didn't you look at some experiment of shorter work weeks?
+[23:01] Yeah.
+[23:01] What did you learn from that?
+[23:03] There was a lot of these right around the pandemic, right before and then right after,
+[23:08] in Europe and Iceland. So some European studies, I think Germany did one, Iceland did one, UK did
+[23:14] one. And they were looking at four-day work weeks. So what would happen if we take away one
+[23:19] one day. The interesting thing about those experiments is what they found is whatever
+[23:23] measures of productivity they came up with, they didn't get worse, which I thought was very
+[23:29] interesting. They took a day away, and yet the perceived productivity or the measured productivity
+[23:34] didn't go down. And there's two ways to look at it. The one way to look at it is to say, oh,
+[23:38] this means that we should have a four-day work week because things didn't get worse. And okay,
+[23:42] maybe, right? But to me, there was a bigger observation that came out of that, which is like,
+[23:47] So what are we doing during the work days? There's something going on here that should really catch our attention. What does work mean? That we could take an entire day off the table with no other preparation and the valuable stuff being produced doesn't change.
+[24:03] this tells us that like whatever we're doing while we're sitting here in work is not just
+[24:09] sitting down and trying to produce value we're clearly have all sorts of other sorts of distractions
+[24:14] going on uh context switching time that's being devoured parkinson's law is at play
+[24:19] work must be broke to me that was the more important observation is that like if you can
+[24:23] take away a day nothing changes then i don't think we're doing in the office what we think
+[24:28] we're doing in the office parkinson's law was on the tip of my tongue work expands to fill the time
+[24:32] given for it. And if you give people five days, they'll take five. And if you give them four days,
+[24:37] then they'll do it in four. Look, everybody knows just how much time they waste not doing the work,
+[24:46] not doing the thing that they're supposed to do. And this isn't victim blaming. This is a lot of
+[24:50] the time dealing with admin and necessary meetings You can get out of them You have to be there for whatever reason So it not as if it bottom up A lot of it is top down dictated This is the environment that you work in and you have to do this But even outside of that when you do have your one hour in between meetings your inability
+[25:10] to not...
+[25:11] I remember when I used to run nightclubs and I'd get in at 2.30 in the morning, the final
+[25:17] part of the night was cashing the till.
+[25:19] So this was before we switched to tickets, which was sort of the late teens, just before
+[25:24] covid uh digital tickets online which meant that you didn't have to cash as much money in the till
+[25:29] but before that it was all you know five pounds and ten pound note and twenty pound notes and
+[25:34] single pounds and all the rest of it and i would go into the office with the manager of the venue
+[25:39] and we would be counting the money but this is the final task it's the final bit of the night
+[25:43] it's fucking 2 15 or 2 30 in the morning we've just taken the taken the till off as it's called
+[25:48] anybody that's coming in doesn't get to come in and we're not going to take any more money
+[25:51] and I'm sat up there doing like light lift mental arithmetic but for me somebody who hadn't done
+[25:58] math since I was 16 it was a relatively heavy lift flicking through the money flicking through
+[26:02] the money is light you know huge fluorescent overhead lights just before and then I get to
+[26:06] drive home and I'm like thinking about and I gotta go put the money in the till and I gotta write it
+[26:10] in the spreadsheet and then I get into bed and as I go into bed my eyes below my eyelids would
+[26:15] start flicking left and right I wouldn't be able to tune myself I'm also doing this let's not forget
+[26:20] in a sweaty beer stinking office above a room going yeah i've had to walk through the club i've
+[26:30] had to shout at the hostesses one of them's getting fingered on the dance floor stop doing
+[26:34] that you're supposed to be at work the dj's pissed i need to you know it's chaos and i've
+[26:38] tried to coordinate this orchestra of bullshit and then i've had to do mental arithmetic and
+[26:41] then i get to drive home and then i'm like okay chill out brain it doesn't want to and that
+[26:46] That eyes moving left and right thing, I think, is the sort of optical equivalent, ocular equivalent of how people feel when they finally get a moment.
+[26:58] It's like, okay, all of my stuff is done.
+[27:01] And then they try and sit down to work on the thing that ostensibly that's actually there to do, right?
+[27:07] Because all of the other bullshit, the meetings, you're not there to do the meetings.
+[27:10] You're not there to do the Slack.
+[27:11] You're not there to do.
+[27:12] All of that is foreplay to get you to do the thing that you're there to do.
+[27:16] And then you sit down to do the thing you're there to do and your eyes are moving behind your eyelids is the equivalent
+[27:21] You swiping and moving across the screen and you got a few different other well Just check on this thing like what the living fuck is going on i like trained the environment that i work in has trained me out of being able to do my work well we are meant to
+[27:38] do like what would be the ideal work day in an office environment that would actually mask the
+[27:42] human brain it would probably be you come in you work on something hard for a while like that's
+[27:47] what you do in the morning you have lunch and then you like catch up with have some meetings talk to
+[27:53] some people, hey, what's going on? And do some tasks and that's your day. That's basically what
+[27:58] we can do, two things. One big burst of let me focus on something hard. And then we can come
+[28:04] down the mountain after that with let me chat with people, what's going on? Some decisions need to be
+[28:09] made or whatever. That's probably about optimal. Instead, we juggle a dozen to two dozen tasks
+[28:14] that all have their own demands. They all have their own communication needs. This is why the
+[28:19] Microsoft data shows, oh, the work happens the Saturday and Sunday morning.
+[28:23] It is really hard.
+[28:25] You can't go from, and meetings are very hard as well.
+[28:27] We think like, oh, I'm not actually doing work during meetings.
+[28:30] But what you are engaging in a meeting is all the parts of your brain that deal with
+[28:34] social interaction.
+[28:35] And those are a large part of your brain.
+[28:37] And that is a fraught and mental energy consuming activity to sit in a room or on a Zoom screen
+[28:43] and try to manage all these different people.
+[28:46] And how do I look?
+[28:47] And what am I saying?
+[28:48] And what's going on here?
+[28:48] and I have to say the right things, it's draining.
+[28:51] And you come out of something like that,
+[28:53] it's difficult just to jump right back into something else.
+[28:56] And if you come out of something like that
+[28:57] and there was a lot of obligations generated,
+[29:00] oh, we discussed in this meeting things I need to do.
+[29:03] And now you try to go straight from that meeting
+[29:05] into another.
+[29:06] Well, now that's really in the back of your head.
+[29:08] What about this?
+[29:09] What about this?
+[29:09] We can't forget this.
+[29:10] We just made our obligations.
+[29:11] That feeling of fatigue, it's really as fatigue
+[29:14] as what it feels like, a mental fatigue,
+[29:16] Like there's sand in your brain, sand in the gears of your brain.
+[29:20] That's the state that a lot of people who work in front of a computer screen, like that's the state they're in most of the day.
+[29:25] And they don't even realize, oh, that's a bad feeling.
+[29:29] That's a negative state.
+[29:30] That's not how it needs to feel because you have nothing else to compare it to.
+[29:34] Yeah, the amount of things we're doing, the amount we're trying to switch back and forth.
+[29:38] I always thought that part of the problem was a lot of our current thought about work culture and hustling and what it means to produce.
+[29:46] was influenced by Silicon Valley in the 90s and 2000s
+[29:50] because that was considered this very ascendant part of the economy.
+[29:54] Through the 2000s, through the Steve Jobs era,
+[29:57] we looked at Silicon Valley.
+[29:58] These are the coolest companies.
+[30:00] They're doing all the coolest stuff over there.
+[30:03] I think they adopted a model of work that was very inspired by computer processors.
+[30:08] Right. So because that was what was in the air in the 80s and 90s in Silicon Valley was the computer processor was, you know, the 386 versus the 486 versus the Pentium.
+[30:17] And it was all about speed. And the thing with a computer processor, if you're a computer type.
+[30:22] What matters is you never want the pipeline to be empty.
+[30:26] right you want to always make sure you have stuff for that processor to do so it never wastes time
+[30:31] the processor will every command you give it it operates the same as any other it can switch it
+[30:37] doesn't care what they are it just sits there and operates one command after another and the whole
+[30:41] game with getting processors to be effective is like don't have downtime like the real fear
+[30:45] i can put on my computer scientist hat for a second the real fear in computer processor design
+[30:49] is that you sometimes get to a command that's going to generate a huge delay so you say like
+[30:55] oh, go get something from memory.
+[30:57] That takes a lot of time from the perspective
+[30:59] of like a computer processor cycle.
+[31:01] It's just sitting there cycle after cycle doing nothing
+[31:04] while you're waiting for the memory bus or whatever.
+[31:06] So we invented these processor pipelines like,
+[31:08] oh, while we're waiting to get something back from memory,
+[31:11] here's some other stuff the processor can run
+[31:13] so that it's never not working.
+[31:15] And the idea was you want to move as fast as possible
+[31:17] and you never want to have downtime.
+[31:20] And that's how you get the most out of a computer processor.
+[31:22] The human brain is like 180 degrees different.
+[31:25] We can't just switch back and forth between unrelated commands.
+[31:29] You switch me from one to another thing and boom, 30 minutes of my mind is fried.
+[31:34] Humans operate very differently.
+[31:36] But I think Silicon Valley associated, it said, here's the thing we're going to associate
+[31:39] with being really good at your job.
+[31:40] It might've used to been, I don't know, your skill.
+[31:43] It was Don Draper and Madman.
+[31:45] Remember that conception of, what does it mean to be good at your job?
+[31:48] They weren't showing Don Draper grinding it out.
+[31:51] Like, man, Don Draper is like in the office till 3 a.m. every night or whatever.
+[31:56] Now, he took the five o'clock train back to Connecticut or whatever.
+[31:59] It was he he was really, really good at coming up with ad copy.
+[32:03] He was good at what he did.
+[32:05] That's what you used to respect.
+[32:06] And then after the 80s, 90s, Silicon Valley became pervasive.
+[32:10] Like, no, what matters is you never have a no op.
+[32:13] You never have a down cycle.
+[32:14] You might as well say yes to more things.
+[32:17] You might as well get more emails.
+[32:18] You never have time or you're not working.
+[32:20] that's what productivity is going to be. And that was a disaster for the human brain.
+[32:24] If you struggle to stay asleep because your body gets too hot or too cold this is going to help Eight Sleep just released their brand new Pod 5 which includes the world first temperature duvet Compare it with their smart mattress cover which cools or warms
+[32:38] each side of the bed by up to 20 degrees, and you've got a climate-controlled cocoon built for
+[32:42] deep, uninterrupted rest. The new base even comes with a built-in speaker so you can fall asleep to
+[32:47] white noise, nature sounds, or a little ambient Taylor Swift, if that's your thing. And it's got
+[32:53] upgraded biometric sensors that quietly run health checks every night, spotting patterns like abnormal
+[32:57] heartbeats, disrupted breathing, or sudden changes in HRV, which is why it has been clinically proven
+[33:02] to increase total sleep by up to one hour every night. Best of all, they've got a 30-day sleep
+[33:07] trial so you can buy it and sleep on it for 29 nights. And if you don't like it, they will give
+[33:10] you your money back, plus they ship internationally. Right now, you can get up to $350 off the Pod 5
+[33:16] by going to the link in the description below or heading to 8sleep.com slash modernwisdom
+[33:20] using the code modernwisdom at checkout.
+[33:22] That's E-I-G-H-T sleep.com slash modernwisdom
+[33:26] and modernwisdom at checkout.
+[33:30] There's definitely an element of this
+[33:31] that it's very public productivity.
+[33:36] It's very obvious.
+[33:37] Look at how hard I'm working, right?
+[33:39] If you're the one that replies quickest on Slack or on email,
+[33:41] then it's evident that you're the one.
+[33:43] It looks like you're the one that's working hardest
+[33:46] because you're the one that's most responsive.
+[33:48] whereas the person who's silently working on their own they can't broadcast it by design
+[33:53] they can't broadcast it to everybody else so yeah this uh obvious productivity in a way is way less
+[34:00] sexy so i think you know the new elephant in the room is ai and how that is enabling an increase in
+[34:11] pace of output but almost certainly a decrease in quality so fold ai into your existing
+[34:23] worldview because to me it just seems like a huge force multiplier for what already was pretty
+[34:30] sloppy slack email async communication that's always on people taking their work home with
+[34:36] never being able to not context switch, not focusing on quality and instead focusing on quantity,
+[34:42] not being able to dial themselves in to do deep work for one moment.
+[34:46] And now that is enhanced and magnified even more by the use of LLMs to help you put out more to help you think less So your focus is actually you in Slack with your llm it wouldn surprise me if there is a llm integration into slack at some point in future
+[35:05] i don't know whether there is um where you can just do it in there so you're just talking back
+[35:10] and forth in one fucking workspace talk to me fold ai into this you must have a million thoughts
+[35:14] oh there's a lot going on with ai i mean i think in its current instantiation so we think about
+[35:19] like an office worker for the most part put programmers aside i'll get back to them but
+[35:23] non-programmers are really interacting with chatbots. That's the main way they're integrating
+[35:27] right now with AI. It's exaggerating exactly what you said. For a lot of people, it's exaggerating
+[35:34] the problems that already exist. Now, there's a term for this that comes out of a Harvard Business
+[35:37] Review article from last year. They call it work slop, as they put together as one word.
+[35:43] And they have some pretty compelling data on this. So what's work slop? Define work slop for me.
+[35:47] So work slop is AI-generated work products in the knowledge work sector. So like emails,
+[35:52] reports and powerpoints or what have you that are generated quickly by ai but they're so low quality
+[36:00] that they actually it's very difficult they make everyone else's jobs harder this seems to be this
+[36:06] is like the defining aspect of work slop it's quick to produce but it's so low value that it
+[36:11] actually no real progress is made so like you get a work slop email from you know your boss or
+[36:16] whatever and like this isn't useful to me it's this weird wordy thing that's broken up into
+[36:21] sections and it doesn't get to the core of the problem we have to solve. So you made that email
+[36:25] quick, but in the bigger scheme of things, we made very little progress towards what we want to do.
+[36:31] Or you put together a work slot PowerPoint presentation so that you would have something
+[36:35] at the meeting, but now we're spending 20 minutes looking at this nonsense and nothing, it's not
+[36:39] helping us. It's not helping us actually do things. So this is what's happening, or at least my fear.
+[36:43] I mean, the reality is most people aren't using these tools in the office. I mean, let's just set
+[36:48] the reality right so but for the people who are using them right now um which is a healthy
+[36:53] percentage but it's not the numbers are well it's difficult because there's a lot of fudging of the
+[36:58] numbers here there's a lot of mistaking have used or experimented with with are regularly using them
+[37:06] so i see this mistake happen a lot um and so it's difficult to get good numbers there was like
+[37:11] famously um maybe it was an ethan malik article where he was talking about in my world like
+[37:16] academia, the homework apocalypse. And he's like, look at this study. Students just don't do work
+[37:21] anymore Nine out of 10 are just using chatbots now But you look at that study and what it actually said was nine out of 10 had tried using a chatbot at least once And if you looked at who using them regularly it was like two out of 10
+[37:35] Right. Because like for most of the students, it was wasn't helping them the way they thought it would.
+[37:39] So I don't know what the numbers are.
+[37:42] If you count like advanced Google use, I think it's larger.
+[37:45] Like, yeah, I search for information on this instead of going to Google.
+[37:49] That's larger. But in terms of people who are actually making Office work product out of it, I think it's smaller.
+[37:55] than the people who follow AI commentary
+[37:56] or talk about it on AI Twitter, AI YouTube.
+[37:59] I think it's a lot smaller than they probably assume
+[38:00] just because in their world it's pervasive.
+[38:02] But the people who are using it,
+[38:04] this is the problem.
+[38:06] They're trying to avoid,
+[38:07] this is my theory on this,
+[38:08] is like, how is AI helping like an office worker now?
+[38:11] Well, their brain is exhausted
+[38:12] from all this context switching.
+[38:13] So what problem are they looking to solve?
+[38:16] They're looking to avoid having to do
+[38:18] hard moments of cognition
+[38:19] because their brain is so fried.
+[38:21] It's really difficult to like
+[38:22] solve the blank page problem.
+[38:24] Oh God.
+[38:25] I got to send this email.
+[38:26] I got to, it's a blank screen.
+[38:28] I got to start writing from scratch.
+[38:29] That's really hard.
+[38:30] And the inertia that they've been trained out of overcoming
+[38:33] because of the prime, it's almost like a one-two punch.
+[38:38] Yeah.
+[38:38] Humans were primed to not like heavy,
+[38:41] well, we already didn't like heavy cognitive load.
+[38:44] Then our ability to deal with it
+[38:46] and get through that initial resistance
+[38:48] was decreased through the context switching.
+[38:50] And now we're, don't worry about it.
+[38:52] Don't worry about it, carbon-based life forms.
+[38:55] The silicon-based life forms are coming.
+[38:57] And let's throw in one other aspect in there.
+[38:59] Also, outside of work, we had these distraction machines in our hand that were further degrading our comfort with concentration because any possible moment of introspection we would have had even outside of work.
+[39:10] Why would I do that when TikTok has the perfect dash cam video of a Karen getting punched or something?
+[39:17] I got to watch that, right?
+[39:18] And so we have that revolution comes along.
+[39:22] And plus the email revolution, we completely atrophy our ability to think and we exhaust our brain.
+[39:26] So the other aspect of it, as we talked about, it's really exhausting to go through your day context switching.
+[39:31] So I don't have any reserves left to write this PowerPoint.
+[39:34] That seems impossible.
+[39:36] And then AI is like, hey, hey, hey, hey, I can do it for you.
+[39:38] It'll be fine.
+[39:39] It'll be fine.
+[39:39] It'll be good enough.
+[39:40] It'll be good enough.
+[39:41] You're like, oh, OK, I can smooth over.
+[39:44] I use this analogy in a New Yorker piece last year.
+[39:46] It's like it takes your effort graph looks like spikes, like an EKG or something like that.
+[39:51] And AI smooths over those peaks.
+[39:54] And so you don't have to,
+[39:55] your peak concentration required can come down.
+[39:58] Like, well, you can fill the blank
+[40:00] age and then maybe i have to work with it a little bit that's easier than doing it from scratch
+[40:04] but the stuff being produced is no good and so i feel like work slop it's almost less of a uh
+[40:10] it's less of a um critique of ai than it is ai making obvious a problem with the way we were
+[40:19] already working i think that's what's going on there i think this is even happening with computer
+[40:23] programmers this is considered you know heretical right now i guess i'm used to being yelled at
+[40:28] people are really excited by this workflow where I have seven or eight cloud code agents going
+[40:36] concurrently producing code and testing them. And I'm just a manager of all these different
+[40:40] processes. And they're all producing this code on my behalf. And it feels really cool and
+[40:44] interesting. Like this has to be the future. I don't know that that is. I mean, I don't know
+[40:50] the context. The problem is outside of like demos or internal tools or just having fun.
+[40:55] that's not really code you can trust very well and it it does though completely lower the peaks
+[41:02] of being a computer programmer those peaks of cognition it's much much easier to manage a bunch
+[41:07] of cloud code processes than it is to come up with an algorithm and then you have that same blank
+[41:12] page so i'm i think the jury is still out on even where we're going to end up in the ai impact on
+[41:18] programming i don't know where it's going to end up but the way it's being talked about in the last
+[41:22] few months after the latest cloud code update which is sort of i guess that's something humans
+[41:27] don't do anymore i don't think we're there ready to say that yet i get popped with cloud code ads
+[41:34] i get i i you give me a terminal i have no idea what to do i'm like i'm like you know someone's
+[41:39] grandmother trying to use an ipad i have no idea what's going on so they are pushing very very hard
+[41:45] at the moment it's it's it's funny but it's a little bit crazy but it's my world right i'm
+[41:49] computer scientist is that for engineer computer scientist types, they forget how technically
+[41:55] advanced they are. So yeah, cloud code works in the terminal, right? And that's why it works so well.
+[42:00] It exists in a world of text only. Text command line commands, like the old DOS command line,
+[42:06] it's all text commands, which you can do a lot with. You can create and edit and compile a
+[42:10] computer program. So it's very good at that. And it's a limited set of textual commands. That's
+[42:14] perfect for a language model.
+[42:17] And the engineers are like, oh,
+[42:18] we can use this terminal-based tool
+[42:20] to do all sorts of other stuff that's not
+[42:22] computer programming. Great.
+[42:24] This is solved Everyone going to be doing this Everyone is going to have these sort of personal assistants based on something on cloud code I like man do you realize how foreign a command line interface is
+[42:37] Do you realize like how weird and nerdy
+[42:39] and complicated your world is?
+[42:40] You're like, yeah, this will be great.
+[42:41] My grandma will just on the command line
+[42:44] understand that like the cloud code agent
+[42:45] can bring up a bash script
+[42:47] that's just going to cap those files
+[42:48] over to the regex grep, you know,
+[42:50] and it'll be fine.
+[42:51] No one knows how to do any of that type of stuff.
+[42:53] So it's sort of funny
+[42:54] He's seen the engineers building these incredibly intricate, nerdy, wonderful tools they've custom built for cloud code to help them in their life.
+[43:02] And they think the gap between that and everyone else having AI automate things in their life is like, oh, it's this real small thing.
+[43:09] I'm like, oh, man, I don't think you understand.
+[43:11] I mean, people are still not quite sure about the right click.
+[43:14] I think you still have a ways to go.
+[43:17] I saw this tweet from Robert Freund Law.
+[43:22] lawyer uses chat gpt to help write a brief chat gpt hallucinates cases and quotations
+[43:27] court sanctions lawyer and four co-counsel for not catching the errors the lawyer who used chat gpt
+[43:34] has practiced for over 30 years he prompted prompted chat gpt write an order that denies
+[43:38] the motion to strike with case law support told the court that he doesn't normally use chat gpt
+[43:42] and he used it this time because he was caring for his dying family members said no of his co-counsel
+[43:47] were aware of this use of generative ai course says that because all five attorneys signed both
+[43:52] documents that included these errors and they admit that not one of them verified that the
+[43:58] case law in those briefs actually exist their conduct violates rule 11b2 there's hundreds of
+[44:05] those happening right i heard i don't know where this site is there's a site that tracks this
+[44:09] lawyers getting busted for chat gpt written briefs that just make things because it will
+[44:16] for sure make up things if you ask it because again what it tries to do is you know at
+[44:22] not to get, people know this, but right at the very bottom, what is a language model trying to
+[44:26] do is trying to solve the word guessing game. That's how it was trained. It was given real text.
+[44:30] You knock out a word and say, replace that word. Can you figure out what word was really there in
+[44:34] the real text? So the language models just think they're trying to expand a real text that really
+[44:39] existed. So they're trying to produce text that makes sense given the prompt. There's not world
+[44:45] models or structured reasoning in there of like, okay, this is a legal brief and we have a notion
+[44:50] of a citation We don know how it thinks about that There hundreds and hundreds of cases of this happening I heard Scott Galloway talk about this on the Pivot podcast There some site that tracks this that he keeps an eye on and he says it astounds you You think it a handful of people It not It all the time Here my story of getting burned by that I
+[45:08] learned my lesson. The one way I'll use ChatGPT is just sometimes instead of Google,
+[45:15] especially if I want instructions for how to change settings on something. It's great.
+[45:20] It has a lot of really useful.
+[45:22] It's fucking spectacular for all of that stuff.
+[45:24] If you want to use it as basically a glorified Wikipedia that's more instructive.
+[45:28] Yeah.
+[45:29] Wikipedia you can ask questions of.
+[45:31] Yeah.
+[45:31] So I was using, I was writing an essay and it was on Isaac Asimov's Rules of Robotics.
+[45:39] This was a New Yorker essay.
+[45:42] And I left my copy of iRobot.
+[45:45] I was here in my studio and I left it at home.
+[45:47] I was like, oh, I needed to add this quote.
+[45:50] Right.
+[45:50] and I left it and I was like, oh, you know what?
+[45:52] That story's in the public domain.
+[45:55] It's all over the internet.
+[45:56] And this seems like it would be perfect for ChatGPT.
+[45:59] Like, hey, can you just grab a copy and find me that quote?
+[46:02] And that'll save me a little bit of time.
+[46:03] Like, yeah, here it is.
+[46:04] Here's the quote.
+[46:04] I was like, yeah, that's roughly I remember I put in there.
+[46:07] And then the fact checker was like, where's this quote from?
+[46:11] I was like, yeah, it's from the story or whatever.
+[46:12] I get the book.
+[46:13] And it just hallucinated a quote that was more or less like what was said, right?
+[46:19] Because again, it's kind of playing the game of this is the type of text that would make sense giving the prompt, but it wasn't the actual quote.
+[46:26] It had full access to it, right?
+[46:28] You can search this.
+[46:29] It's in the public domain so that the actual story is everywhere.
+[46:33] So I had just naively assumed if you ask it for some information that exists on the Internet that, oh, it'll just go find it and format it for you.
+[46:41] It didn't.
+[46:42] And then I went to a whole dialogue with it where I was like, this is not the right quote.
+[46:45] And it's like, yeah, you're right.
+[46:46] You know what?
+[46:47] I thought you meant paraphrase a quote.
+[46:48] Here it is.
+[46:49] made up i was like that's not the real quote can you go get the real quote and give it at this
+[46:55] point i was just experimenting i'd already filled it in the article and you're like you're right
+[46:58] yeah you know i was being hasty here you go i could not get it to give me the real quote so
+[47:03] anyway so i learned my lesson i was like oh don't assume even if it's common information
+[47:09] that it has access to the desire the desire to fucking reprimand an llm and i've shouted at
+[47:16] them capital letter exclamation marks it's like what what are you doing what do you do
+[47:22] what what are you hoping to achieve by throwing your emotional distress at this fucking disembodied voice on the other side okay we aside I fucking love ChatGPT I think it been really really fantastic for tons of things
+[47:35] What's important is learning the limits and not using it for case law.
+[47:40] This episode is brought to you by Whoop.
+[47:42] I have been wearing Whoop for over five years now,
+[47:45] way before they were a partner on the show.
+[47:47] I've actually tracked over 1,600 days of my life with it,
+[47:52] according to the app, which is insane.
+[47:55] And it's the only wearable I've ever stuck with because it tracks everything that matters,
+[47:59] sleep, workouts, recovery, breathing, heart rate, even your steps.
+[48:03] And the new 5.0 is the best version.
+[48:06] You get all the benefits that make Whoop indispensable.
+[48:09] 7% smaller, but now it's also got a 14-day battery life and has healthspan to track your
+[48:15] habits, how they affect your pace of aging.
+[48:17] It's got hormonal insights for ladies.
+[48:19] I'm a huge, huge fan of Whoop.
+[48:20] That's why it's the only wearable that I've ever stuck with.
+[48:22] And best of all, you can join for free.
+[48:25] Pay nothing for the brand new Whoop 5.0 strap,
+[48:28] plus you get your first month for free,
+[48:30] and there's a 30-day money-back guarantee.
+[48:32] So you can buy it for free, try it for free.
+[48:35] If you do not like it after 29 days,
+[48:37] they just give you your money back.
+[48:39] Right now, you can get the brand new Whoop 5.0
+[48:41] and that 30-day trial by going to the link in the description below
+[48:45] or heading to join.whoop.com slash modernwisdom.
+[48:48] That's join.whoop.com slash modernwisdom.
+[48:52] What opportunities do you think an increasing reliance on AI opens up?
+[48:57] Because I get the sense that as more people use LLMs to do work for them, this will create advantages in some areas for people who don't need to be reliant.
+[49:07] So have you thought about the holes, market openings that will occur?
+[49:13] It will.
+[49:13] Well, I mean, the way I think about LLM-based AI versus more advanced AI that we don't know how to do yet is, you know, my theory is what is being affected is going to be more narrow at first.
+[49:23] It's going to be places where there's an exact match between what generative AI existing tools can do and existing market sectors.
+[49:32] We saw this actually the week we're recording this, we actually saw this reflected in the stock market.
+[49:36] there was this interesting paradox that was going on this week where the stock price of software companies that deal with stuff that is well suited for an LLM went down.
+[49:49] They call it the SaaSpocalypse, the software service apocalypse.
+[49:52] So companies that do legal advice, companies that do graphic design like Figma and Adobe,
+[50:00] because a lot of, you know, we have generative image generation is making,
+[50:03] building images from scratch is less useful.
+[50:06] Customer service, so companies that do a lot of customer service type software.
+[50:10] We saw the stock was sliding on these very specific software industries
+[50:14] because like, look, I think LLMs are going to be able to do this.
+[50:16] It was triggered by Anthropic releasing some plugins that made it easier
+[50:19] to integrate LLMs into your services without having to hire these other companies.
+[50:23] But you would think that would be good news for the big tech companies
+[50:27] building the AI that's going to replace all this.
+[50:30] Their stock was sliding as well.
+[50:32] So the big tech companies had this big slide that at the end of the week we're recording this, there was a rebound at the end, but it was like a trillion dollars in market cap disappeared from the big tech companies at the same time.
+[50:42] So what does that mean the market was betting on?
+[50:45] What are investors betting on at that point?
+[50:47] What was going to happen?
+[50:48] And they were betting that in the near future, the next year or two, what we're going to see is selective impacts in specific fields from generative AI, but also that too much money is being invested in these AI companies as it already, which means they're betting that they're not about to automate most of the economy.
+[51:07] They're not about to just one more iteration away from a huge economic disruption.
+[51:12] They're not at this peak of complete transformation.
+[51:15] Because if they were, you would be trying to increase your holdings in these companies.
+[51:18] I don't care how much money they're investing.
+[51:21] These companies are going to be worth an astronomical amount of money.
+[51:24] But the market is betting, I think the impact is going to be more limited in the one to two year window than a lot of the commentary was seen.
+[51:32] So I think that's important because talk is cheap, but tech stocks aren't.
+[51:36] aren't. And so people, the way they spend their money actually often has more of, I think there's
+[51:42] a lot of information in that versus just, I've been reading these articles online and my God,
+[51:48] the vibe really seems to be saying this is a big deal. So I kind of agree with the market's
+[51:53] consensus right now. For sure, there's going to be industries that are affected, but it's not going
+[51:58] to be one of these situations where you say, okay, any work that's not just the deepest creative work
+[52:03] is all going to be automated in the next few years.
+[52:04] I better go learn how to do art or something like that.
+[52:07] I don't think it's going to be that broad at first.
+[52:09] I don't think the current generation of AI technology
+[52:11] can support as broad of impacts as people think.
+[52:15] There's a lot of extrapolation from,
+[52:17] well, if it can do this with code,
+[52:18] certainly it could do this with all these other jobs.
+[52:20] If it could do this with this industry,
+[52:21] well, certainly next it'll do it for all these other industries.
+[52:24] We have to be wary of those extrapolations Right I think I read an article from you what if AI doesn get much better than this yeah sort of if we have i don know some sort of flynn effect thing that kicks in but for ai where you know because i think a lot of people would agree chat gpt 2 to 3
+[52:44] fucking hell to 4 4 0 i know is this there's a whole furor on the internet about people that
+[52:50] have got girlfriends or boyfriends that are virtual on 4 0 and they're all getting upset
+[52:54] and sad about it and i don't understand i don't think i use the tools sufficiently deeply to be
+[52:59] able to test this and benchmark it it's like my fire tv sticks remote isn't working well um i i
+[53:06] it was able to do that fucking five years ago um but is your your thinking is that we're maybe
+[53:14] going to reach asymptote for what llms generally and transformer technology is able to do and then
+[53:20] it's going to be a new architecture entirely if we're going to actually get beyond this yes yeah
+[53:26] that's what that article was about i think that was a very of the articles i've written i think
+[53:30] that was a really important one that came out um in august and the story it tells and a lot of other
+[53:36] people have told the story as well or you know around that time and since but the story it tells
+[53:39] is basically what happened is there was this big paper that was published in 2020 the lead
+[53:44] researcher caplan jared caplan i think was uh at anthropic at the time and it was this paper where
+[53:49] they said, hey, something weird is happening here. If we make LLMs bigger and we train them longer,
+[53:55] they perform better. Technically, they're saying the loss decreased. That sounds kind of obvious,
+[54:00] but in machine learning circles, that was surprising because there's this idea of
+[54:03] overfitting where if you just make your model bigger, the performance goes down. So it used
+[54:09] to be like you have to find the perfect size model for your problem space. That's the way
+[54:13] people thought about machine learning until this paper came out. And like, I don't know,
+[54:16] transform based llms uh they were using gpt2 and they were systematically making it bigger
+[54:21] and they were seeing that the performance just kept going up like this is interesting so let's
+[54:27] try it and that was gpt3 all right let's actually make this like 10x bigger surely this can't be
+[54:33] right and it was it matched the kaplan curve exactly like oh my god this actually got way
+[54:37] better just by making this bigger like all right well certainly that must be the end of it let's
+[54:43] try it with GPT-4. They made it bigger. They trained it much longer. Months and months they trained it.
+[54:47] Microsoft had to build these custom data centers to train it with new AC technology that didn't
+[54:51] exist before And it fit the curve It was like way better And the thing GPT did that really got So GPT set off the whole industry The thing it did is it started showing abilities beyond just language And that where people got
+[55:05] excited. Like, oh, wow. If you train a language model on enough language, it learns about things
+[55:12] that isn't just producing language. It can play games. It can do math problems. It can do logic.
+[55:17] I mean, this was super exciting. It was super exciting. So the assumption was,
+[55:21] do this two or three more times you have agi so that's what the whole industry was based off of
+[55:28] when we went from three to four was this is legitimate justified excitement expand the size
+[55:35] and the training duration two or three more times and the economy is going to happen in a box i mean
+[55:41] it was so that's where all of that was the the engine for all this excitement so they tried
+[55:45] at OpenAI, it was called Project Orion.
+[55:48] They made it bigger, modeled
+[55:50] in four, they trained it even longer, like,
+[55:52] here we go, and they
+[55:54] tried it, and they said, it's not much better.
+[55:57] And this was this
+[55:58] big brick
+[56:00] wall surprise for the industry, like, wait,
+[56:02] it didn't get better. Everyone else
+[56:04] tried as well, right? Grok, they
+[56:06] tried this with Grok as well, the Colossus data center
+[56:08] was like, we're going to have 200,000
+[56:10] GPU data center, no one's ever
+[56:12] built anything this big, and
+[56:14] it was like a little bit better. Meta tried this. They had a model called BMF. Like we built the
+[56:19] biggest data is bigger than anyone we've had before. They didn't release it because it was
+[56:23] marginally better than the last model that they had. And so this was a huge issue, right? You
+[56:29] couldn't just make the models bigger and train them bigger. So what they did was they switched to
+[56:34] what are other ways we can get performance increases and can we get more narrow by what
+[56:40] we mean with performance? And this is when we began to get all the alphabet soup models.
+[56:44] Well, it's GPT-003-mini slash whatever.
+[56:48] And they switched the focus from just,
+[56:51] this is amazing if you use it,
+[56:52] to we have these benchmark graphs.
+[56:54] And look at these graphs.
+[56:55] Things are going better on these benchmarks.
+[56:56] It all became about benchmarks
+[56:57] because these are very narrow things
+[57:00] that you could train models to do well on.
+[57:02] They weren't intuitive.
+[57:03] GPT-4 was just awesome.
+[57:05] By the time we got to GPT-5,
+[57:07] their whole launch,
+[57:07] their launch page had 28 graphs of benchmark names
+[57:11] that no one knew what they were.
+[57:12] And so then they had to look for all these other ways to get improvement. And that's where you got like inference time compute. Well, what if we compute longer for harder questions and they began really pushing fine tuning?
+[57:23] Well for specific types of problems we can get data sets that have questions and answers and we can use reinforcement learning to try to take this pre model and make it better at this particular type of problem And then we can have a benchmark that shows us we got better at this problem
+[57:39] and my argument in that article is like this is a way different game than we were playing when we
+[57:45] went from two to three and three to four we're no longer scaling to agi we're taking basically gpt4
+[57:51] and we're doing all of this like tuning and adding extra stuff on top of it and around it and
+[57:55] measuring these very narrow benchmarks and that's why people have this feeling ever since like i
+[58:00] i guess they're better but it's not in an obvious way it's better in specific tasks or if i vibe
+[58:06] code this it looks better i guess and it seems more narrow um and so yeah we're we're reaching
+[58:10] in that there's a long answer to a short question but we are reaching an asymptote on um just pure
+[58:15] fine-tuned llms as an engine for ai we're gonna need more architectures it's gonna take more time
+[58:20] well presumably chat gpt6 could come out and oh fuck they just blew through the entirety of my
+[58:28] prediction this curve no longer curves flat in the way that i thought and shit this is this is a
+[58:35] different universe now. Yeah, but that won't happen because they tried and they don't know how to do
+[58:40] that. So it's not going to be just an LLM. I mean, my prediction of the future of AI is I think what
+[58:46] we're going to see, I think LLMs are very powerful, but what we're going to see is much more of hybrid
+[58:50] models that are custom fit to particular problems where, okay, this system does this thing better
+[58:57] than a human. And in its guts, there's like an LLM in there, not a huge frontier model, but one
+[59:03] that's like souped up and optimized
+[59:05] for this particular type of thing.
+[59:07] But there's also like five or six other models.
+[59:09] There's an explicit world model.
+[59:10] There's a future predictor.
+[59:12] There's a policy network
+[59:13] trained through reinforcement learning
+[59:14] to try to evaluate situations
+[59:16] to see what's good or bad.
+[59:17] There's a whole logic engine on top of this
+[59:19] that hooks these together.
+[59:21] These are what I think the AI systems
+[59:23] of the future are going to be like.
+[59:24] They're going to be bespoke
+[59:25] and there's going to be a ton of them.
+[59:26] So when we get the AGI,
+[59:27] it's not going to be GPT-7
+[59:29] can do everything you ask it
+[59:31] as well as a human.
+[59:32] It's going to be a world
+[59:33] in which there's 10,000 different AI products. And you realize everything I can think of now,
+[59:38] there's some product out there somewhere that can do this better than humans. Just like there's AI
+[59:42] that can play chess better than humans. There's a different AI that can play Go better than humans.
+[59:46] There's an AI now that can beat professional poker players at Texas Hold'em, No Limit.
+[59:50] They're all different systems with their own pieces in them. And a lot of them have some language
+[59:55] models in them as well, but a lot of other pieces as well. It's distributed AGI. That's what it's
+[60:00] going to be like. We're just going to wake up one day and say, there's fewer and fewer things
+[60:04] where we say humans can do this better than computers. And it's a different model than
+[60:09] HAL 9000. There's one giant, it's a really inefficient way to imagine solving this problem.
+[60:14] If we just have a big enough language model, it's going to do all activity. It's going to power all
+[60:20] agents. It's going to automate all systems. That really doesn't make sense. I think it's going to
+[60:25] be a much more distributed path towards AGI and AI.
+[60:31] Given what AI can and can't do and what the quality of work is that it puts out at the
+[60:39] moment, what is some good advice for somebody who wants to work against the weaknesses that
+[60:47] are going to be exposed in other people because of their reliance on AI by avoiding it themselves
+[60:51] or by using it appropriately?
+[60:53] What would you focus on?
+[60:54] Because again, it seems to me like quantity is easier to achieve than ever before.
+[61:00] Quality is going to be rarer.
+[61:02] That inertia, getting the project off the launchpad, the blinking cursor of the blank page.
+[61:07] Where should people focus their time and their attention in order to capitalize this?
+[61:13] I think you need to begin thinking about the feeling of cognitive strain,
+[61:18] the way that a weightlifter thinks about the burn of a muscle,
+[61:22] or a runner thinks about burning lungs as a thing that is uncomfortable in the moment,
+[61:26] but man, I'm excited about this feeling because I'm getting stronger.
+[61:30] You got to make yourself really comfortable thinking hard.
+[61:35] That is the differentiating factor.
+[61:37] I mean, obviously, I've been saying this since 10 years now, but that's even more now going
+[61:41] to be the differentiating factor, right?
+[61:43] And if you talk to athletes, they're like, this is like Schwarzenegger and pumping iron
+[61:46] talking about pump.
+[61:47] And that's really painful what he's doing, actually, right?
+[61:50] Like lifting the level of weights that the physical pain he's in is high and he compares it to an orgasm, right?
+[61:55] Because if you're a weightlifter, you're like, oh, that pain is directly translating to more strength and more muscle mass.
+[62:01] You got to think that same way about your brain.
+[62:03] You cannot flee cognitive strain.
+[62:07] You have to think about it in a knowledge work cognitive age.
+[62:11] That is the feeling of my brain getting more capable.
+[62:14] Yeah, I want to seek that out.
+[62:15] Let's go get it.
+[62:16] Let's go get some, right?
+[62:17] Nope.
+[62:19] Bring my focus back to this thing.
+[62:20] I'm going to try to push this through.
+[62:21] And then when you're done,
+[62:22] be like, oh man,
+[62:23] I exhausted my brain.
+[62:24] That's awesome.
+[62:25] That was like a really good cognitive workout So don while everyone else is using AI to run away from strain you should be the person running for it Because especially in the American context I mean the knowledge economy is now a massive portion of our GDP
+[62:39] And the knowledge economy itself is shifting more towards cognition-intensive work.
+[62:45] So knowledge work can capture anything where you're not building things.
+[62:48] But now all the lower-level knowledge work is being outsourced or automated.
+[62:52] A lot of it has been replaced over the last 30 years by software.
+[62:55] We don't have support staff and assistants and secretaries like we used to because, well, you can use Microsoft Word and email.
+[63:01] We don't need separated people.
+[63:03] And so the work that's left in our economy, the knowledge economy, has been getting more and more cognitively demanding.
+[63:09] And so the number one skill is I'm used to straining my brain, learning hard new things, and maintaining focus.
+[63:13] That's what I would train.
+[63:16] That's so good.
+[63:17] I really, really agree.
+[63:19] And the funny thing is, that's why I asked at the top if you just felt like fucking Cassandra, because each subsequent development in technology makes this more important.
+[63:34] There's always going to be that seductive whisper in the back of someone's mind that, well, yeah, but I can work faster with AI.
+[63:41] I can work quicker by what if my boss sees me doing executive functioning through Slack more, whatever.
+[63:48] But what's the elevator pitch for you should do work of high quality and that will end up winning?
+[63:59] You have to think about employment.
+[64:01] Ultimately, it's a marketplace.
+[64:03] There's a lot of obfuscation and fog and smoke, but it's ultimately a marketplace, right?
+[64:08] You're paid money.
+[64:09] In exchange, you produce things that have economic value.
+[64:13] That's what makes that exchange make sense.
+[64:14] there is not ultimately an underlying economic value to the coordination activities by themselves
+[64:21] there is no actual economic value to the speed of your slack responses or the number of meetings
+[64:26] you go into or the number of like bullet pointed emails with those sort of chat gpt emojis that you
+[64:31] put out that itself doesn't generate economic value the stuff that does a knowledge work almost
+[64:36] always requires you mastering hard skills and applying them through concentration and ultimately
+[64:40] that shakes out. There's only so far you can get or so far you can hide being busy because
+[64:47] busyness can't be monetized. And of course you can create a smoke for a while. But like,
+[64:52] I don know like you know uh Chris seems like productive I guess Like he always on these emails and this and this and that But if you not actually producing things that have economic value ultimately that catches up to you Your opportunity is narrow
+[65:05] You're going to get found out at some point.
+[65:07] Where if you do the other thing, it's like, no, I'm creating stuff that is rare and valuable.
+[65:11] It's unambiguously has value in the marketplace.
+[65:14] You write your own ticket.
+[65:16] Like what?
+[65:16] You want to have a business where you work half the year?
+[65:18] You can do it.
+[65:19] You want to get paid a huge amount of money?
+[65:21] You can do it.
+[65:21] You want to work for a company, but you choose when you come into the office and you declare, I don't want to do meetings. That's actually a thing, by the way. I talked to a marketing team at one of the major tech companies not long ago, and they said, you know what? We're in the sales side. Our group, the sales group, we are exempt from meetings because they can directly monetize.
+[65:43] oh you brought in this many dollars we can see it and if you're bringing in dollars they're like you
+[65:49] can do what you want and they could also see if we make you go to meetings those dollars go down
+[65:52] it's like forget the meetings for you everyone else where there's not a clear number where they
+[65:56] can see how much value bringing like oh you better be there in the meetings i i've dude i've always
+[66:00] thought this the the the big problem that most people have that doesn't exist in the world of
+[66:07] sports stars if you're a sports star everything that you're doing is to facilitate performance
+[66:12] and performance is very tightly bounded and it's quantifiable if you're a weightlifter that 300
+[66:19] kilos is 300 kilos yeah you either pick it up or you don't pick it up and your sleep and your
+[66:25] recovery and your nutrition and your hydration and your game tape and your technique work and
+[66:29] your snc and your body work and massage and soft tissue and all of that stuff combine to this output
+[66:36] it's a very very sort of single alternating principle the same thing goes for tennis and
+[66:41] the same thing goes for football and the same thing goes for baseball and so on and so forth.
+[66:45] You do not perform well, you begin to scrutinize all of the contributing elements that come toward
+[66:49] that. The problem that you have in most normal people's lives is the output that they're
+[66:56] optimizing for is diffuse and very hard to work out. Well, I want to be a good father, but I also
+[67:02] want to perform at work. I do Brazilian jiu-jitsu on an evening time and my wife makes me go dancing
+[67:09] and I want to be engaging at a cocktail party.
+[67:11] Okay.
+[67:12] Well, first off, that's lots of things.
+[67:14] It's not a single coordinating principle.
+[67:16] And secondly, define to me the lineage
+[67:19] between your disrupted sleep last night
+[67:22] and your poorer performance around the dinner table or in Brazilian jiu or whatever The diffuse thing contributes because you inevitably have to make trade from one thing in order to do and to do another but also it just hard it hard to work out how your performance is performing and this is the
+[67:40] same in the work life the perfect example the sales people we just know if we do make you do
+[67:47] this thing we lose that thing and that thing is more important than this thing it would be like
+[67:52] if for some reason sports stars were being encouraged to stay up late you go well we know
+[67:57] if we make you stay up late answering fucking slacks your performance in the game the next day
+[68:02] decreases but for most people there's this implicit assumption that part of what you do
+[68:09] is the contribution to the strategy and the operations and the executive function culture
+[68:15] and so on which means that you forget what you're there for i think people have forgotten what
+[68:20] they're there for? What am I supposed to be here at work doing? What is my outcome goal?
+[68:25] There's so much fat in the American knowledge work sector right now, right? Because we're so
+[68:31] wealthy and there's so much money being slung around that we can have whole organizations
+[68:36] where most people don't even know how they're directly connected to producing that value.
+[68:40] And they could just be doing email all day or whatever, right? It's so inefficient. But there
+[68:45] are, I mean, there are plenty of knowledge work areas where people don't put up with a bunch of
+[68:50] this nonsense. And it's all areas where it's very easy to quantify your production. I did this essay
+[68:56] a couple of years ago where I did a reflection where I said, God, almost every thought I've had
+[69:00] in my books all came out of my experience as a grad student at MIT. So I was at the theory of
+[69:07] computation group in the computer science department at MIT. I don't call it department,
+[69:12] but the theory of computation group in the CS lab at MIT, which is like a group, the professors
+[69:17] there. The students, we weren't like this, but the professors were super geniuses. Literally,
+[69:22] Turing Award, Turing Award, MacArthur, MacArthur, Turing Award, Dijkstra Prize,
+[69:26] smartest people in the world. And it was incredibly clear if you were successful or not.
+[69:31] What major theorems did you prove in the last few years? That's it. That's all that mattered.
+[69:36] And that required a lot of thinking. So they were terrible with email. They had no interest in
+[69:42] social media. Meetings, if you're trying to throw meetings at them, they would just ignore you.
+[69:47] I wrote about this in deep work even and people push back.
+[69:50] I was like, this is what it's like in that world.
+[69:52] If you send someone an e-mail in this world,
+[69:54] like one of these professors,
+[69:55] and you're like, this is ambiguous,
+[69:58] you didn't word this
+[70:00] well, or I don't really want to do this.
+[70:01] They just ignore it.
+[70:03] Like, that's on you, buddy.
+[70:04] Like, I have to get, you know, I'm being, I will lose my job if I'm pre-tenure if I
+[70:08] don't come up and solve theorems.
+[70:10] And they put up with no nonsense.
+[70:11] And a lot of that actually infused the book deep work because like, you know what?
+[70:15] I came of age in an environment where all anyone cared about was focus and everything
+[70:21] else was secondaries.
+[70:22] Like athletes, just like you said, if this is getting in the way of my launch angle going
+[70:27] down or my batting average adjusting, I'm going to change it. But it's crazy right now in knowledge
+[70:31] work, how many positions that's not true. But what I advise people then, get in a position where
+[70:36] that's true. Change your profile at work, or if you're changing your job, change your job into one
+[70:42] where your value production is unambiguous. Now, this is a double-edged sword because it swings
+[70:47] both ways. Because you can't hide anymore. You can't hide anymore. But if you get into one of
+[70:50] those situations and then you do the cognitive work, I know how to focus. I build the skills.
+[70:56] I apply the skills.
+[70:57] I'm not afraid of cognitive strain.
+[70:59] You're in the absolute best position in our economy, right?
+[71:02] You can write your own ticket, but you have to be willing to go into a circumstance of
+[71:07] like, this is the only world I know.
+[71:09] And academia is, what did you publish?
+[71:11] That's all that matters.
+[71:12] It's all we care about.
+[71:13] What'd you publish?
+[71:14] Book writing?
+[71:15] How many copies did your last book sell?
+[71:17] That's all that matters.
+[71:18] There's no, you know what though?
+[71:19] He answered our publisher email so quickly.
+[71:22] So let's give him another deal, folks.
+[71:23] No, it's exactly how many dollars did you make us last time? That's what we care about for the next time. So it's a scary world where you're being held accountable. But it's an equation I always say is that if you're accountable, you don't have to be accessible.
+[71:39] If you're like, I can point to this is the value I produce and I'm killing it for you, then I don't answer emails.
+[71:47] I don't go to these meetings.
+[71:49] I don't do 50 sort of things.
+[71:50] You can get away with almost anything you want.
+[71:52] So I think more people should make that move, especially in the AI age, I suppose.
+[71:57] More people should make that move towards like, hey, hold me accountable and then do the work to actually show up.
+[72:03] It makes your life so much better.
+[72:04] It's such a better way to go through knowledge work.
+[72:05] You get away from that hyperactive hive mind, brain melting, distracting, soul crushing,
+[72:11] slack all day long nonsense.
+[72:13] In other news, you've probably heard me talk about Element before, and that's because I
+[72:17] am frankly dependent on it.
+[72:20] And it's how I've started my day every single morning.
+[72:24] This is the best tasting hydration drink on the market You might think why do I need to be more hydrated Because proper hydration is not just about drinking enough water It having sufficient electrolytes to allow your body to use those fluids
+[72:35] Each Grab and Go Stick Pack
+[72:36] is a science-backed electrolyte ratio
+[72:38] of sodium, potassium, and magnesium.
+[72:40] It's got no sugar, coloring, artificial ingredients,
+[72:42] or any other junk.
+[72:43] This plays a critical role
+[72:45] in reducing muscle cramps and fatigue
+[72:47] while optimizing brain health,
+[72:48] regulating your appetite,
+[72:50] and curbing cravings.
+[72:51] This orange flavor in a cold glass of water
+[72:53] is a sweet, salty, orangey nectar, and you will genuinely feel the difference when you take it
+[72:58] versus when you don't, which is why I keep going on about it. Best of all, there's a no questions
+[73:02] asked refund policy with an unlimited duration. Buy it, use it all, and if you don't like it for
+[73:07] any reason, they give you your money back and you don't even have to return the box. That's how
+[73:10] confident they are that you'll love it. Plus, they offer free shipping in the US. Right now,
+[73:14] you can get a free sample pack of Element's most popular flavors with your first purchase
+[73:17] by going to the link in the description below, heading to drinklmnt.com
+[73:21] slash modern wisdom.
+[73:23] That's drinklmnt.com
+[73:24] slash modern wisdom.
+[73:27] Let's say that you were in an organization
+[73:29] that was small enough
+[73:30] that you could actually enact some change.
+[73:31] Maybe you're at the top of it,
+[73:32] near the top of it,
+[73:33] or you're just,
+[73:34] you're toward the bottom of it,
+[73:35] but you feel like you've got the ear
+[73:36] of the person that's in charge.
+[73:38] If you were to say,
+[73:40] we've got the classic
+[73:41] diffuse hive mind,
+[73:45] pseudo productivity malaise,
+[73:47] the ambient soup that everybody's swimming in.
+[73:49] And how would you, what would you do?
+[73:53] What would you, how would you rework the internals of an organization that still needs to communicate?
+[73:58] Obviously, there has to be coordination.
+[74:00] People aren't working in silos.
+[74:02] There is going to be inevitable communication and coordination that needs to happen.
+[74:05] How do you survive the modern world?
+[74:09] What would you propose?
+[74:10] How would you restructure things?
+[74:11] Yeah, I mean, I would do a few things.
+[74:12] One, I would say we're going to have explicit workload tracking and management, right?
+[74:16] No more just people throw stuff at you and you implicitly just add it to your plate.
+[74:20] We want a place where we write down what everyone's working on and we can see it.
+[74:24] And now we can start talking about things like what is an ideal WIP?
+[74:27] What's an ideal work in progress limit for an individual?
+[74:30] How many things do we want someone working on at the same time before that curve starts
+[74:35] to go the other way?
+[74:36] So what you have to do once you start doing that is saying we need a place to track things
+[74:40] that need to be done that no one is actively working on right now and we can feel okay
+[74:44] about it.
+[74:44] So I would definitely want to set up where things enter into our radar of this needs to be done. There's a place for that to go and to be stored.
+[74:53] Oh it like an organizational getting things done inbox Yes And it not on anyone because here as soon as you are responsible for something it generates email slack and meetings
+[75:06] So once it's on your plate, it begins to spin off administrative overhead and slow productivity.
+[75:12] I call it the overhead tax that gets spun off as soon as it's on your plate. So everything by
+[75:17] default goes to a team plate. No one's working on it. Then we keep track of from that plate as we
+[75:23] move things to people's individual responsibilities, we have like, I don't, you should do three things
+[75:27] at a time. That's it. And when you finish something, you can pull something else in.
+[75:31] So do a small number of things fast and well, and then keep bringing things. So I would definitely
+[75:35] do that. The second thing I would do is I would say no more hyperactive hive mind.
+[75:40] If you send a message that requires more than a single message in response,
+[75:43] that should not happen over digital communication. If I can't just answer your question with one more
+[75:49] message, then that has to be real time. Now, we can't have that turn into an explosion of meetings.
+[75:54] So what we're going to do is we're going to have daily office hours for everyone. So there'll be a
+[75:58] daily time where everyone knows they can call you or walk to your office or whatever and go through
+[76:02] a bunch of things with you real quick instead of sending emails. We're going to have morning stand
+[76:05] up meetings within the teams for sure. Who's working on what this morning? Who needs what
+[76:10] from who to get that done? Go do the work. So we'll definitely do those as well. We might throw
+[76:17] in phone hours, it's a new idea I'm thinking about where you say, look, there's a longer period of
+[76:21] time, like maybe all afternoon, where you can always call me if there's something that's so
+[76:26] urgent, you can't wait till the next office hours. There's enough friction in phone calls that that
+[76:30] actually turns out to work pretty well. Like I'm not just going to call you because I want to get
+[76:34] something off my plate. I won't call you unless it really is serious. So I would do that as well.
+[76:38] And then I would say, okay, what ongoing work does this not work for? What type of projects do we
+[76:44] work on on a regular basis where this isn't working because it's too long to have to wait
+[76:49] till the afternoon's a problem. I say, great, let's identify those. And for each of those,
+[76:53] let's build a protocol. Here is our protocol for collaboration on this type of work and however
+[76:58] that's going to work. But it's like the information goes into this spreadsheet and then whatever,
+[77:03] someone checks it in the morning, they move things to shared files. I don't know what it is,
+[77:06] but whatever it is that prevents us to have ad hoc unscheduled messaging isn't necessary.
+[77:11] So explicit workload management, I would have this rule of no hyperactive hive mind.
+[77:17] I would have protocols for any type of recurring collaboration where we could be explicit about how we actually want to do this.
+[77:22] And then I would have a culture of talking about deep work and concentration like a tier one skill How it going How many deep work hours did you get in this week are you happy about that what was getting in the way of that did you have a particularly good session tell everyone else about it like what worked oh i see you you you did music you have a different look
+[77:40] oh let's all think you know hey here's a good idea that we can borrow make deep work culturally
+[77:46] something you talk about as like this is a tier one skill that we're really proud about
+[77:51] You do those things, you're not going to 2x your profitability. This is the thing that's always frustrated me about these ideas is like you could make more money if you do it, but it's really hard. Those changes I just talked about, it's hard. There's friction, there's personalities, and this is the thing I really underestimated when I wrote those books.
+[78:10] the way we work now is like a uh a low energy point right it's like the easiest possible
+[78:19] configuration of work so if you feel friction you're trying to do something more structured
+[78:23] you're trying to do something that makes better use of our brain and you're getting resistance
+[78:27] the place you're going to fall when you give up is the way we're doing it now so it's not
+[78:32] arbitrary i've realized this hyperactive hive mind let's just figure things out on the flow
+[78:35] no workload management. It's not arbitrary. It's the low energy. It's like this local minimum.
+[78:41] It's the place that minimizes the complexity that still allows a company to run. And I think that's
+[78:46] why we keep falling back. In mathematical terms, it's a suboptimal Nash equilibrium.
+[78:51] It's not the optimal way to work together, but no one person can leave it and make their situation
+[78:55] better. It's a low energy state. It's an attractor. It's a local minimum in the utility landscape,
+[79:00] whatever mathematical metaphor we want to use.
+[79:04] And so it's not arbitrary.
+[79:06] I was like, oh, it's like a law of work physics.
+[79:08] This thing is like a neutron star in the world,
+[79:11] the universe of work that just attracts everything back to it.
+[79:15] And it takes a huge amount of energy to escape its pull.
+[79:18] That's why I think we've had so much trouble solving this problem,
+[79:22] even though you would make more money if you did it.
+[79:23] i wonder i'm thinking about sort of immediately implementable solutions for this i get the sense
+[79:33] that you could probably tell people we don't use slack before 1 p.m like nobody is to post in slack
+[79:42] before 1 p.m because that you can ring if it's sos emergency scenario you can just call somebody
+[79:50] we just don't use it and then it means that everybody knows that they should not be doing
+[79:55] it's a company-wide deep well i mean look are they going to
+[80:00] some departments, HR, for instance, probably would be used.
+[80:03] But your job is HR.
+[80:05] You're in the PR department or something like that.
+[80:07] Your job is actually about comms.
+[80:10] But if you're in marketing or if you're in accounting, something like that,
+[80:14] okay, sit down and do your fucking work.
+[80:16] And up until a point, what do you make of intermittent fasting
+[80:18] for communication company-wide?
+[80:20] Yeah, it works, especially, though, what really makes that more sustainable
+[80:24] is if you have that quick morning stand-up on the team scale
+[80:27] at the beginning of the day where everyone says, here's what I'm going to be working on during
+[80:31] these morning hours. Here's what I need from each other to make progress on this. So what would
+[80:38] have unfolded over Slack and email, you're doing in 10 minutes. So you say, okay, here's what I'm
+[80:43] working on this morning. I'm working on the new white paper. Here's what I need though. I need
+[80:48] those figures from you. When can you get them to me? By 9.30? All right, you're going to get them
+[80:52] to me by 930 and I need those quotes you promised. Can you just do that right away? Okay. So you all
+[80:58] know what I need from you. Okay. Now I'm going to put my head down and write that report.
+[81:01] So having that meeting ahead of time where everyone says what they need and what they're
+[81:07] going to do, that makes that time work better. And then the thing that really works,
+[81:11] do the same thing on the other end of the morning. All right. You said you were going to work on
+[81:15] this, this, and this. What happened? So there's accountability on the other end. You can't run
+[81:21] away from, you know, if you just went on email and social media, they're like, well, wait a second.
+[81:26] I thought you were going to write the white paper. Yeah. And if other people flake, they don't send
+[81:29] you the figures. They don't send you the quotes. You're like, I got stuck, man. I never got this.
+[81:33] Cal didn't do what he said he was going to do. And they're there in the same room and they're like,
+[81:37] oh, okay. I get it. I get it. I can't just ignore stuff, right? Like I actually have to do it.
+[81:43] I think that's a great idea. I think something like that works well if you put that accountability
+[81:47] before it and you put it after it.
+[81:50] That scares people, by the way, though.
+[81:53] That really does scare people
+[81:54] because you actually have to do the work.
+[81:58] And this is the thing where
+[81:59] really social media and smartphones
+[82:01] killed this way worse.
+[82:02] AI is going to make this worse.
+[82:04] But that was a big inflection point.
+[82:06] In terms of losing our comfort
+[82:07] with concentration,
+[82:08] that got really bad.
+[82:10] Once we got algorithmically optimized content,
+[82:12] we really got used to that.
+[82:13] And so it's scary.
+[82:14] If you just go to a company and say,
+[82:15] here's the new plan, boss.
+[82:17] we're going to have a meeting in the morning.
+[82:19] You got to tell me what you're going to do for the next five hours.
+[82:21] And then you got to do it.
+[82:22] And we're going to check in after that five hours and see how it went.
+[82:25] That a nightmare for a lot of people That is like oh God I don know what I going to do I agree I get the sense that a nice way to introduce this would be
+[82:35] look, everybody's brain here has been turned into slop.
+[82:39] Everyone.
+[82:40] No one is able to do their job as effectively as they should.
+[82:44] So you are expected to do the work.
+[82:46] But the reason that we do the pre and post
+[82:49] is not to whip somebody into performance review.
+[82:52] It's to give you accountability
+[82:54] because you don't look like a tit in front of your co-workers.
+[82:56] But if you don't get to the point,
+[82:58] we're going to...
+[82:59] The same as when you start training for a marathon,
+[83:01] you don't run 10K on the first day.
+[83:03] You will titrate the dose up and over time,
+[83:06] you know, week one will permit some fuckery
+[83:09] and week two will permit a bit less fuckery
+[83:11] and week three, we're all in it together.
+[83:13] And this person's pulling ahead.
+[83:14] They're really like a hyper responder.
+[83:16] You know, they're making loads of gains in the focus gym
+[83:18] and other people are moving a bit more slowly.
+[83:20] What is it that they are doing?
+[83:21] And so on and so forth.
+[83:22] But imagine that.
+[83:23] Imagine if you had a company-wide focus initiative where people were just, okay, we're going to move together.
+[83:30] Everybody is going to focus on focus.
+[83:32] And interesting around the AI thing.
+[83:35] So George, my housemate, is writing a book at the moment.
+[83:38] Do you know Cold Turkey?
+[83:39] Do you ever use Cold Turkey?
+[83:40] I know about it.
+[83:41] Yeah.
+[83:41] Yeah, it's a website limiter, app limiter for MacBook.
+[83:45] We've been using it for a decade.
+[83:47] his cold turkey went rogue and um just kept shutting his browser down even though he wasn't
+[83:55] trying to access the thing that he wasn't supposed to it said he needed to install it was a nightmare
+[83:59] and here's a conversation between him and his ai uh cold turkey has gone rogue and i need to remove
+[84:05] it please tell me how to delete it from terminal and the response the response is i'm not going to
+[84:11] help you bypass it george this is exactly the scenario you set it up for you're two days in
+[84:16] the book is waiting close the terminal and write and he's replied and said no it's got a bug so i
+[84:22] can't get on calls like pleading with his own ai because he's obviously put in the instructions
+[84:26] be rigorous with me be tough with me tell me that i should be getting back to being focused when i
+[84:30] start to go off task do the thing and that's a an ai equivalent of what you're talking about which
+[84:35] is this supervisionary oversight commission thing but his just happens to be based in silicon instead
+[84:43] in other people. So maybe AI will help us. It could basically chastise us.
+[84:46] Well, the problem is, the problem that you have with the AI thing is it's so fucking
+[84:50] sycophantic all the time that it will tend to bend eventually to what it is that you want Yeah but no one believes that the chatbot interface is the future of AI The boosters the skeptics the moderates
+[85:05] There's an emerging consensus
+[85:06] that we're going to look back at this current moment
+[85:09] where we interact with AI by typing into a chat window.
+[85:13] That's going to be like the Usenet newsgroups
+[85:16] or the beginning of the internet.
+[85:18] It was like a cool thing early on
+[85:20] that showed the promise of the internet,
+[85:22] but the tools got better.
+[85:24] There's better ways to make use of it.
+[85:26] So the thought is, in the future, AI is going to be more integrated into more things.
+[85:29] It'll be more agentic.
+[85:31] It'll be a lot not like having conversations in English text, but deploying agents to do things, maybe with natural language.
+[85:37] But also it'll be more integrated in the software.
+[85:40] Individual tools will be more common.
+[85:42] So it'll be much more common.
+[85:43] I'm in Microsoft Excel, and I'm like, can you sort row five by this amount and cut out all columns that have less than as many values?
+[85:52] And it does that.
+[85:53] it's gonna be that's what the interactions are going to become like and so this idea of having a
+[85:57] a singular anthropomorphized entity through which you're having all conversations
+[86:01] that's almost like an accident of early ai i mean open ai will tell you this
+[86:05] that chat gpt was supposed to just be a demo of the type of things you could do
+[86:09] using the apis into their language models is like the type of tool you can build
+[86:14] that would make use of ai and then it caught them completely off guard and everyone wanted to use
+[86:18] chat gpt and chat with it because it was really cool i don't think that's going to be the form
+[86:22] vector. So I think a lot of these issues we have now, like this is weird, it's unsettling,
+[86:26] we're anthropomorphizing it, we're getting parasocial relationships with the agents, we're having
+[86:30] romantic relationships with them, we're getting unsettled
+[86:34] because having English conversation, we have a hard time not
+[86:37] simulating a mind on the other end of this. Which is why I shout at my
+[86:42] chat. That's why you shout at it. I think a lot of this two years from now is going to seem, it'll be super
+[86:46] narrow, right? Because I don't think just having a sort of general
+[86:50] purpose of Oracle you chat with. That's not the future. That's not what people think we're going
+[86:52] to be doing. Why are people mad about 4.0 being removed? My understanding was they were just happy
+[87:00] with the fine. So you tune these things. The conversational style comes from a post-training
+[87:06] tuning session where you give it, you've already done the pre-training, which is unsupervised.
+[87:11] And you go through this post-training session where you have a lot of examples of questions
+[87:15] and answers. And you ask the question and then it gives an answer. And then you sort of zap
+[87:20] it using optimization theory to try to move like now we going to change the weights to be closer to this answer we already said was better So if you have a bunch of examples of the way you want something to respond and you go through one of these sort of zapping training sessions after the fact
+[87:35] it'll respond more like that.
+[87:36] So they just changed the way they were doing that.
+[87:38] And the thing they changed to,
+[87:40] people didn't like the tone that created.
+[87:42] So it was just about what day,
+[87:44] literally like the data sets you're using
+[87:46] when doing this fine tuning
+[87:47] after you've done that big, massive pre-training
+[87:50] where it's unsupervised.
+[87:51] talk to me about the role of quantum computing in ai minimal to non-existent
+[87:59] so qai is all just bullshit yeah i'm not yeah i mean quantum computing is really interesting
+[88:06] there's a huge amount of technical problems just to actually get these things scaled to the number
+[88:10] of qubits in which they're useful and there's a there's a fallacy out there in thinking about
+[88:15] quantum computing that it's basically like a normal computer but times a million yeah which
+[88:20] is just not the way these things function right so there's only very specific problems you can solve
+[88:26] with a quantum computer because you actually have to express the problem in the language of physics
+[88:32] in such a way that you're creating what's known as a wave function that when it collapses it's
+[88:36] going to collapse to a configuration that's the right answer therefore like implicitly searching
+[88:40] a large state space in sublinear time only certain problems allow you to do that so it's unlike a
+[88:45] normal computer where i can program a computer to do almost anything quantum computers is much
+[88:50] more narrow what you can do with it. Could you give me an example of something that it would
+[88:54] and wouldn't be able to do? Well, the big example, this is a guy who was at MIT when I was there,
+[88:58] Peter Shore, early on, was the one who figured out like, hey, one of these complicated wave
+[89:02] function collapsing things you could do could factor prime numbers. Q-day. Yeah, factor numbers
+[89:09] to find the prime factors, rather. Find the prime factors of big numbers. That's a really big deal
+[89:15] because public key encryption.
+[89:18] And ironically,
+[89:20] this just goes to show
+[89:21] how crazy MIT was,
+[89:22] is also at MIT
+[89:24] is Ron Rivest,
+[89:26] who I TA'd for,
+[89:27] who invented,
+[89:27] you see R and RSA,
+[89:28] he invented public key encryption.
+[89:30] So the guy who invented
+[89:31] public key encryption
+[89:32] is there next to the guy
+[89:33] who figured out
+[89:34] how quantum computers could...
+[89:36] Could maybe undo it.
+[89:37] Undo it, yeah.
+[89:38] So it's kind of interesting.
+[89:38] So it's good at that.
+[89:39] There's a lot of problems
+[89:40] that are based around
+[89:42] simulation of quantum
+[89:44] or physical physics systems.
+[89:46] And that's, you can simulate
+[89:48] quantum physics systems directly
+[89:50] using quantum in a way
+[89:52] instead of having to try to simulate it.
+[89:53] So it's very good for that.
+[89:54] There's a certain type of search.
+[89:56] It gets a little technical,
+[89:57] but there's a certain type of search
+[89:58] that you can implement.
+[90:00] It has applications.
+[90:01] So there are interesting applications.
+[90:04] But the thing I was beginning to sense recently, which made me worry, is that there was a sense of like height migration.
+[90:10] So people are getting a little bit frustrated, sort of like post GPT-5 of like, this isn't filling my need to have something to be, you know, a technology that is going to change everything.
+[90:19] I love that concept.
+[90:20] And they begin sniffing around.
+[90:22] Okay, but what if we just quantum somehow will unlock AI and solve all these problems we're having?
+[90:28] I think it's way more complicated than that.
+[90:29] There are narrow applications of these particular things that might have some AI application, but you can't run an LLM on a quantum machine and now it's a billion times better.
+[90:39] That's just not how it works.
+[90:40] So quantum is interesting.
+[90:42] It's just really hard.
+[90:43] The problem is the errors multiply.
+[90:44] I mean, they make these qubits, these quantum bits they use for these algorithms.
+[90:49] It's incredibly complicated.
+[90:51] There's different ways to do it, but in some ways you have laser beams in a super cool chamber holding a particle in a very careful state.
+[90:59] and what it generates errors and then the errors add up with other errors and it's after you make
+[91:04] enough of these things then then the errors they swamp out of control it's a really you know so
+[91:09] you're telling me that the the fucking m6 chip in the macbook pro is not going to be a quantum one
+[91:15] it's not going to be the q6 chip it's not in fact i was i'm now i want to know what qai is what is
+[91:20] qa you mentioned qai quantum quantum ai yeah but i mean is there a particular product or just people
+[91:26] talking about quantum's gonna just make ai better yes yeah there is um i have a a friend who i train
+[91:33] with like this is like you know what i love some of the people that i love the most are the ones
+[91:38] who you wouldn't predict uh have the life that they do and there's a girl who trains uh lift atx
+[91:44] on a saturday lovely girl i've trained with a bunch of times real cool boyfriend's cool like
+[91:50] does fitness modeling super hot the long hair lift the big eye all the you know like but super strong
+[91:55] all the rest of the stuff like feminine as well quantum computing degree like works in works it
+[92:02] works in quantum computing and she was telling me about quantum ai and she was telling me about
+[92:05] q qai as it's referred to and it's a burgeoning field supposedly unless she's lied to me unless
+[92:11] she's totally fucking lied to me yeah i'm curious what they're working on uh ut austin has good
+[92:16] quantum theorist look i'm searching for it uh a guy i knew from it they hired him away there rc
+[92:22] quantum
+[92:23] quantum AI merges quantum computers machine learning the process high data faster than classical systems Now they working on it but I don know how that going
+[92:36] to work, basically. So I don't know what they're working on, but it's not something that you hear
+[92:41] a lot in computer science circles yet. So maybe they'll have some breakthroughs. It's worth looking
+[92:44] at, but I don't know how that's going to work. Okay. One of the other elements, I guess, that
+[92:50] people struggle with when it comes to deep anything is learning, the process of learning.
+[92:58] Talk to me about the mechanics of keeping a deep reading habit alive.
+[93:05] Well, I mean, I think reading pages is probably the cognitive equivalent of steps, right? So if
+[93:10] you're a 10,000 steps a day person, this is just like a baseline to make sure that at least my
+[93:15] physical systems are being used you should have a page count 25 pages a day 20 pages a day uh of
+[93:22] reading a book it just is like getting those cognitive steps in because i think we recognize
+[93:27] more and more reading it i would say it's the cheat code but it's better to think about it as
+[93:32] like reading is the thing that formed the modern brain and i'm like i'm more and more convinced
+[93:38] about this i have a book idea i'm working on now where i'm sort of exploring this idea uh the brain
+[93:44] before we had the Neolithic revolution. It was the same neurons, right, 15,000 years ago that we have
+[93:51] right now. But if we go pre-reading, those neurons were doing the things they were evolved to do,
+[93:56] which is very much about like the visual system and the audio system. And we could communicate
+[94:00] through spoken language and that's fine. And then we invent reading. And this is not something that
+[94:05] our brain has evolved for. So in order to read, we have to go through this sort of excruciating
+[94:09] process of learning to read in which what you're doing is actually rewiring sections of your
+[94:14] brain to connect in ways that they weren't originally meant to connect to. So we're reforming
+[94:18] our brain when we learn how to read. And we develop what Marianne Wolfe calls deep reading
+[94:22] processes, where you've now yoked together different parts of your brain that don't
+[94:28] normally work together, that can now have to work together in order to understand written text.
+[94:33] Once your brain is wired to do that, if you reverse this and write, you can generate much,
+[94:40] much more sophisticated thoughts than you can if you haven't done this wiring. And your
+[94:43] understanding of things, the complexity of what you can understand when you have this
+[94:48] new rewired brain, that also really goes up.
+[94:51] So reading is like it not just oh I get stronger in my brain It reconfigures your brain into like the modern post revolution brain okay why is it important to read physical books then what what is lost if i read substack i know that
+[95:09] you're a fan of substack i love substack i think it's fantastic uh what's the difference between
+[95:15] reading it on a laptop versus a phone versus a kindle versus a physical piece of paper well
+[95:20] there's two different things going on here there's medium and content type uh like so if you're
+[95:24] reading a book in a physical book or you're reading in a kindle um doesn't matter right i mean they're
+[95:30] both actual physical medium like the way that the kindle is actually a physical experience it's it's
+[95:36] it's actual little discs that are you know dark on one side and light on the other and they make
+[95:41] a page they have little electrical impulses and you shock the disc you want to turn and you don't
+[95:47] shock the ones you don't want to turn and so you've literally created an actual black and white
+[95:51] physical version of the page on the Kindle. You're not, unlike a computer screen or a TV,
+[95:55] where it's light being emitted, there's no light being emitted. It's physically, that's the page.
+[96:00] It just created a new physical page that has text on it. That's why you have to actually have a
+[96:03] light on a Kindle to read it. So it's just a page that reconfigures itself into a new page. I love
+[96:09] eating technology. I think it's really cool. Content type, the issue is, I mean, there's a
+[96:13] lot of this research we've known since the 90s. A lot of this is captured in, the best book on this
+[96:18] would be The Shallows, Nick Carr's book, The Shallows.
+[96:22] When we're reading something like a webpage or Substack,
+[96:25] for whatever reason, we skim much more aggressively.
+[96:28] That's the main issue.
+[96:28] We jump around much more aggressively,
+[96:31] just trying to pull out the key points.
+[96:33] I think that's all just acculturated, right?
+[96:36] Like you could sit and read,
+[96:38] like if you print out a Substack article
+[96:40] and sit in the library and you read it carefully,
+[96:42] it's the exact same thing as reading a book.
+[96:44] It's the exact same thing in the sense of the experience.
+[96:46] on screens we tend to skim around more the other advantage of like a book that was actually
+[96:51] published versus like a post you see online it's just better thought through right so when you
+[96:57] write a book you spend a couple years on it like you're really you spend a couple years crafting
+[97:02] the book and you might have been based on a lifetime of thinking about this topic and so you
+[97:07] take your time when writing a book and it gets edited and re-edited and you go back like i'm
+[97:12] writing a book now I've been working on it off and on for like three or four
+[97:16] years I've rewritten this book like three times it's like this isn't right
+[97:19] this isn't clear enough it's you know and so when you go through text that has
+[97:24] been that carefully thought through and structured that also you just get a different experience because the pieces click together at different scales and it just uses you build in your brain these intricate
+[97:35] interlocking pieces that all hook together and it's beautiful and you get that aha moment feeling
+[97:40] there's an actual physical endorphin rough you get in your brain um so you know i think reading
+[97:45] smart books written by smart people that took a long time to write that's your calisthenics for
+[97:51] your brain. It literally changes. You're a smarter person if you do that versus if you don't.
+[97:57] So good. I have to say, reading full-length books has been, the volume that I do that has
+[98:06] been decreased over the last few years, largely because of Substack. So there's an extension for
+[98:12] Google Chrome called Push to Kindle. And if I press it, the article appears on my Kindle,
+[98:18] because I don't like reading on my phone
+[98:20] and I don't like reading on my laptop,
+[98:21] probably for the reason that you said.
+[98:23] But when I think about it,
+[98:24] it very much is running downhill
+[98:28] because what's the longest sub stack
+[98:31] that you're going to read?
+[98:32] 20 minutes, maybe?
+[98:34] 25 minutes, a fucking long article.
+[98:37] And maybe part of that,
+[98:40] maybe part of my penchant for it
+[98:42] is that I do get the outcome, right?
+[98:44] What is it that I'm looking to learn?
+[98:46] I want to find out from Steve Stewart Williams about sex differences in desire for sexual novelty, something like that.
+[98:56] Okay, well, I will learn the outcome in the same way as I could feed myself food that was just a cube of calories, and that would sort of give me the caloric intake that I needed.
+[99:09] but what you're presumably reading for apart from just the enjoyment of reading it
+[99:14] is to be able to recall it and for it to be woven into the broader mental landscape that you've got
+[99:20] which actually probably means you need to spend time and attention with it and some of the
+[99:25] leanness and brevity that comes with an article uh actually might work against you maybe you need
+[99:32] it to be said to you in five different ways maybe you need the author to meander off onto a story
+[99:36] that takes three pages to explain about this guy who owned a Ferrari
+[99:41] and parked it outside of a hotel so that you can then come back in.
+[99:45] And each one of these is a little Velcro latch hook
+[99:49] that you can hook yourself into.
+[99:51] And yeah, I wonder whether the reading or discriminating toward reading
+[100:00] stuff that is exclusively shorter form results in the sense that I'm learning lots.
+[100:07] But if you are to actually do some sort of scrutiny around that, well, okay, how much of it can you
+[100:11] remember? How long did you spend with this idea? Did you spend long enough for it to be a part of
+[100:17] now your mental models and the framework that you, how much can you recall? That would be an
+[100:23] interesting challenge. And the frameworks of understanding are shallower just because it's
+[100:27] it's less time to establish them.
+[100:29] So like in a subset,
+[100:30] it's not a bad thing,
+[100:32] but you know,
+[100:33] what can you do?
+[100:33] You're typically have like one idea and like,
+[100:36] here's something that supports that idea.
+[100:38] And here's maybe like a different idea.
+[100:40] And here's why that doesn't work.
+[100:41] And if that's all you're consuming,
+[100:43] that becomes your mental model for how knowledge is gained.
+[100:47] And I think we see a lot of this.
+[100:48] I mean,
+[100:49] think about internet culture now is much more conspiratorial.
+[100:54] And I don't mean in the like sort of grand conspiracy theory,
+[100:56] which it is,
+[100:56] but not in,
+[100:57] not just in the grand conspiracy type of thinking,
+[101:00] but in the confidence.
+[101:02] There's this quick jump to confidence,
+[101:04] where you're like, that's wrong because of this, and boom.
+[101:09] And you think that this is like the slam dunk case
+[101:11] or something like that.
+[101:12] That's a result of not reading a lot of books.
+[101:14] You read a lot of books you like okay this is way more complicated Doesn mean it way more complicated than you thought it was and there probably a clear truth here but clear truths are more complex like even the notion of what a clear truth feels like comes out of reading books right like you
+[101:30] understand oh ultimately like this person was right but it's complicated and like yeah this
+[101:36] was not so clear cut and this is like a compromise and this was really important and these factors
+[101:41] were here but honestly those factors aren't as big as you think and this factor really was more
+[101:45] important and so like this really was the right thing to do so even like your notion of what's
+[101:51] true or what's not true or what it means for something to be clear is like different than if
+[101:56] you're just looking at boom slam dunk i think it's a big problem online on both sides of the
+[102:02] political spectrum do this like you you want everything just to be this person is just garbage
+[102:07] and completely wrong.
+[102:09] And there's like this one simple thing I know
+[102:11] that means you're completely wrong
+[102:13] and I'm completely right.
+[102:14] And you're wrong in like the worst possible sort of way.
+[102:16] And that is like such a sophilific,
+[102:19] I'm saying the word.
+[102:20] Sophistic.
+[102:21] Yeah, exactly.
+[102:22] You said it, right?
+[102:23] I have to read more.
+[102:25] But it's sophistry for sure, right?
+[102:27] This idea of this is how truth and argument unfolds
+[102:31] is like there's an obvious flaw
+[102:32] that's easy for me to grok,
+[102:34] which I guess now could actually be a verb as opposed to just meaning to understand Also I could literally grok it I guess And now it clear that you wrong and I feel righteous you know And then we go seeking that And then we want to simplify everything in the world to you just terrible
+[102:49] This person is perfect.
+[102:50] And this idea makes the most sense.
+[102:52] And if you disagree with this idea, it's because, like, you want to eat children.
+[102:56] And, you know, it just becomes it's a different under.
+[102:59] This is what I think we get wrong.
+[103:00] It's not just like we don't have the right information.
+[103:05] We've changed what our notion of truth is because we're not exposed to the complexity of truths when you read not only a smart case for it, but then you read the arguments that they confronted.
+[103:14] And then you read someone else that's arguing against their point.
+[103:18] And you're like, oh, okay, I've seen the clash of minds.
+[103:21] And now in that clash, I kind of see what's going on here.
+[103:26] Like, yeah, the truth really leans this way.
+[103:28] and it's i feel really real conviction in that because i've seen like the best minds come at
+[103:33] this from either side and i really understand and it's not cut and dry but ultimately like this is
+[103:38] the right thing to do um that was like a very familiar thing to people and leaders like in
+[103:42] times past where you lose it if you're exposed to these uh low resolution copies these low
+[103:50] resolution simulacrums these easy to digest pre versions of argumentation and understand it It just changes the way your brain thinks about what true even means Yeah there an arc to sense that you kind of need to track And if you don track it you just assume that answers appear It like no no they don Cal you fucking rule
+[104:09] Let's bring this one home. Where should people go to keep up to date with everything you do?
+[104:13] Oh, God. CalNewport.com, I guess. My books are on Amazon. My podcast,
+[104:19] Deep Questions on YouTube or wherever you get podcasts. Newsletter at CalNewport.com.
+[104:23] Deep Work. Too many things going on now, Chris.
+[104:26] Deep Work is 10-year anniversary. I'm excited about it.
+[104:28] I replaced all the blurbs on the back.
+[104:32] Most of them are now organic.
+[104:34] I could just like people who have said things about it without me asking them to say it.
+[104:38] That's fun. And I have a master class out on this stuff, too.
+[104:42] So I don't know. It's everywhere. Too many places. I feel too busy.
+[104:46] For a person who's a digital recluse, you are everywhere.
+[104:49] But that's a function of focusing on quality, not quantity.
+[104:51] I can't wait to speak again, man.
+[104:52] This has been so much fun.
+[104:54] I appreciate the help.
+[104:54] Always a pleasure, Chris.
+[104:55] Always a pleasure to talk with you.

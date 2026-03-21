@@ -1,0 +1,841 @@
+# #1065 - Scott Solomon - The Insane Biological Cost of Living on Mars
+# Date: Sat, 28 Feb 2026 06:00:00 -0000
+# Duration: 82 minutes
+# Episode: 1065
+
+[00:00] What's the NASA Chappier experiment? It's just hit the 100-day mark.
+[00:05] Yeah, it has. Yeah. So this is basically a it's a simulation. It's a way of trying to understand what life would actually be like for people living on Mars. And the way that they're doing this is by they've created a mock up of a space settlement and they've built it in Johnson Space Center in Houston.
+[00:29] So just down the street from me here, really. And it's built to be kind of like what they think it would actually be like on Mars. Right. So they actually 3D printed it, which is one of the technologies that has been suggested for how we might build structures on Mars.
+[00:47] and then a group of, I believe it's four, a crew of four people have entered it and they are living
+[00:56] inside it, as you said, for a hundred days so far, but the plan is for it to last a full year.
+[01:02] So this is kind of like a thing that people do when they're trying to understand what
+[01:08] different aspects of space settlement might actually be like, is they create what are
+[01:13] called analogs, basically a model that sort of replicates some aspect of a space environment,
+[01:20] a space settlement in this case. And then they put people inside and try to sort of
+[01:27] understand what happens. So this is the second one that they've done. They did a full year already.
+[01:34] And this is the second full year study of people inside this kind of mock-up of a Mars
+[01:43] habitat. How much do you think they're testing physiological change versus psychological change?
+[01:51] Yeah, I think a lot of what these analog studies try to get at, and is true of this study as well,
+[02:00] is the psychology. Because of course, they can't replicate a lot of the physical conditions
+[02:04] of being on Mars. There's one third the Earth's gravity, right? They're not simulating that.
+[02:11] there's probably going to be a lot higher radiation exposure in a Mars habitat, and they're not
+[02:17] simulating that So some of the things that they can simulate are of course being in a confined space being in an area where you limited to what you brought with you They not able to kind of come and go and they not able to bring new materials and supplies in or out
+[02:41] And, you know, another big part of it is sort of the interaction between the crew members.
+[02:47] So what is it like to be, you know, more or less stuck with just the other three folks that you brought with you for an extended time period?
+[02:56] It's the most boring episode of Love Island ever filmed, but it lasts for an entire 12 months.
+[03:00] I really think they could make some reality TV shows out of these analogs because there's quite a few of these types of things that are in different places.
+[03:09] I went and visited one of them, actually, when I was researching my first book, which just touched on the idea of how we might change in space.
+[03:19] And that was out in Utah. It's called the Mars Desert Research Station and remote facility in a place in the desert that really kind of looks like Mars.
+[03:29] And so I went out there and visited a crew that had just begun a simulation. And it was fascinating to see kind of, you know, what they're doing and how the ways that they try to kind of make it feel realistic and the kind of things that they try to learn. And there's a whole bunch of these.
+[03:44] How much is space exploration an evolutionary event versus a technological one?
+[03:49] Well, that's really the thing that I'm most interested in. So my background, I'm an evolutionary biologist, right? And so the thing that got me most interested in this topic of like, how will people be affected by being in space is the question of would making a long term settlement on Mars or anywhere else lead to evolutionary change?
+[04:14] from my perspective, you know, I think it's inevitable. I think basically if you are creating
+[04:21] a situation where people are not just going and coming back, but they're going to live there.
+[04:27] In other words, they're moving there. That's where their lives are. And most importantly,
+[04:31] they're having families there. They're raising children there. Once you start talking about a
+[04:36] multiple generation, you know, generational presence on another world, we should expect
+[04:43] evolutionary change. That's how evolution works, right?
+[04:48] Well migration in the past has caused divergence right What was that Homo floresiensis Floresiensis yeah yeah Floresiensis That right The pygmy people So you an evolutionary biologist I been telling this story on the show for ages
+[05:06] Can you tell me if this is true or not?
+[05:07] So I'd heard they were Indonesia, right?
+[05:11] Yeah, that's right.
+[05:12] The island of Flores, which is today part of Indonesia.
+[05:15] So Indonesia, if anyone looks at it on a map,
+[05:17] it's kind of like someone's thrown crumbs over a table.
+[05:20] It's very broken up.
+[05:21] And what it seemed like was a particular hominid, homo previous species got split off and the island that they were on was very, very restricted in terms of the calories that they could consume in terms of the resources.
+[05:35] So that meant that over time, the smallest humans were the ones that were selected to survive because they needed the fewest calories.
+[05:41] then one of the the story that i've always told is this restriction in resources wasn't just
+[05:49] affecting the humans but it was affecting all of the other species as well so there are sites of
+[05:55] tiny three feet four feet high humans carrying tiny spears chasing tiny elephants or mammoths
+[06:04] so all of the creatures had been diminutized down to this tiny little level because they
+[06:11] we're all on this little island. Is that bullshit or am I right? Well, that is one of the ways that
+[06:16] we think about it. And you've got a lot of the story correct there. So you're absolutely right
+[06:20] that basically what people have found are the skeletal remains inside of a cave on this island
+[06:26] of Flores of these very short statured, small bodied hominids. The structure of their bones
+[06:34] shows us that they were different from any other species that we know about anywhere else in the
+[06:39] world that's ever been found. They've only ever been found from this one island. So based on that,
+[06:43] we assume they were restricted to the island. Somebody could later find them somewhere else,
+[06:47] and that would change the story. But for now, you're absolutely right that our understanding
+[06:51] is they only lived on this island. And because they're such short-bodied hominids, it's very
+[06:59] different from pretty much any other species. I'll tell you the actual twist to that in just a
+[07:04] moment. But yeah, we think what may have happened is that their ancestors made it there somehow.
+[07:10] They were stranded on this island and basically they evolved to be shorter. And as you pointed
+[07:16] out, they're not the only species that evolved to be smaller. We actually know that this is a
+[07:23] common phenomenon that happens to species that are isolated on islands is that they change size So there all over the world there all of these examples of these miniature species that live on islands And elephants are
+[07:38] actually a good example. There's small-bodied fossil mammoths and other elephant relatives
+[07:43] on islands like in the Mediterranean and elsewhere in Asia. So that definitely is something that
+[07:50] happens on islands. But there's more to it, which is actually fascinating because
+[07:55] on that same island of Flores, not only were there other small-bodied species, but there were
+[08:00] actually giants too. So the Komodo dragon from Australia, this is, sorry, not from Australia,
+[08:06] from Komodo, it was actually near the island of Flores. So there were species that were closely
+[08:14] related to Komodo dragons, but were enormous. These absolutely giant lizards. I mean, really
+[08:20] like a real dragon on that same island at the same time as Homo floresiensis. And that's the
+[08:27] thing that happens on islands is a lot of times they'll get smaller, but sometimes they'll get
+[08:33] much bigger. Think about giant tortoises like in the Galapagos Islands, right? So we call this the
+[08:39] island rule. And the idea is like things change size. They either get much bigger or much smaller.
+[08:46] And that seems to be true of hominids, which are basically humans or human-like
+[08:51] species as well. And I promised I would give you the twist. So there is actually,
+[08:58] since that discovery, there was another discovery of another hominid, also small-bodied,
+[09:04] on an island in the philippines and it's a different species it's no way yeah homo luzonensis
+[09:11] now uh luzon and so same effect but a different speciation that's the that's the interpretation
+[09:19] we think that this is like yet another instance where some type of hominid goes isolated and
+[09:25] became smaller so wasn't the flores man they were still alive like 10 000 bc 12 000 bc
+[09:33] I think.
+[09:34] So the initial dates when those fossils were first discovered were that they survived up until very recently by like, you know, historical, not historical, by evolutionary standards, by sort of the geological timescale that, you know, we scientists are used to.
+[09:51] Those dates have since been pushed back a bit as they've gotten more evidence.
+[09:55] So still quite recently, I think I want to say it's something like.
+[10:00] 50 000 years is now when they think they they finally disappeared but the thing is about that
+[10:06] that that still means that they probably overlapped with our species with homo sapiens
+[10:11] right so like the first homo sapiens were arriving in that area right around the time that
+[10:18] homo floresiensis disappears so coincidence you know um well i mean we've always thought about
+[10:27] this right like everyone's thought what would it be like to meet an alien uh we don't look at any
+[10:33] other species and think oh they're just like us i think they're a bit like us look at chimpanzee
+[10:40] you look at apes you they're a little bit i went to a um the windy impenetrable forest
+[10:46] which is uh shockingly penetrable actually yeah that it's a it's a tourist it's a tourist
+[10:52] destination i've been there as well my wife and i went there did you do the silverback gorilla
+[10:56] tracking thing we did one of the most amazing experiences i've ever had it was it was decided
+[11:00] i did the same thing as you and i'm five yards four yards away from this thousand pound monster
+[11:08] um and you think wow it's so much like us right but it's not you know it's not you know it's not
+[11:15] us um i wonder what i wonder what would have happened culturally if we did have a different
+[11:23] hominid species still floating around are they us or are they other would we have more kin
+[11:30] protection over them or something else but anyway i i think about this all the time i i agree with
+[11:35] you it is because we're used to as you said we're used to a world where the closest thing to us
+[11:39] is very different it's pretty different it's there's you know and uh and that is not the way
+[11:45] the world has been for the vast majority of our species history for most of our species history
+[11:51] There were multiple types of human on this planet, and we interacted with them.
+[11:57] Perhaps at varying degrees of peacefulness.
+[12:00] We'll see.
+[12:01] So this is the first time, if this is the case, if we go to Mars, if we settle Mars as humans, this will be the first time in history that a species will knowingly place itself in an environment that almost guarantees biological divergence.
+[12:18] Yeah, I mean, I think that's right.
+[12:19] I mean, you know, you can think about how our species has gone to extreme places on
+[12:24] Earth throughout history right Antarctica the bottom of the ocean these kinds of you know very high mountains But we generally didn go there to stay right There nobody that is living on
+[12:36] Antarctica, like raising their kids there and these kinds of things. And even in those extreme
+[12:43] environments, what we think of as extreme, you know, you can be in Antarctica and it's very cold,
+[12:48] don't get me wrong, but you could still walk outside and breathe oxygen, right? Your blood
+[12:53] doesn't boil if there's a leak in your habitat the way it would on Mars. So we're talking about
+[13:00] a very different level of extreme when we talk about how extreme the environment is on Mars.
+[13:06] So yeah, I think you're right. I think that it would be the first time that we would be knowingly
+[13:11] putting ourselves in that extreme of an environment and trying to actually live there.
+[13:17] Okay. Before we even get to Mars, what happens during spaceflight?
+[13:21] yeah so um you know it's it's funny because we haven't been flying in space for that long
+[13:27] right like you know we've got what it's like 70 years of of history of of human space already
+[13:33] looking past it we're already thinking ah we've you know space we've got that that's in the bag
+[13:37] what's next yeah and you know in the early days like we had no idea like literally people thought
+[13:42] like your eyes might pop out of your head if you go into space like that was a question could you
+[13:46] swallow? These were unanswered questions when people first went to space. But we've learned a
+[13:51] time. We know quite a bit now about if you were to get on a rocket, fly up to space, spend a couple
+[13:59] days there and come back, we could tell you with a lot of certainty what is likely to happen
+[14:04] to your body. And we know that the main effects are the change in gravity, right? You're in a
+[14:09] weightless environment typically when you're in space. And that does a lot to your body. It
+[14:16] causes your muscles to weaken because they don't have to work as hard, right? Especially like in
+[14:21] your lower body, your back. And because your muscles aren't working as hard, your bones
+[14:28] basically respond to muscle. And so they start to kind of break down. Like they basically
+[14:34] will start to absorb, the body will absorb some of the minerals, right? The calcium and the
+[14:40] potassium that makes up your bones. Is that just because they're not being strained?
+[14:45] Is this kind of like atrophy for the muscles, but for the structure?
+[14:50] Exactly. And actually, one of the ways that people have studied the effects of prolonged
+[14:54] space flight is through bedrest studies So just by not moving your body much it not a perfect replica but it does simulate some of the ways in which being in a lower gravity environment impacts the body
+[15:08] the circulatory system, right? Your heart's not having to pump as much to get blood through the
+[15:12] entire body, you know, to get blood up to your brain. You know, you got to work against gravity
+[15:17] here, but in space you don't. So we know a lot about that. We know that, you know, the fluids
+[15:24] in your body, actually, not just the blood, but all of your body fluids start to be redistributed
+[15:29] because gravity normally pushes them down towards your lower body. So if you look at
+[15:34] pictures of astronauts in space, you probably can tell, especially at first, their faces look kind
+[15:40] of puffy. Moon face. Space face. They've got space face. They have space face and they have
+[15:45] what they call chicken legs, right? Because their legs look super skinny because they've lost all
+[15:49] this fluid. So they look a little silly, at least at first. Um, hang on just on that at first,
+[15:54] does that mean that the body somehow reaches a new kind of equilibrium? So I'm going to guess
+[15:59] a lot of this is kind of what glymphatic, lymphatic clearance stuff. That's right.
+[16:04] Right. Yeah. So, so, um, now that we've had people that have stayed for, for longer flights,
+[16:10] you know, up to a year and even a bit longer, um, we have been able to see that like, yeah,
+[16:14] there are ways in which some of the systems in the body have like an initial adjustment period,
+[16:19] and then they start to kind of, you know, reach a plateau or they start to kind of return to
+[16:25] normal, you know, like the body when it has all of this extra fluid in the head or more fluid than
+[16:32] you're used to having in the head, your body interprets that as too much fluid. And so one
+[16:37] of the things that the body does is it starts to reduce the amount of plasma in your blood.
+[16:44] And so you're actually losing blood volume by being in space for a longer period of time.
+[16:52] And you start to reduce the production of red blood cells because your body's thinking, I don't need so much blood.
+[16:59] And so astronauts often come back from space anemic.
+[17:03] And that has other health implications, as you know.
+[17:07] So that is something that is like an adjustment that the body makes.
+[17:11] And then when you come back to Earth, you go through yet another adjustment.
+[17:16] And that's just gravity. There's also radiation.
+[17:19] So that something that is going to be really important for thinking about deep space because actually what we know about how radiation affects astronauts is mostly from how astronauts are affected by being in low Earth orbit So the
+[17:38] International Space Station is in low Earth orbit. It's orbiting the Earth, but it's close enough to
+[17:44] the Earth that it's actually still inside the magnetic field that is surrounding our planet,
+[17:51] which extends out quite far into space. And so that magnetic field actually traps a lot of the
+[17:57] space radiation and prevents it from getting closer to the Earth. So astronauts on the
+[18:02] International Space Station aren't exposed to as much radiation as astronauts on the Moon,
+[18:08] on Mars, or traveling anywhere beyond the limits of that magnetic field, the magnetosphere.
+[18:14] Those are called the Van Allen radiation belts. And interesting story how they were discovered.
+[18:19] I talk about that in my book. But, you know, yeah, we know that that radiation affects the body. Right. I mean, the thing that you typically think about is cancer and and the cancer risk for anybody traveling in space is certainly higher.
+[18:34] It's one of the reasons that NASA limits the amount of time that astronauts are able to go to space. Astronauts essentially will kind of time out at a certain point if they have reached a radiation exposure that NASA deems to be, you know, too risky.
+[18:53] And so, you know, that's a known risk. But, you know, we also know that, you know, there's things other than cancer that radiation does. Right. So radiation can have cognitive effects.
+[19:09] There's some really interesting research that looks at simulated space radiation and tries to understand, like, what does this do to to our nervous system?
+[19:21] Right. And research on on rodents, for example, shows that if they're exposed to simulated space radiation, they actually have slower responses to tasks that they've been taught how to do.
+[19:33] that's pretty concerning for anybody planning on going deeper into space quick thinking trying to
+[19:41] problem solve exactly whatever this pipe is that's just broken oh hang on the environment has made me
+[19:47] stupid yeah i mean there's a there's a thing that people call uh astronauts call um space fog or
+[19:53] space brain sometimes and space face and space brain there you go yeah exactly and and
+[20:00] You know, it's sort of like you're just kind of a little bit, a little out of it, a little slower to respond to tasks that you would otherwise be able to do quickly.
+[20:09] And, you know, they can adjust.
+[20:11] But if that is something that gets worse with more radiation exposure, that's important for us to know if we're going to spend more time in deep space.
+[20:20] How reversible are these?
+[20:21] We don't know.
+[20:22] So, you know, partly it's because the amount of radiation that those astronauts have been exposed to, as I said, isn't as great.
+[20:30] It's actually a different type of radiation even then.
+[20:33] So there's what's called these galactic cosmic rays that are out in space.
+[20:36] This is, you know, radiation zipping around from other galaxies, and it's largely trapped by our magnetic field.
+[20:43] so once you get out to the moon to mars you know any place that we might want to travel
+[20:49] that goes you know beyond low earth orbit we're talking about a lot more radiation exposure we
+[20:55] just simply don't know what that will do to people or especially if they're being exposed to it for a
+[21:00] much longer period of time this episode is brought to you by gymshark you want to look and feel good
+[21:06] when you're in the gym gymshark makes the best men's and girls gym wear on the planet let's face
+[21:11] it, the more that you like your gym kit, the more likely you are to train. Their hybrid training
+[21:16] shorts for men are the best men's shorts on the planet. Their crest hoodie and light gray marl is
+[21:22] what I fly in every single time I'm on a plane. The Geo Seamless t-shirt is a staple in the gym
+[21:26] for me. Basically everything they make is unbelievably well-fitted, high quality, it's cheap,
+[21:30] you get 30 days of free returns, global shipping, and a 10% discount site-wide. If you go to the
+[21:34] link in the description below or head to gym.sh slash modernwisdom, use the code modernwisdom10
+[21:39] at checkout. That's jim.sh slash modernwisdom and modernwisdom10 at checkout.
+[21:46] What was that story about how the Van Allen?
+[21:50] Yeah, the Van Allen radiation belts. So it starts with basically trying to figure out like,
+[21:56] where is radiation coming from? We can detect on the surface of the earth that there's
+[22:01] some radiation. And the initial experiments were actually done by putting radiation detectors on
+[22:07] hot air balloons and allowing those balloons to go higher and higher.
+[22:11] And the surprising thing was that the radiation exposure increased as they got higher and
+[22:16] higher in the atmosphere.
+[22:17] So at first people thought like the radiation is probably coming from Earth, maybe from
+[22:21] the center of the Earth.
+[22:23] No it coming from somewhere up high And you know even maybe it maybe it the sun right Well if it the sun then those exposures should be higher during daytime than during nighttime um and it wasn um they even
+[22:38] measured it during an eclipse it should it should like decrease slightly when the sun is being
+[22:43] blocked by the moon right it doesn't do that and then um what ended up happening was uh once we
+[22:49] able to send satellites deeper into space, the initial measurements, this is done on a Geiger
+[22:56] counter, right? So the thing that like clicks when you're trying to detect radiation, it makes like a
+[23:01] kind of sound like that, right? And the more rapid the clicks are, the higher the radiation exposure.
+[23:07] Well, the very first time one of these was sent up on a satellite, it's clicking, clicking,
+[23:13] clicking, the rate is getting higher, and then all of a sudden it just stops. So it's like,
+[23:18] what what the heck's going on what is there just no suddenly no radiation and it turned out no
+[23:24] actually there was so much radiation it was just overwhelming the sensors of the geiger counter
+[23:30] yeah holy shit exactly so i mean i've i've heard this is like i'm using the dramatized uh series
+[23:40] of chernobyl as my well i've heard geiger counters and they were in chernobyl is okay
+[23:45] um but even at least in the and it was trying to be uh accurate i think scientifically and um even
+[23:52] in that the geiger counter still made a noise it wasn't as if it blew out the top of it it was just
+[23:59] ticking super super fast so yeah if you think well there's an elephant's foot down there that's the
+[24:05] most radioactive thing on the planet but if you just go far enough away from us you go to a point
+[24:10] where Geiger counters just essentially top out.
+[24:13] That's pretty scary.
+[24:15] Exactly, yeah.
+[24:16] So what they did, they sent another satellite
+[24:19] with a different type of device
+[24:21] or calibrated differently or whatever.
+[24:22] And then we're able to determine,
+[24:23] oh yeah, you get to this certain kind of elevation
+[24:27] in orbit around the earth.
+[24:29] And all of a sudden,
+[24:30] there's just huge amounts of radiation.
+[24:32] So we now know that there's these Van Allen radiation belts.
+[24:35] There's like an inner belt and an outer belt.
+[24:37] So you can kind of picture this as like,
+[24:39] you know imagine a ball that's the earth and then you take a rubber band that's bigger than that ball
+[24:45] and then kind of pinch it in the middle around the ball so you've got this kind of two sort of
+[24:50] orbs coming out from uh from the earth and that the shape of the van allen radiation belts well that why if we didn have the iron core in the earth uh the magnetosphere magnetic sphere around us would all of these rays would just be able to pepper us i mean there would
+[25:09] be a ton of other problems as well but um one of them is that we would just get annihilated by
+[25:14] radiation okay so we've somehow me and you have survived our journey uh across space and we've
+[25:21] manage to land in Mars, some of the stuff may be reversible. Some of the stuff may not be
+[25:25] reversible. We'll see. We can't walk too much. We've got space face and space brain and chicken
+[25:30] legs. What will the different physics on Mars do to humans? Just more of the same from the space
+[25:38] flight? Is there anything else to say on the sort of physics of the system? Yeah. So, you know,
+[25:44] first of all, it takes something like six to nine months just to get there. So you're talking about
+[25:50] You've been traveling through space, microgravity, weightlessness for, let's say, six months.
+[25:59] So your body is going through all those things that we were just talking about.
+[26:02] Your muscles have become weaker.
+[26:04] Your bones have become more brittle.
+[26:06] The fluids have redistributed.
+[26:09] That has other effects like on our eyes.
+[26:11] The vision actually has a tendency to get worse.
+[26:14] So that's all happening.
+[26:15] Then you arrive on Mars.
+[26:17] And let's assume that the landing goes well.
+[26:20] And you are now on the surface.
+[26:23] Now, all of a sudden, you're in a one third gravity environment, three eighths, about one third gravity environment compared to Earth's gravity.
+[26:32] So you went from weightlessness to one third G.
+[26:37] And so now all of a sudden there's all this weight, all this force on your body.
+[26:41] Normally, even though it's one third of what's on Earth, it's an infinity more than what was in space.
+[26:46] Yeah, exactly. Exactly.
+[26:47] And so, you know, if you look at like, you know, anytime astronauts come back from from being in space, they need a lot of help in order just to get out of the spacecraft to walk.
+[26:58] It's like there's a long adjustment period.
+[27:00] So one of the things is just immediately like that, even though it's just one third G, that's going to be hard on somebody that has been in a weightless environment for that amount of time.
+[27:12] So if there's nobody else there to help you, just even getting out of your spacecraft might be robo legs, maybe some of those assistance things, devices.
+[27:21] I mean they trying to offset this I seen astronauts using the sort of hand crank cycling machines You know you can artificially recreate force and tension and pressure by using stuff that has it
+[27:35] built into the system itself.
+[27:37] But the globalness
+[27:39] of gravity,
+[27:41] working on the spine, working on the organs,
+[27:43] working on the lymph system, working on
+[27:45] circulation, working on
+[27:46] reproductive organs, working on...
+[27:49] I don't think
+[27:52] that
+[27:55] you're going to be really trying to pick up pennies here when there's a shit ton of hundred
+[27:59] dollar bills that you've left behind you. Right. Yeah, no, you're right. So, I mean,
+[28:02] astronauts do a lot of exercise in space. You're absolutely right. You know, using kind of
+[28:07] resistance because you can't use, you know, weightlifting doesn't make sense in a weightless
+[28:11] environment. And all of that is really meant to minimize the deconditioning that happens to the
+[28:18] body. Right. But it doesn't eliminate it. If you didn't do that kind of exercise and they exercise
+[28:24] about two hours a day every day.
+[28:25] So this is not like a small amount.
+[28:29] If you didn't do that, you'd be in way worse shape.
+[28:31] So we've arrived at Mars.
+[28:35] We've done our two hours a day every day.
+[28:38] Still, it's going to be a challenge to just get up and move around.
+[28:41] Who knows what the cognitive effects of that radiation exposure?
+[28:45] You've been exposed to galactic cosmic rays for six months.
+[28:48] Nobody's ever had that happen.
+[28:50] We simply don't know what the effect will be.
+[28:54] And then there's another factor. What have you been eating all this time?
+[28:59] You know, astronauts, you know, we're all kind of familiar with the idea of like freeze dried foods and stuff like that, that that astronauts typically bring with them.
+[29:09] They are having to bring kind of, you know, shelf stable food.
+[29:14] Um, but even in the international space station, they're able to occasionally resupply them with some kind of fresh food, some fresh produce. There's a story of, uh, Russian cosmonauts, the first to be, uh, living for a longer period of time on a space station. And, uh, and they smuggled in an onion and, and it was, it was the first ever birthday that a person had in space.
+[29:41] and they gave this cosmonaut an onion for his birthday,
+[29:45] and it was the most wonderful thing.
+[29:48] That is the most Russian shit I have ever heard in my entire life.
+[29:52] Yeah.
+[29:53] We have birthday.
+[29:54] We have onion.
+[29:56] Yep.
+[29:57] Contraband onion, no less.
+[29:59] A leaguer.
+[30:00] Yep. Yep. But like the point is, people really get excited about any kind of fresh produce that you can have. We have not made major advances in our ability to grow large amounts of food in any sort of space environment. This is something that people are actively trying to work on.
+[30:19] they have grown plants on the International Space Station, but at very small scales.
+[30:26] And the astronauts tend to get really attached to those plants. And so, you know, we think that's
+[30:32] going to be a major limiting factor in our ability to go deeper into space is what are we going to
+[30:38] eat? You know, people, nobody wants to go and eat, you know, canned food, packaged food for years
+[30:43] at a time without mixing it up with some fresh food. So that's another one of the challenges.
+[30:52] Given the radiation issues, does that mean there's going to be higher mutation load
+[30:57] just generally over time? I think it does. So I think we should expect that people are going
+[31:03] to be exposed to higher radiation, even if they're living in some kind of an environment
+[31:08] that's trying to shield, block that radiation.
+[31:12] Special 3D printed reflective anti-radiation.
+[31:16] But they've already done the nine months to get out there.
+[31:18] They're probably going in and out doing Mars walks or space walks
+[31:21] or some sort of equivalent thing.
+[31:23] And 3D printing machines, at least for the first few centuries,
+[31:27] are not going to be able to block everything.
+[31:29] And there's more radiation.
+[31:31] Yeah, I mean, even if you built a fully radiation-proof enclosure
+[31:34] that you could live in on Mars,
+[31:36] Who wants to go to Mars and never go walk around outside, right? I mean, you know, what's the point? So I think people will be exposed to more radiation. And yeah, radiation causes mutations, right? It causes damage to the DNA. And when the body repairs that damage, it's never a perfect process. There's always a risk that the repair leads to a change in the sequence of DNA, and that's a mutation.
+[32:02] So that's a health risk, but it also has implications for our ability to adapt over a much longer timescale of many generations.
+[32:14] What does it do to adaptability?
+[32:17] Well adaptation comes from natural selection and natural selection on its own can only really sift through whatever variation there is And so the only way you get new variation is through mutation mutation is the ultimate source of all diversity of all living things Why is this not a good thing then Does this not push the dice rolling more quickly
+[32:38] So I think that what we should expect, if we do nothing else, is that if we're able to live for many generations in a space environment like on Mars, it would mean that basically you are kick-starting the evolutionary process.
+[32:52] It would happen faster.
+[32:53] Why that is something we should maybe be concerned about is that's a very messy and unpleasant process.
+[32:59] You're basically talking about a lot of death.
+[33:00] There's going to be tons of errors.
+[33:01] There's going to be shed tons of errors.
+[33:02] That one doesn't work.
+[33:03] That one doesn't work.
+[33:04] That one doesn't work.
+[33:05] That one kind of works.
+[33:06] That one doesn't work.
+[33:07] That one doesn't work.
+[33:08] Yeah.
+[33:08] I mean, you're talking about a lot of suffering.
+[33:09] You're talking about a lot of death.
+[33:12] And so that's, you know, it would happen.
+[33:15] I think what I try to argue is that's sort of the default that we should expect is that if we're living for many generations in this kind of an extreme environment, natural selection will do its thing.
+[33:26] Mutation rates would be higher because of that radiation exposure.
+[33:30] And so basically the process that we normally think of as being generally pretty slow would actually happen faster.
+[33:37] Yeah, well, okay. But what about selection bottlenecks? Because if Mars is going to accelerate this evolutionary roulette, you end up with selection bottlenecks.
+[33:48] Yeah, the idea of bottlenecks, I think this is an important concept that we have to think about if what we're trying to do is create a long-term settlement.
+[33:56] Because we know that any time you take a large number of individuals and then you take a small number of them and put them somewhere else, right, you've gone through a population bottleneck.
+[34:07] That's, you know, basically it's like pouring. I do this simulation in my classes sometimes where you take like a bottle that's filled with like different colored gumballs. Right. And you know how many different colors there are. And then you pour out a few of them and then you ask, OK, is the proportion of different colored gumballs the same as it was in the bottle at the starting point or is it different? And of course, it's going to be different. It's never going to be exactly the same.
+[34:29] So you take a small number of individuals from a large group, it's not going to be representative. So that kind of reduction in population size that happens when you found a new population, it leads to rapid evolutionary change. And we call that the founder effect in evolutionary biology because it's a well-known phenomenon.
+[34:52] Anytime a new population is founded you tend to get a reduction of genetic diversity And whoever the individuals are that are the founders have this like really disproportionate effect on what happens later like they
+[35:07] they're really influential have you ever read seven eves by neil stevenson i have yeah
+[35:12] this is this is exactly what the founder effect is right that's right yep yeah i don't want to
+[35:16] spoil it it's in my it's in my first reading list that that lots of people have downloaded so maybe
+[35:20] loads of people that are listening also know the spoiler too um actually skip forward if you haven't
+[35:25] read 70 skip forward by about 30 seconds so halfway through the book after the moon explodes there's
+[35:30] seven women left i think only one of them can't reproduce i think one of them's like a matron
+[35:35] martial type lady or maybe there's eight and seven can reproduce and yeah you end up with these seven
+[35:39] different races in future and uh and and each one is very distinct and welcome back to the people
+[35:45] didn't read seven you end up you end up with this sort of very distinct lineage and um that's the
+[35:52] that's the best this is why hard sci-fi rules because i get to learn about real
+[35:56] real stuff and it's snuck in under the guise of it being a story oh there's so many examples of
+[36:01] how you know a science fiction author has already thought through a lot of the real challenges and
+[36:07] the real consequences um do you remember on uh do you remember in seven ebes that there was such a
+[36:13] scarcity of food halfway through that somebody invented the idea of soft cannibalism do you
+[36:18] remember that he ate his own he ate his own legs because he decided that in space legs were you
+[36:26] don't need them yeah arbitrary yeah yeah and he reduced his energy requirement and increased his
+[36:30] energy intake by eating his own legs so cool this episode is brought to you by whoop i have been
+[36:36] wearing whoop for over five years now way before they were a partner on the show i've actually
+[36:41] tracked over 1600 days of my life with it, according to the app, which is insane. And it's
+[36:48] the only wearable I've ever stuck with because it tracks everything that matters, sleep, workouts,
+[36:53] recovery, breathing, heart rate, even your steps. And the new 5.0 is the best version. You get all
+[37:00] the benefits that make Whoop indispensable, 7% smaller, but now it's also got a 14-day battery
+[37:06] life and has healthspan to track your habits, how they affect your pace of aging. It's got
+[37:10] hormonal insights for ladies. I'm a huge, huge fan of Whoop. That's why it's the only wearable
+[37:15] that I've ever stuck with. And best of all, you can join for free. Pay nothing for the brand new
+[37:20] Whoop 5 strap Plus you get your first month for free And there a 30 day money back guarantee So you can buy it for free Try it for free If you do not like it after 29 days they just give you your money back right now you can get the brand new whoop 5 and that 30 trial
+[37:36] by going to the link in the description below or heading to join.whoop.com modern wisdom that's
+[37:42] join.whoop.com modern wisdom so you've got habitats on mars 3d printed hopefully protective
+[37:49] but closed systems magnify small errors even more it's basically like being in a closed system
+[37:57] is more akin to being on an island than it is being in a city that's right yeah i mean you are
+[38:03] you are in an island right i mean you're in a place where you can live but you're surrounded
+[38:08] by an inhospitable environment and and so yeah i mean that's an island um yeah i think that's a
+[38:14] good way to think about it. So presumably there's going to be huge survival pressures on psychological
+[38:21] traits, maybe just as much as the physical ones. Psychological traits, definitely. And, um, and
+[38:28] skills. I mean, you think about who are the people you would want to send to establish a new, you
+[38:33] know, a new human population on Mars. I mean, you want people who are likely to be able to handle
+[38:40] tough situations, but you also want people who know how to do all different sorts of things.
+[38:45] You know, you need different skills, you need different, you know, personality traits,
+[38:51] but you also want to make sure you've enhanced the kind of, you know, probability of success
+[38:58] by making sure it's also a genetically diverse group of people. You know, I mean,
+[39:03] And the more genetically diverse it is, the more opportunity there is for natural selection to be able to help people to adapt in future generations.
+[39:15] So, yeah, I think it would have to be quite different from how we have kind of historically chosen who gets to go to space, right?
+[39:24] So you would actually want – oh, sorry, go ahead.
+[39:27] Well, so there's kind of this famous book from, I think, 1979 called The Right Stuff by Tom Wolfe. I don't know if you ever read that. It's one of the classic accounts of the early days of the US space program.
+[39:41] But that that title, that idea of the right stuff, like who is it that has the right stuff that gets to be the select few that go to space?
+[39:50] And at least initially for the US, it was all first of all, it was all men, it was all white men.
+[39:57] And then it was all like actually Navy men.
+[40:00] test pilots, right? So they took them from the military. It was only people who were already
+[40:06] in the military and they were chosen for their ability to be able to handle the physical aspects
+[40:13] of a launch and being in space and also the psychological challenges. And, you know, I mean,
+[40:20] the U.S. space program is a huge success, clearly. But if you use those same criteria to select
+[40:27] people for who's going to found a new population on mars you'd get such a tiny fraction of human
+[40:33] diversity you'd be setting yourself up which is only going to get more bottlenecked over time
+[40:38] that's right get tighter and tighter so you need to make the base of this pyramid
+[40:41] yeah as broad as possible so i mean i was thinking as you were speaking you know um people who have
+[40:47] brittle bones for instance maybe they have something which is actually useful
+[40:52] in there because all of the selection pressures that we have currently
+[40:55] we want someone who's big and strong why gravity is 30 percent of the maybe we actually want people
+[41:03] who are really petite and therefore they need fewer calories and therefore they don't need to
+[41:07] eat their own legs that's right when it when it comes to the personalities are there some
+[41:11] personalities that are more suited for space colonization than others well we do know from
+[41:17] a lot of the uh studies that have been done in analogs like we were talking about earlier um and
+[41:22] this includes things like people who are, you know, working in Antarctica in the most sort of
+[41:27] similar environment that exists on Earth to what it will be like that, right? You're in an isolated,
+[41:33] extreme, confined environment surrounded by, you know, hostile conditions. So, you know,
+[41:40] what are the factors that lead to success, especially for like people who are overwintering
+[41:47] in Antarctica? Like they're staying, you can't just, you know, leave whenever you want to,
+[41:51] because there's no way to kind of get a ship or a plane in.
+[41:56] People who do well in that environment are people who are good team players,
+[42:04] are people who are, you know, open about kind of how the experience is going for them,
+[42:10] willing to talk about it, willing to talk about it with others.
+[42:14] You know, you also want a good chemistry among the group, right?
+[42:18] So you don want you know all type A personalities because they likely to to kind of clash Right And so there all these studies that have like looked at the psychology of group dynamics An interesting one is you don want an even number of people
+[42:35] You want an odd number.
+[42:38] It's because it can split into.
+[42:41] Yeah, basically, it could split into factions and you need a tiebreaker.
+[42:47] Right. So there have been there have been examples of where that has happened and it hasn't always gone well.
+[42:52] So, yeah, so there's interesting lessons that can be learned from, you know, what happens here on Earth.
+[42:57] That is so good. Wow. OK, so you mentioned before about who gets to go to Mars first, sort of the best people, the strongest people, the richest people, the most obedient people.
+[43:08] Who do you think should govern Mars? Is it Earth governments? Is it companies? Is it the colonists themselves?
+[43:14] What about the politics? What about the astro Martian politics?
+[43:16] You know, I think we have this tendency to think about going to space as being like an opportunity to to, you know, start completely fresh and get it right this time.
+[43:26] And I'll you know, this like we're going to have a utopia in space.
+[43:31] I'm not convinced by that way of thinking about I think, you know, humans are humans and we should we should learn from what has happened before and and not expect that it would be different there.
+[43:42] So I think we need to try to, you know, do the things that seem to work well here on Earth.
+[43:48] Right. I don't think you want to have, for example, like, you know, a government from Earth dictating what happens on Mars because we know that that doesn't work well.
+[43:59] You know, we know that people need to have their own ability to to make their own decisions.
+[44:04] You want leaders who have skin in the game.
+[44:07] Also highly inefficient.
+[44:09] Sure. And there's a communication delay.
+[44:11] We haven't even talked about that.
+[44:12] You can't have this kind of conversation like we're having where one person is on Earth and the other person is on Mars because they're so far away that you'll have several minutes of delay between when you say something and when the person hears it on the other end.
+[44:27] And it could be up to 20 minutes, depending on where Earth and Mars are in their respective orbits.
+[44:34] So you can send emails or video messages back and forth, but you can't really have a conversation.
+[44:39] So, yeah, imagine a government meeting where, you know, you can't even like have a conversation, right?
+[44:45] You think it's dysfunctional now, man.
+[44:51] Yeah, yeah.
+[44:52] I mean look there was a campaign when Elon first started floating around the administration to decolonize Mars And what they meant by that was we don want the same horrible inequity oligopoly
+[45:12] powerful Matthew Principle bullshit to go to this new planet. It was pointed out that there's a
+[45:18] little bit of an irony in talking about decolonizing a planet that we haven't yet colonized.
+[45:22] uh but yeah the the the politics of this i think are just so so fascinating and again my my go-to
+[45:29] seven eaves from neil stevenson they need to work out what happens with murder what happens if
+[45:33] somebody commits a crime in space is there a prison who's the adjudicator what are the law
+[45:40] everything needs to be re-incentiated again and if you've got people from multiple different
+[45:43] countries so what the russians do it this way but the americans do it that way but the the ukrainians
+[45:48] do it a different way yeah well we disagree with your well we need to it's a new if people aren't
+[45:52] from nations anymore and if they are that those factions are just going to become splinters that
+[45:57] start to fracture what is supposed to be a cohesive unit into something which is
+[46:01] you know uh very individualized which you don't want but do you want to say to people that you
+[46:07] need to recant your current identity well after a few generations what does that mean and then
+[46:14] how do you avoid there being new splinter factions you don't have that much tolerance for error
+[46:19] with this stuff when it comes to governance you know you can have a good bit of tolerance for
+[46:22] error if there's 156 countries or something if you've got three pods and 200 people like
+[46:29] 10 people die that's a lot of that's five percent right there's a lot of people so yeah just i i
+[46:36] endlessly fascinated all right going going back to the um the personality thing the psychological
+[46:42] impact. What does long-term isolation in space do to the human mind? Why are closed ecosystems so
+[46:51] psychologically taxing? Well, I think there's a few things, right? I mean, one is just,
+[46:57] you know, knowing that you can't leave, right? This is something that, you know, again, people
+[47:02] in Antarctica research stations or, you know, some of the remote field camps that they experience,
+[47:08] You can't just go for a walk or say, that's it, I'm done.
+[47:11] I'm out of here.
+[47:13] A similar kind of thing happens to people who are on submarines,
+[47:18] like nuclear submarines that have to spend a long period of time submerged
+[47:24] during military operations right Can just step outside you pretty much stuck there The difference there is you know they working within a kind of a military hierarchy system is sort of
+[47:36] you know, built into, to the nature of the experience. That's not the case so much in,
+[47:41] in Antarctica, but you know, it's knowing that you can't leave is, is something that,
+[47:49] that definitely takes a toll, you know, and you have to, you have to train for it.
+[47:53] You have to be prepared for it and you have to have, you know, systems in place to allow people to to deal with whatever comes with it.
+[48:03] Right. So you need to be able to have, you know, for example, you know, a therapist available to speak with them.
+[48:09] You need to have, you know, resources in place to to to deal with crises when they do take place as well.
+[48:16] So so I think that's something that has to be built in. But there's an interesting other side to it.
+[48:21] Right. So so, you know, we think a lot about like, oh, how this is really going to be hard and it's going to be something that's going to have maybe a negative impact on on a lot of folks.
+[48:31] But there's also this idea that going to space can have a profound, positive impact on people.
+[48:39] So some of the first accounts of of astronauts really, you know, talk about like just the awe and wonder.
+[48:47] I mean, people still talk about that today.
+[48:49] Everybody that goes to space talks about how incredible it is.
+[48:53] Including Katy Perry, yeah.
+[48:54] Yeah.
+[48:55] Well, yeah, exactly.
+[48:56] Yeah.
+[48:56] I mean, everybody does.
+[48:58] I mean, how could you not?
+[48:59] Including the famed astronaut, Katy Perry.
+[49:02] And William Shatner.
+[49:03] Did you see when he went to space, he talked about this too?
+[49:06] What was it called?
+[49:06] The blue dot effect or the whole earth effect or something?
+[49:09] It's called the overview effect.
+[49:11] Overview effect.
+[49:12] Yeah.
+[49:12] So that's the term that's been given to this phenomenon by Frank White, who's a philosopher of space.
+[49:21] He did all these interviews initially with NASA astronauts and cosmonauts as well, and even up to more recent flights where we have people who are kind of everyday citizens that are going up on these commercial space flights now.
+[49:40] And so he has basically argued that people have this profound shift that happens to them by being in space and looking back at the Earth and seeing, for example, how thin the atmosphere is.
+[49:55] It just looks so fragile and delicate.
+[50:00] How, you know, the Earth doesn't look like it does on the maps. There's no borders between nations, you know, this sense that like we're really all in this together and then just the vastness of space. So, you know, we're a tiny little dot right in in the vastness of space.
+[50:14] And so he has argued that basically, you know, it would be really good for as many people as possible to go into space and have that experience because it makes us, you know, better people.
+[50:26] It makes us better stewards of of our planet, of our environment.
+[50:30] I get it. But the entire problem here is there's only one or two generations that are going to be actually traveling there as soon as you have kids.
+[50:37] the same tribal mechanism. Yeah. I mean, what makes you think that the steward of your planet
+[50:44] would change because you can see your mom and dad's home planet over there and you're on a
+[50:48] different one now? The same psychological effects are just going to kick in in a different atmosphere.
+[50:54] I think you're right. So this is one of the things I write about is that, you know,
+[50:57] I think it would be a fundamentally different thing for children born on Mars or born anywhere
+[51:03] else, right? You won't have that same connection. I mean, it's the same kind of phenomenon that
+[51:07] happens with, you know, with immigrant families, right? The first generation, they still feel very
+[51:12] connected to their home country and culture. And that lasts for a few generations, but eventually
+[51:18] you have this kind of like loose identity with that, you know, home country. And maybe you go
+[51:23] back and visit and maybe you adopt some of the, you know, the culture, the cuisine, the dress,
+[51:28] etc but um you know eventually people start to think of themselves as belonging to the place
+[51:34] where they look at me i drive i drive a camaro i've only been here four years and i've gone
+[51:38] completely fucking feral a quick aside if your sleep's been off you're taking ages to fall asleep
+[51:43] waking up at random times feeling groggy in the morning momentous's sleep hacks are here to help
+[51:48] they're not your typical knock you out supplement just overloaded with melatonin it only has
+[51:53] the most evidence-based ingredients perfect doses to help you fall asleep more quickly stay asleep
+[51:58] throughout the night and wake up feeling more rested and revitalized in the morning. These
+[52:02] things are an absolute game changer. I take them every single night and when I'm on the road.
+[52:08] They're unbelievable because they're pre-dosed. Just take this and your sleep will improve. What
+[52:12] you read on the label is what's in the product and absolutely nothing else. And if you're still
+[52:16] unsure, they've got a 30-day money-back guarantee. So you can just buy it completely risk-free. Use
+[52:20] it if you don't like it. If your sleep doesn't improve, they'll just give you your money back.
+[52:23] That how confident they are that you love it Plus they ship internationally Right now you can get a 35 discount on your first subscription and that 30 money guarantee by going to the link in the description below or heading to livemomentous slash modernwisdom using
+[52:37] modernwisdom at checkout. That's L-I-V-E-M-O-M-E-N-T-O-U-S dot com slash modernwisdom,
+[52:43] modernwisdom at checkout. So I think people understand that future humans will physically
+[52:50] be different right it makes an awful lot of sense and then if you understand how evolution works
+[52:56] there's going to be some speciation over time what i think is really surprising shocking to a lot of
+[53:03] people will be to consider the idea that martian human nature would be genetically distinct like
+[53:12] the texture of their minds and the way that their brains function would be not only distinct but
+[53:19] maybe unrecognizable. That sounds wild. Yeah. Yeah. I think that's possible. I mean,
+[53:24] one thing is, look, I think the most likely kind of environment that we would be living in,
+[53:29] like what we would build, where would we live on Mars would be underground because that is the
+[53:35] easiest way to create a habitat that is... You don't have to build anything.
+[53:39] Protect it. Yeah.
+[53:40] You get rid of the stuff that's in there. You don't need building materials. You just need
+[53:44] building holes. That's right. And you don't have to worry about the space radiation.
+[53:48] You don't have to worry about we didn't even talk about like meteor impacts. Right. Without Mars has such a thin atmosphere. It has no magnetic field.
+[53:56] Its radiation is very high. But also with that thin atmosphere, it's getting bombarded by meteors much more so than that than Earth.
+[54:06] You don't want a glass dome, you know, the way we often see depicted in sci fi.
+[54:12] you want something much more protected.
+[54:16] And so what's the, to your point,
+[54:18] like what is the psychology of an entire society underground?
+[54:25] Yeah, that's right.
+[54:26] That's right.
+[54:28] You know, what does that do to your,
+[54:30] sure, physical features like your eyes, your vision?
+[54:32] I mean, presumably using artificial light,
+[54:35] but what does it do to you psychologically?
+[54:37] How do you think about your spatial awareness
+[54:40] and your connection also with the environment.
+[54:46] I mean, for me, look, I'm a biologist.
+[54:47] I love nature.
+[54:49] I love being outside in nature.
+[54:51] I think most of us do in some way.
+[54:54] We have this idea that going on a walk in the woods or in a park it makes us feel better right There a benefit to being out in nature that we can all recognize And even just like having an animal
+[55:08] like a pet, right? Like I've got dogs, we all love to be around animals. We have to think about
+[55:14] what the world would be like if there wasn't nature around us. I mean, living on Mars,
+[55:21] There's no wildlife.
+[55:23] There's no forests.
+[55:25] Now, presumably, we'll build habitats and environments that allow us to live, and we'll have to grow crops and things like that.
+[55:32] But I think we're unlikely to bring much in the way of animals with us.
+[55:39] And so, you know.
+[55:40] Look at every sci-fi movie ever where they're trying to go to some new habitat.
+[55:43] Yeah, the physical effects start to kick in, and a few people do this.
+[55:47] But the big issue, justifying the future of Martian colonization through what I've seen in Hollywood, but it's how I can see it, that the psychological impacts are the things that are really, really destructive because they have a domino effect in a manner that the physical ailments are bounded, I guess, by, you know, I get sick.
+[56:10] You don't necessarily get sick. It's something happening to me. But if I become psychotic, I can take out an entire pod of people or I can do something catastrophic to the air supply or I can run out and get blown up. I do whatever myself. So, okay. Continuing future people, how are we going to do reproduction in space? What happens with keeping us going?
+[56:35] Well, I will say that in terms of what we do know and what we don't know about how space affects the human body and our ability to actually live in a space environment or another world, I think this is the biggest black box, the biggest unknown.
+[56:51] We have done so little amount of research on reproduction in a lower gravity environment, in a space environment, that the bottom line is we don't know.
+[57:02] We're sort of assuming anytime we talk about like, you know, moving to Mars or building a space settlement, we are assuming that reproduction is possible, that it will work well enough.
+[57:15] And that's actually something that we can't be certain of without doing more research.
+[57:19] There have been some studies.
+[57:21] So there have been some studies in space going back to the space shuttle days and certainly through the International Space Station era some rodent studies some studies on fish some studies on other invertebrate animals like sea urchins
+[57:37] But the bottom line is that it's kind of inconclusive.
+[57:41] We really haven't done enough and we haven't done systematic enough studies to know that
+[57:48] our own ability to you know um to get pregnant to have a a full pregnancy two-term childbirth
+[57:58] and then child development like the entire process of growing you know what happens to a child's body
+[58:04] as your your your bones are growing growing under in a one-third g yeah yeah yeah yeah we don't know
+[58:11] i asked um uh christopher mason you know him yes yeah yeah of course um he's been on the show
+[58:17] once maybe twice he was great and uh i asked him has anybody ever had sex in space and he gave me
+[58:24] this look you're giving me the look is now as well well it's a question everybody wants to know
+[58:29] absolutely and the bottom line is that uh officially the answer is no we've given you
+[58:35] the same answer we don't have any have you guys been given some sort of talking sheet or something
+[58:39] well that's exactly what this is a this is a topic that that comes up a lot so so there's a there's
+[58:44] you know uh a lot that's been written about it including i i write about it in my book um so
+[58:50] yeah we don't know we don't know nobody uh claims to have had sex in space and there is definitely
+[58:57] not any documentation of sex in space there was a married couple uh two nasa astronauts that were
+[59:03] on the same time if you think that a married couple are going to space and they're not gonna
+[59:10] They're not going to join the million mile high club.
+[59:13] You are out of your mind.
+[59:14] Yep.
+[59:15] And so because of that, there's been all this speculation that like, surely they must have.
+[59:19] But, you know, NASA was very hush hush about it.
+[59:22] The two astronauts in question were very hush hush.
+[59:24] I've asked about this, including, you know, contacts and friends of mine at NASA and in the space industry.
+[59:31] And one of the things that I've been told is like, look, if you know what it was like on the space shuttle, there was no privacy.
+[59:38] Like there is like if that happened, it would not have been done in private.
+[59:41] And so that maybe, you know, makes it a little less likely that it happened.
+[59:47] But OK, OK, well, someone's someone's got to be the first.
+[59:51] Right. And there's not many. That's the real territory to conquer.
+[59:54] I don't care about being the first on Mars. I just want to be the first.
+[59:56] I want to be the first guy to bone in space. OK, OK.
+[60:00] Reproduction, I've done a lot of episodes about embryo selection, about IVG, some stuff with artificial wombs.
+[60:12] Do you think it's realistic that reproduction will be technologically mediated to try and offset some of this stuff?
+[60:20] How is the reproduction process going to happen?
+[60:23] Here's the thing that worries me.
+[60:25] If what we're talking about is Mars, so you're talking about a one-third gravity environment, not a weightless environment.
+[60:29] one third gravity environment. I think the risk is once we're talking about people who have lived their entire lives, they're like a child born on Mars. Right. Who then, you know, basically is, you know, growing in that one third gravity environment their entire childhood. By the time they get to adulthood and are, you know, childbearing age. Right.
+[60:50] Um, imagine a woman who gets pregnant and is going to give birth.
+[60:55] She will have had her bones, uh, losing bone density her entire life because her genetics
+[61:04] are the same genetics that, you know, we all have here on earth, meaning that you're born
+[61:10] with a certain bone density, but in a one third gravity environment, your entire life,
+[61:15] you're losing bone density.
+[61:16] So her bones will have become more brittle and weak throughout her childhood and into her adulthood.
+[61:24] And now she is giving birth and experiencing the forces of the woman experiences during childbirth.
+[61:33] I think there's a real risk of fractures.
+[61:36] And we know that one of the parts of the body that's most prone to fractures from this kind of bone density loss is the hip and the pelvis.
+[61:46] You know, are you familiar with Piers Morgan? You know who he is? He fell off a single step and fractured his hip. So yeah, they are the fragile things.
+[61:57] And so, you know, the reason I bring it up is because that's a that's a kind of a fracture that could be could could actually be deadly if we're talking about it in the context of a childbirth, you know, that baby might not survive the experience of of childbirth.
+[62:15] And so what does that do then, you know, if we're looking about, you know, you know, the impact of this over multiple generations?
+[62:22] Yeah So one possibility is you just avoid the risk And so all births are done through C but that actually creates other situations because now if all the births are through c because you know vaginal
+[62:37] births are too risky now um you're selecting against women who can have vaginal births
+[62:43] yeah and and actually you've you've you've eliminated one of the constraints that has
+[62:49] existed throughout human evolution bigger and bigger bigger babies yeah so uh dr animation
+[62:53] you familiar with her no evolutionary biologist and psychologist she's in robin dunbar's lab
+[63:01] university of oxford she's wonderful and um she wrote a book called life of dad she's written
+[63:06] she's writing another one about dads actually as well and she tells this story about how dads
+[63:12] saved the human race because baby's heads got too big and her point is that um
+[63:18] babies get this massive head because it turns out that intelligence is really good for survival
+[63:25] but in order to get this big head out of that woman it without breaking her in half which
+[63:32] would have happened for a good amount of time there would have been many many many women died
+[63:35] in childbirth all the time but just straight up this baby is so big it will not come out and we
+[63:40] don't know how to do c-section because it's 5000 bc or it's 50 000 bc um dads were there to help
+[63:48] along not by pulling the baby out but by the women who were able to get the baby out this
+[63:54] neotenous blob requires six seven eight ten years of full-time monitoring so it doesn't get eaten
+[64:01] by something or fall off a cliff uh and that's where you need that's why humans have higher mpi
+[64:07] male parental investment than many of the speak not all species but many of the species
+[64:12] and uh yeah she tells she tells that story so you have basically the this uh reversion back to that
+[64:18] situation where because the constraint for baby size is no longer limited by birth canal if
+[64:26] everything's happening through c-section you revisit this issue that was occurring a few
+[64:32] hundred thousand years ago and uh yeah maybe you end up with ginormous babies that aren't being
+[64:39] selected against because and then maybe maybe it causes some other thing maybe sex becomes
+[64:44] difficult to do because we find out that some sort of selection pressure that birthing was
+[64:50] having on women physiology was in some way enhancing or productive towards the way that their other sexual function went like it a real you change one it a butterfly effect right You change one thing genetically and the whole house of cards can come down Yeah that right Exactly And so I think you know because of that that why
+[65:08] I bring up this, you know, one specific challenge that I think we maybe haven't thought through
+[65:13] enough yet. And that, as you said, could lead to all sorts of other sort of downstream consequences.
+[65:18] So, you know, bottom line is we don't know whether human reproduction is in fact possible in the conditions on Mars.
+[65:27] So this is one thing I think, you know, it would actually be relatively straightforward to do a lot of research, even in the low Earth environment, excuse me, low Earth orbit environment.
+[65:38] That would help us to kind of get a little bit more insight into that.
+[65:41] We'll get back to talking in just one second.
+[65:42] But first, if you have been feeling a bit sluggish, your testosterone levels might be the problem.
+[65:46] They play a huge role in your energy, focus, and performance, but most people have no idea what
+[65:51] theirs are or what to do if something's off, which is why I partnered with Function because I wanted
+[65:56] a smarter and more comprehensive way to actually understand what's happening inside of my body.
+[66:01] Twice a year, they run lab tests that monitor over 100 biomarkers. They've got a team of expert
+[66:05] physicians that analyze the data and give you actionable advice to improve your health and
+[66:10] lifespan. Seeing your testosterone levels and dozens of other biomarkers charted across the
+[66:15] course of a year with actionable insights to genuinely improve them gives you a clear path
+[66:19] to making your life better. Getting your blood work drawn and analyzed like this would usually
+[66:23] cost thousands and be a nightmare, but with Function, it's just $499 and now you can get
+[66:28] an additional $100 off, bringing it down to $399. Get the exact same blood panels that I get and
+[66:34] save $100 by going to the link in the description below or heading to functionhealth.com
+[66:38] slash modern wisdom. That's functionhealth.com slash modern wisdom.
+[66:43] will we okay how long will speciation take yeah yeah so okay here's the thing that i will say
+[66:51] about that so speciation right formation of new species this is something i you know i talk about
+[66:56] this in my classes with my students all the time um it's not a black and white thing like oh now
+[67:02] it's a new species right we as biologists debate constantly all the time about you know how to even
+[67:08] define a species where do you draw the boundaries between one species and another so partly it
+[67:13] depends on that. But that's sort of dodging the question, which is not what I'm trying to do.
+[67:17] I think the real question is how rapidly would you get individuals on Mars that we would recognize as being distinct from us right Like in some recognizable meaningful way And what I would say is I think it will happen much faster than what we would expect
+[67:38] based on what we normally are used to here on earth. And it boils down to this. So, you know,
+[67:46] we've already talked about how being on Mars is going to make people different, right?
+[67:51] Psychologically different, genetically different, culturally different, all of those things.
+[67:54] As long as you have people moving back and forth between Earth and Mars and able to travel freely between them and basically able to, you know, able to have sex, able to have children, able to reproduce.
+[68:09] So if you can kind of move between those environments, that will kind of reduce the differences between those populations.
+[68:17] Right. Like you're as long as people are exchanging genes, you don't get speciation happening very easily.
+[68:23] So then the question becomes like, well, is that going to be the case? Will it be easy for people to move back and forth between Earth and Mars? And I don't think it will be. I think it will be much harder for people to move back and forth between planets than we maybe have appreciated.
+[68:42] And specifically, I mean, like people born on Mars. I think even as soon as the first generation of people born on Mars will potentially have a great difficulty with coming back to Earth. For one thing, it's the gravity that we've talked about, right? A child born in a one third gravity environment is unlikely to build a skeleton that is strong enough to be able to tolerate Earth gravity.
+[69:07] and this is we've been talking about science fiction right so like this shows up in you know
+[69:12] i don't know if you watch the expanse or read the the series but it's like that's that's a
+[69:15] theme that comes up is like you know the idea that if you're from a lower gravity environment
+[69:20] high g is you know going to be painful if not torturous to you right that's right yeah gravity
+[69:26] torture is a concept from from the expanse um that's one thing i read that is it good because
+[69:32] I watched the first season, maybe season and a half, and then I kind of got a
+[69:37] little bit lost in it is the book.
+[69:39] How do you rate the book?
+[69:40] If seven eaves, if seven eaves for me is a strong eight, where's the expanse.
+[69:44] All right.
+[69:44] Here, here, here's my, uh, admission.
+[69:46] So I haven't read it.
+[69:47] I've seen the series, but I haven't read the, the, I haven't read it.
+[69:50] So yeah, my bad.
+[69:52] Um, but so, uh, gravity though is something that, uh, I
+[69:58] think will be a limiting factor.
+[70:00] But I think there's an even potentially bigger factor that will keep people from being able to move between planets. And that is microbes, germs, our immune systems. So what happens to the immune system of a child born on Mars? They will only ever be exposed to whatever the microorganisms are that we bring with us. And that's going to be a tiny fraction, right? I mean, they're going through the same bottleneck. The microbes are going through the same kind of bottleneck.
+[70:27] Oh, fuck. It's a big sterilization procedure for whatever you've brought with you, the peanuts and the wheat and the gluten and everything.
+[70:36] Yep, yep, yep, exactly. And so now you've got a kid who has never been exposed to the vast majority of what we're breathing in right now and just all the microbes that are surrounding us. I don't think they would be able to easily come back to Earth without a whole lot of protection.
+[70:52] name have you got a name for this because this is this is a a unique kind of it's not speciation
+[70:57] it's a a hardcore sort of an adaptation that's occurred due to being separated where you're no
+[71:06] longer able to go back to your original habitat is there a name for this i don't know that there's a
+[71:11] name for this specifically i mean i i think that though this is basically the setup for speciation
+[71:16] because what what do you do in that situation right you're locked into your new environment
+[71:20] Yeah, it would be too dangerous for people from Mars to interact with people from Earth.
+[71:25] And the other thing that's going to happen is over time, the microbes on Mars are going to be mutating, adapting, changing.
+[71:33] You're going to get new infectious diseases on Mars that don't exist on Earth.
+[71:37] They will evolve uniquely there.
+[71:39] Even just the bacteria in our microbiome are going to change by being on Mars, right?
+[71:45] I mean, they're also exposed to a lot of radiation.
+[71:47] They've also gone through a population bottleneck.
+[71:49] So now it becomes dangerous for people from Earth to interact with people from Mars because they've got germs that we're not used to.
+[71:57] So what do you do?
+[71:58] I think you enforce quarantine.
+[71:59] You don't allow or you very greatly reduce.
+[72:03] Quarantina.
+[72:04] Exactly.
+[72:05] So if you don't have close contact between people from Earth and people from Mars, you are accelerating how fast speciation will happen.
+[72:15] I mean, when is this?
+[72:18] I guess you know the Homo Florencius would have had that too because they simply couldn go back It wasn that they didn choose to go back It that they couldn go back But that being said are we really going to be able to get rockets that can do the round trip that doesn seem very likely until we start mining stuff on mark what you going to have a rocket that
+[72:39] going to be able to take people and all the payload and all of the stuff that's needed out there
+[72:44] and you're going to be able to have enough fuel i guess getting off at one-third earth's gravity
+[72:49] is probably a little easier it's a little easier to get off of mars because as you said it's
+[72:53] lower gravity um that's right um and uh and it is conceivable that we can just manufacture rocket
+[73:00] fuel there right so you can actually take um you know carbon dioxide and split it you've got oxygen
+[73:05] that's your you know uh that's your accelerant so um yeah so you can you can potentially make
+[73:11] rocket fuel there on mars uh and get back um but again i don't think the challenge is going to be
+[73:17] technological i think it's going to be biological i think the risk to uh people of going back and
+[73:22] forth and getting sick is going to keep people from doing it well there's the biological there's
+[73:29] the sort of immunological part here uh there's genes but there's also memes but what what about
+[73:35] a changing culture what do you imagine a culture of mars would look like because this is a culture
+[73:39] that's going to be forged under scarcity and danger and dependence and darkness perhaps it's
+[73:46] going to be pretty different. Yeah, I know. It's, I mean, you know, I think it's probably impossible
+[73:52] for us to know, I think, other than saying it would be very different, right? So, yeah, I think
+[73:57] it would be, it would have to be self-contained because there's not going to be as much interaction
+[74:01] because of the communication delays. So I think it would be a unique thing. And this, you know,
+[74:05] humans have done this, this type of thing over and over again. We reinvent ourselves. A culture
+[74:10] rapidly changes when we have, you know, people that go off to a new place, even just, you know,
+[74:18] for short periods of time. I'm thinking about like, you know, you go on a trip with somebody
+[74:21] and you come back with inside jokes, right? You know, it happens fast. But yeah, I think people
+[74:27] would be culturally different quite rapidly if they're living on Mars.
+[74:35] Dude, it's so fascinating. The fact that this is my job, that I get to speak to you and call this
+[74:40] a job is absolutely mind-blowing. This is so interesting to me. Okay, but I guess the cultural
+[74:45] evolution thing is going to feed back into the biological evolution. So you're tightening this
+[74:50] divergence loop You got the concerns from the biome the concerns about getting infected I guess what are the interesting ethical challenges that we got here what yeah this is a well there some pretty serious ones i mean here
+[75:10] the thing like you and i could uh could decide that we're comfortable with the risk of going to
+[75:15] mars right and and there are plenty of people who you know i've spoken with who are like yep i would
+[75:20] absolutely sign up to go future progeny. Yeah, exactly. What happens when you're talking about
+[75:26] bringing a child into the world who not only is living in a very dangerous environment,
+[75:32] but they might not ever be able to go back to earth. That to me is a totally different level of,
+[75:38] you know, of ethical consideration. So, you know, one thing we haven't really talked about
+[75:44] is the idea that, well, rather than just sort of let natural selection, let evolution do its thing,
+[75:49] Maybe what we would do is, you know, take matters into our own hands and and use, you know, use CRISPR, use, you know, biological and genetic engineering techniques to facilitate, to make it easier for people to deal with the extreme conditions there.
+[76:08] And, you know, obviously, there's important ethical considerations about, you know, altering our our genetics, especially if you're talking about altering unborn children, future generations.
+[76:19] But, you know, in some ways, though, the ethics are sort of, you know, maybe reversed compared to how we would think about this on Earth, because if you had the ability to alleviate suffering of an unborn child or of future generations, and if you didn't do that, is that ethical?
+[76:37] This is the entire argument that is put forward by the embryo selection crowd, which is as soon as you say that protecting against something that's really horrendous, some genetic defect that would cause you to be in pain or not live a flourishing life or whatever.
+[76:54] even myopia right even if you were to say we're able to select against people that don't have
+[77:01] good eyesight if you had why do you think that lasik and glasses exist because people want those
+[77:06] traits so if you have the opportunity to select against negative ones you immediately open up the
+[77:12] door for it's a single parallel or just it's a single spectrum from select against negative
+[77:17] traits to select for positive traits and that does seem the ethical thing to do now as soon as you
+[77:22] get into genetic enhancement that becomes a very different game to me That right Ethically as of yet i haven i convinced on the value of embryo selection heresite is is wonderful company that doing great things in
+[77:35] the space that johnny that runs it is just spectacular i i'm yet to hear an argument
+[77:42] for genetic enhancement that doesn't make my toes yeah curl underneath well and part of it i think
+[77:49] is because the question is okay you're you're arguing that this person's life is going to be
+[77:54] better, but are there other ways that you could make that person's life better without making a
+[77:59] genetic alteration, right? Without making such a permanent change. And so I think, you know,
+[78:05] any of the potential changes that we might make for a person here on earth, in most cases,
+[78:12] we have other ways of protecting them from that risk or improving their lives in that particular
+[78:18] way. For a child born on Mars, thinking about the gravity environment or the radiation environment,
+[78:25] right, there might not be any better way of doing it. So if that's the case, and if they don't have
+[78:30] a choice, if that's the only place that they can live, I think it might be different. Now,
+[78:34] I'm not saying that we definitely should do that, but I think that the ethics are,
+[78:38] I think, somewhat distinct when you're talking about having a situation where people don't have
+[78:44] the option of of of getting out of that situation right you don't have a way to get away from the
+[78:50] risk um but you know so there's multiple levels of ethics here is it ethical to condemn your future
+[78:56] generations and progeny to live on this environment which is going to be really inhospitable and
+[79:01] they've got to be underground and maybe they're going to flourish less well as soon as you do that
+[79:06] is it now incumbent on you to start manipulating their genomes so that they can survive this
+[79:11] prison that you had put them into more effectively than if they you know it's a real that's right
+[79:18] well and then and then there's the added on top of that is the possibility that by making those
+[79:24] changes you might be improving their ability to thrive in that environment but you might
+[79:30] simultaneously from being able to go back home exactly oh dude it's a mess it's such a mess
+[79:36] oh my god what do you do there's a lot of a lot of things well you know we don't have to go
+[79:43] that's that's one well then we're condemning ourselves to being single planetary species
+[79:47] and we just need one neutron neutron star to go off in the wrong at the wrong angle and then we're
+[79:51] done for so i mean this is the question that i ultimately wrestled with in in researching and
+[80:00] really understand what would happen, right?
+[80:02] What would be, if we go down this route
+[80:04] of people living beyond earth,
+[80:07] what should we expect will happen to those people
+[80:10] in future generations?
+[80:11] That's what the book's all about.
+[80:12] But throughout this, I sort of really struggled with like,
+[80:15] okay, given what we know,
+[80:17] is this a path we should be pursuing?
+[80:20] Like, is this the right thing to do?
+[80:22] And you're making a good point that like,
+[80:25] in the long run, we might have to
+[80:28] because we've got all our eggs in one planetary basket here.
+[80:32] So that's risky.
+[80:35] But the next question is when?
+[80:38] What's the timeframe for this, right?
+[80:41] And so to me, it's not that we should never go.
+[80:44] I think eventually, if we didn't do that,
+[80:47] we would be dooming ourselves to extinction.
+[80:50] It's a matter of how quickly should we be pushing this.
+[80:54] And so, you know, people differ, I think, if you ask them about like how urgent, how pressing a need is this.
+[81:04] Personally, I think we need to have answers to some of these unanswered questions like reproduction, right?
+[81:10] What happens to, you know, a child conceived and born and raised in a one third gravity high radiation environment?
+[81:17] I don't think it makes sense for us to go there until we really have good answers to those types of questions.
+[81:22] but the ethical things the the politics the psychology that we been talking about all of these are things we should be studying this right Like we need to know um and uh the technology is advancing The rockets are are are flying Let do the the experiments that and research that we need to uh you know to answer these questions that you know is more more life sciences more biology more you know psychology microbiology all these cool things Yeah
+[81:50] scott solomon ladies and gentlemen dude you are you are spectacular you are so fun uh i think
+[81:56] well thanks this has been great what a what an awesome topic to talk about where should people
+[82:00] go they're going to want to check out everything you're doing by the book all the rest of it yeah
+[82:05] yeah so i mean the book is is available now it's becoming martian um and uh mit press um so yeah
+[82:12] you know check it out um we did a streaming series too it's also called becoming martian
+[82:17] And that's on CuriosityStream, which was a lot of fun.
+[82:21] But I've also got a podcast.
+[82:23] My podcast is called Wild World, and it's all about fieldwork and exploration right here on Earth.
+[82:29] So, yeah, check that out, too.
+[82:31] OK, Scott, I appreciate you, man.
+[82:32] Until next time.
+[82:34] Thank you so much.
+[82:34] This has been so much fun.
+[82:36] You work in conformity or reporting in a financial institution.
+[82:40] With Dora, companies must submit an ICT register.
+[82:43] Deadline, March 31.
+[82:44] Mars. Copla Registry remplaces the Excel sheets by a system that automatically validates and

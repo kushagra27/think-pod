@@ -1,0 +1,1881 @@
+# #1066 - Dr Kathryn Paige Harden - The Genetics of Evil: Are People Born Bad?
+# Date: Mon, 02 Mar 2026 06:00:00 -0000
+# Duration: 180 minutes
+# Episode: 1066
+
+[00:00] What happened after the publication of your last book?
+[00:03] Oh, it was a wild time.
+[00:07] There's a lot of controversy.
+[00:09] There's a lot of pushback.
+[00:11] The conversations that I had with real people, not with other academics, but with just people who wrote me, people who happened to encounter the book in some way, that was fantastic.
+[00:24] um people wrote me and they said i've always wondered why i'm so different from my parents
+[00:30] or why i'm so different from my siblings and your work has given me a new way of understanding that
+[00:35] they um wrote to me about their decision to have kids or their decision not to have kids
+[00:42] and how thinking about genetics has shaped that so that part of the conversation which is the
+[00:47] dialogue between an author and their readers was fantastic i loved that and then there was another
+[00:53] part of the dialogue, which was me with other academics. And that was really surprising to me,
+[01:00] in part because I felt like some people needed to turn me into a villain in order to
+[01:07] get their own message out. And I was kind of caught off guard by that whole process. So
+[01:14] I wish I could say that I had a thicker skin now, but I don't in many ways. I really do care
+[01:23] what people think. I care about getting it right. So it took me a bit to think about how to get
+[01:29] myself back out there in terms of the ideas in the wake of that. Especially if you're doing
+[01:35] something that you think is trying to educate people about what is true. Yes. I'm trying to
+[01:40] emancipate you from ignorance and explain things that make you feel less broken and alone. And
+[01:48] And then someone comes in and says, well, actually, what she's trying to what she's really saying, dude, don't try and fucking imbue me with your perspective of who you think I am or what you think my work is.
+[02:01] And that's where we get indignant.
+[02:02] There's that line, right?
+[02:03] That the only insults that hurt are the ones that we believe.
+[02:06] I don't think that's true.
+[02:06] I think the only insults that hurt or the insults that hurt most are the ones that we think other people might believe about us.
+[02:13] I think the insults that hurt most are the ones in which I didn't recognize the person they were insulting.
+[02:21] So when you write a book you have ideas and they literally in black and white They on the text You can point and you can say look I wrote this and then when someone says she said x when i literally had said the exact opposite of that there something very
+[02:36] alienating and disorienting about feeling like you are talking but people are deliberately not
+[02:46] hearing you surely part of that must be a sense that other people could pattern match it as truth
+[02:52] though because if not if i call you fat you're not fat so you go well it's funny if i say that
+[02:58] you're too tanned you've got too much fake tan on you i'm not wearing any fake tan yeah so
+[03:03] obviously that's not going to land so that's what i mean that the lens through which these criticisms
+[03:08] at least seem to bite the most are someone somewhere might believe that this could be true
+[03:14] that's true the author sally rooney she's a novelist an irish novelist and she talks in
+[03:20] one of her books about there's you the author and then there's a version of you that wears your name
+[03:26] and has your face and everyone talks about her and but it's not you and in some ways she's saying
+[03:32] the exact opposite things and so you almost feel like there's like a doppelganger of you walking
+[03:37] around that is making the exact opposite argument that you are and i think you're right that it's
+[03:43] thinking that other people are going to think that she's me yes yes it's so disoriented this
+[03:49] weird shadow page yeah yeah it's also i think there's something about relationships like i
+[03:54] don't know if you've ever been in a relationship where you say something and the other person
+[03:59] doesn't hear it at all the way you intended and then you end up having this fight where you're
+[04:04] like but i didn't say that but you can't convince the other person that you didn't say that and
+[04:08] you're really just seeing the world and you're hearing words in a totally different way and it
+[04:15] makes you feel really estranged from other people I think when that happens like what's what's going
+[04:21] on that I can't get my message across clearly and as a writer words are so important to me they're
+[04:28] the way that I feel like I make sense of the world and I make change in the world and so when I when
+[04:35] I feel like my words are saying this and someone is saying the exact opposite I feel like wait what
+[04:42] what is happening here? My dad was really helpful in the whole process. So my dad was a fighter
+[04:49] pilot for the US Navy when he was a young man And he just kept saying you always get the most fire when you directly over the target And I just kept remembering that that there something about genetics which is a scientific field that really touches on issues that people think are really important in their actual lives not just academically
+[05:15] And so if I'm getting all of this fury about a book that I wrote as a college professor,
+[05:21] I must actually be talking about something important to people on some deeper level,
+[05:26] on some real level.
+[05:27] You did a big four million person study.
+[05:30] You were a part of that.
+[05:31] I did.
+[05:31] What did you learn?
+[05:32] Well, it wasn't just me.
+[05:33] There's many co-authors.
+[05:36] Science, especially with this, is very much a group endeavor.
+[05:40] And I was really lucky to work with two of my former trainees who are now independent scientists on that paper.
+[05:47] So we pulled DNA from 4 million people, mostly from UK Biobank, 23andMe customers, participants in a big study called All of Us.
+[06:02] and we were looking at what genes are more common in people who have done one of seven things.
+[06:11] So they have ADHD symptoms in childhood. They had sex at a young age. They have more sexual
+[06:19] partners. They have ever smoked pot. They are engaging in what we call problematic alcohol
+[06:26] use, which is drinking to the point that it causes problems in your life. They've ever smoked a
+[06:32] cigarette and they describe themselves as someone who really likes to take risks. I'm a person who
+[06:41] likes to take risks. So what we were looking at is genes that are more common in people who
+[06:46] not just do one of these things, but are more common in any one of these behaviors. Can we
+[06:54] find genes that are just generally involved in being a risk taker. Is that suite of things
+[07:00] altogether risk taking? Where's the ADHD part come into that? Well, ADHD is impulsivity and
+[07:06] hyperactivity. So one way you can think about it is this is disinhibition. All of these things
+[07:12] are behaviors that violate some rule, right? So someone says it's not healthy to smoke,
+[07:19] you shouldn drink if you have problems kids who have adhd or get the diagnosis of adhd because they doing things in school that they shouldn be doing um sexual behavior is moralized So if you having sex at 14 or if you having sex with very many sexual partners
+[07:35] that's against kind of a conventional morality. So they're all things where people are engaging
+[07:42] in a behavior in which they might experience consequences or might experience social judgment
+[07:49] and they're doing it anyways. So there's a risk-taking element there and there's a kind
+[07:54] of reward-seeking element there. And there's nothing magical about those seven behaviors.
+[08:00] They just happened to be the ones in which we had enough data, where enough people had done them,
+[08:05] and we could gather enough genetic data from people. And then we looked and saw what genes
+[08:12] could we discover that are associated with all of these things? And then what else about a person's
+[08:17] life do they project if we can tap into this genetic liability, this genetic predisposition
+[08:27] towards loss of risk-taking? It's actually a follow-up to a study that we published a couple
+[08:31] years ago. So it's a similar concept, but just more people this time, which gives you more power.
+[08:40] And it's interesting how much people vary in those behaviors. So to just think of one of them,
+[08:47] which is number of sexual partners. Number of sexual partners in our data set ranges from zero,
+[08:52] so people who are lifelong abstinent, to 99, because you're not allowed to put three digits
+[08:58] of sexual partners into the survey. So it's really a whole range of human behavior. And so thinking
+[09:05] about what are the genes that influence you at literally every stage of your lifespan, from when
+[09:12] you're a kid to you're turning into a sexually mature adolescent into you know substance use
+[09:18] and risk-taking in adulthood what got you thinking about wrongdoing and impulsivity and bad behavior
+[09:26] antisocial behavior i've kind of always been interested in it maybe it's the opposite of
+[09:32] me search because i was a very not cool not risk-taking adolescent but when i my first job
+[09:39] in science was in a mouse lab. So it was a behavioral neuroscience lab that studied mice.
+[09:48] And it was studying opiate addiction and withdrawal in mice. So it was getting
+[09:54] mice addicted to morphine and then taking it away.
+[10:00] And seeing if we could manipulate something about their biology, about their brain, to make them more or less addicted to that opiate substance.
+[10:09] More resilient.
+[10:10] Yeah, more resilient.
+[10:12] And this was when I was a college freshman, so 1999 to 2000.
+[10:20] When I started, the draft of the human genome hadn't even been completed yet.
+[10:26] but my PI was using a method where you manipulate how genes are expressed in the mouse brain so my
+[10:33] very first job in science my my only job before that had been being a waitress at this like diner
+[10:39] in South Carolina that served meat and three vegetables and you got the church ladies so I
+[10:44] went from that to working in this lab where my job was to basically do little brain surgery on
+[10:50] the mouse brains so put them on this little apparatus and drill a hole in their heads
+[10:55] and put a little shunt in so that we could inject things in this very particular spot in their
+[11:01] brains. And I just thought, this is awesome. Like this feels like science fiction to me.
+[11:08] We're taking this behavior that I've always seen. We can get into this if you want, but I was raised
+[11:14] in a fundamentalist household and a very evangelical Christian household.
+[11:18] So I was raised to think of drug use entirely in moral terms. Like this is about willpower,
+[11:25] This is about your relationship with Jesus.
+[11:28] And now we're modeling it in mice.
+[11:31] And now we're going to manipulate something in mice brains in order to see if we can change
+[11:39] that behavior.
+[11:40] It has something to do with their genes.
+[11:42] I just thought that was an incredible paradigm shift.
+[11:46] And so I never really switched my interest in risk-taking phenotypes or substance use
+[11:52] phenotypes.
+[11:53] What I switched was the species.
+[11:55] instead of studying it in mice, I study it in people.
+[11:59] What's the, talk to me about the evolutionary roots
+[12:02] before we even get into the really, really spicy stuff
+[12:05] of heritability of antisocial behavior and things like that.
+[12:09] Let's, the palate cleanser of evolutionary psychology.
+[12:12] What's the evolutionary roots of sort of aggression,
+[12:14] dominance, impulsivity, that kind of?
+[12:17] I mean, I think we're still figuring it out.
+[12:19] In fact, I have a project on this going on right now
+[12:23] to think about can we trace some of the specific evolution of the genes that are associated with these behaviors But there is a theory that essentially humans have self that they if you look
+[12:41] at us compared to our most, you know, closest genetic ancestor in comparison to chimpanzees,
+[12:47] all of us, all humans, males and females, juveniles and adults, engage in less aggression,
+[12:55] more cooperation. Our physiology has changed in ways that are less aggressive. We have,
+[13:03] you know, we've lost our big canines and we don't have the same huge jaw in the same way.
+[13:09] And so there's some interesting theories about essentially humans in their long journey towards
+[13:17] becoming this incredibly cooperative species, we selected each other to be more self-controlled,
+[13:27] more self-regulated. At the same time, there's a countervailing force there, which is that
+[13:37] there's a lot of ways in which some risk-taking is rewarded in a society and even necessary in
+[13:46] society. So I talk in my book about this one study where they looked at who was most likely to be a
+[13:52] successful entrepreneur by the age of, I think, 35 in the United States. And it was people who
+[13:58] had some level of, you know, what we might think of as social privilege or material resources. So
+[14:04] white men from middle to upper income families. But amongst them, who was most likely to become
+[14:13] an entrepreneur when controlling for white men from upper income families like amongst people
+[14:17] who might have because there's lots of them and not all of them not many of them become successful
+[14:22] entrepreneurs exactly most of them do not right so amongst people who might say have enough
+[14:27] resources raw material raw materials um who does become a successful entrepreneur and one of the
+[14:34] best predictors is did you engage in some delinquency as a teenager risk-taking yeah so
+[14:40] So were you ever arrested? Did you ever paint graffiti? Did you ever do not serious, not
+[14:46] serious aggressive delinquency, but something that was a little bit rule breaking, maybe
+[14:53] got in trouble at school maybe got in trouble with the law And you know entrepreneurs like that tracks right Like you can think of them as people who are like there a conventional way of doing things
+[15:06] And I don't really care that that's the conventional way of doing things. I want to
+[15:10] do it my own way. And so I think that as a species, we need cooperation. But then we also
+[15:18] need some level of risk-taking, some outliers. We need some level of deviance in order to push
+[15:25] the society forward too. And so these things are kind of always in tension.
+[15:29] The level of deviance is less because the waterline of domestication has also gone down.
+[15:35] Yeah. I think Rutger Bregman talks about the pupification is the term he uses. I was talking
+[15:40] to you before I came in about my friend Greg from Bloom. And I asked him, how is it that you have
+[15:46] managed to grow so quickly this huge company it's maybe going to be worth a billion dollars this
+[15:50] year and he unironically turned to me and said i just think i'm too retarded to work out what risk
+[15:57] is it's like i don't have it's not that i've overcome risk it's that i don't have the capacity
+[16:04] to be able to feel risk he's like i just don't it just it sort of doesn't register for me so he just
+[16:12] i put it all in black yeah and then put it all in black again and put it all in black again put it
+[16:17] he just keeps on betting the house and obviously that's going to be a competitive advantage and
+[16:22] you're going to end up with survivorship buyers the ones who stick it out because there's a lot
+[16:26] of people who are going to put it on black and they're going to lose yeah precisely so but you
+[16:31] don't need you don't hear those stories right you get self-sacrificing okay so we have um humans need
+[16:37] to cooperate more over time. That means that we need to have more pro-social behavior. We need to
+[16:43] be able to self-regulate. We need to not be deviating from norms. They become cultural
+[16:48] norms, which get enforced a little bit more too. We're worried about what other people think of us,
+[16:52] so on and so forth. And that opens up, if you're going to be a Viking that wants to raid Lindisfarne
+[16:57] and pillage and come back and not have trauma about it, if you're going to be a person who
+[17:03] aggressively goes to become chieftain and all the rest there's some opportunities that open up but
+[17:07] overall humans have built themselves into a pretty well regulated and self-regulated species
+[17:14] i mean compared to almost other all other species especially our primate relatives like we have
+[17:21] the ability to forecast into the future the ability to anticipate well if i do this then this might happen and then this might happen And the ability to take seriously the consequences not just for ourselves but for other people
+[17:35] So compared to many other species, humans have an extraordinary amount of empathy,
+[17:41] emotional empathy, the ability to feel the distress of other people, to be able to
+[17:46] anticipate what the other person is feeling. And that's, again, across sexes, across genders,
+[17:52] It's visible very early in life.
+[17:55] So we have this architecture of self-regulation that exists for a reason.
+[18:01] And then we also have, I mean, humans are just like an endlessly varying species, right?
+[18:07] Like I say in my book that in every crack in human sameness, we see evidence of the
+[18:11] genotype because that's the grist for the evolutionary mill is us being genetically
+[18:17] different from one another.
+[18:18] And so you're going to see that genetic variation and risk taking too. And that's not all, it can be very maladaptive at the extreme, but it's not maladaptive all the way through distribution.
+[18:30] As another example, there's, I mean, this is not risk-taking per se, but I think it exemplifies a similar point, which is that if you look at the genes that are associated with schizophrenia, so with this very serious mental disorder characterized by psychoticism, you know, hearing things, believing things that aren't true.
+[18:49] If you look at people who have a high number of those genetic variants but aren't schizophrenic, you see that they're more likely to be artists, they're more likely to be engineers, they're more likely to be musicians, they're more likely to be in creative professions, which is a hypothesis that we've had for a long time.
+[19:07] and to the extent that these genes that are bad genes or disease genes are also predisposing
+[19:15] people towards art and creativity that's going to keep them around in the human gene pool for
+[19:20] longer and i think my hypothesis is that is that it's a similar thing with this inhibition
+[19:26] that at the extreme that's very maladaptive outcomes but you know to the extent that your
+[19:33] friend has, you know, it's maybe a little bit further down.
+[19:36] Yeah, you get Greg from Bloom.
+[19:37] And then he gets lots of material resources and he has lots of meeting opportunities.
+[19:41] And, you know, he's seen as a very attractive partner and that's going to increase.
+[19:45] It's going to keep those genes circulating around in the gene pool.
+[19:48] It's an interesting challenge to look at pop stars or founders and think.
+[19:54] How many genes away from schizophrenia were you?
+[19:58] You know, I look at.
+[20:00] I don't know, like a Marilyn Manson or a Machine Gun Kelly or something.
+[20:04] I'm like, you are, I mean, you're pretty skitzy as it is.
+[20:06] You're fascinating, a fascinating individual.
+[20:09] Such an interesting life with all the different directions that you've gone in and dressing in cool, weird, different ways.
+[20:17] I reckon if I gave you just like another 5% of the genes, I reckon you could be completely crazy.
+[20:22] Yeah. Or if you'd had just that much worse of a childhood environment, right?
+[20:26] To activate it a little more.
+[20:27] Yes, like if they'd had the same genotype, but instead of it being channeled into creativity and being raised by nurturing parents.
+[20:36] Directed in the wrong way.
+[20:38] Abuse or maltreatment or even like a birth, you know, an insert, a difficult birth or labor and delivery experience of that kind of push them in that way.
+[20:47] An inverse question would be to look at schizophrenic people and think how many of you were meant to be artists.
+[20:52] and you just had the wrong foundations for the first decade of your life.
+[20:59] I have a friend here in Austin who was in the sort of psychedelic-y scene
+[21:05] that is everywhere in the city for a good while,
+[21:09] and I asked him, have you ever partaken in any mushrooms or anything like that?
+[21:14] He said, no, man, I've got a few close relatives that have got schizophrenia,
+[21:19] and I think he was 28.
+[21:21] so once you get past 30 or 35 i think the risk of it causing a schizophrenic break but is this
+[21:28] this this isn't just myth this is actual truth oh cool yeah so i think there's evidence to suggest
+[21:35] that people who have a family history of bipolar disorder and schizophrenia are potentially more
+[21:43] negatively affected by cannabis and by hallucinogens by psychedelic drugs generally
+[21:48] And that the risk for that first psychotic break is really, you know, most commonly 15 to 30, like really concentrated in young adulthood.
+[21:59] So if you've made it to your 30s without experiencing a psychotic episode, you've probably passed through the period of major risk.
+[22:10] That doesn't mean the risk is over, but it's a lot smaller.
+[22:13] And that tracks also about brain development.
+[22:16] We don't really see a fully adult brain in terms of the wiring of the prefrontal cortex until 27 to 30.
+[22:24] So if you thinking about not adding something that might disrupt brain development while it still cohering And then maybe it a little bit safer after that period of time
+[22:39] I told my kids, if you ever want to try psychedelic drugs, you should wait until after 30.
+[22:44] Have you got schizophrenia in your family?
+[22:46] We do not have schizophrenia in our family.
+[22:48] You just didn't want them to have a psychotic break anyway?
+[22:50] I feel like psychedelic drugs are really great. I mean, what they do is they disrupt your normal patterns of brain communication and they allow parts of your brain to talk to each other that don't ordinarily talk to each other.
+[23:05] And I think that can be really powerful in middle age when you're kind of tending towards a neurobiological rut, you know, and every day is the same.
+[23:15] But I think your 20s are already a chaotic time.
+[23:19] It's already a time of rapid development, rapid neuroplasticity.
+[23:23] I don't think there's a need to add that additional element of disruption to it at that point in age.
+[23:30] I mean, lots of people do, but I don't know.
+[23:34] Is there great data on is it worse to do it at 25 versus 35 or riskier? I don't know.
+[23:40] But I've done psychedelic drugs and I'm a psychologist that knows something about
+[23:45] neurobiology. And my reading of the evidence was like, I don't think this would be terrible,
+[23:49] but I think you should wait until your brain is cooked before you mess with it.
+[23:55] Before we continue, I've been drinking AG1 every morning for as long as I can remember now,
+[24:01] because it is the simplest way I've found to cover my bases and not overthink nutrition,
+[24:06] and that is why I partnered with them.
+[24:07] Just one scoop gives you 75 vitamins, minerals, probiotics, and whole food ingredients in a single drink.
+[24:13] Now, they've taken it a step further with AG1 NextGen,
+[24:16] the same one scoop, once a day ritual, but this time backed by four clinical trials.
+[24:21] In those trials, it was shown to fill common nutrient gaps,
+[24:23] improve key nutrient levels in just three months,
+[24:25] and increase healthy gut bacteria by 10 times, even in people who already eat well.
+[24:30] They've upgraded their formula with better probiotics, more bioavailable nutrients, and clinical validation.
+[24:36] Plus, it's still NSF certified for sport, so you know that the quality is legit.
+[24:39] Right now, when you first subscribe, you can get a free bottle of D3K2 and AG1 welcome kit, plus bonus AG1 travel packs.
+[24:47] And for a limited time, US customers also get a sample of AGZ and a bottle of Omega-3s.
+[24:52] Just go to the link in the description below or head to drinkag1 slash modernwisdom That drinkag1 slash Modern wisdom Do you think wrongdoing is something that freely chosen then
+[25:05] Just going straight into the free will question.
+[25:08] Yeah, well, look, are we born predisposed toward transgression?
+[25:12] I think we're definitely predisposed to our transgressions.
+[25:16] I think that luck, the luck of having your genes,
+[25:20] the luck of having your parents,
+[25:22] the luck of how those have combined um the choices that you make when you're not really
+[25:29] old enough to know the ramifications of those choices you know the choices that you make as
+[25:34] a young teenager all of that really shape the person that you are and so that person might be
+[25:41] well might certainly experience themselves as freely choosing but the person who is doing the
+[25:48] choosing the person that is deciding between the options that person is so profoundly shaped by
+[25:56] factors outside of their control on a set of train tracks yeah i mean i i find the free will question
+[26:03] actually i find the free will question not not the most interesting question because
+[26:12] the question of do we have free will is is a question about all of us either all humans have
+[26:20] free will or all humans don't have free will and even if we don't have free will we still have to
+[26:26] figure out how to treat each other and we still have to figure out how to get on with the business
+[26:30] of life i'm more interested in the question of um what given the science do we know about how
+[26:42] our genes our environments have shaped us and then given that given that we definitely know that
+[26:49] um how shaped we are by those forces what role should that play in punishment in reward and how
+[26:59] and again and how we treat each other i completely agree i'm not particularly interested in the free
+[27:05] world question annika harris been on she was great sam's been on i know you know him like
+[27:10] cool. Alex O'Connor, one of my friends, is big into this. It's fine. It's okay. But to me,
+[27:15] it feels like a little bit of a cognitive dead end. I'm sure maybe I'm just not smart enough to
+[27:19] fully... I appreciate the arguments of determinism and compatibilism and so on and so forth.
+[27:25] But for me a much more sort of functionally interesting one is to assume that we do and then play with the variables inside of it Inside of it Yes Yeah Okay This is the sandbox that we in
+[27:35] There's a cool idea that Derek Thompson came up with.
+[27:40] But not Derek Thompson.
+[27:41] Sorry.
+[27:44] Derek Sivers.
+[27:46] And he says, functionally true, but literally false.
+[27:49] Yeah.
+[27:49] And something which is functionally true, but literally false, but functionally true would be a belief that we have free will.
+[27:56] Oh, that's interesting.
+[27:57] Like, even if you're a determinist, acting as if you're not makes your life better because you don't outsource your agency.
+[28:04] Something that would be literally false, but functionally true might be porcupines can throw their quills.
+[28:11] They can't.
+[28:12] They're not dark players.
+[28:13] Yeah.
+[28:13] But if you give them a wide enough berth.
+[28:15] They can't.
+[28:16] They need to project them.
+[28:17] Yeah.
+[28:17] You're safer.
+[28:18] you're more likely to be safe um pigs are uniquely dirty animals morally dirty animals and you
+[28:24] shouldn't eat them they're morally just the same as pretty much any other animal uh but their skin
+[28:31] does carry a higher pathogen load especially if you're in sort of middle eastern style
+[28:36] so again literally false but functionally true yeah um uh treat the gun as if it's always loaded
+[28:44] yeah um so all of these things are interesting anyway that's my that's my position on that
+[28:48] Okay, so, Andy, so should we?
+[28:49] I agree.
+[28:50] I mean, I think the free will question is intellectually interesting,
+[28:54] but of limited practical utility for a lot of the questions that we have.
+[28:58] So, for example, someone runs someone else over with their car,
+[29:05] and you learn that that person had epilepsy,
+[29:08] and they were having a seizure when they did it.
+[29:10] And then you learn that that person knew they were epileptic,
+[29:13] but didn't take their medication.
+[29:14] And then you learn that that person doesn't have epilepsy, but was having a panic attack because they have a history of extreme childhood maltreatment.
+[29:29] And then you find out that, no, it's not that.
+[29:32] Make it stop.
+[29:33] Yeah.
+[29:33] So all of those are different reasons, right?
+[29:36] So we can think of like it's a seizure.
+[29:38] It's a seizure that's governed by this medication choice.
+[29:42] It's a panic attack.
+[29:43] It's a panic attack that's linked to their mistreatment history.
+[29:49] It's none of those things.
+[29:50] They seem to have mowed someone down in cold blood, but their father was also in prison for a violent crime and their mother's also in prison.
+[30:00] so in prison for a violent crime, and they might have inherited a tendency.
+[30:02] We have all sorts of wild intuitions, and people really differ in their intuitions about all those
+[30:08] scenarios, about who's the most culpable and who's the most blameless out of all of those.
+[30:15] And the free will question doesn't help you discriminate, right? It's like, from the
+[30:21] perspective of determinism, epilepsy and the choice not to take your epilepsy medication
+[30:25] and the being the psychopathic child of two psychopaths are all the same.
+[30:30] But that's not how people reason about things.
+[30:34] And part of what I was interested in this book project is,
+[30:38] okay, from the perspective of academic philosophy, these might all be the same.
+[30:42] But from the perspective of the average judge or juror or person in relationship
+[30:48] trying to think about why did this person hurt me and should I forgive them,
+[30:52] free will doesn't help us solve that problem.
+[30:55] And why do we reason so differently?
+[30:59] Literally true, but functionally false.
+[31:00] Yeah.
+[31:01] Literally true, but functionally false.
+[31:02] All right.
+[31:02] Heritability of antisocial behavior.
+[31:04] Yeah.
+[31:04] How does that look?
+[31:05] Give me the suite of.
+[31:06] The suite of it.
+[31:07] Okay.
+[31:08] So antisocial behavior are doing things persistently that violate social norms, moral norms, the
+[31:14] rights of others.
+[31:15] And so in childhood, this looks like skipping school, lying to parents, that's mild forms,
+[31:22] to robbery, to stealing, to hurting another person, beating them up, to torturing the family cat,
+[31:31] cruelty to animals. What we see is that the heritability, which is, to back up a second,
+[31:37] heritability is, are people who are more genetically alike more behaviorally alike? So
+[31:45] we see very high heritability, 80% for schizophrenia. So identical twins are not
+[31:53] perfectly similar for schizophrenia, but if your identical twin has schizophrenia,
+[31:58] you have a 50-50 shot of developing yourself, which is way higher than a base rate of 1%.
+[32:03] I thought you said it was 80%.
+[32:05] So the percent of variance is 80%. So that's kind of a benchmark that I think that people
+[32:13] can have in their heads about like a highly heritable mental disorder is something like
+[32:18] schizophrenia or bipolar disorder.
+[32:21] What we see is that childhood antisocial behavior is nearly as heritable as schizophrenia particularly if you looking at kids who also have what is called callous unemotional traits So callous unemotional traits is
+[32:37] basically like psychopathy in children. So children who hurt others, break rules,
+[32:46] upset their parents, and don't feel bad about it, don't feel guilty about it. And that's not just
+[32:53] risk-taking. That's not just, I want to do something and I am risk-tolerant. There's also
+[32:59] an element of, again, callousness, of lack of empathy towards whether other people are hurting
+[33:07] in that scenario. So what we see is that in children who have early onset of antisocial
+[33:15] behavior and antisocial behavior accompanied by these callous, unemotional, lack of guilt,
+[33:22] lack of remorse feelings. Some of the heritability estimates are also at 80%, just as high as
+[33:29] schizophrenia. Now, not every child who has antisocial behavior shows this lack of remorse,
+[33:37] lack of empathy. And some of them seem to be dealing with environmental factors that are
+[33:45] causing them to act out. So they might have a trauma history, they might have a maltreatment
+[33:50] history. So what you see is the heritability of antisocial behavior tends to be lower in those
+[33:56] kids. That seems to be more of a response to your environmental circumstances. Whereas it's the kids
+[34:02] where you look at the parents and you're like, these seem to be completely average parents.
+[34:08] They're not maltreating the child. No one's living in poverty. They're not living in a high-led
+[34:12] environment. And this kid is still acting in this antisocial way and doesn't feel bad about it.
+[34:18] That is the most heritable kind of subtype of conduct problems.
+[34:25] And it's a real problem in psychiatry because parents come to the psychiatrist or the doctor's office or the therapist's office and they're like, my kid is aggressive.
+[34:37] And my kid doesn't feel bad about the fact they're aggressive.
+[34:40] and that is the form of child mental health problems for which we have some of some of the
+[34:46] we have the fewest effective treatments for compared to say my child is depressed or my
+[34:51] child is anxious or you know even my child even if your child is manic there medication for that it not going to cure it but it going to manage the symptoms Whereas the persistently antisocial children we are at the limit scientifically of knowing
+[35:08] how to effectively help them and help their families.
+[35:13] How do you think most people typically interpret the behavior of a kid like that?
+[35:19] and what's a different frame that you would give them using a behavioral genetic lens?
+[35:25] Yeah. So I think often people describe interacting with really antisocial children,
+[35:34] their most common responses is avoidance or harshness. So a lot of times when people are
+[35:41] very callous, children or adults, you'll hear people say, and makes the hairs on the back of
+[35:47] my neck stand up there's this sense that there's something eerie or off or off-putting about a
+[35:55] child or an adult that doesn't seem to be displaying the kind of empathic distress at
+[36:03] another person's distress that we typically see in other humans and i think that spidey sense
+[36:10] feeling that my hair is on the back pretty adaptive and i think it's a i think it's an
+[36:15] old thing like i mean i think it's an evolutionarily old um mechanism to say okay there's something
+[36:22] about the the way this organism and trustworthy um or or and or they respond with harshness
+[36:30] like i they can't act this way they have to know they can't act this way you know i heard a line
+[36:35] a phenomenal line from my friend connor beaten from man talks the other day he says we try to
+[36:41] control that that which we feel we cannot trust yes and you see in relationships if you're concerned
+[36:48] about whether or not you're isn't my partner gonna stray are they gonna cheat on me on a night out
+[36:52] that is when you will see more controlling behavior well text me when you get there who
+[36:57] are you with and how long we out for you said that you were gonna go did you go to i saw a photo of
+[37:01] you in the background as opposed to i it's i feel like i can try i don't need to do control because
+[37:06] the trust is there.
+[37:07] And it feels like it's sort of the same here.
+[37:09] This,
+[37:09] this child that doesn't seem to be showing pro-social behavior and isn't
+[37:14] remorseful.
+[37:16] I don't trust that if they,
+[37:18] first off,
+[37:19] I don't trust that they're not going to do something bad.
+[37:21] And if they do do something bad,
+[37:24] I not convinced that they would own up to it or tell me or care enough to learn to not do it again So I need to come in as this sort of external structure to constrain this behavior Yeah I think that totally true
+[37:39] And I think with kids, the temptation is control and control through harshness. So I'm going to
+[37:46] take away all your toys. I'm not going to allow you to have playdates. I'm going to withdraw my
+[37:51] affection. I'm going to verbally berate you, shame you, blame you. I'm going to spank you or use some
+[38:00] sort of other corporal punishment. There are these studies from the 90s where they take a child with
+[38:04] conduct problems and they bring them into the lab and they have them interact with a woman who's not
+[38:09] their mom. So this is just a volunteer, no interaction with the child. And they see over
+[38:14] the course of the interaction that even this stranger begins to respond to the child with
+[38:21] no warmth, with coercion, with harshness, with impatience. And I think that's a very,
+[38:29] again, I think that you're picking up on the right thing, which is there's a fear and an
+[38:33] uncertainty and we respond to it with a lack of trust, with a control. And also the way that we
+[38:40] try to control children in our culture is often through a lot of harshness. The problem is that
+[38:46] is that those children are the most vulnerable to harsh punishment.
+[38:51] So one of the best predictors of an antisocial child escalating in their antisocial behavior
+[38:59] is how harshly have they been punished by the grown-ups in their lives.
+[39:04] Why do you think that is?
+[39:05] I think there's a couple of reasons.
+[39:07] One, I think that we're back to your friend, I'm not saying her antisocial,
+[39:12] but this attitude towards risk and potential negative consequences. Some people are much
+[39:19] more sensitive to punishment than other people. They learn immediately from punishment or they're
+[39:25] like, I lost it all. Let's go again. And I'm willing to do that same thing over and over again.
+[39:30] You see this even with animals where some rats, if you train them to press a lever and they get
+[39:38] alcohol for it, and then midway through the experiment, you switch it such that instead
+[39:43] of getting alcohol, they now get shocked. Most rats, 75 to 80 percent, will stop pressing the
+[39:50] bar. They're like, okay, well, I used to be able to get drunk off of this, but now I'm getting
+[39:54] shocked, so I'm not going to do this anymore. But there's a minority of rats who are not.
+[40:00] rats that will actually increase their rate of behavior. They will start pressing the bar more.
+[40:06] And I think some of that is like, I'm not learning from, to anthropomorphize the rat,
+[40:10] if I'm the rat in the situation, I'm not learning from punishment. I learned really well from
+[40:16] reward. So maybe this time, maybe this time, it'll be the time that I get this reward that I'm
+[40:23] expecting. And I think that there's the same sort of individual differences between people where
+[40:28] some people are very reward sensitive and not at all punishment sensitive. If they don't learn from
+[40:35] being punished, then punishing them isn't going to help them learn, right? And what we see with
+[40:41] children with antisocial behavior is that they're, one way to think about it is it's almost like a
+[40:47] learning disability, this inability to learn from pain, learn from negative consequences.
+[40:53] And so the parent is like, well, that didn't work. How do I ratchet this up further?
+[40:58] More extreme.
+[40:59] More extreme.
+[41:00] You don't get your phone for two months.
+[41:02] You don't get to see any of your friends.
+[41:04] We're going to take everything that you like out of your room.
+[41:06] You don't get to do sports.
+[41:08] And now they're like, or I'm going to spank you.
+[41:11] I'm going to berate you for being such a bad kid.
+[41:16] And if none of that punishment they're actually learning from
+[41:20] and all you're doing is taking away any opportunity for them to connect with you
+[41:24] and care about the reward of being in relationship with you,
+[41:30] then you're actually destroying the one handle that you might have,
+[41:35] which is people grow from connection.
+[41:38] People grow from wanting to be attached to another person.
+[41:42] So I think there's this really vicious feedback loop
+[41:45] that especially antisocial children can get in
+[41:49] where they elicit from adults the exact opposite of the treatment that they would need in order to
+[41:58] stop their behavior. That is so fascinating. We'll get back to talking in just one second. But first,
+[42:02] if you have been feeling a bit sluggish, your testosterone levels might be the problem. They
+[42:06] play a huge role in your energy, your focus and your performance. But most people have
+[42:10] no idea where those are or what to do if something's off, which is why I partnered
+[42:14] with Function because I wanted a smarter and more comprehensive way to actually understand
+[42:18] what's happening inside of my body.
+[42:20] Twice a year, they run lab tests
+[42:22] that monitor over 100 biomarkers.
+[42:23] They got a team of expert physicians that analyze the data and give you actionable advice to improve your health and lifespan And seeing your testosterone levels and tons of other biomarkers charted over the course of a year with actionable insights to actually improve them gives you a clear path to making
+[42:39] your life better. Getting a blood work drawn and analyzed like this would usually cost thousands,
+[42:42] but with Function, it's just $499. And right now you can get $100 off, bringing it down to $399.
+[42:49] Get the exact same blood panels that I get and save that $100 by going to the link in the
+[42:53] description below or heading to functionhealth.com slash modern wisdom. That's functionhealth.com
+[42:58] slash modern wisdom. What about when this evolves into adulthood?
+[43:05] Yeah. Well, I mean, I think that's what's, I think, so troubling and difficult for our moral
+[43:10] intuitions is that by the time someone's a man, if they're still impulsively hurting other people,
+[43:17] then of course we feel outrage at that how could you do that how can we stop you other people need
+[43:25] to be protected from you but every single one of those people was once a child and that
+[43:32] evokes more of our empathic response of did they did they ever really have a chance to be a
+[43:40] different sort of man if they if all of so much of this is rooted in the experiences and in the
+[43:47] neurobiology of their childhood development. So where this really, I think, comes to a crucible
+[43:56] where we don't really know what to do as a society is around adolescent school shooters. I mean,
+[44:02] you see how confused our response to this is, right? With someone's 15, you now have states,
+[44:08] some crimes where the shooter is being tried as an adult and their parents are being charged
+[44:15] as responsible for providing with the gun. And when you see something like that, you're like,
+[44:20] we have no idea what to do with teenagers as a culture if we're saying both the parents are
+[44:25] responsible for their behavior and a 15-year-old is responsible for themselves as if they were
+[44:30] a grown-up. That's a sign of, I think, deep moral confusion on the part of our society about what
+[44:36] we're going to do with, what do we do with people who harm and their harming is rooted
+[44:45] in this long developmental process that started way before they were, you know, really able
+[44:52] to make any real choices about who they were going to be or how their lives were going to go There is definitely a question when do you become culpable for your own actions We don look at a two They got a nature oh he a bit fussy a bit boisterous
+[45:08] And then you roll the clock forward and he's five years old
+[45:11] and pulling the wings off flies in the garden outside.
+[45:14] And then you roll the clock forward a little bit more
+[45:16] and he's setting fire to stuff in school and bullying the kids.
+[45:19] And this is now his fourth different education establishment
+[45:22] and he's been put on some special segregated thing and he's 14 and he's hanging around with gangs and
+[45:27] he's what where when do we say you are now culpable for your actions well i think that as humans as
+[45:36] individual humans that differs by people and it's really kind of uh i mean it's sort of also like
+[45:41] when is an animal conscious you know it's a it's a sliding scale there's a lot of gray there
+[45:47] And then you have a criminal legal system that's trying to take this fuzziness between a 13 and 18 year old and say, OK, this is the age at 16 or 15.
+[46:00] You can be tried as an adult. And but before that, you're you're a child.
+[46:06] This isn't just the United States. This isn't just high income countries.
+[46:11] They have the same debates in the aftermath of genocide in Africa and several countries because of the use of child soldiers.
+[46:22] And there's been this exact same problem, which is if someone was recruited by an army to be a soldier and hooked on drugs and given a machine gun at 13,
+[46:35] and at 18 they're still a combatant and committing war crimes to what extent are they culpable
+[46:43] for that are they a victim because they were they were made to go to war or are they an agent that
+[46:51] were holding responsible because now they're a grown man and they're still doing these things
+[46:55] in my book i talk about how some of the most successful programs for the re-entry of these
+[47:03] child soldiers are communities where there's rituals that that both recognize that they were
+[47:10] hurt and also ask them to um kind of admit responsibility and take responsibility for
+[47:17] the actions that they've committed whereas we have very little like that within the american
+[47:24] criminal legal system even within a lot of our relationships like i did a terrible thing I not an innocent victim And these are all the reasons that I was shaped to do that Holding both of those
+[47:39] in your head at the same time, I think, is a challenging thing for us.
+[47:43] What about addiction?
+[47:44] Addiction. I mean, I think addiction is this very similar process. I think that some of the
+[47:49] most sophisticated philosophers are people in recovery from addiction, like practical
+[47:54] philosophers. Because think about what being in recovery for addiction asks you to do,
+[48:01] even just the steps in AA. It's I'm powerless against alcohol. I'm going to submit to a higher
+[48:08] power. I'm going to atone and ask for forgiveness from other people. I'm going to vow to do
+[48:17] differently today. So it's this, I think that's a beautiful example of holding in mind those two
+[48:23] things that I was just saying, which is there's lots of reasons, including my brain, including
+[48:28] my biology, that I'm addicted to alcohol. I am powerless. I'm admitting my powerlessness against
+[48:35] this. And I'm taking responsibility. I'm seeking forgiveness. And I'm vowing to behave differently
+[48:42] today, one day at a time. And there's nothing about the academic philosophy of free will that
+[48:49] gets you to that point that is both radical compassion for yourself that's been shaped by
+[48:54] forces beyond your control and a determination to seek whatever agency and responsibility that you
+[49:01] can in like in this current present moment um so i think the addiction is an area in which
+[49:12] we are starting to get to a both and perspective. When it comes to violence, we have a lot harder
+[49:20] time doing that because then there's victims that aren't, you know, you can say like, oh,
+[49:24] the addict's just hurting themselves. That's not usually true. There's also other people hurt by
+[49:27] that. But moving the, keeping that tension in mind for other things like we do for addiction,
+[49:38] I think is a move that's difficult to do,
+[49:43] but I think a necessary one.
+[49:44] Yeah, because the blast radius of damage
+[49:47] begins to cover other people.
+[49:49] Yeah.
+[49:50] And in that we have a desire for retribution,
+[49:53] revenge, to make an example of somebody,
+[49:55] et cetera, et cetera.
+[49:56] I guess, is there not a relationship between
+[50:00] between people's genetics and their ability to choose or enact agency yeah that's such a good
+[50:06] question i i really do think that everyone has i think that everyone can change i don't think
+[50:16] that everyone's capacity to change necessarily comes through their own willpower i think often
+[50:22] people change because their community helps them change does our willpower come from our own
+[50:26] willpower? Yeah. I mean, I think everything about us is related to our genetics. Like,
+[50:32] there's no part of ourselves that's exempt from coming from the brain that we have. I think often
+[50:38] people think of, well, my sins are the genetic part. That's the flesh, my addiction, my riskiness,
+[50:46] my temptation, my tendency towards aggression. And then there's some, you know, willpower or
+[50:53] like overcoming part that's like somehow not your body or sometimes somehow not your genes um that
+[50:59] everything is related to your genetics both both your smoking and your quitting smoking both your
+[51:05] addiction and your recovery even your belief in free will is heritable uh is more similar and
+[51:13] identical twins persuasion size of stomach ghrelin release yeah i mean it's this again
+[51:20] And heritability studies or twin studies or genetic studies are never going to tell you, like, this part's your body because this other part is your soul or your spirit.
+[51:31] It's all your body.
+[51:32] It's turtles all the way down.
+[51:33] It's genotype all the way down.
+[51:34] You're never going to find some aspect of yourself that's sort of exempt from being embodied.
+[51:40] um i talk in my book about this uh study of twins reared apart where um two of them
+[51:51] met in later life and realized that they were both very religious and both believed in
+[51:58] both free will as a reflection of god's grace and the author of the study was talking about
+[52:05] the irony that they see themselves
+[52:08] in terms of this
+[52:09] spiritual freedom
+[52:11] but even that belief in their spiritual freedom
+[52:14] is very similar to their
+[52:15] long
+[52:17] long separated
+[52:19] identical time
+[52:20] then the study was done
+[52:23] by this guy Lyndon Eves who was in addition to being a behavior geneticist also an Anglican priest a fellow Englishman who came over to the United States
+[52:35] And what I love about Dr. Eve's writing, I guess Reverend Eve's writing,
+[52:40] is that he really resists either ors.
+[52:45] He's like, I am a man of the cloth, and also I have studies showing that your genes affect
+[52:53] whether or not you believe god right so like how do we put those together that's kind of a mystery
+[52:59] of being human it's messy and this is one of the reasons why i think um the behavioral genetics
+[53:06] argument in the same way as the evolutionary psychology argument i'm sure you've seen
+[53:09] uh cory clark's study that she did a couple of years ago of what are the most reprehensible
+[53:13] things to talk about and the two that came up were your area of work in evolutionary psychology
+[53:18] um it's much cleaner to say it is all environment it is just blank slate all the way down because if
+[53:27] we take we know that it can't be entirely and the behavioral geneticists are never apart from
+[53:32] huntingtons are never saying it's exclusively on your genes and as soon as you open the crack
+[53:38] the optics of the argument just fall apart because it's nowhere near as pithy as
+[53:42] it's just environment bro um is there a difference in heritability
+[53:50] of antisocial behavior that's sexed do men yeah inherit more uh accurately more is is the
+[54:03] heritability a greater effect on boys than it is on girls generally no but i there's one exception
+[54:10] that I want to come back to. So what we see is that the genes that are associated with antisocial
+[54:16] behavior in boys also affect girls. If you have a fraternal twin, if you're female and you have
+[54:23] a fraternal twin that's a male sibling, then his antisocial behavior predicts your likelihood of
+[54:29] manifesting it, that the same liabilities are reflected in the same way. So the same
+[54:39] genetic liabilities make you more likely to be physically aggressive. They make you more
+[54:43] likely to be relationally aggressive. They make you more likely to be substance using.
+[54:47] They make you more likely to be risk taking. It's just for everything the mean for men,
+[54:52] the average for men is shifted up Oh so the same impact would have a sorry the same raw materials would have a greater impact in real life yeah yeah yeah the same way as women commit suicide sorry women attempt suicide more than men
+[55:08] but men commit suicide more than women yes their ability to enact violence antisocial stuff tends
+[55:14] to be greater so it's magnified right interesting and so you know part of that is around social
+[55:19] opportunity. Like for many years, you know, women were very discouraged from drinking,
+[55:24] very different, were discouraged from smoking. So you saw a big sex difference in smoking and
+[55:30] drinking. Now it's more socially acceptable for women to smoke and drink. And so that average
+[55:35] difference has narrowed and it's the same genes that seem to be involved in both. The exception
+[55:41] there is that most of our current studies have focused on what are called the autosomes. So we
+[55:46] have 23 pairs of chromosomes. One pair is the sex chromosomes, XY or XX, and typically developing
+[55:53] children. And then the other 22 pair are the same across sexes. And nearly all of our contemporary
+[56:01] studies have focused just on those 22 pairs of autosomes for kind of boring technical reasons
+[56:08] that I'm not going to get into. We're just now really diving in to the X chromosome to see,
+[56:15] is there something about the X chromosome that might have specific effects on antisocial behavior.
+[56:22] And the reason why that's interesting is because men only have one X, whereas women have two.
+[56:28] And so men are much more vulnerable to the effects of a genetic variant that's X-linked
+[56:34] because they don't have another copy to compensate.
+[56:37] Oh, that's so cool.
+[56:39] So that's why colorblindness, for instance, is much more prevalent in men than versus women
+[56:43] because it's an X chromosome linked genetic variant.
+[56:49] That is so sick.
+[56:50] So the reason why we think the X chromosome might be important is,
+[56:57] and again, just to back up a second,
+[56:59] most of what we study in our lab is what we would call common genetic variation.
+[57:03] So these are genetic differences between people that exist in at least 5%,
+[57:10] sometimes people say at least 1% of the population.
+[57:12] The thing about common genetic variants is that they're common, which means that they
+[57:20] are likely to have a relatively small effect in isolation.
+[57:24] Because if they had a big effect evolution would make them not common would weed them out very quickly So you have this trade between how common is a genetic variant and how big of an effect how powerful it is So what we looking at is lots of common genetic variants
+[57:40] each of which have a tiny effect, but if you add them all up, then you get an appreciable
+[57:44] effect, one that's meaningful. But there are studies of rare genetic variants, and there's
+[57:50] one very famous study that was done in the 1990s where they looked at a rare variant on a gene on
+[58:00] the X chromosome. And that gene was called MAOA. So your monoamines are how your neurons are talking
+[58:08] to each other. It's like serotonin's a monoamine, dopamine's a monoamine. So monoamine oxidase is an
+[58:15] enzyme that basically is like a pac-man eating the neurotransmitter in your brain.
+[58:23] And if it doesn't work well, then you get this incredible buildup of the signals that your brain
+[58:29] ordinarily uses to communicate with each other. Okay, so why is that important? In this one family
+[58:34] where they found this genetic variant on the X chromosome, it made the MAOA enzyme not work
+[58:45] and all the men in that family suffered from extremely serious antisocial behavior problems
+[58:52] whereas their sisters were completely typically functioning so the men one raped his sister
+[58:59] one committed arson one stabbed his boss with a pitchfork huge levels of antisocial violence
+[59:07] in this family and their sisters and their moms were like what the fuck is going on here like
+[59:13] Why do my sons and my brothers keep doing this and we don't have this problem?
+[59:20] It's because they have two exes.
+[59:22] If they inherited the mutation, it didn't matter because there was another functioning version of the body.
+[59:28] To regress them back toward the mean.
+[59:31] They could compensate for it.
+[59:33] Whereas if you're a man and you only have one ex and you got this 50-50 shot, which of your mom's exes are you getting?
+[59:39] It's a 50-50 shot whether or not you were going to be antisocial.
+[59:43] So that's a rare variant. You know, the vast majority of people who are deeply antisocial do not have this MAOA problem.
+[59:52] Don't use the MAOA excuse.
+[59:54] They can't use the MAOA excuse. But I think it's important for two reasons.
+[60:00] And one is that we think of our moral faculties as our ability to not go around stabbing our boss every time we're mad at him in moral terms, in spiritual terms or in cognitive terms.
+[60:14] And it turns out that it's very vulnerable to disruption.
+[60:17] You can change one letter of your genome that changes one gene, which changes one enzyme.
+[60:23] and that capacity is really if not destroyed very very impaired and so the extent to which
+[60:32] our morality is a biological faculty i think is very much supported by the fact that we can so
+[60:39] profoundly disrupt it by this one change in our genome and the other thing that i find so
+[60:44] interesting about this case study is that um these men were in the criminal legal system
+[60:52] in the Netherlands and no one was like, oh, this must be a genetic problem. They weren't not guilty
+[60:59] by reason of insanity. They weren't, you know, lacking capacity to stand trial. They were
+[61:04] indistinguishable from the rest of the offending population based just on their behavior. And the
+[61:11] only reason we know that their behavior was due to this genetic cause is because of the familial
+[61:19] data that made the pattern of transmission so clear. And I think that really brings up the
+[61:25] question, how many other people who are persistently violent in families that are persistently violent,
+[61:32] there might be some genetic or neurobiological explanation that we just haven't discovered yet.
+[61:41] Like, we just don't know that. In the 80s, they would have considered it ridiculous. Like,
+[61:45] this persistently violent family it's you're telling me it's because they have a
+[61:50] one gene that's wrong like what if scene sounded like science fiction but that was the case for
+[61:55] this family um so i you know we haven't in modern genomics turned our attention very often back to
+[62:03] the x chromosome but my lab is doing this now and i'm i'm really excited about this project
+[62:08] in other news you've probably heard me talk about element before and that's because i am
+[62:13] frankly dependent on it and it's how I've started my day every single morning. This is the best
+[62:21] tasting hydration drink on the market. You might think why do I need to be more hydrated because
+[62:24] proper hydration is not just about drinking enough water it having sufficient electrolytes to allow your body to use those fluids Each Grab and Go stick pack is a science electrolyte ratio of
+[62:35] sodium, potassium, and magnesium. It's got no sugar, coloring, artificial ingredients, or any
+[62:39] other junk. This plays a critical role in reducing muscle cramps and fatigue while optimizing brain
+[62:44] health, regulating your appetite, and curbing cravings. This orange flavor in a cold glass of
+[62:49] water is a sweet, salty, orangey nectar, and you will genuinely feel a difference when you take it.
+[62:55] versus when you don't, which is why I keep going on about it. Best of all, there's a no questions
+[62:58] asked refund policy with an unlimited duration. Buy it, use it all. And if you don't like it for
+[63:03] any reason, they give you your money back and you don't even have to return the box. That's how
+[63:06] confident they are that you'll love it. Plus they offer free shipping in the US. Right now you can
+[63:10] get a free sample pack of Elements most popular flavors with your first purchase by going to the
+[63:14] link in the description below. Heading to drinklmnt.com slash modern wisdom. That's drinklmnt.com
+[63:20] slash modern wisdom it kind of makes me think well if suffering and vice are highly inherited
+[63:33] how do we justify punishment yeah that's the heart of the heart's the heart of the question
+[63:40] i i want to pull apart two ideas which are were very confounded in my mind too
+[63:50] which is accountability and punishment. So in my mind, punishment is
+[63:59] deliberately making someone suffer as retribution for the harm that they've caused.
+[64:09] Whereas accountability is saying, you've done this, you've harmed someone. We as a community
+[64:16] are enforcing our rules that you don't get to do that. And we're doing what we need to do
+[64:21] to keep you from doing it again and keep other people safe. The United States, we
+[64:29] hold people accountable, but we do it through a very retributive punishment system. We incarcerate
+[64:35] more people in worse conditions than any other country has ever done in the history of the world.
+[64:41] I think it's more people were incarcerated at the height of mass incarceration than were ever put in the gulag by the Soviets.
+[64:50] Like it a we have a truly massive incarceration and carceral state here So I want to reframe your question And I think your question is the question that I started my book at I started my book thinking
+[65:08] well, can we justify punishing people? And who deserves to be punished based on what we know
+[65:16] about science and i i have come to the conclusion that i don't think anyone deserves to suffer
+[65:26] and that doesn't mean that we have no rules and we don't hold people accountable and pulling those
+[65:33] two things apart is it's a very unsexy argument it's very unsexy it's incredibly unsexy well you
+[65:40] know because americans like the either or simplicity simplicity like um there's a philosopher
+[65:47] hannah picard who who writes about what she calls the rescue blame trap and the rescue blame trap is
+[65:56] this vacillation that we do where we say this person stabs his boss with a pitchfork this person
+[66:06] committed a horrible sexual crime.
+[66:09] They did it.
+[66:10] They deserve to be punished for it
+[66:12] because they did it.
+[66:12] They did this horrible thing.
+[66:15] And then you think,
+[66:18] oh, but they were maltreated.
+[66:19] Oh, but their genes.
+[66:21] Oh, but their neurobiology.
+[66:22] Oh, but their extenuating circumstances.
+[66:25] Maybe all of that rescues them from blame.
+[66:29] And that lasts for about 35 seconds
+[66:32] until you think about
+[66:33] what a horrible thing they did.
+[66:34] and then you go back to the rescue and it's this very unsatisfying cycle that we do see
+[66:43] seesawing between that this this person is awful and but i can also i'm a scientist i can think
+[66:52] about all the extenuating circumstances and it's unsexy and nuanced and difficult and i think takes
+[67:01] a lot of imagination practical and moral but what if you're trying to keep both of those things at
+[67:07] the same in your head at the same time rather than see-sawing back does that mean that somebody
+[67:11] who commits a murder but has a particular genetic profile should get extenuating circumstances
+[67:16] should be treated in a different way by the court i i mean i think that they i mean i think what we
+[67:22] do now which is like let lock you up with no therapy and no education and no possibility of ever being rehabilitated and never getting out again um that not good for that person which you might not care about but we also know that
+[67:37] it doesn't work to defer violent crime like it's just like not very effective i i agree i've had a
+[67:44] couple of conversations about the ineffectiveness of uh like retributive justice just punishing for
+[67:49] the sake of it let's use something else that isn't quite as uh contentious as whether or not
+[67:54] the penal system works well let's say that somebody has the genes to make them uh high
+[67:59] desire for sexual novelty yeah they cheat in a relationship and they have every genetic variant
+[68:06] under the sun that predisposes them to it and their dad cheated on their mom they had all of
+[68:12] the environmental factors that reinforced it should that person's partner take them back more
+[68:18] easily knowing that they had if we were able to say well my 23 and me on my intellex dna came back
+[68:25] and actually said that my dopamine but i've got the com t variant the like the double a for this
+[68:30] which means that my dopamine baseline's higher and i process cortisol in a different way and i
+[68:34] actually did i don't think so no not necessarily you know the extenuating circumstances outside of
+[68:41] the legal system i was trying to get to so i think the cheating partner example is a great example
+[68:46] Because one, I think it gets to why we find the kind of Roberts of Polsky determinist framework to be unsatisfying, which is that we matter to each other.
+[69:00] We matter to each other in this way that we call ethical or that we call moral. And we have a long evolved neurobiological architecture that is like, I experience myself as a mind that makes choices, and I experience you as a mind who makes choices. And when you make choices that hurt me, you can give me all the philosophical arguments all day long about why you were determined to cheat. I don't care.
+[69:28] there's this philosopher peter strawson who was writing in the mid to late 20th century
+[69:36] and he called these the reactive attitudes which is the resentment the blame the praise the
+[69:43] admiration that we have to each other and he basically said even if the thesis of determinism
+[69:50] is true there's no escaping the fact that we matter to each other in ways that generate these
+[69:58] reactive attitudes.
+[70:00] You know, I end up with a kind of genetic determinism that gets slipped in under a different guise with the predisposition of people towards certain types of behaviors, which is level of culpability changes.
+[70:13] There's an amount that you are culpable.
+[70:15] There's an amount of you that did this thing.
+[70:17] And then there's a bit of you that kind of didn't do this thing.
+[70:20] Yes. And again, as a behavior geneticist, I do not think of it that way at all.
+[70:25] Like it's sort of the way that people used to talk about the God of the gaps.
+[70:28] god was what we couldn't explain i think people are tempted towards like a free will of the gaps
+[70:33] right like however much you uh your behavior was heritable or genetically determined that's the
+[70:40] part that you're not responsible for and then whatever is left over in the remainder is the
+[70:45] part that you're responsible for yeah yeah i think the condition of being human on this planet
+[70:51] is that none of us chose to be who we are and we are responsible for all of ourselves anyways
+[70:58] and also that means that we should be kinder to each other and and more reluctant to make the
+[71:06] each other suffer for the sake of suffering yes thinking about the genetic lottery and the fact
+[71:11] that people start from different genetic baselines yeah certain people if your impulse control is
+[71:20] better you're probably going to do better in school you're probably going to do better in
+[71:23] higher i have to assume that you'll do better in higher education it means more qualifications
+[71:26] You're less likely to be suspended for bringing a gun to school.
+[71:29] Yes, we see that in the data.
+[71:31] All of these things.
+[71:32] And is it fair to say that one of the perspectives that you have about the world is that trying to re-level some of the genetic inequality so that everybody gets a more equal access to be able to be successful in life is one of the things that we should go for?
+[71:50] I think it can be.
+[71:51] So just if that's the case, when it comes to having somebody who stands in the accuser box or the accused, the persecutor box in court, should the same thing not happen, but just in reverse?
+[72:06] if we want to give a leg up to people who have a genetic profile which makes them less amenable to
+[72:13] the current reward system that this society has offered people does that not mean the same thing
+[72:19] just holds true when they've misbehaved as opposed to when they can't behave well yeah
+[72:24] so just some okay god i have so many different responses to this like my mind is going in five different places at once So to some extent we already do this And it in the criminal sentencing phase of trials which is the quote unquote mitigation phase And this is where someone says
+[72:41] Insanity plea.
+[72:42] No, not insanity. So insanity is, are you going to be exempted from the normal criminal penalties entirely? So if you are actively psychotic at the time of the crime, and you could not know that what you were doing is wrong, and you could not have stopped yourself, then that's not guilty by reason of insanity, which is rarely attempted, even less commonly successful.
+[73:11] I think it's like 1% of defendants get off by not reasoned by guilty of insanity.
+[73:16] Andrea Yates drowned her five children in Texas in the early 2000s.
+[73:23] That's an example I talk about in my book of a not guilty by reason of insanity.
+[73:28] What most people have is a, are you guilty or not?
+[73:32] Did you do it or not?
+[73:33] And that's not focused on, do you deserve to be punished?
+[73:37] That's focused on the facts of the-
+[73:40] Did you do the thing?
+[73:41] Did you do the thing?
+[73:42] And then there's a separate phase, which is the sentencing phase, at least for a capital crime, where it's how much does this person deserve to be punished?
+[73:53] And that is the point of the sentencing phase.
+[73:55] And that's where people come in and you have what are called mitigation specialists.
+[73:58] and their job is to humanize this defendant and say they were born preterm,
+[74:09] they were born addicted to drugs, they were deeply maltreated by their parents,
+[74:14] they were a victim of sexual abuse.
+[74:16] Here are the things that have happened to them that might explain how they got to this place.
+[74:23] what i find so interesting about that is there's this idea built into the system that some people
+[74:34] have been negatively affected by luck and then there's other people who haven't right like
+[74:40] there's like everyone everyone got to the place where they were doing if they're at this point
+[74:46] in a criminal trial They all gotten to this place somehow And then the options are are you going to be incarcerated with no hope of rehabilitation forever versus only for 25 years And that different from how other societies and other countries treat this problem which is
+[75:09] someone has harmed someone else grievously. What do we do now? So I think this whole process of
+[75:19] like um someone's done something and now we're going to try to adjudicate how much it was
+[75:26] environmental luck versus some magical free will that they might have versus genetics and then
+[75:32] we're going to send a blame value no point has have they brought genetics in well that's what's
+[75:38] i mean i find this fascinating on so many levels and it goes back to how academic philosophy
+[75:44] doesn't match the public conversation. The reason why they don't bring genetics in
+[75:48] is because bringing genetics in tends to make jurors and judges either has no effect on their
+[75:55] retributive sentiments, or it actually makes them more retributive. Oh, what was that experiment?
+[76:02] Wasn't this a mix? What was that experiment? It's a, okay. So there's an experiment where
+[76:06] they have people, well, there's several, but I'm going to tell you about this one,
+[76:10] where they have just ordinary average Americans come into the lab and they are
+[76:18] given information about a number of hypothetical sperm donors. And they say, you know, some people
+[76:26] say this sperm donor speaks French. This sperm donor is six foot four. This sperm donor has a
+[76:33] college education. This sperm donor has bipolar disorder. This sperm donor was later found to
+[76:38] committed a violent crime. And then they have to estimate what is the likelihood that a child
+[76:45] conceived from this sperm would be tall, would graduate from college, would speak French,
+[76:52] would also commit a violent crime themselves. And then they ask, okay, so in this situation in which
+[77:01] the child conceived from the sperm donor has committed a violent crime,
+[77:06] here's details of the crime
+[77:09] you're on the jury
+[77:11] you have to recommend this sentence
+[77:13] how many years in prison
+[77:16] do you think this person should get
+[77:17] so this person
+[77:19] I'm forgetting the exact details
+[77:24] but it something along those lines in this study this person came up to a couple and they were leaving a movie theater and they tried to rob him and they ended up you know killing the male half of the couple uh with
+[77:37] like a box cutter so violent impulsive no they have a superhero for a son and and so they're
+[77:45] asked to put themselves in the in the jury's place if you i'm asking you this so if you were a juror
+[77:50] and you had this case in front of you,
+[77:54] how many years in prison would you recommend as a sentence for that?
+[77:59] Just from that crime?
+[78:00] Just from that crime. You don't know anything else?
+[78:04] 20?
+[78:05] Yes. So that's right about the average.
+[78:06] I think the average in the study is between 20 and 25 years.
+[78:10] But what they find is that the people who believe that violence can be inherited,
+[78:16] so the people who believe that if the sperm donor was violent,
+[78:20] the child conceived from that sperm is violent regardless of their upbringing,
+[78:24] actually suggested higher prison terms rather than lower.
+[78:29] We need to keep that person incarcerated because they have so little control over
+[78:32] their behavior that they might go and do it again.
+[78:34] Yes, exactly. So there's this interesting thing where both genes and your environment combine,
+[78:41] they interact, they're interwoven to shape the person that you become who's more or less likely
+[78:46] to do these things. But people reason about the genetic causes and the environmental causes
+[78:53] differently, whereas the environmental causes are more likely to be seen as mitigating. If you say
+[78:59] this person committed a crime, but he was beaten by his parents. Oh, wow. That is so crazy.
+[79:07] Whereas if you say this person committed a crime and his dad also was violent and he
+[79:12] maybe even has inherited genes and makes you more retributive and that again like from the
+[79:18] perspective of like a sapolsky style determinism that makes no sense right they're both causes
+[79:24] but the average person the average juror the average judge reasons about the genetic causes
+[79:31] and the environmental causes oh my differently which i have lots of reasons i have lots of
+[79:36] thoughts as to why that is but i think that's part of like part of why we have we don't have
+[79:41] ready answers for how does our growing knowledge of the genotype fit into our everyday
+[79:47] blaming practices is because we as a culture are so confused about like, or not even confused,
+[79:57] but we reason about these things.
+[80:00] such different ways well let me give you why i think at least what's your theory about one one
+[80:04] part of it i mean first off that is fucking brilliant i mean it's tragic but it's absolutely
+[80:08] brilliant the fact that you can have someone for whom all of the raw materials of being very
+[80:14] aggressive and dysregulated and antisocial with low inhibition somehow makes them more
+[80:22] more deserving of retribution uh and maybe in some ways actually less culpable but more deserving of
+[80:30] retribution because in future they may do it again as opposed to this inherent sort of perspective
+[80:37] we have he was such a sweet boy until dot dot dot and then this thing happened and sort of perverted
+[80:43] or molested the direction of the that he would have been a good person i think most of us see
+[80:47] good in everybody else and that's probably a very uh a right idea to sort of trust first and then
+[80:52] scrutinize second um personally i think that the entire world needs to read uh the genetic lottery
+[81:01] and blueprint by fucking plowman because just nobody the number of people who actually understand
+[81:09] the genetic influence on behavior is essentially zero it's essentially zero like when you and this
+[81:17] has gotten worse i think we've learned less of that we've somehow managed to unlearn shit i mean
+[81:23] you even see this you even and and maybe it's that we don't know or that we ignore because there's
+[81:30] some fascinating studies around when you ask women what sort of traits they want in a sperm donor
+[81:36] versus what sort of traits they want in a partner you get some really interesting differences because
+[81:41] Because what you get to do is separate out the traits I want in my future children versus the traits I'm going to be attracted to.
+[81:51] Yeah.
+[81:52] Because I don't need your investment.
+[81:54] I don't need.
+[81:55] Yeah, that's interesting.
+[81:56] So when you split those up.
+[81:58] So just the fact that that exists shows that people, at least women, understand that their kids are going to be made of the raw materials of the person that they have them with.
+[82:09] But I think the big problem is just a denial of the genetic influence on behavior or a lack of understanding or a belief that there is some sort of a limit.
+[82:19] The very pervasive blank slate cysts perspective which you were thrown under the bus for going against after your last book And yeah any time that i want to try and talk about plowman or any embryo selection or anything it just hitler got a lot
+[82:38] to answer for right but this is another one of those things we should definitely come back to
+[82:42] embryo selection so i you said many interesting things in there thank you i think there's okay
+[82:48] so one interesting thing you said was with the guy who was abused you can think oh but he was
+[82:54] a sweet kid and then this happened. What you can do is you can imagine an alternate self,
+[83:01] an alternate person where this didn't happen to him and you can empathize with this counterfactual.
+[83:08] What would he have been like if he hadn't been abused? Or what would he be like if he hadn't
+[83:13] gotten a brain tumor? Whereas with genes, it's much harder to come up with the alternate
+[83:23] version of the person if they didn't have their genotype. And that gets into the idea of genetic
+[83:32] essentialism. So genetic determinism is my genes made me do it. My genes determined my behavior.
+[83:38] So maybe I'm less culpable for my behavior. And that's one frame that we can think about genes.
+[83:44] And it happens a lot, right? Like I, I am genetically predisposed to have a higher body weight. So therefore, I'm not at fault if I have a higher body weight. Like that's a conversation that we're having in our culture. And that's a genetic determinist frame.
+[84:02] But it can switch to a genetic essentialist frame where it's your genes caused you to be a bad, to do a bad thing. Therefore, you are a bad person, like an inherently bad person.
+[84:17] Genetic morality.
+[84:18] Yes.
+[84:18] You're bad to the bone.
+[84:20] You're a natural born killer.
+[84:22] You're bad seed.
+[84:23] Right.
+[84:23] We have these English idioms that reflect an idea that we can kind of wander into, which is there is an essence to a person.
+[84:34] There's a true self.
+[84:35] There's a deep down thing that is Chris.
+[84:39] And in a previous time, we might have thought that was your soul or that was your spirit.
+[84:43] And people talk about how genes have become a quote-unquote essence placeholder.
+[84:50] So now instead of talking about Chris immortal soul we might think well Chris genes are his true self his deepest self And it when people switch from genetic determinism to genetic essentialism that genes stop being reliably mitigating
+[85:09] because it's not, you were shaped by luck. And so therefore, none of us is fully under,
+[85:15] you know, none of us, none of us, Nietzsche said something like, no one, you know, dragged himself
+[85:20] by the hair out of the swamp, right? Like no one is creating themselves from scratch.
+[85:25] But if you switch to the essentialist frame, it's I don't care what your genes are.
+[85:29] Your genes are who you really are.
+[85:30] And now you're telling me that this person is essentially bad.
+[85:34] Like, why would that make me feel more sympathy for them?
+[85:38] A quick aside.
+[85:39] You've probably heard experts like Dr. Rhonda Patrick talk about the benefits of omega-3s.
+[85:44] They reduce.
+[85:44] Hello.
+[85:45] Omega-3s.
+[85:46] There they are.
+[85:47] They reduce brain function.
+[85:49] No, they don't.
+[85:49] They support brain function.
+[85:50] Maybe I should take more.
+[85:51] They support brain function, reduce inflammation, improve heart health, and are backed by hundreds of studies.
+[85:56] But here's the thing.
+[85:57] All Omega-3s are not made the same.
+[85:59] Most brands cut corners.
+[86:00] They use cheap fish oil, skip purity testing, throw in fillers, and call it a day.
+[86:05] But with Momentus, you know you're getting the highest quality Omega-3s on the market.
+[86:09] They're NSF certified for sport, and they're tested for heavy metals and purity.
+[86:14] So you can rest easy knowing anything that you take from Momentus is unparalleled when it comes to rigorous third-party testing.
+[86:20] What you read on the label is what's in the product and absolutely nothing else.
+[86:24] Best of all, Momentus offers a 30-day money-back guarantee,
+[86:26] so you can buy it and try it for 29 days.
+[86:28] If you don't love it, they'll just give you your money back.
+[86:31] Plus, they ship internationally.
+[86:32] Right now, you can get 35% off your first subscription
+[86:35] and that 30-day money-back guarantee by going to the link in the description below
+[86:39] or heading to livemomentus.com slash modernwisdom
+[86:41] and using the code modernwisdom at checkout.
+[86:44] That's L-I-V-E-M-O-M-E-N-T-O-U-S dot com slash modernwisdom and modernwisdom.
+[86:49] a checkout what about what else has been experimentally tested around retribution
+[86:58] i'm pretty interested in the role that this has yeah so retribution is something
+[87:06] so retribution is in in my mind the desire to make another person suffer
+[87:14] it is a instinct that emerges very early in childhood development there's some great work
+[87:21] by paul bloom and his colleagues showing that you know three are not that retributive but by the time you five five will pay stickers their version of money this prize that they really like in order to see someone who has been portrayed as taking away a ball clubbed by a puppet
+[87:46] So it's like you, children will pay to see someone that they think is a ball taker physically hit.
+[87:53] What do you think that is? Before we even get into that, what is the emotional drive for retribution?
+[87:57] I think it's an evolved cooperation enforcement mechanism.
+[88:01] I think that we experience dopamine being released.
+[88:09] We experience this kind of neurobiological mechanism of wanting.
+[88:14] When we do things that historically have been good for human survival and fitness.
+[88:20] right like we don't go walk around being like oh maybe i should eat in three days like it feels
+[88:26] good to eat it feels good to have sex it feels good to drink water because we have to do all of
+[88:32] that to exist and survive and propagate our genes and we also feel good we also see dopamine being
+[88:43] released in the ventral striatum when we see someone who's been portrayed as a wrongdoer
+[88:49] be made to suffer. Is that being tested experimentally? Yes, you can see that in the
+[88:54] scanner. So ordinarily, if you see someone be hurt, you have an empathic response. But if that
+[89:01] person who's being hurt is first portrayed as violating some cooperative or moral norm,
+[89:06] then what you see in the scanner is that people show a pattern that's consistent with reward when
+[89:12] they see that person suffer. And I think the fact that you see it in the same areas, in the same
+[89:18] neurotransmitters as you see other other basically rewarding processes is a clue that this is
+[89:26] something that was necessary that sense of at least outrage and um willingness to endure some
+[89:35] costs in order to enforce your cooperative norms against someone else willingness to endure some
+[89:41] cost?
+[89:42] So,
+[89:43] one way that we can also
+[89:45] see whether or not
+[89:46] someone's
+[89:47] find something rewarding
+[89:49] is,
+[89:49] are they willing to pay for it?
+[89:51] Like,
+[89:51] children will pay
+[89:52] stickers.
+[89:53] Adults will pay money.
+[89:56] And,
+[89:56] so that,
+[89:57] we,
+[89:58] there's these economic games
+[90:00] you see how much digital money will someone pay for the opportunity to punish a freeloader.
+[90:06] But if it was somebody that hadn't been seen as a defector previously, they would be like,
+[90:11] why am I going to give my money to punish this person that didn't do anything wrong?
+[90:14] I'd maybe even give you money to not punish the person that didn't do anything wrong.
+[90:16] That would be pro-social.
+[90:18] What it's got me thinking about, if we feel pleasure when somebody who is seen to have
+[90:26] contravened some social contract is punished this explains why hitler called jews vermin and rats
+[90:37] to dehumanize them because that then legitimates and traitors the globalist traitors that is their
+[90:43] transgression the othering thing makes sense the um reason that we want to care so much about our
+[90:51] reputation uh makes an awful lot of sense because somewhere in the back of our mind we realize
+[90:56] if I'm not careful and if the optics of Chris or if the optics of Paige are sufficiently poorly
+[91:04] interpreted that not only might other people not want to support me but other people might want to
+[91:10] punish me and not only might they want to punish me they might get pleasure from punishing me and
+[91:15] they might get pleasure from watching other people punish me and they might even pay a cost in order
+[91:18] to support it. So, you know, it really does reinforce what's important is not who you are.
+[91:27] What's important is what other people think you are. And I think you see this play out, you know,
+[91:33] empathy is painful. Like to see someone be hurt and hurt for them, hurt with them is so uncomfortable.
+[91:41] and if that person was a wrongdoer then i could alchemize that pain into pleasure
+[91:51] and i think that gives us the temptation to search for the ways oh this is how i'm going to get some
+[91:59] pleasure i'm going to find my morality is going to stand on the shoulders of other people that
+[92:04] have fallen behind so we saw this two interesting things that were obviously we're in the middle of
+[92:08] the fucking epstein furor at the moment and uh a couple of things that i've noticed first one was
+[92:15] um a bunch of memes floating around about mark zuckerberg and jeff bezos that neither of them
+[92:21] seemed to appear in the epstein emails at least not yet and um that was they were sort of lauded as super chads of the Internet because they hadn presumably they had the opportunity to go but they didn
+[92:35] Something like that. And that made me think, oh, people see morality as zero sum so that those two people, by doing nothing differently to what they'd done yesterday to today,
+[92:49] because the total amount of morality in the other people was decreased the remaining people have
+[92:56] sort of all been raised up by it but the fact that this owner of a fashion brand and this
+[93:04] shake were in the emails but other people who are peers of theirs weren't they lost so you gain so
+[93:13] there is this sort of supply, this fixed supply of morality.
+[93:17] And by some people losing it, others have been raised.
+[93:21] So it wasn't just you're not as bad as them.
+[93:24] It's you're actively better than you were before.
+[93:27] Yeah, the standards have shifted.
+[93:29] Yeah, you have been increased by this.
+[93:31] I thought that was really interesting.
+[93:32] I mean, I think if you see any victim of violence,
+[93:38] the process by which others then seize on what they might have ever done wrong in their life
+[93:48] and transmit that once you start noticing that pattern it's really really obvious can you say
+[93:56] that in a different way so someone is um uh uh victimized by the police and there's a debate
+[94:06] about whether or not you know the police were justified in hurting this person or whether the
+[94:10] person was resisting arrest and then you have this always this outpouring of news about everything
+[94:21] that this person has done in their life and it's they were an honor student right they were you
+[94:27] know they love to play the guitar and then it was like no they want shoplifted or they once like
+[94:33] kicked a tire five five years ago what is that like why are why are we having this this not just
+[94:40] in the incident but everything leading up to it this moral reckoning with whether or not this
+[94:47] person ever did a bad thing or was a did a ever ever did an admirable thing and i think the process behind that is really complicated it not just one process process not just one thing that going into that kind of digging through the person who died life
+[95:07] But if you remember that, if you're feeling empathy for someone suffering, you can toggle it over to pleasure if you can convince yourself that they're bad and they deserved it.
+[95:22] It is such a temptation.
+[95:24] It is so wild.
+[95:25] That's such a temptation that's out there.
+[95:28] Well, it's the freest.
+[95:29] It's some of the freest pleasure that you're ever going to get as well.
+[95:33] It's completely costless to you.
+[95:36] And you would be familiar with the bless her heart effect from evolutionary psychology.
+[95:41] It's one of the reasons that female intersexual competition has venting, whereas male intersexual competition tends not to in quite the same way.
+[95:50] and it's um that page i'm really worried about uh about jenny like she just keeps on sleeping
+[95:57] with all of these guys and i'm so worried oh it's like faux concern yeah yeah it's venting so you
+[96:03] allow your your um what is couched under pro-social concern for somebody else is actually a way of
+[96:12] spreading rumor but implicit in that is i mean i would never i just sleep at the no of course i
+[96:20] mean not me but i'm worried about jenny so it's this sort of very paternalistic very caring but
+[96:26] what you get with this is something not too dissimilar where your morality gets to stand
+[96:35] on the shoulders of somebody else's so not only are you getting the pleasure at this person who
+[96:39] rightly or wrongly you think is a defector of the social laws but you by pointing it out
+[96:48] you also good you get to feel like everyone else gets to see you is that always always good that
+[96:53] that christine was there you know to tell us about the bad behavior of jenny isn't that so
+[96:57] uh yeah your morality gets to stand on their shoulders and i think um there are a lot of
+[97:04] combining reward pathways to get people to behave in this sort of a manner their sense of uh social
+[97:14] righteousness gets raised up they just endogenously get pinged with a fucking ton of dopamine for
+[97:22] having done this thing they get to potentially the sort of justified self or true honest approach to is uh that person needs to be told that they misbehaved and pushed out potentially we need to be protected
+[97:36] from them so they need to be outcast sufficiently um and it's all messed up and is do they do do
+[97:43] they should they be on the outside or are they are we actually yeah and i think so this idea of like
+[97:50] You just said pushed out, right? Like pushed out this idea that we're deciding who gets the protection of the group and who is going to be cast as an outsider, as a moral reprobate, as someone who deserved it. And then they can be pushed out. They can be pushed out of life. And we still feel pleasure at it.
+[98:09] The other thing about the pleasure of retribution, thinking about that changed my thinking.
+[98:19] We have evolved pleasure at eating sugar.
+[98:24] That was necessary for our survival of our species.
+[98:29] and then now we're in an environment where you can either eat that
+[98:35] sugar on steroids ultra processed foods with no other nutritional value you're thinking about
+[98:42] scapegoating on steroids right and or you can say that that evolved desire is important and it's
+[98:52] not going away and i'm not going to academic philosophy my way out of it but i'm also not
+[98:57] going to let it lead you saying we need a zen pic for retribution and i mean or i think we need like
+[99:04] a better food culture for retribution i mean i i really think that so much of american culture
+[99:11] is predicated on feeding people the retributive version of empty calories how can i get you to
+[99:21] feel good at other people suffering and convince you that you're that you're good and you get to
+[99:28] feel like a good person while you're doing it while you're doing it like what a drug
+[99:32] in my new book I talk about this trial that took place in Norway when there was you know Norway has
+[99:44] so much less crime, so much less violent crime.
+[99:49] The United States does.
+[99:50] They incarcerate way fewer people.
+[99:52] They incarcerate them in less harsh institutions
+[99:55] for much shorter periods of time.
+[99:57] And it's very rare for them to have
+[100:00] of like a mass shooting event.
+[100:03] And,
+[100:03] but they did,
+[100:05] they had this guy,
+[100:06] Anders Breivik,
+[100:07] who,
+[100:07] um,
+[100:08] shot,
+[100:09] I think 60 children on a,
+[100:12] um,
+[100:12] an Island.
+[100:13] They were there for a summer camp.
+[100:14] It was the worst mass murder in Norway's history.
+[100:18] Um,
+[100:18] this is someone who has had,
+[100:20] like who had terrible genetic and environmental luck.
+[100:23] He had,
+[100:24] um,
+[100:25] a very unstable mother.
+[100:27] And it also,
+[100:28] he was described as someone who was antisocial from the time he was three or four. Norway has
+[100:34] this incredible wraparound social welfare state. And so you can see the high visibility, the notes
+[100:43] from the social worker being like, this child is aggressive and violent. The other kids won't be
+[100:47] aren't allowed to play with them because he keeps torturing their pets when he's five. So even in
+[100:53] this in this environment where there's incredible social resources this person still grew up and
+[100:59] still grew up to be violent i found the trial fascinating um because they ultimately
+[101:07] sentenced him to the maximum sentence in norway which is 21 years doesn't seem like a lot it's
+[101:14] what like four months per child and they gave him he's in the maximum security prison which
+[101:22] there was an Instagram meme, which is, is this a Norwegian prison or a London hotel room? And
+[101:29] people can't tell the difference between them. The only thing that puts it away is the security
+[101:34] camera dome on the ceiling of the prison room. So things that seem quite cushy for an American
+[101:40] system. And in the trial, you see the reckoning of a society where they are saying,
+[101:50] this person did a horrible thing we have our maximum retributive impulses towards him of
+[101:58] course we do he murdered our children and he is still one of us and how will it corrupt us
+[102:06] and our culture to indulge those maximum impulses so we want to keep our society safe
+[102:13] but we're recognizing that he's still one of us he's still norwegian he's still part of our society
+[102:19] And from an American perspective it was wild like reading the trial transcript because it was a way of feeling that retribution but not leading entirely with it and also recognizing the inherent humanity of this person who part
+[102:43] of their society.
+[102:44] Do you think somebody that shot 60 kids has that much humanity?
+[102:47] I think we all have that humanity.
+[102:50] I mean, I think that's what it comes down to.
+[102:51] it i think that every single person even when they do horrible things it's still human and and also
+[102:58] that even if they don't that me treating them like they don't does something to my humanity
+[103:04] that seems to be two different arguments um one so they're related yeah of course yeah um i'm
+[103:12] trying to separate them out i mean yeah i was gonna try i was about to say something before
+[103:17] that my ability to flip empathy into pleasure at a defectors pain pathway is defunct i always
+[103:31] seem to err on the side of oh i'm so sorry for that person you know always always always
+[103:38] you've managed to find uh an example where not just one but it tends to be my threshold for it
+[103:45] tends to be a bit higher. So I'm thinking about this person that shot 60 kids.
+[103:53] The residual amount of humanity in that person seems to be very low for me in how I would see
+[103:59] them. That to me seems to be the kind of thing, even if you were to say, what does this do for
+[104:05] society outside of it? That is such a heinous crime. I would say it is so far beyond even the
+[104:15] normality of abnormal crime that that should be a you don't get to come out again and that would be
+[104:23] a pro-social as far as i can see that would be a pro-social thing to do first off as a hey we have
+[104:29] a limit here in sweden norway norway here in norway we have a limit we may be very loving and
+[104:37] a fun accent like a typewriter covered in foil kicked downstairs but
+[104:41] this person has gone beyond the limit uh therefore other people shouldn't so i guess um
+[104:49] yeah i like warning them warning them off but the other one being like
+[104:52] the that is such an extreme crime yeah the likelihood of even if even if his desire to murder children drops by one per year over the next six decades he still wants to murder a child like i that i aware
+[105:10] that's not the way that like a fall off the murder desire i got this weird like like line
+[105:15] graph in my head of course but it's like it's murder desire inertia or whatever the fuck but
+[105:21] to me that seems weak that seems wimpy and i don't think i don't think that that is a sufficient
+[105:28] deterrent to others and i also don't think it is a uh sufficient amount of time to basically
+[105:33] quarantine this person so there's so many different threads in your argument and i i want to pull them
+[105:39] apart because i i think they're each interesting and in some ways it's like you just touched on
+[105:45] what are why do we incarcerate people like why do we have a criminal legal system like what is
+[105:50] the purpose of it right and one is just containment just protecting the other people from this person
+[105:58] right um i do believe in norway it's possible that at the end of the sentence he's judged to
+[106:04] still be a risk to others then he could be that sentence could be lengthened for the sake of other
+[106:10] people um one is um some sort of expression of retribution like i don't care if you could be
+[106:18] better in the future i don't care if you kind of you're gonna have a you lost that you've lost the
+[106:24] privilege i you did something that's beyond the pale and now i you deserve you deserve to not live
+[106:33] you deserve to suffer you deserve like whatever that is and then one of them is rehabilitation
+[106:39] so given that someone has done this is there some intervention by the state by other people
+[106:48] that can prevent it from happening again repair essentially repair this person and repair their
+[106:56] relationship to the community such that they don't commit any more violent crime
+[107:03] and we don't stick with like we don't have one lane like your answer combined all of those things
+[107:11] where you're like but like what if he's still a danger and also he did such a horrible thing
+[107:16] maybe it doesn't matter if he's a danger.
+[107:18] And also if he,
+[107:20] if this is such a long rooted problem,
+[107:22] how could he ever hope to change Um and I really interested by the word weak Like what is it it weak by the state it weak by the juror like what what is the it it reflects weak social bonds like what is what
+[107:40] is being weak where like that's an interesting uh it is
+[107:48] insufficient uh when held up yeah you asked me earlier on this person stabbed one guy with a
+[107:57] box yeah and you're like 25 years yeah i gave him 20 years like homeboy managed to do it to 60
+[108:02] children yes um have you considered the role of 120 parents needing to feel vindicated yeah
+[108:14] I mean, I think there's this idea of vindication and also this sense of, I guess I should say, like, I was very moved by this.
+[108:24] I'm not saying that you're defending the guy just doing the thing or getting the 20 years.
+[108:28] And I do think it speaks to a very different way of thinking of the role and function of punishment in a society because it is so radically different from what we would do in the United States.
+[108:38] But I just want to echo, like, I'm a mother.
+[108:41] I have three kids.
+[108:42] Like if I were one of those parents, would I be able to coolly sit here and talk to you about not letting their retributive instinct lead?
+[108:51] I'm not sure.
+[108:51] Like the only time I've ever like blacked out in anger was when someone hurt one of my children.
+[108:56] Like I think there's a really basic thing in there.
+[108:58] And I think the other thing that you're getting at is we signal the value of people by how much we're willing to punish others who've hurt them.
+[109:12] Mm hmm.
+[109:42] parents is does it signal something about the value of those children or the value of those
+[109:49] children to their parents or their society to the collective if someone is not punished for
+[109:57] hurting them um a lot of times
+[110:00] When someone does something outrageous, not even outrageous as mass murder, we say, who do you think you are?
+[110:10] And I think that's saying, who do you think I am that you think you can get away with treating me like this?
+[110:16] So we assert the value of people.
+[110:18] That's part of the social signal of punishment.
+[110:20] And I think that's why it rankles.
+[110:23] And I don't think there is any response to harm, especially harm at that level, where there isn't going to be some remainder that feels unsatisfying.
+[110:38] Either we're going to...
+[110:39] Burn him and kill him.
+[110:41] String him up and burn him and kill him.
+[110:42] But what does that do to us, right?
+[110:44] Like, I think that really, I think, what does that do to our society's, again, honoring of the inherent value of every human if we are so easy for anyone to say, string them up, you know, good riddance.
+[111:04] Like I there there is a really that our response to our most antisocial people can bring out the most callous and and unemotional and like antisocial instincts of ourselves where you would never under any circumstances be like, let them die.
+[111:22] But like in this case, it comes so easily to us.
+[111:26] So, again, I don't think there is a perfect solution to the problem of harm, but I do think by looking to other societies, we can begin to think, well, what are we overemphasizing in our approach to this, which is very, people deserve to suffer and our job is just to figure out how much they deserve to suffer.
+[111:49] But definitely the retribution for something like addiction or psychopathy feels very different to antisocial disorder retribution. But really, that's only because the first two are more pathologized and we have names for them. But if we start to sort of take the behavioral genetics red pill, then we go, well, you know, you start to think that person that's an addict might not have had that much of a predisposition to the pill.
+[112:19] toward it and might actually have some pretty strong genetic influences toward willpower.
+[112:25] And they chose to do this thing and they chose to or that psychopath who acting in this way is sort of choosing to be callous It not so much outside of their you know what I mean
+[112:37] You can see where I'm talking here.
+[112:38] Whereas the person whose antisocial disorder could have been fighting against all of the tides of their genetic predisposition and their epigenetic impact and the upbringing that they had and so on and so forth.
+[112:50] Because we don't have this global perspective, I can't see through you and see sort of what contributes, what is left inside.
+[112:57] I mean, I think this is where there will always be a gap between science, which is about averages and trends and statistical patterns, and biography, which is this is the individual person.
+[113:12] And I know exactly how these combined in this individual person.
+[113:15] And I can see what could have gone differently.
+[113:18] I began my new book.
+[113:20] well the first real first full chapter of the book i began with this letter that i got from
+[113:28] someone in prison in texas and he's been there for his whole adult life he's been there since
+[113:34] he was 16 and he um committed a sexually violent crime um kidnapping a woman at knife point
+[113:44] an awful thing. I think when he was 15, since he's been in prison since he was 16,
+[113:51] and then he's been, you know, in an adult kind of notorious prison in Texas since then.
+[114:00] And he wrote me this letter and he said, there was an article in Texas Monthly Magazine about my lab.
+[114:08] and so he said i read about you in texas monthly and i know some people you know don't believe in
+[114:15] behavioral genetics but i do i think the apple doesn't fall far from the tree the idea of not
+[114:20] believing in behavioral genetics is hilarious but please go on um and then he wrote me this
+[114:26] series of questions and one of them was what do you think makes a child go bad nature or nurture
+[114:34] and it was I mean it was such one like most of the mail 99% of the mail I get at my university
+[114:42] mailbox is like academic journals so this is this was very surprising to get this letter and then I
+[114:50] got in I opened it and um he had cut out cartoons from other magazines and taped them to the letter and one of them was this white tiger on a psychoanalyst couch and the caption goes and they train me to perform but when i do what i
+[115:09] really good at they go ballistic oh that's great which is funny and dark and also like oh this is
+[115:17] coming from someone who's in jail for a sexually violent crime like that's a new show on that
+[115:22] that cartoon and you know he's asking he was asking me the same question that you're asking
+[115:29] me which i think we we're which i don't think has an answer because i think it is part of the
+[115:35] tension of being a modern human um why did i do this thing why do you as a scientist think i did
+[115:44] this thing and when i was reflecting on it it's like well i can give you a scientific answer
+[115:50] like on average people who are exposed to lead and abused as children and had labor and delivery
+[115:58] complications and had a certain set of genetic variants these things combine to make you more
+[116:04] likely to commit a violent crime um but is that really why he's writing me like it's easy one a
+[116:12] science lesson or is he like i think when people ask why they're really asking was it all my fault
+[116:19] yeah yeah i have hope for change am i okay they're looking for a different story about themselves
+[116:26] and this is someone who on paper might seem like you you didn't even make it to 15 years old without
+[116:35] raping a woman like why should we but there's some part of him that's asking why and there's
+[116:42] some parts of him that wants information and that to me speaks to something very universal and human
+[116:48] I think it is a really understandable thing to have done something and you're like, why did I do that? Am I a stranger to myself? Does this mean that it's all my fault? Could I have done differently? Will I do differently in the future?
+[117:08] interesting that we don't necessarily ask ourselves that with the same level of
+[117:12] Like sanguine reflection when we do something that's outside our positive bound. Yeah what we thought we were able to do
+[117:19] Yeah we don we flatter ourselves with well I scored that goal I mean you know yeah It takes a very particular sort of person to go I don know where that came I don know where that skill came i don know where that romantic gesture for valentine day came from i don know where that level of love and depth and reflection came from that interesting
+[117:37] i feel like with writing i definitely have that experience where where did this sentence come from
+[117:41] i especially than my upper bound i'll look back on writing that i've done in the past and i'm like
+[117:47] that's not bad and i have no conscious memory of writing it and you know that idea of genius is
+[117:54] not something about you but a genius is some sort of you know inspiration in the ether that can move
+[118:00] through you and that moves through you i find that it really i that's whenever i've seen my work
+[118:05] where i'm like that's not terrible that i i actually am less likely to think of it as mine
+[118:11] what what have you learned about the epigenetic inheritance stuff yeah i mean so the idea of
+[118:22] epigenetic inheritance. So the idea of, so your genome is your DNA, your DNA sequence,
+[118:30] and then your epigenome, which is, and your DNA is the same in every cell in your body,
+[118:35] and it's the same every day of your life. Whereas your epigenome is everything on top
+[118:40] of your genome that affects how the genome is read in a cell. Your epigenome is why your
+[118:46] neurons are different than your liver cells and why you look different than you did when you were
+[118:51] You have the same DNA, but you have a different body now, and that's because of these epigenetic changes.
+[118:58] So epigenetic inheritance is this idea that not just the DNA sequence, but something about the epigenetic marks that affect how the gene is read could be transmitted from parent to offspring.
+[119:14] That is a really difficult and controversial area of research.
+[119:18] like some biologists think that humans do not inherit the epigenome what egg and sperm cells
+[119:26] do is they strip out you know most of the epigenetic marks so that they aren't inherited
+[119:31] there is some animal models and mice that we not just see one about exercise probably in mice
+[119:38] maybe the children of mice that had exercised more work yeah so in humans research on epigenetic
+[119:47] inheritance is really hard to do in multiple generations of data the confounding is terrible
+[119:52] and i um i'm okay with social and political controversies but even i have not waded into
+[120:00] genetic inheritance. I do do stuff on epigenetics within the lifespan of a child, right? So like,
+[120:06] how does your environment... What's real and what's bullshit about epigenetics?
+[120:10] Oh gosh. I mean, I think there's these cultural memes about like, all of trauma is epigenetically
+[120:17] inherited or that you can't believe anything from behavior genetics because it's all actually
+[120:25] epigenetics i think those are vast oversimplifications um i think we understand i gave a talk for
+[120:34] a group of students on campus last week and they were like well how do you you know i'm not really
+[120:40] that interested in genes because of everything we know about epigenetics and i was like what is
+[120:45] what do we know about epigenetics like what exactly are you thinking about this is actually
+[120:51] a very new area of research. What did they say? Humans. They had no answer to that question.
+[120:57] Great statement. So, I mean, I'm fascinated. The sort of epigenetics that I study is called
+[121:05] DNA methylation. So, methylation is the addition of a methyl group, which is kind of like a chemical
+[121:11] tag that binds to the DNA sequence at particular spots and changes how DNA is expressed.
+[121:23] And I'm really interested in the DNA methylation, particularly in children,
+[121:30] because I'm interested in the idea that we can look at how poverty or stress or trauma or
+[121:38] insults to health that are ultimately going to affect your you know your aging 60 years later
+[121:44] how are they getting under the skin in early life long before we can actually see any of these
+[121:51] health problems like we know that children who are for instance being raised in poverty
+[121:55] are likely to die sooner it's very hard to see the health consequences of poverty when children
+[122:02] are four because four-year-olds are healthy like four-year-olds all look healthy but is that not
+[122:08] how do you know the difference between epigenetic impact and just during a period where you really
+[122:14] needed to feed a body and an immune system, it didn't have the fuel to be able to do it.
+[122:20] The epigenetic stuff feels to be a little bit more deep and long lasting as opposed to this is a more transient important period where like if you just never went to the gym well I smaller and weaker but I smaller and weaker because I didn do the thing required
+[122:35] to make me big and strong. Yeah. I mean, so that's, you're right that, like, there's the
+[122:40] phenotype of a child, which is like, what is their growth status? Are they overweight? Are they too
+[122:45] short for their age? Do they have more infections than usual? And the epigenome is getting at
+[122:51] something that's like, you know, more at the level of the cellular machinery. And although
+[122:57] it's controversial whether or not epigenetic marks can be transmitted from parent to child,
+[123:03] we know that they are propagated across cell division. So part of how your epigenome works
+[123:10] now is because your epigenome was changed when you were five and those epigenetic marks,
+[123:16] even though you have different cells now because they've been replicating this whole time,
+[123:21] those same epigenetic processes have been carried over yeah i've heard i've heard something about
+[123:27] that this is probably getting into the realm of what one of your students tried to ask you last
+[123:31] week yeah uh that when the epigenetic dial is turned up for a particular however something
+[123:39] is being expressed it is very difficult to turn that back down oh i don't that's an interesting
+[123:45] question. I don't know if that's true on a general level. A kind of lock-in of this thing happened,
+[123:53] the expression is occurring at this particular level, and that is now the level it's going to
+[123:58] continue at. I think generally speaking, what I do think is a general pattern is that
+[124:04] it's just much harder to change your epigenome in adulthood than it is in childhood. So if we
+[124:12] look at measures of the epigenome at 60, they're very correlated with where you are at 70. If you
+[124:18] look at it at 40, they're very correlated with where you are at 50. That doesn't mean that,
+[124:21] you know, health interventions don't matter. Health interventions can definitely make a
+[124:25] difference in middle age and older adulthood. But where you see the most flux in what is the
+[124:32] epigenome doing, what is behavior doing, what is body weight doing, is in the first 10 years of
+[124:38] I mean and that's kind of across the board like childhood is our period of peak plasticity and
+[124:43] then including epigenetic plastic including I think epigenetic plasticity that's cool that's
+[124:48] a cool way to think about it what's some of the interesting studies around in utero epigenetic
+[124:53] changes because you know we do have some periods where for a brief amount of time every girl that is watching was inside of their grandmother Yes Isn that fascinating
+[125:06] So cool.
+[125:07] And, you know, the canonical studies on this are ones where you've had, like, in humans, at least, are where you've had a very serious insult or deprivation at a particular point in pregnancy.
+[125:21] So, for instance, when the Nazis blockaded Holland, there was this very serious famine in Holland, but it affected different regions of the country differently.
+[125:33] And also people just happened to be pregnant for different parts of their pregnancies during the war.
+[125:40] So you had a little split test.
+[125:41] What?
+[125:41] You had a little split test. Some were first trimester, some were second, some were third.
+[125:44] Yes. And then some were just across the border, but they were getting food from somewhere else.
+[125:48] And so they were just like the village next door, but they were not nearly as affected by the Nazi blockade. And so they never had so much famine. And you see that the children and then I think the grandchildren of those moms who were starved when they were pregnant have worse health outcomes. They have higher body weight. They have higher rates of antisocial behavior.
+[126:14] and we're seeing that in our research too that the second trimester in particular
+[126:19] is like a very sensitive period of time potentially for the development of
+[126:24] of um for brain development for the development of lots of behavioral same thing goes is it
+[126:29] mothers that go into poverty i've seen is it joyce bendenson i feel like she did something to do with
+[126:33] this yes um so we're working now um i'm not allowed to talk about the results yet but i'm
+[126:40] Pretty excited about them.
+[126:42] We're working with a group that is doing a cash transfer, unconditional cash transfer.
+[126:49] So essentially cash gifts to low-income moms.
+[126:53] So some moms get $30 extra a month and some moms get $300 extra per month.
+[126:58] And then the kids have been followed.
+[127:00] They're now six.
+[127:01] And so we are looking at, did cash to moms change children's epigenetics?
+[127:08] And the mechanism that that would move through would be mums had an alleviation of stress, less cortisol, better nutrition.
+[127:15] So there seems to be – mums who get money don't report that many much lower levels of stress.
+[127:22] They do report being better able to breastfeed as long as they wanted to And they delayed the start child care so if they wanted to stay home with the baby for longer they could this feels less epigenetic and and they also
+[127:38] um uh it improves the nutrition of the child so they're spending the extra money on i get it this
+[127:46] to me doesn't feel that epigenetic though this is just it look at attachment theory if the kid gets
+[127:52] ripped away from mom what is that uh imbuing into their nervous system what what is the learned
+[127:59] nervous system behavior so it's interesting when you say that that doesn't feel epigenetic to you
+[128:04] because in some ways every every behavioral change is going to be somewhat epigenetic because
+[128:11] again you have the same genotype your whole life so if you're changing something is changing and
+[128:19] And that change is coming from your body.
+[128:21] There's a little record that's being made.
+[128:22] Okay, that's interesting.
+[128:23] I mean, this is one of the reasons I was excited to speak to you about epigenetics, because I haven't done – I need to ask you who the best person to talk about, like who's the spicy world expert, who's the plowman of epigenetics?
+[128:35] Probably Steve Horvath.
+[128:37] I've been in touch with him.
+[128:38] I should bring him on.
+[128:40] Yeah, he's got epigenetic age.
+[128:41] I should bring him on.
+[128:41] There was this episode of the Kardashians where Kim and Khloe get their epigenetic age measured.
+[128:50] I think with blood, although it could have been with saliva.
+[128:54] And one of, so there's these DNA methylation clocks that were trained on how old you are in years or trained in how many years you have left to live.
+[129:05] And then now with new people, you can be like, you're, I don't know how old you are.
+[129:09] 37.
+[129:10] 37.
+[129:10] you're 37 but epigenetically you're more like a 32 year old or and that would predict you having
+[129:17] a longer lifespan so it's this kind of biological age different to doing telomeres yes it's different
+[129:23] so telomeres is the end of your dna whereas this is the pattern of those methyl groups attaching
+[129:30] to your um and so there's this funny scene where they're like talking about doing these epigenetic
+[129:35] age clocks. And Kim Kardashian says, oh, we're going to do the Horvath test after Steve Horvath,
+[129:42] who's an epigenetic researcher. And Khloe Kardashian, I think it's Khloe, goes Horvath,
+[129:48] Horvath, and she just keeps mishearing Steve Horvath's name as Horvath.
+[129:54] Imagine that the most people on the planet that will ever hear your name
+[129:57] is one of the Kardashians mispronounced.
+[130:00] it i would see poor bath i would have that in every slide for every talk horse quotation horse
+[130:06] fantastic um okay what did you learn about the role of luck through motherhood
+[130:14] oh gosh i mean i think that becoming a parent is the riskiest thing you could do in some ways
+[130:23] it's the most optimistic gamble you could ever make and I in my new book I should say the name
+[130:31] my new book is called original sin I feel like my publisher would want me to say the name the title
+[130:35] of it um in my new book I quote the writer Andrew Solomon who wrote this fabulous book called far
+[130:43] from the tree which is all about parents and children who are very different from each other
+[130:48] So deaf children of hearing parents or like normally functioning parents who have savants, chess or music prodigies as children.
+[131:00] And in the introduction to his book, he writes, no reproduction is a myth.
+[131:09] No children are reproduced. Children are produced.
+[131:12] and as a behavioral geneticist i think that's a perfect description of i have my genes my partners
+[131:20] i have children with two with my first husband my second husband so that's why i'm saying saying
+[131:24] partners i'm not in a thruffle my children's dads they have their genes and we have recombined them
+[131:32] in ways that are unpredictable with every single one of our children um i i think there's something
+[131:41] like 70 trillion possible combinations that each set of partners could have with all their
+[131:50] potential kids. And if you think about that, about how different those children can be,
+[131:55] and how much their characteristics are going to shape your life just as much as you shape
+[132:00] your kid's life, you really are opening yourself up to fortune, I think, every time you produce
+[132:06] a child.
+[132:08] And, I mean,
+[132:10] so many parents describe this phenomenon
+[132:12] where they have a kid and they're like,
+[132:14] I'm a really good dad. I'm a really good mom.
+[132:16] I'm doing everything perfectly if you have your easy
+[132:18] baby first. And then you have your
+[132:20] second kid and you're like,
+[132:22] this person
+[132:24] is totally different Same mom same dad but they don sleep at the same time They don eat at the same time Their temperament is different How they respond to how I parent them is different So my children didn ask to be here
+[132:37] they were thrown into consciousness and then brought home from the hospital with this
+[132:45] genetic package that no one had control over and a family environment that they don't have
+[132:52] any control over and you know they're so different from one another they're so different from one
+[132:58] another and I really feel like my role as a mom is to who did I get like who am I getting to know
+[133:07] while they get a grip on what it means to be on this planet.
+[133:12] So I have a picture in their room,
+[133:16] and it's a print from an artist I like, Haley Bateman,
+[133:19] and it says, it's a miracle we ever met.
+[133:23] And that's really how I feel about them.
+[133:24] I met these people who are so different from me
+[133:29] and so different from each other based on the luck of the draw,
+[133:35] and now we have to ride out this relationship with each other.
+[133:39] We have to figure out how to attach while they grow up.
+[133:45] What's your perspective on embryo selection?
+[133:48] I have very complicated feelings about embryo selection.
+[133:52] Okay, so the first thing I want to say is
+[133:55] I think that having a child, again,
+[133:59] is an incredibly risky, ultimately optimistic thing.
+[134:08] And I think babies are good.
+[134:09] So I really support people's right to build their families on their own terms,
+[134:17] even if that's not the terms that I would build them on.
+[134:20] I think reproductive autonomy is really, really important.
+[134:24] Good disclaimer.
+[134:25] I think that's very, very important.
+[134:29] So I think that there are some situations in which the upside seemed very, very clear to me.
+[134:38] Like if you have a disorder that's prevalent in your family and you want to mitigate even by a few percentage points the risk of that, and that's what's going to make you feel safe to bring a child into the world.
+[134:51] Like that feels like a good to me.
+[134:55] Here what I worry about So those are the pros the things I worry about is one you said yourself that no one understands genetics like it polygenic scores and and
+[135:08] genetic risk assessments are complicated to understand and complicated to communicate even
+[135:15] to experts and I do worry about are the claims that some companies are making are they being
+[135:24] matched by the evidence and are they being communicated to prospective parents in a way
+[135:29] that appropriately conveys the sort of uncertainty as far as i can as far as i can see the only
+[135:34] company that's even remotely close is harrisite if it's not them i think everybody else and even
+[135:42] they are still at the absolute frontier of how it is that they put this there and i mean and they
+[135:47] to their credit, have been very transparent about their statistical models and their reasoning,
+[135:54] which not all companies have done. I think they're trying to do it right.
+[135:59] I think there's also the larger question. I wrote about this on my sub-stock recently,
+[136:04] which is how does something becoming a choice, particularly around the body,
+[136:13] change everyone else's experience even if they don't make that choice so um if you if if
+[136:25] we've kind of already seen this a little bit with down syndrome in that um in some countries
+[136:31] screening for down syndrome amongst embryos is near universal and iceland i think i think
+[136:37] iceland is in there genmark is in there and nearly all of those pregnancies are terminated
+[136:41] or never implanted. And that has changed the perception of a Down's birth from this is
+[136:49] something that happens and it's part of our social solidarity to support this child growing up to
+[136:56] you chose to have this kid because you could have avoided it. And those are in countries that have
+[137:02] really strong sort of traditions, cultural, legal, social, financial of social solidarity.
+[137:10] They have public medicine systems.
+[137:15] In America, we already have such a fractured sense of solidarity with each other around our bodies.
+[137:23] And how will how might that what going to happen when that system when everyone responsible for themselves and no one responsible to each other is further pressured by and now if you have a kid who sick or you have a kid who has a condition we perceive it as you chose that because you could have prevented it by doing embryo selection
+[137:46] so how how does this new technology which makes something that for all of human history has been
+[137:56] something a chance event turning it into a choice how does that change all of our
+[138:04] relationships with reproduction i don't think we know the answer to that question but that's just
+[138:09] that's what i'm thinking about right now it's interesting net net if you had the choice between
+[138:14] a parent having to have a kid that's sick
+[138:19] so that other kids that are also sick
+[138:23] don't feel uncomfortable or strange
+[138:25] because no one is using this new technology
+[138:30] or them stepping in.
+[138:33] Because the most compelling thing, weirdly enough,
+[138:36] I've been thinking about this a lot,
+[138:37] the most compelling thing that I've seen is
+[138:39] I didn't realize when you do IVF,
+[138:41] the doctor already comes over and eyeballs the embryos.
+[138:44] Oh, yes. They're already choosing. Yes. I mean, I think...
+[138:47] Which you would want to do. Like you would want to do that. You wouldn't say,
+[138:50] hey, we're going to use IVF. Maybe one of us is a little bit older.
+[138:54] Maybe it's going to be a geriatric pregnancy. Maybe we've had some fertility complications.
+[139:03] Maybe, yeah, fertility complications. We've been struggling to just get it to take. So we're going
+[139:08] to get a big harvest, do the embryo thing, and then implant. The doctor is already looking through
+[139:15] the microscope. And they're already selecting usually for aneuploidies or things like that.
+[139:19] Correct. And so they're already like, is this blobby one symmetrical?
+[139:23] Is this the most circular one? I think number three is the most circular one. So as soon as
+[139:28] you accept that that is the way the IVF is done at the moment, having a dashboard that explains it
+[139:33] to me makes very little difference i think the bigger jump is
+[139:39] uh medically unnecessary ivf like if someone is already doing ivf and then they already are having
+[139:48] to decide and then you're like i'm getting more information like i can't implant all of them i
+[139:52] pick one it's that feels like less of a frontier and this is i mean i don't know if that's right like
+[140:00] This is just like, it feels more different, but I don't...
+[140:03] Where's this coming from, from an ethical perspective, do you think?
+[140:05] I don't even know if it's an ethical perspective.
+[140:07] It feels like a bigger technological leap and a bigger social leap in our understanding of what reproduction is.
+[140:20] What you end up with there is, if somebody has got some fertility complications, some conception issues,
+[140:28] they are ethically more justified in having kids that they can select against negative traits and
+[140:36] for positive traits than somebody it's the same one of my friends is telling me that um if he uses
+[140:42] full self-driving on his tesla and he texts the self-driving thing turns off because it can see
+[140:48] where your eyes are it's got a driver facing cameras that look at them so interestingly the
+[140:53] safest way for him to text while he's in his tesla is to drive it himself while he's texting yeah
+[140:59] it's like a weird incentive correct it seems like a weird incentive structure here i wouldn't even
+[141:04] say like again i would not i would not feel comfortable saying that someone who had done
+[141:14] elective IVF and used embryo selection was behaving unethically because I'm very wary of
+[141:23] imposing my own. But why does it give you the heebie-jeebies? What does it do to you?
+[141:29] Given that I read, just to add one element here, I read an article from Ethan Strauss,
+[141:34] this House of Strauss, fucking awesome substance, sports reporter, but every time he writes
+[141:38] something, I don't know much about basketball and March Madness and shit, but every time he
+[141:42] write something not about sport it's one of the best things i've ever read he wrote this one it's
+[141:47] called my boy and his son has got autism and i think he describes it as not the send rockets
+[141:53] to space autism but the flap your arms and make noise autism and he describes like sort of really
+[142:01] sort of dour detail what happens when his son goes to a party and he sees other parents begin
+[142:07] to react to his son's behavior and he almost wants to go over and give a disclaimer to everybody in
+[142:11] the room. I want to explain to you what's happening. Yeah. I just need you to know,
+[142:14] have they noticed? When are they going to notice? Are they going to say something to me, to him?
+[142:18] Is he ever going to be able to look after us in old age? Are we always going to have to
+[142:21] look after our own child And he loves his son I pretty sure he says I love my son but like it would be better if I could have him not as this And I understand there a personhood problem here right
+[142:36] That you don't get to have him without that. The only him is the him with that.
+[142:41] But anybody that is pro-choice, I think, has to be pro-IVF,
+[142:48] because the only downside that you have from the IVF is the castaway embryos that don't end up getting implanted.
+[142:53] Which, if you're not thinking of them as people.
+[142:56] Correct. Yeah.
+[142:56] Yeah. I mean, I think the technology, I've said this before and I'll say it again, new technology makes us have to grapple with tensions between our values that maybe we wouldn't have had to grapple with without the technology kind of putting a fine point on it.
+[143:13] As a mother, you ask me, like, why does it give me the heebie-jeebies? Does it give me the heebie-jeebies?
+[143:19] it makes me uncomfortable for reasons I can't fully articulate.
+[143:24] That's the HBGB.
+[143:25] I think part of it is on the one hand as a mom,
+[143:30] I can think about ways in which my children suffer
+[143:35] because of the genetic hand they were dealt.
+[143:42] And wouldn't I love to take away that suffering
+[143:46] and make the world safer for them,
+[143:49] make motherhood safer for me reduce suffering right like increase flourishing i mean the value
+[143:55] of your kid not hurting or not hurting other people or not it's so so so high and at the same time
+[144:05] i think motherhood does at least it has for me involves
+[144:12] being in a relationship with a person and meeting with them who they are and them not being a them
+[144:20] not being a project for me to perfect them not being a um a vehicle or a vessel for my hopes
+[144:30] and my dreams and my aspirations um but i'm confronted with another person and my job is
+[144:37] to love them as they are.
+[144:39] Would it not be easier then to try and make that person
+[144:44] as fit for the world as possible
+[144:46] and then that allows you to take your hands
+[144:48] off the wheel even more?
+[144:48] No, but fit for the world, I mean,
+[144:50] fit for the world is tough,
+[144:51] in part because we don't really know,
+[144:53] especially when we moving away from monogenic diseases where it like okay we have this there this there this genotype and it causes this disease It going to happen a hundred percent of the time
+[145:06] As soon as we move from that to these more polygenic, anything I study, polygenic behavioral
+[145:11] autism, some of the genes associated with autism are also associated with going further in school,
+[145:18] being more likely to graduate from college. IQ is negatively correlated with happiness.
+[145:22] um some of the same genes that are associated with going further in school or being an artist
+[145:29] are associated with schizophrenia as we've talked about before and we've talked about risk taking
+[145:36] one of the thought experiments i talk about in my book is again thought experiment audience i'm not
+[145:42] suggesting this thought experiment is what if some embryo selection dictator came to power
+[145:54] and said as of this year 2026 every couple that wants to reproduce has to use iff has to do
+[146:04] embryo screening and has to select the kids that have the lowest antisocial offending
+[146:12] genes. We are going to like stop murders in this country because we're going to like breed the
+[146:19] genes out of people. And you did that for several generations. And so at every generation,
+[146:26] you selected only the least risk taking, most inhibited, least antisocial.
+[146:31] is that a world you want to live in like is that you've selected people who are most likely to go
+[146:39] along and get along and do well in school and be great at having a boss and like be really good at
+[146:44] working a desk job and like are very very self-controlled perhaps to the point of too
+[146:49] self-controlled but like do you when you think about your family and your friends and the cities
+[146:56] that you've chosen to live in do you want to live in a place that's populated only by the most
+[147:02] puritanical and inhibited among us like probably not i wouldn't you get the you get to sort of a
+[147:08] god's eye coordination problem here the right that you parents what we really need is to keep some of
+[147:14] this high externalizing behavior in the gene pool so we would like you to pay the price so that we
+[147:19] can continue to have this grist for the mill that can spread randomly between i mean i think they're
+[147:24] I think you picking up on like a really fundamental like you exactly right which is that we put so much pressure on individual parents to be entirely responsible for the care of their children to
+[147:35] to mitigate any bad outcomes and we live in a society in which society is better off when we
+[147:41] have variety when we have genetic diversity like there is no evolution without mutation there is no
+[147:47] um the sociologist emule darkime had this passage that crime is necessary to every society because
+[147:54] unless you have people who are willing to do things differently a society will never evolve
+[147:59] and you are asking parents to pay a high price if they are the ones that have to deal with the child
+[148:04] and that's why i think there isn't this is why i feel like the the dictating reproductive policy
+[148:11] from the top down like if someone says no i'm catholic i don't i believe that those ivf created
+[148:18] embryos are people i want to have children i want to have six children and i'm going to use natural
+[148:22] planning planning like go for it you know i really think that diversity in a society is maintained by
+[148:29] having diversity but i mean it's kind of a classical liberal idea like what is your conception
+[148:34] of the good like go pursue it what what is your risk tolerance for for parenting and it's also
+[148:41] interesting because you know i i gave birth to all three of my kids in austin forget polygenic
+[148:47] screening of embryos even um genetic testing for downs was introduced by by my obstetrician as if
+[148:59] she were like slowly tiptoeing over a landmine i'm not saying you have to do this and i'm not
+[149:05] saying you should be talking to a geneticist don't worry you should have just talking to a
+[149:08] geneticist like i'm not saying that you would have to you know i'm not suggesting you would
+[149:11] want to terminate the pregnancy if it was but we do have this option available to you so it's a
+[149:17] funny thing that this conversation about embryo selection and its ethics is happening at the same
+[149:22] time where we have a climate where if you if you wanted to get an abortion in this state you would
+[149:29] have to leave this state right like it's there's very different things happening in terms of our
+[149:34] our reproductive autonomy what do you think about embryo selection as a counter to the crumbling
+[149:39] genome tubies thing i don't know about this uh okay so ancestrally there are selection pressures
+[149:46] that mean people who have got genetic mutations
+[149:49] that are suboptimal would have been selected out.
+[149:52] Myopia is a good one, right?
+[149:53] Both you and me, you chose to go glasses,
+[149:56] I chose to go LASIK.
+[149:58] We have to assume that if you roll out
+[150:00] the dice sufficient times, both of us would be more dead than somebody who had perfect eyesight.
+[150:06] Yeah. And when we are able to alleviate those selection pressures by glasses and LASIK,
+[150:14] it means that we are able to pass on our suboptimal. So because the selection pressures
+[150:19] have been relieved largely through health care and support and modern medicine and stuff like that,
+[150:23] you do end up with a civilization that accumulates genetic mutations that are non-optimal at a greater rate than would have done previously,
+[150:32] because, again, this lid has been released.
+[150:36] And the argument is, this is Tubi's argument, you have a crumbling genome that it moves toward increasing accumulation of genetic mutations,
+[150:48] ones that we would not want, but we're able to continue to support and buttress this with technological progress.
+[150:57] And the argument is that embryo selection is able to step in and reverse some of this entropy.
+[151:02] I mean, I think this idea that what humans are doing with post-industrial healthcare in terms of buffering the negative effects of genes is somehow novel to humanity or novel to evolution.
+[151:25] I don't really buy that. Like if you look at other species, you see multiple examples in which their ability to build niches for themselves reduces selection pressure on some genes and increases selection pressure on other genes which are involved in niche making.
+[151:45] But we would, at least as far as I can see with humans, there would be no increased selection pressure. It would just be we will continue to compensate over and over again.
+[151:56] I think this idea that there's no selection, there's always a selection.
+[151:59] There's fewer selection pressures.
+[152:00] I think there's fewer selection pressures around the things that were historically associated with mortality. And now we have new ones. It's a very common idea that you see recur, you know, essentially since Galton, this idea that like, you know, something about modernity is making us soft.
+[152:20] And that going to corrode or degrade our genome This was Pearson argument against universal public education for kids We can be educating all of the children because then you know they be able to like support themselves and reproduce
+[152:41] And then we won't be we won't be winnowing out the the feeble mindedness genes.
+[152:46] And that sounds kind of awful and shocking to us in retrospect.
+[152:50] But it made perfect sense to them, you know, with their logic at the time.
+[152:54] There's a different kind of lock-in from educating or not educating someone versus allowing a much harder inheritance of genetic mutation to keep on moving down.
+[153:05] So anyway, I think it's interesting.
+[153:07] And that Tubi thing, that's about as spicy of a theory, basically, that we should either use embryo selection to step in or we should limit healthcare in an attempt.
+[153:17] And this isn't his proposal at all.
+[153:19] But that's like really on the fucking cusp.
+[153:21] That's why I wait two and a half hours to bring up crumbling genome.
+[153:26] But it's a fascinating thought experiment, right?
+[153:28] Like, what are we accumulating?
+[153:29] And are there some things that we could, what is it, the increase in peanut allergies that we've had?
+[153:35] And that's behavioral.
+[153:37] The increase in asthma because households that use dishwashers have like a 75% increase likelihood of asthma because not being exposed to.
+[153:48] Okay, so we continue to move.
+[153:51] It's kind of like snowplow parenting, but for...
+[153:55] Snowplow, not helicopter, snowplow parenting.
+[153:57] I like that.
+[153:57] Exactly.
+[153:58] It's snowplowing out of the way, but it's snowplow civilization.
+[154:01] I mean, I guess the other reason why I'm just not that concerned about the crumbliness of our genome.
+[154:09] When you say that, I imagine this kind of overcooked chocolate chip cookie.
+[154:13] Our genome is falling apart.
+[154:15] I think about a wall.
+[154:18] Evolution takes place in vast time.
+[154:20] like evolution is is a slow process that has proceeded over eons and any attempt to like
+[154:31] take what's happening in the last 25 years and extrapolate too far in either direction
+[154:36] i'm just not all that convinced by it well also i just think this idea that like
+[154:41] in some ways the idea that there's like a good direction for evolution or a bad direction like
+[154:47] I don't think evolution is too logical in that way.
+[154:50] Surely you would say a less robust or a more robust immune system.
+[154:53] That seems pretty universally good right If you had somebody that was more able to withstand pathogens and microbes and insults to their their health somebody who has uh a better respiratory right better eyesight better hearing
+[155:11] that these things seem realistic like but again with glasses and hearing aids and antibiotics
+[155:17] We were able to come in and buttress.
+[155:19] So I think that being able to hear is a good thing.
+[155:26] I also know that there's plenty of people in the deaf, capital D, deaf community,
+[155:30] who would willingly select a non-hearing child, a child that can't hear if they could, to carry on the community.
+[155:37] I've seen the personhood of the deaf community, the denial of the personhood of the deaf community.
+[155:42] I think as a psychologist and a geneticist, I think of what's good or bad in an evolutionary sense is always being relative to an environment.
+[155:55] Like white fur is good when it's snowy a lot and it starts to be bad as soon as it's not snowy a lot if you're a rabbit.
+[156:05] And not really good or bad in some sort of like absolute sense.
+[156:09] So I can see the argument that's like, given that humans will always have some novel pathogens because bacteria and viruses evolve a lot faster than we do, like having an immune system that can keep up with that is going to be good for most of the environments that humans will likely face in our evolutionary future.
+[156:32] but there's still a background of like what the environment is there and not kind of like a
+[156:38] genetically good and like an absolute sense i guess it's the thing that i'm responding to
+[156:43] one of the things that you said before about um sort of more and less appropriate behaviors
+[156:51] especially given sort of the modern world and the domestication domestication the the
+[156:57] Do you think it means, or could there be an argument made that the current push by the mainstream to sort of dissuade men from aggression and dominance and impulsivity is more unfair genetically?
+[157:13] Oh, that's interesting.
+[157:14] If men are on average less domesticated and appropriate for a gentle modern world and our behavior needs to be curtailed more than women does is that unfair Gosh is unfair the word that i use to that i so to abstract we being
+[157:35] we're being asked to modify our behavior in a manner that women aren't simply because of
+[157:39] what modern society i mean this has been richard reeves argument um i don't know if you're familiar
+[157:44] he wrote a voice in that show oh really so you know like if we're not going to change schools
+[157:49] then we should redshirt all the boys and give them an extra year as the only because because
+[157:54] asking a five-year-old boy to do developmentally the exact same thing as a five-year-old girl
+[158:00] isn't unfair in his comparison. You've spent a lot of time talking about dominance and aggression.
+[158:06] I want to go up a level to think if I can articulate this in terms of more general
+[158:11] principles and then go back to your specific question. So in questions like this, when we
+[158:18] think about fair or unfair, just or unjust, I'm still very heavily influenced by Rawls,
+[158:25] political philosopher John Rawls, and his thought experiment, which is, if you didn't know
+[158:32] what hand you were going to be dealt in the natural lottery and in the social lottery,
+[158:40] what rules would you want for society? And that's an interesting question to think like,
+[158:47] if I didn't know whether or not I was going to be a man or a woman, would I set school up the way
+[158:53] that school is set up now? And I can't, I, I actually wish that I could like inhabit the mind
+[159:01] of a man for a day just to see like, is it really different? Is it very similar? I'd be fascinated
+[159:06] with that. I can't do that, but I have a son, I have a child. And so I can get to, given what I
+[159:13] know about sex differences in brain development in rates of adhd and rates of conduct disorder
+[159:21] how would i design how would i design an educational system such that my sons and
+[159:27] my daughters would have an equal opportunity to thrive in them and it sure as heck wouldn't be
+[159:33] what we do now i mean my son's in middle school and i i think it's culturally insane what we do
+[159:42] like there is no culture on earth before industrial capitalism that was like do you know what we should
+[159:49] do with our 12 and 13 year old pubertal boys we should put them inside all day ask them to sit
+[159:58] still with
+[160:00] each other and no older boys and no younger kids and no responsibilities.
+[160:05] And we should put a 25 year old woman in charge of them.
+[160:09] Like we should get them to learn stuff that they won't be able to remember a
+[160:11] decade later.
+[160:12] Like I,
+[160:13] whereas he does these once a month,
+[160:16] um,
+[160:18] like go play in the woods for the whole day and there's no screens and there's
+[160:24] a bunch of young men and it's like,
+[160:26] we're going to build a fire and we're going to carve things out of wood and
+[160:29] we're going to like catch turtles and we're going to fish and we're going to hide in the brushes
+[160:35] and while we're there we're going to talk about math and we're going to talk about the stars
+[160:39] and you can read stuff to prepare for your earth native day well okay maybe maybe maybe i put it in
+[160:46] a different way to unfair yeah uh should the additional level of discipline that males
+[160:54] specifically men yeah are required oh should we have lower standards for them no no the opposite
+[161:01] yeah the opposite the uh emotional containment that men are forced to do in order to adhere to
+[161:09] a much more domesticated modern world yeah takes more effort yeah than it does for women
+[161:14] it just straight up takes more effort because we are being asked to be further away from our
+[161:18] set point right our predisposition pushes us in a direction that modern society has said that we're
+[161:23] not allowed to go in on average more so for there will be more people who find it harder to do that
+[161:31] comport that are men in a way that are that is considered that are men yes there has been what
+[161:35] you could say a feminization of society at least in as much as traits that were more typically on
+[161:42] the feminine side of the conscientiousness uh orderliness etc etc uh lower risk taking
+[161:50] lower aggression lower dominance those things are being selected for that means that men need to pay
+[161:59] an additional price you know it's more effortful for men to behave and um and given that is that
+[162:05] something that should be recognized is that a kind of price we often talk about the double shift
+[162:09] that women do well women have worked during the day and then they come back home but nobody ever
+[162:13] talks about the additional emotional containment that men have to do especially given their nature
+[162:17] I mean so I
+[162:19] gosh I've never thought about this before
+[162:22] so all of everything I'm about to say
+[162:23] is
+[162:24] I don have high confidence that I right in anything I about to say That just as a preface I should do that before every episode I mean part of what difficult for me to think through that is that the distributions differ but they highly overlapping
+[162:42] Like most men are in the range of normal women and most women are in the range of normal men when it comes to conscientiousness or agreeableness or risk taking.
+[162:57] Like the sex difference or the gender difference, depending on how you conceptualize it, in these traits is going to be the most evident at the extreme.
+[163:09] Yeah.
+[163:10] So, you know, and we do see...
+[163:14] But this works all the way, right?
+[163:15] Like if you start to squeeze the bracket and squeeze the window of what is acceptable...
+[163:19] But once you get like outside of the tails, men are within the female range and women are in the male range.
+[163:25] On average, you're going to have, it's going to be a...
+[163:28] Yeah, but I mean, the distributions are very overlapping.
+[163:32] When you run it across multiple different traits, though,
+[163:35] When you're talking aggression and externalizing behavior and impulsivity and risk-taking and dominance, like when you roll all of those together and this isn't just – someone isn't just aggressive.
+[163:47] They're aggressive and risk-taking.
+[163:48] They're all of these things together.
+[163:50] And when you start to lollapalooza this, there's almost no woman would be as risk-taking, aggressive, dominant.
+[163:58] As the outlying.
+[163:59] No, even if you were to – because on average, you have like these massive overlapping distributions.
+[164:05] right yeah but as soon as you go it's this trait and this trait and this trait and this trait but
+[164:12] i don't think that's true because all those things are all correlated with each other so i think even
+[164:17] if surely it would start to push those hills out further i mean we could run a simulation to do
+[164:22] this but i think if you were envisioning like let's say just three three traits some sort of
+[164:27] three-dimensional terrain surface i think that what the things that you're talking about are
+[164:33] correlated enough such that men and women are more similar than is commonly assumed so i do think that
+[164:44] there's we definitely clearly see sex sex differences at the extremes at the outlying one
+[164:52] but in terms of like is your ordinary experience but that sorry that different than a woman in in the 60th percentile Like I don 60th percentile A question would be we can only see the behavior of people who manifest it
+[165:07] And to say, well, this is where the tails are. How many men should be out on the tails,
+[165:12] but are wrangling? They're white knuckling their way through life.
+[165:16] They're white knuckling their way through domestication. And they're thinking, look,
+[165:19] modern society says that I can't behave in that way. I'd really better not. That's a price that
+[165:24] men have to pay that women don't i mean i think there's a price to the i think i'm being hung up
+[165:30] on the price to pay like effort i think that there's a denial of a denial of that nature
+[165:36] like a type of containment all i'm all i'm saying is in in a modern world that basically seems to
+[165:42] continue to say unless you're addicted to drugs in jail or homeless you are still from a kind of
+[165:49] privileged background and there is ways that you as a man aren't even seeing some of the additional
+[165:54] costs that women pay the double shift the domestic stuff and i think some interesting data around
+[166:01] that um but i think that that is a the unseen cost right like that would be the unseen cost
+[166:09] of being a woman of being a mother of the things that you need to get over i'm just seeing if
+[166:15] there's any leeway for sort of guys to have their own equivalent their own equivalent like source of
+[166:23] grievance or like sense of things are unfair i mean whether or not they should they clearly do
+[166:30] like again i'm not a man i'm not going to speak for men obviously you know the men that i interact
+[166:37] with are my husband and honestly the the the the modal man that i interact with these days is a
+[166:47] is an 18 year old college student who's in my class so sorry and you know who are really just
+[166:54] trying to figure out like what is this life thing about like what is this adult thing about
+[166:58] you know there's whether or not people should feel like society is unfair or um
+[167:06] society stacked against them.
+[167:09] I don't think any data point,
+[167:12] even if I had them,
+[167:13] that I could come up with
+[167:14] to be like,
+[167:15] you shouldn't feel like life is unfair
+[167:17] because here's why.
+[167:19] I think that data is really bad
+[167:22] at counteracting these kinds of vibes of feeling like the headwinds of culture are against you And everything that I read and all the data I seen is that men and young men in particular feel like they really struggle to articulate
+[167:39] what is my role in society?
+[167:41] Am I valued in society?
+[167:43] There used to be a lane for me
+[167:45] and now I don't know what that lane is anymore.
+[167:48] And you could think about like,
+[167:51] no, you shouldn't feel that way
+[167:52] because like the distributions are overlapping
+[167:54] or like yes you should feel this way because but like neither one of those really get at the
+[168:00] question about like well what do you do about it like well also like this is your personal
+[168:05] experience but i mean i find the the gap between young men and young women in terms of their
+[168:13] perception of society of politics of hope for the future of whether or not they trust each other
+[168:21] to be really sad and alarming and i think anytime you start seeing society in terms of like a zero
+[168:31] sum game like if women are gaining i'm losing because i'm being asked to do something that's
+[168:36] more against my nature or if men's problems are given any air time that is unfair because
+[168:43] actually like women are so disempowered yes like this um i mean i think it goes back to what i was
+[168:52] talking about earlier with like the norwegian crime which is that like when we begin from the
+[168:57] perspective of each one of us has value as a human and we are all we we are all in the same boat now
+[169:05] like we're all in this society together so how are we going to make it work for everyone
+[169:09] that feels like a much more productive way forward than trying to adjudicate like which
+[169:15] should people think it's unfair or not like if they do you're gonna have to start with that
+[169:22] like as a starting point what do you think of the lux maxing movement as a geneticist i mean
+[169:29] i know very little about this um at the end of the day like i'm a middle-aged college professor
+[169:35] so I am like somewhat buffered from online world. From what I read, it does seem to me to be very
+[169:44] ironic because it seems that some of the interventions are making people infertile.
+[169:55] Like I'm going to look smacks and take a bunch of testosterone and
+[170:00] And my ability to like procreate feels really deeply ironic.
+[170:06] Like genetic sepulcher.
+[170:07] Yes, exactly.
+[170:08] And also my friend Paul Eastwick, who I think you talked to.
+[170:11] I did a couple of weeks ago.
+[170:12] You did.
+[170:14] Paul is an old friend.
+[170:15] I've been talking about research with him for 15 years.
+[170:18] And when I first met him, I was like, what do you mean you don't believe in mate value?
+[170:22] Like, I don't believe you that that doesn't exist.
+[170:25] And now I'm like, oh, mate value exists among strangers and acquaintances.
+[170:28] and then it declines as people get to know each other.
+[170:31] That actually makes total sense to me.
+[170:33] But I am very convinced by his argument
+[170:37] that the core task of evolution
+[170:40] was how do we survive and raise the next generation?
+[170:45] And so our biggest boon towards that
+[170:49] was the ability to form pair bonds
+[170:52] and attach to each other,
+[170:53] not to out-compete strangers
+[170:55] for some signals vaguely related to genetic fitness.
+[170:59] So what do you think it says that that's what's being optimized for now by young men?
+[171:05] I mean, you are a younger and a man.
+[171:08] So what do you think?
+[171:10] I actually don't.
+[171:12] It feels very nihilistic.
+[171:14] It feels like if we were looking at this in another species
+[171:22] And we were like, there's a subset of the young mammals who aren't dating, aren't interested in romance, aren't interested in reproducing, but are interested in extreme body modification.
+[171:41] To give the signals that typically would be attractive by the other sex, but not in order to get the other sex.
+[171:48] Yeah.
+[171:48] So the look-smaxing community, I think, is pretty broad.
+[171:52] And in that will be a subset of guys who are doing it in order to get sexual access to women.
+[171:57] They want to get laid.
+[171:59] They want to get laid, so they're going to be tall.
+[172:00] Or they want to go to the gym to get jacked.
+[172:02] I did look-smaxing, right?
+[172:04] It was called going to the gym.
+[172:05] Yeah.
+[172:06] So a couple of interesting things.
+[172:09] this is definitely this is kind of an inevitable end point or one of the points along the journey of
+[172:17] understanding behavioral genetics understanding some make preferences from women at least
+[172:24] aesthetically for men because when you combine those two things together you there are certain things that are going to be more difficult for you to change without doing something that extreme And if you are growing up inside of a culture that is making it increasingly difficult for guys to get in front of women in a way that seems warm and welcomed
+[172:47] if you're in a post-me too world where approaching women in public is something that
+[172:52] many young men have been told that they shouldn't do that you have a little bit of a tall girl
+[172:58] problem socioeconomic success amongst women means that they're rising up through their own
+[173:03] competence hierarchy so there's ever fewer men that are above and across from them so if they
+[173:08] want to date typically on average a woman wants to date a man as educated or more than her and as
+[173:13] wealthy or more than she is and as tall or more than she is you end up with an ever increasing
+[173:19] group of high-performing women and ever decreasing group of ultra high-performing men
+[173:22] if you do that and you keep on pushing um i think what you're actually seeing is guys competing with
+[173:31] other guys as a way to find some end goal you'll even hear it in the way that they speak like
+[173:39] clavicula who's kind of the number one of this he'll say i don't care about getting girls
+[173:43] I just want to mog and what he means is I want to out alpha other guys and what he's talking about
+[173:50] with that like mogging is not just good looks it's formidability and I'm sure that you've seen a lot
+[173:57] of the stuff around male formidability as good if not a better predictor of sexual success
+[174:01] than looks are so it's a really funny I don't think that this is what's meant to happen but
+[174:06] they've ended up at what the outcome should be in any case which is formidability is better
+[174:10] a better predictor of male sexual success than attractiveness tends to be by pushing for
+[174:15] formidability that's coded in a very man way it's all about brow ridge heavy cheeks
+[174:22] like strong jawline i just i being tall like
+[174:26] maybe this is just me being extremely out of touch but i'm a woman i've been married twice
+[174:37] I've dated other people I've been in relationships I have you know I'm a
+[174:43] heterosexual woman who has been involved in heterosexual relationships since I
+[174:48] was 15 so nearly 30 years now and every time I read this description of what women or especially like educated or high income or like you know women who have some social status want but they looking for an apartment or how they
+[175:08] pick partners who they choose to have sex with I it always surprises me because it bears so
+[175:16] little relationship to how I have ended up in sexually satisfying romantically satisfying
+[175:25] relationships and I think particularly with the education thing I've long thought
+[175:30] you know I've I'm my first husband uh I met during graduate school so he's exact same education as me
+[175:38] um my second husband has I guess on paper less education than me made less money than me when
+[175:44] we first met um so i'm in one of those relationships that people suggest shouldn't happen which is like
+[175:51] people marrying like across or down as a woman socioeconomically yeah and i'm like but my husband
+[175:58] is extremely competent like he but you know you know what competence is a predictor for future
+[176:04] socioeconomic success that is how that would get netted down i guess so but it's the same thing i
+[176:09] always but i think the sense of like you want what you you know the competence is the signal for like
+[176:14] socioeconomic status actually it's the reverse like if i reflect on what i want i'm like i want
+[176:21] a man who knows how to contribute to the family and contribute to the society and like one of
+[176:27] those ways could be money but actually i want someone who like again it's competence it's
+[176:34] contribution what you're using is education level and employment level are rough-hewn aggregates
+[176:41] that may indicate the level of competence of this person.
+[176:44] So I don't disagree, but that's also the same as saying,
+[176:48] well, my most recent graduate student,
+[176:51] he didn't even go to a very good university, but he was great.
+[176:54] No, I mean, obviously, I'm a one person.
+[176:56] I know that you're right, but the end of one thing is true.
+[177:00] I think if you were to look on average, assortative mating is real.
+[177:04] But that's my...
+[177:05] I don't think the guys are even concerned about that.
+[177:08] They're not worried about...
+[177:08] They're not education maxing, they're looks maxing.
+[177:11] They're not career maxing.
+[177:13] They're not confidence maxing.
+[177:14] Well that would also be something but I think if you go learn how to like chop down a tree and diaper a baby and hike up a mountain and ride a horse competence max instead of looks max And then like I feel like that might get you more places well the the currency that every man is playing with at the moment is what can be portrayed online and i can
+[177:36] show you how good i my good i mean i think that's i can show you how much of a chat i am but not how
+[177:41] much of a dad i am yeah the part that makes me so again like so much of this is reflected back to me
+[177:48] in my role as a college professor and I was teaching a class and I was I made some we were
+[177:56] talking about de-individuation like when you're in a dark room or you're in a costume you feel
+[178:01] less individually responsible and I said offhand I was like that's why none of the best parties are
+[178:07] going to have bright fluorescent lighting like you're always going to have dim light at a good
+[178:10] party and my students I teach online I teach on a soundstage and my students have this like ask
+[178:15] your professor a question button and it lit up with students being like bold of you to think
+[178:21] that we've ever been to a party or i i heard that there would be parties in college and i've never
+[178:26] been to one and my co-instructor and i looked at each other and we were like should we make a
+[178:32] homework assignment which is gonna run a party like turn the lights down and put some music on
+[178:38] and like maybe make some jello shots and like have people over and it was so it was there are
+[178:45] these moments where you, you know, every year I go and every year I'm a year older. And then there
+[178:51] are these moments where the students ask something and you're like, oh, wow, the culture has shifted.
+[178:56] And I shifted in a way that as an older person, I have not been privy to. And how much of this
+[179:06] is they're just not hanging out in person as much anymore. Like, like, are if college students are
+[179:14] writing me and being like, I've never been to a party. And all of their socialization is happening
+[179:20] mediated two-dimensionally through a screen. You're right. Then the only competence that
+[179:27] seems to matter is the presentation of it. How do you look?
+[179:32] And, but that's, that's not, that doesn't, going back to Paul's work, that doesn't help you sustain
+[179:39] and an attachment that doesn't help you raise a baby.
+[179:41] Like, that's not really what I think.
+[179:44] I think about how antinatalist most of the sort of modern culture is at the moment anyway.
+[179:50] Oh, American culture hates kids.
+[179:52] Yeah.
+[179:52] Yeah.
+[179:53] I got in trouble for this recently.
+[179:55] Paige, you're great.
+[179:56] I really...
+[179:57] This was so fun and so varying.
+[180:00] And all over the place.
+[180:02] You did it.
+[180:02] Where should people go?
+[180:03] Let's bring this one home.
+[180:04] Tell them where to buy your things and follow your things.
+[180:06] All right.
+[180:06] So my new book comes out on March 3rd in the United States and in April in the UK.
+[180:12] And it's called Original Sin, the Genetics of Vice, the Problem of Blame, and the Future of Forgiveness.
+[180:18] And if you are at all interested in genetics, addiction, antisocial behavior, how to forgive yourself or someone else for the way they've hurt you,
+[180:27] or just the free will problem
+[180:29] or there's a very personal prologue to that
+[180:34] about having a body.
+[180:36] So if you're interested in any of those things,
+[180:38] you should check out my book.
+[180:39] I can.
+[180:40] Paige, I appreciate you.
