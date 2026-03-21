@@ -1,0 +1,514 @@
+# Curate People
+# Source: https://nav.al/curate-people
+# Date: Thu, 30 Oct 2025 03:54:00 +0000
+# Duration: 52:04
+
+52:03 --> --> Get podcast Apple Spotify YouTube Download Nov 7 2025 Nivi: You’re listening to the Naval Podcast. Today we’re going to be talking about recruiting, hiring, team, and culture.
+
+Nivi: There’s a famous quote from Vinod Khosla, “The team you build is the company you build.” Or in other words, they told you it was a technology game when it’s really a recruiting game.
+
+So I pulled up a tweet from Naval from August 2025 : “Founders can delegate everything except recruiting, fundraising, strategy, and product vision.”
+
+Naval: Recruiting is the most important thing because you need creativity; you need motivated people. Ideally, the early people are all geniuses. They’re self-managing, low-ego, hardworking, highly competent, builders, technical—maybe one or two sellers—but you can’t watch everything. You can’t micromanage everything.
+
+The early people are the DNA of the company. When you outsource recruiting, when you have other people hiring and interviewing and making hiring decisions without your direct involvement and veto, that’s a sad day. That’s the day that the company’s no longer being driven directly by you.
+
+There’s now a fly-by-wire element in between. There’s some mechanical linkage going through another human, often at a distance. And other people are not going to have the same level of selectivity that you will as a founder.
+
+The important size at which a company starts changing is not some arbitrary number, like 20 or 30 or 40. It’s the point at which the founder is not directly recruiting and managing everyone. The moment that there are middle layers of management, then you are somewhat disconnected from the company, and your ability to directly drive a product team that can take the company from zero to one goes away.
+
+So we really cannot outsource recruiting. People think you can. They hire recruiters, for example. Maybe you can outsource a little bit of sourcing, but I would even argue that’s difficult. The reason recruiting is so, so, so important—and a lot of it is obvious, I’ll skip the obvious reasons—but one non-obvious reason is that the best people truly only want to work with the best people.
+
+Working with anyone who’s not at their level is a cognitive load upon them. And the more people they’re surrounded by who are not as good as they are, the more keenly they’re aware that they belong somewhere else, or they should be doing their own thing.
+
+The best teams are mutually motivated. They reinforce each other. Everyone’s trying to impress each other.
+
+One good test is when you’re recruiting a new person, you should be able to say to them, “Walk into that room where the rest of the team is sitting. Take anyone you want—pick them at random—pull them aside for 30 minutes, and interview them. And if you aren’t impressed by them, don’t join.”
+
+When you do that test, you will instinctively flinch at the idea of them interviewing randomly a certain person that’s kind of in the back of your mind. That’s the person you need to let go. Because that’s the person keeping you from having this high-functioning team that all wants to impress each other. That’s the bar you have to keep, especially for all the people you’re going to directly manage—the first 20, the first 30, the first 40, the first 10—whatever that number is.
+
+In those early people that you’re going to directly manage, what are you looking for?
+
+There’s the old Warren Buffett line of “Intelligence, energy, integrity.” I would add “low ego.” Low-ego people are just much easier to manage. They tend to engage less in interpersonal conflict. They care more about the work than about politicking or fighting for credit.
+
+You just scale better. You’ll be able to manage 30 or 40 low-ego people when you might only be able to manage five high-ego people, because you’re always massaging their egos.
+
+So I think Vinod’s phrase is absolutely correct: the team you build is the company you build, especially for the first N people that you are directly managing—they’re the DNA of the company.
+
+Naval: Back to the tweet : You can’t outsource fundraising because investors are betting on you . If you’re outsourcing fundraising, whoever you’re outsourcing to is really the person running the company. Good investors, certainly, are not going to back a company where there’s a proxy fundraiser, which is why companies that raise money through bankers are always starting off on the wrong foot.
+
+You shouldn’t need a banker to raise money for you. Now, in later rounds it’s a little different because you’re reaching money that’s outside of the normal venture market. But especially in early stage, if you’re engaging a banker, that’s symptomatic of a deeper problem.
+
+Strategy: You have to set and communicate the strategy.
+
+Product vision: This is the one that’s up for debate. There are some founders who outsource product vision, but I would argue that because your job here is to take the best team you can find and distill their energy into a perfect product—to instantiate their knowledge and creativity into a product—you need to unify the product vision.
+
+One person needs to hold any complex product entirely in their head . And this is where it helps to have more than one founder, because it’s rare that someone can fundraise and recruit and hold product vision entirely in their head.
+
+Steve Jobs was one of these people. Elon Musk is probably another one. But usually you see a two-person team: one person who’s better at selling—although it helps if they have some builder background so they know what they’re talking about—and one person who’s better at building, but it helps if they have a little bit of a seller bone because they’re probably going to be recruiting the other builders.
+
+I don’t think you can outsource any of those four.
+
+There are cases where product vision has been outsourced—there’s some brilliant person underneath who’s driving the product vision—but those are rare. Usually all four are handled by the core founding team.
+
+Nivi: There will never be a better recruiter in the company than the founder. And I mean that in two ways.
+
+One, in any successful startup, the founder is always a great recruiter.
+
+But there’s also the flip side of that, which is the quality of the founder as a recruiter, as a human being, or as a contributor, is a cap on the quality of anybody you’re going to bring into the organization.
+
+You’re never going to be able to hire anybody who’s better than you are.
+
+Naval: Right. People say, “Hire people who are better than you.” I don’t think that really works. People who are better than you don’t want to work for you for long.
+
+Now, it may be different down the road when you’ve built a huge enterprise and there’s a network effect and an amazing product. Then maybe you can hire people who are better than you because you’re bringing a lot more than just you. But early on, all you’re bringing to the startup is you. And for people to want to work for you, you have to be at least on their level.
+
+This is why I think early-stage investors judge the founding team so heavily. They don’t even care about early progress—at least the good ones don’t—or about partnerships or domain expertise. They just want to see how good you are. And the clearest way you can show how good you are is by recruiting great people.
+
+Nivi: Another reason you can’t outsource recruiting is that recruiting takes a tremendous amount of creativity. Otherwise, you’re going to be doing the same cookie-cutter stuff that every other company in the world is doing, and you’re going to end up with the same interchangeable talent every other company has.
+
+Naval: So don’t take the fact that you don’t know anything about recruiting as a negative. Absolutely. In my own most recent company, I think I’ve recruited the best team I’ve ever worked with by far, and I’ve broken so many rules.
+
+Every single hire, we had to break some core rule of recruiting. I won’t go into all of them because some of those are still tricks that are valid in the environment. Some of those are probably pushing boundaries.
+
+But we break every rule.
+
+We break all the objections around commuting.
+
+We’ll break the objections around “Oh, I’m having a kid.”
+
+We’ll break the objections around “Oh, I can’t afford to exercise these options.”
+
+We’ll break the objections around “Oh, but I’m at a university.”
+
+We’ll even break the objections around people who may have goals, like, “Oh, I want to be surrounded by the best scientists,” or, “I want to work in a different kind of environment.”
+
+In the 2025 environment, everyone is trying so hard to recruit AI people and engineers. The demand for top-level engineers is higher than ever because they’re so leveraged through the new tools, and you can just see that in the salary offers that are going out to the top people. You just have to be incredibly creative. You just have to break rules.
+
+This is another reason why you can’t outsource recruiting. Because when you outsource it, you are outsourcing to someone else who doesn’t know what rules they can break and what they can’t—they’re HR, or they’re afraid that they’ll break some rule that you’re not going to be happy with them breaking.
+
+But as a founder, you can break rules around the cap table . You might be giving a certain amount of stock to each employee, but one might come along for whom you have to break the rules—or you have to convince them why you can’t break the rules for them—or you have to structure their stock compensation a different way, or their salary in a certain way, or their start date, or their hours, or their location, or their title, or who they’re working with, or who they’re reporting to.
+
+Or what their office is like, or who they get to hire, or what say they get to have in what part of the product, or in what part of the company, or how they get to straddle roles across different parts of the company.
+
+You’re going to have to break rules to get the best people because the best people are not cogs in a machine. They don’t fit into a neat and comfortable place. They’re multidisciplinary, and they have to temporarily don an identity of, “Oh, I’m an electrical engineer,” “I’m a software engineer,” “I’m a marketer,” “I’m a product manager,” whatever. But the great people are capable of anything. They chose to specialize in a particular thing, but their input is valuable everywhere.
+
+And they’re respected by a group of peers. My co-founder has a phrase he likes to use from Latin: primus inter pares —first among equals—where they’re all peers. But each person, given their expertise and their particular know-how, is acknowledged by the others as being the first among equals in a given domain.
+
+So one person might be better at naming and branding. One person might be better at industrial design. Another person might be better at electrical engineering or software engineering, or have taste in a different domain. But a great team will have multidisciplinary people who are each capable of doing many jobs, but are specialized and have extreme taste and judgment in particular areas.
+
+And their peers are smart enough to recognize where they have that taste and will confer upon them the ability to make decisions in that area.
+
+You have to break the rules not just on recruiting, but also in operating the company and how it’s structured. Every good company is idiosyncratic. Its culture is unique to it.
+
+You can’t just transplant it.
+
+Naval: To give you an example at my latest company, we don’t use Slack , which is one of these group chat platforms. And especially in a small company, Slack just becomes a hangout spot.
+
+It’s kind of like email. In email, it’s too easy to generate tasks for large groups of other people. I can fire off an email with 20 to-dos for other people and it takes me five seconds to generate that email, and then it takes up the day of the other people trying to respond to it. It creates this asymmetric ability to waste other people’s time.
+
+Over time, email has degenerated into a medium where there is very low signal and a lot of noise—AKA spam—even well-meaning spam from friends, family, and coworkers.
+
+So we all switched to text messaging, where we understand the barrier to entry is higher. Like, “If you’re going to text me, it’d better be important.” And if you’re texting me a lot and it’s not that important, I’m probably going to mute you. Or if you’re in a group text and someone starts messaging too much, you exit the group text, which is why these large group texts die out over time—because the good people mute them and leave.
+
+Slack and group messaging platforms have a similar dynamic where over time they degenerate into a combination of people asking random questions into thin air, people prognosticating, people politicking, people bickering, people talking about stuff that is not germane to the work. And they become largely entertainment platforms for group culture building—which is fine—with a high noise-to-signal ratio.
+
+Whereas if you don’t have Slack, if you have a question you have to really think about it and try to solve it yourself. And if you can’t, you have to figure out who in the company might have an answer to that question, and you have to track that person down, which is highly interruptive, and you have to figure out how to approach them properly.
+
+You could argue that communication overhead is too high. This limits your ability to scale as a company.
+
+Which is exactly the point.
+
+When you have a small number of brilliant people working together to try to take a product from zero to one, the last thing you want is scale. Scale is your enemy.
+
+It just takes a small group of people to create something great.
+
+Every good founder knows this. One of the reasons Steve Jobs implemented secrecy at Apple was to prevent teams from cross-pollinating too much and being in each other’s business and trying to take credit for each other’s work. It’s also why he moved the Macintosh team into a separate building from the Apple II team. Elon Musk encourages people to walk out of meetings and do standing meetings only. Jeff Bezos limits teams to two-pizza teams . These are all attempts by founders to unscale the company—to break it down into smaller components so people can actually get work done instead of spending all their time in meetings and politicking.
+
+Slack breaks those boundaries. It allows 50 people to be in a group at once and waste each other’s time. If you force people to be thoughtful about their interactions, you move from a meeting schedule to a maker’s schedule . Then people can have uninterrupted free time to be creative. And creativity is all that matters because we do live in the age of infinite leverage, and AI and robotics are making that more clear every day.
+
+You need to let your people be bored rather than busy. Always keeping them busy with make-work is not effective. You need to give them maker’s time—builder’s time—which means large amounts of uninterrupted free time to do deep creative work.
+
+And then when they stick their heads out of that and they’re bored, they can go for a run or they can spend time with their family, or they can even go surf TikTok —no one’s judging—but they get to manage their time better. Whereas Slack takes the disease of meetings and makes it pervasive: 24/7.
+
+So now on top of checking your email inbox, you have to check your Slack inbox. And it has that TikTok-like insidious addiction loop where there’s a lot of slop in there, but once in a while there’s a nugget. So you’re constantly now running through this pile of slop to find that nugget. People can asymmetrically waste each other’s time by sending one message that then 50 other people have to sift through and figure out if it’s slop or not.
+
+So, especially in a small team, one-on-one communications are much better. And by limiting the use of Slack, especially early on, you can force the team to stay small. And when a team is small, people who aren’t pulling their weight can’t hide. You can curate it much better as a leader. You can manage them directly, or work with them directly, and you can actually deliver world-changing products.
+
+Nivi: It reminds me of Nassim Taleb’s idea of never hiring an assistant , because it gives you the opportunity to expand your scale and the assistant ends up having a paradoxical effect of making you busier instead of less busy.
+
+Nivi: In July 2025 , you tweeted that “The job of a startup is to find undiscovered talent and distill it into a product.”
+
+Naval: Obviously the product vision is there. Obviously you have to find talent. The key is “undiscovered.” That’s the part that we haven’t talked about and that I think a lot of people miss.
+
+If you can identify the talent from afar easily, so can everybody else. You have to find them before other people do. How do you do this? Elon is probably the modern master of this. Although Jobs, Altman , and a few other people have also done extremely well in this regard. The playbook that Elon uses is interesting.
+
+First, you pick a mission that’s extremely audacious. There’s only so many hours in a day. You’re going to work anyway. You might as well work on something big. The best people know that deep down. They want to work on something big.
+
+For example, I think the best people don’t want to build video games or slop entertainment that’s wasting people’s lives. They don’t want to build a crypto casino. The best people want to do meaningful work because deep down they’re aware of their potential. And so when they see an opportunity to express themselves as engineers, as artists—hopefully as both, because I think the great engineers are often great artists as well—they’re going to be drawn to a big mission.
+
+So the first thing Elon does across the board is he picks a big mission and he frames it in the largest way possible:
+
+“We’re not going into space; we’re not going to the moon; we’re going to Mars .”
+
+That’s a big mission.
+
+Similarly, Sam Altman stays true to “We’re not just building Sora 2 video feeds; we’re not just building chatbots; we’re building AGI .” He’s not wavering from that. He wants to build AGI.
+
+Elon doesn’t want to stop at just electric cars. He doesn’t even want to stop at self-driving cars. He wants robots. He wants an army of a hundred million robots . Tesla is going all the way. So these are inspiring. These attract the best people.
+
+Second, you’re early. You lay out these missions and you do it before everybody else does. So Elon did SpaceX long before space was cool. People thought it was impossible, and so he managed to attract the best engineers out of NASA and Boeing and Lockheed and universities before everybody else did.
+
+Now, if you’re in a more crowded space, you need to get creative and find the undiscovered talent in that space. By the time someone’s famous on Twitter, it’s too late to recruit them. Everybody knows. Even by the time someone is pedigreed—they’ve won all the awards and the papers—very hard to recruit. You’re going to have to hack your way to them.
+
+So to be a great recruiter, you have to first be a great sourcer, and a great sourcer is a good hunter of undiscovered talent, which means you have to have taste, and you have to have interest in other people, and you have to put in the time.
+
+For example, my co-founder loves to find tinkerers. He loves to find weird projects—not mainstream projects, not the obvious stuff. He’s not looking at who’s training a better AI model. That’s too obvious.
+
+Instead, he might be looking at something adjacent like, “Who’s really into using weird ML algorithms for micro-weather forecasting?” Then he’ll spend a day or two going through their GitHub or going through their paper and really understanding it. And then he’ll go off and he’ll think deeply about it.
+
+And then he’ll come back with a tweak or a modification and he’ll email that person and say, “Hey, I saw your code. I saw what you’ve done. I thought it’s really interesting. I wrote a little bit of code that I think you may want to incorporate or plug in.”
+
+Or, “I have a question,” and usually it’s a good question—it’s a considered question. And the person responds well because here they are off tinkering on the side and somebody has spotted their tinkering and has a good question about it.
+
+And the best part is he’s not doing this to recruit people—he’s doing this because that’s just what he does for fun. He’s genuinely interested. So he finds these weird loners tinkering at the edge, and then I get to go in and recruit them. Most of the time it fails and sometimes it succeeds. But you find really interesting people.
+
+That’s an example of how his taste allows him to source a particular category of people.
+
+So you do have to look for talent in undiscovered places.
+
+Naval: We recently hired an assistant at the company—an office-manager-type person—and it was just someone I ran into at a restaurant who was incredibly hospitable, and had never worked a day in their life at a tech company.
+
+But you could just tell this person was good at everything they did. Everything they touched was quality and stylish, and they cared. We recruited them; we took a chance.
+
+So it’s about finding undiscovered talent, not the obvious talent. And this is another problem with outsourcing recruiting, which is you hand it to a recruiter, you hand it to HR—they can’t bring you weird people. It’s too high risk. They don’t have the taste themselves. Makers have taste in other makers. Builders have taste in other builders. Engineers have taste in other engineers. Good salespeople have taste in other salespeople. Copywriters have taste in other copywriters. So it’s very hard to outsource that.
+
+As a related aside, one of my pet peeves is hiring marketing and PR people who have no evidence of being able to market themselves.
+
+For example, if you want to hire someone to do your social media, they’d better have a great social media account for themselves. They should be playing their own social media game at the top of the game.
+
+And in fact, I would argue the best social media people are not even hireable. You have to discover them when they’re very raw, when their accounts are small and young and up-and-coming. Or you have to contract with them because they know that their real opportunity is to build a channel around themselves uniquely, and they’ll briefly rent you their channel rather than hand it over to you completely.
+
+Nivi: One thing AngelList has done to be creative in sourcing is to turn our first floor into a cafe—it’s called Founders Cafe —and we have a constant stream of founders: one-man companies, two-person companies that are just trying to get started. And a lot of these companies are not going to go anywhere, and we will have the opportunity to recruit them if their companies fail.
+
+This is not an idea that any recruiter is going to come up with.
+
+Naval: And I would go one level further. I think you should open a cafe like that, not because you want to recruit people, but just because you like hanging around founders and you like having a cafe. That’s going to be a lot more genuine and authentic and won’t feel like work and you’ll do a better job and then there’ll be ancillary benefits to it.
+
+Nivi: Agreed. We opened it because we are in the business of serving founders.
+
+Nivi: In August 2025, you tweeted that “Every great engineer is also an artist.”
+
+Naval: I know this experientially, but let’s also talk about what art is. My definition of art is much broader than a conventional definition.
+
+I characterize art as something that is done for its own sake, and done well, and often creates a sense of beauty or some strong emotion.
+
+And a lot of engineers are introverts.
+
+As an aside, I hate the term “ incel .” It’s just a way of putting introverts down. It’s the new “nerd,” if you will. If someone says that somebody is an incel, I’m more likely to want to interview them. So let’s move away from the slurs.
+
+But introverts tend to want to express themselves through other things rather than going out and expressing themselves directly. So what are they going to do? They’re going to express themselves through their craft. They’re going to create art.
+
+In my current company, at least half the engineers have serious artwork they’ve done on the side. World-class artwork—everything from elegant mathematical proofs to beautiful computer art, to literally sculpting things with clay, designing clothing, designing doorknobs, water bottles. There’s one who’s done incredible music videos, really good stuff. And I see a lot of the better engineers tinker with the AI art products, much more so than even so-called artists do. I think a lot of artists are scared by AI art products saying, “This is going to replace me.” Whereas someone who doesn’t have that identity of an artist and doesn’t feel threatened by it—it’s just a tool and they try it out to see what it can create.
+
+Anything done for its own sake and done as well as one possibly can is art. And great engineers are also artists. They’re capable of anything. It’s just they’ve chosen to be engineers and focused on building things because engineering is the ability to turn your ideas and your art into things that actually work, that do something useful, that embody some knowledge in a way that it can be repeated and people can get utility out of it. But that doesn’t mean that it can’t be beautiful.
+
+Again, I’m channeling my co-founder, but if you ask him what is the best form of art—painting, music, literature, etc.—for him, it’s industrial design.
+
+For example, if you look at the AirPods—the way they’re sculpted aerodynamically, and still have to be manufacturable on a machine at a certain price point by someone in China, according to a spec.
+
+The way they satisfyingly click into the little resting places in their case with magnets.
+
+The way they pioneered that whole charging case with the Find My AirPods product built in.
+
+The way they hid all the extra buttons.
+
+The way they made it carry spare batteries.
+
+The way they fit inside your ear with the replaceable tips.
+
+That is a marvel of art and engineering.
+
+It took incredible artistry to figure out how to design it so it fits—sculpted—into the human ear, which is a beautiful and natural form, while still being mass-producible at a certain price point and making all of the little elements work together.
+
+When you close the lid on the AirPods, it makes a very satisfying snap. The way the curves around it—those are G3 curves. Those are hand-sculpted and then scanned in—computers can’t generate those.
+
+The way it feels in your hand: it feels like a smooth, polished pebble that fell from the sky.
+
+It’s a thing of beauty. It’s a work of art; and I think people intrinsically know that, which is why they flock to Apple products over various Android products because they are sculpted like works of art. The care goes in there and you can feel it. Apple triumphed as a company of people who genuinely, deeply cared—of engineer artists.
+
+That’s why to this day, even all the other founders, even ones who might have built more market cap recently than Apple has, they still all look up to Apple.
+
+Every entrepreneur from my generation, and I think many subsequent generations, looks up to Steve Jobs and his team more than any other because they were truly artists , not just engineers.
+
+Nivi: To me, the ideal person for any role is technical, an artist, constantly generating new knowledge, and finally, automating the repetitive parts of their job through code, product or AI.
+
+Exceptions apply, but the ideal candidate for any role should either have these capabilities or be aspiring to gain these capabilities: technical, an artist, constantly generating new knowledge—call that creativity—and automating the tedious parts of their job.
+
+Naval: I think that’s right, and it’s telling that when you talked about automation, you left out automating through process or people—that’s the worst form of automation, because then that adds non-technical or non-creative people into the process. And those people aren’t going to be happy in those jobs for long because they’re cogs in the machine and will eventually be replaced by some piece of technology.
+
+It also changes the environment because humans are social animals. If you start mixing them together, they’re always going to want to accommodate the other people. And so the level of conversation will shift.
+
+For example, if you have a bunch of politicians in a room and a bunch of engineers, you’re not going to be talking engineering for long.
+
+Eventually you will drift into common topics. And in a large enough group, the common topics are always travel and food because they’re non-threatening topics. People always degenerate to that.
+
+If you really want to have a strong culture of people who are mission-oriented, you can’t mix too many different kinds of people.
+
+That’s where the “cult” in culture comes from. Early teams do look like cults. They are monomaniacal; they are weird; but they’re all kind of weird in a similar way. And if you start mixing too many different kinds of people, you’re just going to get a bland average, which is not how you’re going to build a great company or product. It’s a regression to the mean problem.
+
+Nivi: There’s actually an old Quora thread by a famous founder that I won’t name, where he says the last thing you want in an early-stage company is quote-unquote diversity. You want a monoculture of people who all believe the same things. Because if you don’t have that, you’re going to just spend your time arguing about everything, and you don’t have that time at an early-stage startup.
+
+So you need everybody to already be on the same exact page. And then there’s a few things that you might argue about that really move the needle on the performance of the business.
+
+Naval: Founders want to be popular like everybody else, so externally, they’ll try to project this image that they’re consensus-driven, and sometimes they’re even stupid enough to fall for it. But every great founder I’ve seen up close, or even from afar, is highly opinionated and they’re almost dictatorial in how they run things.
+
+Also, early-stage teams are opinionated. And the products they build are opinionated. Opinionated means they have a strong vision for what it should and should not do.
+
+If you don’t have a strong vision of what it should and should not do, then you end up with a giant mess of competing features.
+
+Jack Dorsey has a great phrase: “Limit the number of details and make every detail perfect.” And that’s especially important in consumer products. You have to be extremely opinionated. All the best products in consumer-land get there through simplicity.
+
+You could argue the recent success of ChatGPT and similar AI chatbots is because they’re even simpler than Google.
+
+Google looked like the simplest product you could possibly build. It was just a box. But even that box had limitations in what you could do.
+
+You were trained not to talk to it conversationally. You would enter keywords and you had to be careful with those keywords. You couldn’t just ask a question outright and get a sensible answer. It wouldn’t do proper synonym matching, and then it would spit you back a whole bunch of results. That was complicated. You’d have to sift through and figure out which ones were ads, which ones were real, were they sorted correctly, and then you’d have to click through and read it.
+
+ChatGPT and the chatbot simplified that even further. You just talk to it like a human—use your voice or you type and it gives you back a straight answer.
+
+It might not always be right, but it’s good enough, and it gives you back a straight answer in text or voice or images or whatever you prefer.
+
+So it simplifies what we looked at as the simplest product on the Internet, which was formerly Google, and makes it even simpler. And you just cannot make a product that’s simple enough.
+
+To be simple, you have to be extremely opinionated. You have to remove everything that doesn’t match your opinion of what the product should be doing. You have to meticulously remove every single click, every single extra button, every single setting.
+
+In fact, things in the settings menu are an indication that you’ve abdicated your responsibility to the user. Choices for the user are an abdication of your responsibility. Maybe for legal or important reasons, you can have a few of these, but you should struggle and resist against every single choice the user has to make.
+
+In the age of TikTok and ChatGPT, that’s more obvious than ever. People don’t want to make choices. They don’t want the cognitive load. They want you to figure out what the right defaults are and what they should be doing and looking at, and they want you to present it to them.
+
+Nivi: Warren Buffett says that you should hire people who have energy, intelligence and integrity . Joel Spolsky put it another way—that you want people who are Smart and Get Things Done .
+
+What’s become important to me on the intelligence side, is that there’s really only one significant test for a candidate, which is: Are they generating new knowledge? Which is just a fancy way of saying: Are they creative?
+
+Because otherwise you’re just hiring a robot whose job should be automated.
+
+Naval: I think that’s correct, and people may get unhappy saying, “Well, you’re calling these people robots,” but I don’t think anybody wants to do the same thing over and over. Everybody wants to do new, unique, and creative things.
+
+Everyone can be an artist. Not in the sense of grabbing a paintbrush and painting—but in the sense of creating new knowledge and enjoying that process. It may just be in different domains. Even figuring out how to hack Twitter or YouTube to get your word out is a form of creating new knowledge.
+
+For example, a couple of years ago the way to get the word out was probably writing blog posts. Now it might be X plus Substack, or going viral on TikTok, or doing a great startup launch video. The target is always moving and people are always trying to apply creativity to hack that system—even fundraising.
+
+Rather than going and meeting VCs one by one, today I would argue you’re better served, if your product shows well, to build a killer launch video and a great demo of the product and try to get it to go viral online—to have a personality and stand out from the noise.
+
+So creativity can be applied anywhere.
+
+The other thing I look for in people is being self-motivated. So you don’t have to tell them what to do. You don’t have to push them.
+
+“Hey, what did you get done this week?” That’s a famous Elon question, and I think it’s a great one. But it is fundamentally still a management question. It’s a manager’s question. It’s not a leader’s question. With leadership, you motivate people.
+
+You give them the place to march to, but they’re relatively self-motivated. Once they know what direction you’re all headed in, they’re going to figure out how best to get there and to contribute to the team getting there. And if they have to be told when to march and they have to be pushed along and flogged, then they don’t belong in an early-stage startup.
+
+So I think being self-motivated is really important. And as I mentioned earlier, low ego is also very important. And these are pretty rare combinations, but high-ego people can just destroy the functioning of a team.
+
+A lot of these principles are very difficult to adopt once the company’s past a certain size.
+
+For example, you could have the criteria saying, “I’m only going to work with self-motivated people. I’m only going to work with people who don’t need a lot of direction, so I can work with as many of them as possible, and I don’t have to look over their shoulder all the time.”
+
+But if you already have 40 or 50 people in the company, odds are you’ve already hired a bunch of these people. Now what are you going to do—a mass layoff? Based on what—some fuzzy feeling about motivation? How much conviction do you have? Probably not enough.
+
+So it’s not only that the team you build is the company you build, literally—the founder’s personality is the company because your principles and your non-negotiables and your values dictate who you’re going to hire.
+
+The best founders have extreme taste in people and in products. They are extremely judgy. For example, in my current company, I have extreme taste about investors. I won’t take money from any VC. I don’t respect most VCs—they’re just money managers pushing money around. A lot of them like taking credit for other people’s work. I’ve had bad encounters with VCs in the past. There’s no VC who’s going to sit on my board and give me advice, which I probably haven’t already heard.
+
+So what am I going to recruit a VC for? I’m going to have very extreme taste about a VC.
+
+My co-founder has extreme taste about builders. I have extreme taste about marketers and sellers and copywriting. I’m never going to hire a marketing person who can’t outwrite me, and that’s a rare person.
+
+It helps to be very judgy. You do want to be very opinionated. Anyone who tells you to listen to others and build consensus and gather feedback is implying that you’re weak, you’re not good enough at what you do, or that you have the wrong approach.
+
+Good founders are incredibly opinionated. The problem is the bad founders are very opinionated too.
+
+Nivi: There’s a lot of ways people try to assess whether someone has the ability to create new knowledge. Peter Thiel has his famous question: “What important truth do very few people agree with you on?”
+
+He’s trying to find out if that person has opinions of their own. Do they have their own ideas?
+
+I will sometimes ask people whether they have any unique theories that they’ve come up with about their hobbies—even if it’s about squash. I’ve heard people give me unique theories about squash. If you are able to generate new knowledge, you will start coming up with ideas about how squash should be played and taught within the first hour of learning squash.
+
+They might not all be right, but you will come up with novel theories.
+
+Naval also has one question he mentioned on Twitter recently, which I would sum up as, “What do you care about that isn’t popular?”
+
+That’s another way of trying to assess whether that person has the ability to generate their own ideas.
+
+Naval: Thiel’s famous question about a secret is really, from an investor’s perspective, where he’s hunting for the unique bet that the business is making, because he doesn’t want competition. As he says, “Competition is for losers.”
+
+As we learn in basic microeconomics, competition reduces profits to zero, and he wants to make a unique bet. Or as Mike Maples , early AngelList investor, likes to say, “non-consensus and right.” But that’s for investing.
+
+I think in everyday work you want to work with people who are very good at distilling the insight from their work on a constant basis.
+
+Malcolm Gladwell popularized 10,000 hours . 10,000 hours is directionally correct, but it’s not exactly correct. It implies that if you spend 10,000 hours doing something, you get mastery. Let’s put aside whether 10,000 is the right number or not.
+
+It’s not just hours put in— it’s iterations .
+
+How many learning loops do you have that drive the learning curve?
+
+What is an iteration? An iteration is when you do something and then you look at the result; you test the result somehow— ideally against a free market, nature, or physics . Then you ask, “Did this work or not? What part of this experiment worked or not?”
+
+And then based on that, you make a new creative guess on how to improve that thing, and you do it again.
+
+The number of times you can do that rotation, that iteration, the faster you’re going to learn. That’s the curve you want to be on.
+
+Great people will distill insights from every iteration.
+
+So it’s not as simple as finding one secret. Yes, every company makes a secret bet. They have a theory as to how the world is going to work out that other people don’t necessarily have en masse , or it’s not conventional wisdom yet.
+
+But along the way, they’re going to discover thousands of insights, and each one will build upon the last, and that’s all going to be driven by the number of iterations they can do.
+
+One of the problems you run into when scaling a startup is you hire someone who hires someone, and then that person is used to a well-defined job at a larger company. They’re used to getting credit for their work.
+
+They’re divorced enough from the end outcome that all they have to do is kind of impress their manager— the principal-agent problem .
+
+So now what they want is for their work to not be thrown away. A common objection you get when your company scales beyond 20, 30, 40, 50 people is “We don’t want to try this because it’s probably not going to work.”
+
+It’s actually probably the number one thing a founder will struggle with as a company scales—that they’ll come up with more ideas than their organization can execute upon, and there’ll be internal resistance to doing things because nine out of 10 ideas are half-baked.
+
+But really, you’re in a search process; you’re in a learning process; you’re in a discovery process. You’re trying to find the thing that works, and you do have to try a lot of things, and a good founder will have the ability to iterate on many things, and throw away the things that didn’t work, because learning necessarily involves failure.
+
+Naval: Remember: All new information starts as misinformation . It starts as not being obviously true, and so it’s accused of being misinformation. Eventually, over time, it’s proven right or wrong. If it’s right then it’s information you can then build upon.
+
+A good founder will struggle with exactly this.
+
+My advice would be: Power through it. Figure out what is your organizational capacity to get things done. Get people comfortable with the idea that most of their work is going to be thrown away—it’s all experimentation and it’s fine for it to be thrown away—and get comfortable with repeated, small failure as long as you distill the insights along the way.
+
+Balaji Srinivasan has another way of putting this, which is wandering through the “idea maze.” You’re taking left turns and right turns and backtracking, figuring out what works and what doesn’t. It might be in the rough direction where you started out, although it’s an ego trip to think that you’re always going to be moving in the right direction.
+
+The biggest impediment here is pride. People stay locked into their original vision and they don’t properly navigate the idea maze.
+
+It’s about taking lots and lots of repeated steps and backtracks and side turns until you find your way through the maze.
+
+This is why, even though from the outside it looks like what a company has done is trivial and it’s going to be easy for competitors to catch up to them—and it’s a common thing to see a startup break out and then you say, “Well, that big company’s just going to crush it.”
+
+No, as long as that startup keeps wandering through the idea maze, they’re actually much deeper down through the maze than the big company is. Even if the big company copies them, by the time it gets to where the startup is, the startup has moved way ahead. It’s in a different part of the maze. The big company can’t resist the urge to explore side hallways that the startup has already explored years ago and knows are dead ends.
+
+It’s this ability to iterate very quickly and to learn from it, and constantly generate new insights and secrets, that is the secret to success.
+
+It’s not just the one simple secret where you ask the founder, “What is the thing you believe that nobody else does?” It’s literally every single day you figure out something new that builds upon something old, and you realize, “Oh, things don’t work like I thought they would. They actually work a different way.”
+
+Nivi: The side effect that you have to be willing to tolerate is that great teams are throwing away most of their work.
+
+Nivi: To me, the missing ingredient in most people’s recruiting is intolerance. You should really just treat every employee in the company, including yourself, as an enemy agent that’s trying to destroy the company by bringing mediocre talent into the business. It’s unfortunately just human nature.
+
+Naval: My co-founder and I have a new criterion in our company: “Geniuses only.”
+
+It’s a harsh word, but it sets a very high bar. You can just look around for who’s not a genius. The only way you’re going to attract geniuses, whatever that term means to you, is by having a company full of geniuses.
+
+And if someone’s not a genius, then either you’re transitioning into the phase where you can no longer hire geniuses and you just need to scale up for whatever reason, or you can just show that person the door because you hired them prematurely for the kind of company you’re trying to build.
+
+Now, this is very difficult.
+
+You’re lucky if you can hire one genius a month. You as a founder have to identify them and do whatever it takes to recruit them and motivate them. So it’s inherently self-limiting. Given that a person probably isn’t going to stick around your company for more than three, four, five years—although in some great companies, people stick around for decades—at that attrition rate you’re talking about a 30 to 50 person company.
+
+But if you can even assemble a team of 10 geniuses, you’re way ahead of everybody else. At most companies—the successful ones—the founders, and maybe a few early people are at the genius level. But in the urge and the rush to scale, that gets drowned out too quickly.
+
+Nivi: I think genius is actually even a bit of an underused term.
+
+I think everybody does have a zone of genius . You want to find people who have already found their zone of genius, or they have the capability—they have the slope to be able to find their zone of genius or get close to it while they’re still working at your company.
+
+Naval: As an investor, also, I have an unfair advantage. I’ve often worked with people where it hasn’t worked out in a company and I have to let them go, but I’ve gotten to know them well enough that I recognize their zone of genius, and I can say, “This is not where you’re operating in your zone of genius, but if you ever end up doing this other thing, let me know, because I’ll probably want to invest.”
+
+And that has actually worked out reasonably well in a couple of cases. So you’re right that people often just need to be in the right environment.
+
+The thing you can’t fix is motivation. If someone’s just unmotivated, if they don’t want to apply themselves fully, if they have other things going on in their life, then you just have to cut them off at this point.
+
+One of the things that’s less talked about is often you’ll meet the right person at the wrong time. They just have internal problems—life problems, home problems, health problems, things that are going on—that make them not capable of functioning at the level that you need.
+
+And that’s a sad situation, but it happens all the time.
+
+On a related note: People say, “Oh, I’m burned out. I need to take a break for a month or two and recharge.”
+
+In my experience, that’s largely not true. Usually burnout is a sign you’re working on something that either isn’t working or you don’t enjoy the work fundamentally. Just taking time off won’t fix it.
+
+If you’re really enjoying what you do, generally that’ll give you more energy and more motivation .
+
+There are rare cases—like I know Elon is famous for flogging his teams until four in the morning and calling staff meetings at odd hours of the night and doing crazy death marches. That’s the culture that he sets and builds—that’s fine. In those situations, I could see certain people burning out.
+
+But even there, what they’re saying is, “I cannot sustain this workload in the future.” So even there, taking time off doesn’t work because when you come back, he’s going to put you to task the same way as earlier.
+
+So generally when someone says, “I’m burned out,” I just read that as, “I want to quit.”
+
+Even if they don’t necessarily realize that themselves.
+
+Nivi: You have to be careful about who you bring into the organization because they will bring their own sense of aesthetics without even knowing it. They will hire people that are like them without knowing it.
+
+For example, at AngelList, one of the people on the team was trying to decide between two consultants that we wanted to hire, and he was picking the wrong one because he was like, “I think I’ll have more fun with this consultant.”
+
+The fun one was more like them in their personality and their way of carrying themselves and communicating. My idea of fun is working on great products and succeeding.
+
+Naval: David Deutsch would say something like, “When you’re having fun, you’re learning at the edge of your capability to learn.”
+
+If you are not having fun, what does that mean? You’re not getting anything new; you’re not learning.
+
+If it’s anxiety-inducing, what does that mean? That means it’s beyond your capability.
+
+So if you’re operating at the edge of your capability, you’re in flow. You’re learning; you’re doing—you’re being stressed enough for it to be interesting, but not so stressed that you’re anxious—and it’s fun.
+
+It may not be fun moment-to-moment, but when you look back day-to-day, week-to-week, month-to-month, it is fun. What else would you rather be doing than practicing your craft at the highest level of capability—at your edge?
+
+So I do think the fun criterion applies to business and to jobs.
+
+For example, at my most recent company, the designers are obsessed with design to the point where we are getting a new office space—it’s not their job to design it. Nobody asked them to design it; we probably didn’t even want them to design it. They can’t help but design it down to a T. It’s meticulous.
+
+Similarly, I asked them for a book in which we could just collect various checkpoints along the way of the work that we’re doing—the people that we have. They’re designing their own book binding. They got their own printer to print it on a special paper. They’re obsessive; they can’t 80% design something.
+
+Warren Buffett famously refused to put a bet on a golf game because he doesn’t bet —he doesn’t take risks. He only does sure things. That’s his whole model.
+
+The same way, a good engineer will not let themselves write a shoddy piece of code. And I know you want to be practical and you want to cut corners and you want to get things out the door. But a truly great engineer is not going to create something shoddy. A great designer is not going to halfway design something.
+
+I will delete tweets that have 10,000 likes on them because I catch a grammar or spelling error, or I think of a better way to formulate it. I’ll just kill it. I don’t care about the views because I want it to be done just right. People make fun of me on Twitter sometimes because I’ll put out a tweet, then I’ll change my mind and I’ll delete it after it’s gotten a lot of traction, and I’ll reverse the order of two words or I’ll change one word. Then I’ll wake up the next morning, past the edit window, and I decide I like the original one and I’ll post the original one back up. And I’ve lost all the virality and all the momentum, but I don’t care.
+
+I don’t want to be associated with a slipshod statement. It has to be correct and incompressible; it has to say something true to me in an interesting way.
+
+And that’s more important—that the art is correct than that it’s popular.
+
+Nivi: There’s an old quote that people who are not good at their jobs, you ask them to do something, they try and do it, and then you have to check their work.
+
+The best people, you ask them to do something and they come back with something that you never could have come up with yourself and never could have imagined.
+
+Naval: It’s high-agency people— founder mode , whatever you want to call it—but it’s people who take responsibility for doing the job the best way possible .
+
+You just have to communicate to them what it is that you think needs to be done. And it’s not just communication—communication is a management thing—it’s a leadership thing. So you also have to motivate them—not in some cheesy rah-rah way, but to help them understand the insight you have as to why you think it’s so important.
+
+And if you think it’s really important, then it’s your job to either convince them equally that it’s important or to be talked out of it yourself because you might have made a mistake. And then once they’re convinced it’s important, they’re high-agency enough that they will just go and do it in the absolute best way possible. And to your point about creativity, they’ll come up with new knowledge and new creativity along the way to figure out how to solve the problem, and they’ll solve it in a way you didn’t even know.
+
+Sometimes you’re in a conversation with someone and a disingenuous person is going to latch onto the exact words you said and jump on you. Whereas a smart person is going to understand the intention of what you’re actually trying to say, and a highly intelligent person will often answer the question, not that you asked, but the question you really wanted to ask or you meant to ask.
+
+Nivi: If I was going to sum up this whole conversation: The prime directive of a startup is to never compromise on recruiting and talent. I would rather take a short-term hit on customer experience than take a short or long-term hit on the quality of the team.
+
+Naval: I would summarize it in two words: Curate people. And the philosophy that I have going forward in my current company and all subsequent ones is that I only want to work with geniuses.
+
+I only want to work with self-motivated people. I only want to work with low-ego people. I only want to work with people who are builders and engineers and artists, and are at the top of their craft, and that’s all there is to it. You just have to be willing to curate people.
+
+We haven’t talked about firing, by the way, but that’s the other side of it.
+
+You’ll always make mistakes. Sourcing is hard. Recruiting is hard. Leadership is hard. I don’t like the word management because great people don’t need to be managed. But firing and letting go of people is hard too. But you have to do it. You’re never going to have a 100% hit rate, not even close to it.
+
+If you’re not firing, it means that you’re deluding yourself. So you do need to let people go who don’t match up. Otherwise, you’re only going to recruit people who are weaker than them, and your company will slowly deteriorate.
+
+One other side note on hiring geniuses: Only hire geniuses (that’s the current motto—obviously aspirational), but you’re not trying to fill slots. You’re not trying to fill roles. That is a common trap you fall into: “Well, I need to fill a marketing role, so I’m just going to interview a bunch of marketing people and then I’ll hire the best one out of that set.”
+
+Nope. If they’re not a genius, don’t hire them. Just be aware as a founder of what are the rough capabilities you need, and then look for geniuses who can fill those capabilities. And you find a genius who doesn’t fill any of those capabilities, but is somehow hireable, hire them right away.
+
+So collect geniuses. Warehouse them. You’ll never regret it.
+
+Your challenge may be to keep them interested because you may not have the right fit for them. But great people have a way of identifying whatever the problem is and getting involved even if it’s not their quote-unquote job. So when you find someone who’s truly great, you just hire them anyway if you can, regardless of whether you have a slot or not.
+
+It’s a mistake to try and fit great people into pegs and squares and triangles and holes. The real geniuses are incredibly idiosyncratic. They don’t resemble each other. You cannot fit them into a box. By trying to fill a role, you’re inherently trying to fit somebody into a box.
+
+So I don’t even think you necessarily want to hire for roles. Yes, you want people to have skillsets that matter for your company, but good people are much more flexible than these artificial rigid boxes that we make out, which are more of a function of HR and large companies.
+
+Small companies should not be applying large company practices that come from multi-hundred or multi-thousand-person companies—things like HR and roles and compensation brackets and things of that nature.
+
+As a founder, you’re always hacking the system, so you always have to be incredibly flexible on your feet, and when you recognize genius, just recruit them.
+
+Modal body text goes here.

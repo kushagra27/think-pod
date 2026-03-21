@@ -9,7 +9,7 @@ import json
 from html import unescape
 
 BASE_URL = "https://podscripts.co/podcasts/modern-wisdom/"
-OUT_DIR = "/root/.openclaw/workspace/projects/podcast-thinking/transcripts/chris-williamson"
+OUT_DIR = "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/chris-williamson"
 INDEX_FILE = os.path.join(OUT_DIR, "_index.json")
 
 HEADERS = {

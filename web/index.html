@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Think-Pod 🎙️</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <!-- Start Screen -->
+  <div id="start-screen" class="screen">
+    <div class="container">
+      <h1>🎙️ Think-Pod</h1>
+      <p class="subtitle">A thinking exercise disguised as a podcast</p>
+      
+      <div class="form-group">
+        <label for="guest-name">Your name</label>
+        <input type="text" id="guest-name" placeholder="Kush" value="">
+      </div>
+      
+      <div class="form-group">
+        <label for="topic">What do you want to talk about?</label>
+        <input type="text" id="topic" placeholder="early stage startups, AI, the future...">
+      </div>
+
+      <div class="podcaster-info">
+        <img src="https://yt3.googleusercontent.com/0wOKjnPFSBUkwOM-wRDMJf0UHVCvz_oc3d_zfZulDCFMj7N4SZc-UD3E9k0LnUFYJHL3MLNl=s160-c-k-c0x00ffffff-no-rj" alt="Chris Williamson" class="podcaster-avatar">
+        <div>
+          <strong>Chris Williamson</strong>
+          <span>Modern Wisdom</span>
+        </div>
+      </div>
+      
+      <button id="start-btn" onclick="startSession()">Start Interview</button>
+    </div>
+  </div>
+
+  <!-- Interview Screen -->
+  <div id="interview-screen" class="screen" style="display:none">
+    <div class="container">
+      <div class="header">
+        <h2>🎙️ Modern Wisdom</h2>
+        <button id="end-btn" onclick="endSession()">End Session</button>
+      </div>
+
+      <div id="transcript" class="transcript"></div>
+
+      <div class="controls">
+        <div id="status" class="status">Waiting...</div>
+        
+        <button 
+          id="talk-btn" 
+          class="talk-button"
+          onmousedown="startRecording()" 
+          onmouseup="stopRecording()"
+          ontouchstart="startRecording()" 
+          ontouchend="stopRecording()"
+          disabled
+        >
+          🎤 Hold to Talk
+        </button>
+
+        <div id="latency" class="latency"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Screen -->
+  <div id="end-screen" class="screen" style="display:none">
+    <div class="container">
+      <h2>Session Complete 🎉</h2>
+      <div id="summary"></div>
+      <button onclick="location.reload()">Start New Session</button>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

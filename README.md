@@ -19,11 +19,16 @@ A thinking exercise disguised as a podcast. Choose a podcaster, get interviewed 
 │   └── interview/             # Conversation engine
 │       └── podcast_session.py   # Interactive interview session
 ├── data/
-│   ├── transcripts/           # Full episode transcripts
-│   │   └── chris-williamson/    # 9 episodes, timestamped
-│   ├── personas/              # Extracted podcaster profiles
-│   │   ├── chris_williamson_v1.md
-│   │   └── chris_williamson_v2.md  # 30KB comprehensive profile
+│   ├── transcripts/           # Full episode transcripts per podcaster
+│   │   ├── chris-williamson/
+│   │   ├── lex-fridman/
+│   │   ├── naval-ravikant/
+│   │   └── alex-hormozi/
+│   ├── personas/              # Extracted podcaster profiles + prompts
+│   │   ├── chris_williamson_v2.md
+│   │   ├── lex_fridman_v1.md
+│   │   ├── naval_ravikant_v1.md
+│   │   └── alex_hormozi_v1.md
 │   └── sessions/              # Interview session transcripts
 ├── planning/
 │   ├── DEVELOPMENT_PLAN.md    # Full roadmap & architecture
@@ -37,13 +42,20 @@ A thinking exercise disguised as a podcast. Choose a podcaster, get interviewed 
 
 | Phase | Status |
 |-------|--------|
-| 1. Data Collection | ✅ Done (9 Chris Williamson episodes) |
-| 2. Persona Extraction | ✅ Done (comprehensive v2 profile) |
-| 3. Conversational AI | ✅ MVP (text-based interview loop) |
+| 1. Data Collection | ✅ Done for Chris; starter transcript sets added for Lex, Naval, and Alex |
+| 2. Persona Extraction | ✅ Chris complete; starter personas added for Lex, Naval, and Alex |
+| 3. Conversational AI | ✅ MVP with selectable podcasters |
 | 4. Voice Cloning | 🔜 Next |
 | 5. Real-Time Audio | ⬜ Planned |
 | 6. Video Avatar | ⬜ Planned |
 | 7. Output Pipeline | ⬜ Planned |
+
+## Available Podcasters
+
+- Chris Williamson - warm, rigorous, modern-self-improvement interviews
+- Lex Fridman - calm, philosophical, technical and human
+- Naval Ravikant - sparse, principle-driven, high-signal conversations
+- Alex Hormozi - direct, tactical, operator-style coaching
 
 ## Stack
 

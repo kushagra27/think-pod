@@ -1,0 +1,219 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #0a0a0a;
+  color: #e0e0e0;
+  min-height: 100vh;
+}
+
+.screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #888;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #666;
+}
+
+.podcaster-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #1a1a1a;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.podcaster-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.podcaster-info strong {
+  display: block;
+  color: #fff;
+}
+
+.podcaster-info span {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+button:hover { opacity: 0.9; }
+button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* Interview screen */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header button {
+  width: auto;
+  padding: 0.5rem 1rem;
+  background: #333;
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+.transcript {
+  background: #111;
+  border-radius: 12px;
+  padding: 1.25rem;
+  min-height: 300px;
+  max-height: 60vh;
+  overflow-y: auto;
+  margin-bottom: 1.5rem;
+}
+
+.transcript-entry {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.transcript-entry .speaker {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.speaker-chris { color: #f59e0b; }
+.speaker-user { color: #60a5fa; }
+
+.transcript-entry .text {
+  color: #ccc;
+}
+
+.controls {
+  text-align: center;
+}
+
+.status {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  min-height: 1.4rem;
+}
+
+.status.listening { color: #ef4444; }
+.status.thinking { color: #f59e0b; }
+.status.speaking { color: #22c55e; }
+
+.talk-button {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: #1a1a1a;
+  border: 3px solid #333;
+  color: #fff;
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+}
+
+.talk-button:not(:disabled):hover {
+  border-color: #555;
+}
+
+.talk-button.recording {
+  background: #7f1d1d;
+  border-color: #ef4444;
+  transform: scale(1.05);
+}
+
+.talk-button:disabled {
+  opacity: 0.3;
+}
+
+.latency {
+  margin-top: 0.75rem;
+  color: #555;
+  font-size: 0.75rem;
+  font-family: monospace;
+}
+
+/* End screen */
+#summary {
+  background: #111;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  white-space: pre-wrap;
+  line-height: 1.6;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }

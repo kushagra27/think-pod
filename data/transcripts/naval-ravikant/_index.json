@@ -1,0 +1,37 @@
+{
+  "a-motorcycle-for-the-mind": {
+    "title": "A Motorcycle for the Mind",
+    "pub_date": "Wed, 18 Feb 2026 04:05:00 +0000",
+    "duration": "52:06",
+    "link": "http://nav.al/ai",
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/a-motorcycle-for-the-mind.txt"
+  },
+  "curate-people": {
+    "title": "Curate People",
+    "pub_date": "Thu, 30 Oct 2025 03:54:00 +0000",
+    "duration": "52:04",
+    "link": "https://nav.al/curate-people",
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/curate-people.txt"
+  },
+  "in-the-arena": {
+    "title": "In the Arena",
+    "pub_date": "Tue, 07 Oct 2025 05:00:00 +0000",
+    "duration": "41:45",
+    "link": "https://nav.al/in-the-arena",
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/in-the-arena.txt"
+  },
+  "find-the-simplest-thing-that-works": {
+    "title": "Find the Simplest Thing That Works",
+    "pub_date": "Thu, 02 Oct 2025 00:06:00 +0000",
+    "duration": "06:18",
+    "link": "http://nav.al/simplest",
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/find-the-simplest-thing-that-works.txt"
+  },
+  "good-products-are-hard-to-vary": {
+    "title": "Good Products Are Hard to Vary",
+    "pub_date": "Mon, 29 Sep 2025 21:30:00 +0000",
+    "duration": "03:27",
+    "link": "https://nav.al/good-products",
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/good-products-are-hard-to-vary.txt"
+  }
+}

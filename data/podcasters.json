@@ -1,0 +1,30 @@
+{
+  "chris-williamson": {
+    "name": "Chris Williamson",
+    "show": "Modern Wisdom",
+    "persona_file": "data/personas/chris_williamson_v2.md",
+    "prompt_file": "data/personas/chris_williamson_system_prompt.md",
+    "transcript_dir": "data/transcripts/chris-williamson"
+  },
+  "lex-fridman": {
+    "name": "Lex Fridman",
+    "show": "Lex Fridman Podcast",
+    "persona_file": "data/personas/lex_fridman_v1.md",
+    "prompt_file": "data/personas/lex_fridman_system_prompt.md",
+    "transcript_dir": "data/transcripts/lex-fridman"
+  },
+  "naval-ravikant": {
+    "name": "Naval Ravikant",
+    "show": "Naval",
+    "persona_file": "data/personas/naval_ravikant_v1.md",
+    "prompt_file": "data/personas/naval_ravikant_system_prompt.md",
+    "transcript_dir": "data/transcripts/naval-ravikant"
+  },
+  "alex-hormozi": {
+    "name": "Alex Hormozi",
+    "show": "The Game with Alex Hormozi",
+    "persona_file": "data/personas/alex_hormozi_v1.md",
+    "prompt_file": "data/personas/alex_hormozi_system_prompt.md",
+    "transcript_dir": "data/transcripts/alex-hormozi"
+  }
+}

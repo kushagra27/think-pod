@@ -13,7 +13,7 @@ import sys
 RSS_URL = "https://feeds.megaphone.fm/SIXMSB5088139739"
 BASE_DIR = "/root/.openclaw/workspace/projects/podcast-thinking"
 AUDIO_DIR = os.path.join(BASE_DIR, "audio")
-TRANSCRIPT_DIR = os.path.join(BASE_DIR, "transcripts/chris-williamson")
+TRANSCRIPT_DIR = os.path.join(BASE_DIR, "data/transcripts/chris-williamson")
 INDEX_FILE = os.path.join(TRANSCRIPT_DIR, "_index.json")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 

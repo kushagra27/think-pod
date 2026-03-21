@@ -37,7 +37,7 @@ curl -s "<RSS_URL>" | head -50
 
 ```bash
 PODCASTER="joe-rogan"  # lowercase, hyphenated
-mkdir -p transcripts/$PODCASTER
+mkdir -p data/transcripts/$PODCASTER
 mkdir -p audio/chunks
 ```
 
@@ -48,7 +48,7 @@ Edit `transcribe_groq.py` or create a copy:
 ```python
 # Key variables to change:
 RSS_URL = "https://feeds.megaphone.fm/YOUR_FEED_ID"
-TRANSCRIPT_DIR = os.path.join(BASE_DIR, f"transcripts/{PODCASTER}")
+TRANSCRIPT_DIR = os.path.join(BASE_DIR, f"data/transcripts/{PODCASTER}")
 MAX_EPISODES = 10  # Start with 10, expand if needed
 ```
 
@@ -130,7 +130,7 @@ Quote extensively. Be specific, not generic.
 
 ### 3c. Output format
 
-Save as `<podcaster>_persona.md` — see `chris_persona.md` and `chris_persona_v2.md` as examples.
+Save as `data/personas/<podcaster>_v1.md` (and optionally a later `v2`) - see the existing files in `data/personas/` as examples.
 
 Must include at minimum:
 - **Verbal DNA**: exact phrases, with frequency notes
@@ -218,7 +218,7 @@ voice = client.clone(
 
 1. Add transcripts and persona to git:
 ```bash
-git add transcripts/<podcaster>/ <podcaster>_persona.md
+git add data/transcripts/<podcaster>/ data/personas/<podcaster>_v1.md data/personas/<podcaster>_system_prompt.md
 git commit -m "add <podcaster> persona: N episodes transcribed"
 git push
 ```
@@ -228,12 +228,12 @@ git push
 ## File Structure (per podcaster)
 
 ```
-transcripts/<podcaster>/
+data/transcripts/<podcaster>/
 ├── _index.json                    # Episode index
 ├── <episode-slug>.txt             # Timestamped transcripts
 ├── ...
-<podcaster>_persona.md             # Extracted persona doc  
-<podcaster>_system_prompt.md       # Ready-to-use system prompt
+data/personas/<podcaster>_v1.md          # Extracted persona doc
+data/personas/<podcaster>_system_prompt.md  # Ready-to-use system prompt
 ```
 
 ## Quick Reference: Podcaster Wishlist
