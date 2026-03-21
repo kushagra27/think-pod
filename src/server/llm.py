@@ -90,15 +90,26 @@ def _call_anthropic(messages: list[dict], system_prompt: str) -> str:
 
 
 def generate_response(messages: list[dict], podcaster: str = "chris_williamson") -> str:
-    """Generate response using available LLM provider."""
+    """Generate response. Tries Anthropic first, falls back to Groq on error/rate limit."""
     system_prompt = _load_persona(podcaster)
     
+    # Try Anthropic first (better quality)
     if ANTHROPIC_API_KEY:
-        return _call_anthropic(messages, system_prompt)
-    elif GROQ_API_KEY:
+        try:
+            return _call_anthropic(messages, system_prompt)
+        except Exception as e:
+            err_str = str(e)
+            # Fall back to Groq on rate limit, overload, or auth errors
+            if GROQ_API_KEY and any(code in err_str for code in ["429", "529", "503", "401", "overloaded"]):
+                print(f"[llm] Anthropic error ({err_str[:80]}), falling back to Groq")
+                return _call_groq(messages, system_prompt)
+            raise
+    
+    # Groq as primary if no Anthropic key
+    if GROQ_API_KEY:
         return _call_groq(messages, system_prompt)
-    else:
-        raise ValueError("No LLM API key set (need ANTHROPIC_API_KEY or GROQ_API_KEY)")
+    
+    raise ValueError("No LLM API key set (need ANTHROPIC_API_KEY or GROQ_API_KEY)")
 
 
 def generate_greeting(guest_name: str, topic: str, podcaster: str = "chris_williamson") -> str:
