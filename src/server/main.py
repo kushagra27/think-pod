@@ -1,7 +1,7 @@
 """Think-Pod — FastAPI server."""
 import os
 import time
-from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
@@ -17,6 +17,7 @@ class StartRequest(BaseModel):
     guest_name: str = "Guest"
     topic: str = "life, ideas, and the future"
     podcaster: str = "chris-williamson"
+    text_only: bool = False
 
 
 class StartResponse(BaseModel):
@@ -29,6 +30,7 @@ class StartResponse(BaseModel):
 
 class ChatTextRequest(BaseModel):
     text: str
+    text_only: bool = False
 
 
 class ChatResponse(BaseModel):
@@ -63,7 +65,7 @@ async def list_podcasters():
     return result
 
 
-def _run_llm_tts(sess, user_text: str) -> ChatResponse:
+def _run_llm_tts(sess, user_text: str, text_only: bool = False) -> ChatResponse:
     if not user_text.strip():
         raise HTTPException(400, "Empty message")
 
@@ -76,12 +78,15 @@ def _run_llm_tts(sess, user_text: str) -> ChatResponse:
         raise HTTPException(500, f"LLM error: {e}")
     llm_ms = int((time.time() - t0) * 1000)
 
-    t0 = time.time()
-    try:
-        response_audio = tts.synthesize_b64(response_text, sess.podcaster)
-    except Exception as e:
-        raise HTTPException(500, f"TTS error: {e}")
-    tts_ms = int((time.time() - t0) * 1000)
+    response_audio = ""
+    tts_ms = 0
+    if not text_only:
+        t0 = time.time()
+        try:
+            response_audio = tts.synthesize_b64(response_text, sess.podcaster)
+        except Exception as e:
+            raise HTTPException(500, f"TTS error: {e}")
+        tts_ms = int((time.time() - t0) * 1000)
 
     sess.add_turn(user_text, response_text)
     sess.save()
@@ -111,10 +116,12 @@ async def start_session(req: StartRequest):
 
     sess.add_greeting(greeting_text)
 
-    try:
-        greeting_audio = tts.synthesize_b64(greeting_text, req.podcaster)
-    except Exception as e:
-        raise HTTPException(500, f"TTS error: {e}")
+    greeting_audio = ""
+    if not req.text_only:
+        try:
+            greeting_audio = tts.synthesize_b64(greeting_text, req.podcaster)
+        except Exception as e:
+            raise HTTPException(500, f"TTS error: {e}")
 
     sess.save()
 
@@ -128,7 +135,7 @@ async def start_session(req: StartRequest):
 
 
 @app.post("/api/session/{session_id}/chat", response_model=ChatResponse)
-async def chat(session_id: str, audio: UploadFile = File(...)):
+async def chat(session_id: str, audio: UploadFile = File(...), text_only: bool = Form(False)):
     sess = session.get_session(session_id)
     if not sess:
         raise HTTPException(404, "Session not found")
@@ -144,7 +151,7 @@ async def chat(session_id: str, audio: UploadFile = File(...)):
     if not user_text:
         raise HTTPException(400, "Could not transcribe audio — too short or silent?")
 
-    result = _run_llm_tts(sess, user_text)
+    result = _run_llm_tts(sess, user_text, text_only=text_only)
     result.stt_ms = stt_ms
     return result
 
@@ -154,7 +161,7 @@ async def chat_text(session_id: str, req: ChatTextRequest):
     sess = session.get_session(session_id)
     if not sess:
         raise HTTPException(404, "Session not found")
-    return _run_llm_tts(sess, req.text)
+    return _run_llm_tts(sess, req.text, text_only=req.text_only)
 
 
 @app.get("/api/session/{session_id}/transcript")

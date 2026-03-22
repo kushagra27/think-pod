@@ -5,6 +5,7 @@ let mediaRecorder = null;
 let audioChunks = [];
 let isRecording = false;
 let isProcessing = false;
+let textOnly = false;
 
 let podcastersData = [];
 
@@ -44,6 +45,14 @@ function onPodcasterChange() {
   document.getElementById('start-btn').textContent = `Start Interview with ${p.name}`;
 }
 
+// ─── Text-Only Toggle ───
+function toggleTextOnly() {
+  const toggle = document.getElementById('text-only-toggle');
+  textOnly = toggle.checked;
+  const label = document.getElementById('text-only-label');
+  label.textContent = textOnly ? 'Text only (no audio)' : 'Voice enabled';
+}
+
 // ─── Session ───
 async function startSession() {
   if (!selectedPodcaster) return;
@@ -57,7 +66,7 @@ async function startSession() {
     const resp = await fetch('/api/session/start', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ guest_name: name, topic, podcaster: selectedPodcaster }),
+      body: JSON.stringify({ guest_name: name, topic, podcaster: selectedPodcaster, text_only: textOnly }),
     });
     if (!resp.ok) throw new Error(await resp.text());
     const data = await resp.json();
@@ -72,8 +81,10 @@ async function startSession() {
     document.getElementById('interview-screen').style.display = 'flex';
 
     addTranscript(hostName, data.greeting_text, true);
-    setStatus('speaking', `${hostName} is speaking...`);
-    await playAudio(data.greeting_audio);
+    if (data.greeting_audio && !textOnly) {
+      setStatus('speaking', `${hostName} is speaking...`);
+      await playAudio(data.greeting_audio);
+    }
     setStatus('', 'Your turn — hold the button to talk or type below');
 
     document.getElementById('talk-btn').disabled = false;
@@ -147,6 +158,7 @@ async function sendAudio(audioBlob) {
   setStatus('thinking', `${hostName} is thinking...`);
   const formData = new FormData();
   formData.append('audio', audioBlob, 'recording.webm');
+  formData.append('text_only', textOnly);
   try {
     const t0 = Date.now();
     const resp = await fetch(`/api/session/${sessionId}/chat`, { method: 'POST', body: formData });
@@ -174,7 +186,7 @@ async function sendText() {
     const resp = await fetch(`/api/session/${sessionId}/chat-text`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text }),
+      body: JSON.stringify({ text, text_only: textOnly }),
     });
     if (!resp.ok) throw new Error(await resp.text());
     const data = await resp.json();
@@ -191,10 +203,14 @@ async function showResponse(data, totalMs, skipUser = false) {
   addTranscript(hostName, data.chris_text, true);
   const parts = [];
   if (data.stt_ms) parts.push(`STT: ${data.stt_ms}ms`);
-  parts.push(`LLM: ${data.llm_ms}ms`, `TTS: ${data.tts_ms}ms`, `Total: ${totalMs}ms`);
+  parts.push(`LLM: ${data.llm_ms}ms`);
+  if (data.tts_ms) parts.push(`TTS: ${data.tts_ms}ms`);
+  parts.push(`Total: ${totalMs}ms`);
   document.getElementById('latency').textContent = parts.join(' | ');
-  setStatus('speaking', `${hostName} is speaking...`);
-  await playAudio(data.chris_audio);
+  if (data.chris_audio) {
+    setStatus('speaking', `${hostName} is speaking...`);
+    await playAudio(data.chris_audio);
+  }
   setStatus('', 'Your turn — hold the button to talk or type below');
 }
 
