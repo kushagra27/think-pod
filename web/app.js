@@ -79,6 +79,10 @@ async function startSession() {
 
     document.getElementById('start-screen').style.display = 'none';
     document.getElementById('interview-screen').style.display = 'flex';
+    const sessionToggle = document.getElementById('text-only-toggle');
+    if (sessionToggle) sessionToggle.checked = textOnly;
+    const label = document.getElementById('text-only-label');
+    if (label) label.textContent = textOnly ? 'Text only (no audio)' : 'Voice enabled';
 
     addTranscript(hostName, data.greeting_text, true);
     if (data.greeting_audio && !textOnly) {
