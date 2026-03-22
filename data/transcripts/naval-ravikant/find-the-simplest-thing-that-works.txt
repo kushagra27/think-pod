@@ -1,80 +1,71 @@
 # Find the Simplest Thing That Works
-# Source: http://nav.al/simplest
-# Date: Thu, 02 Oct 2025 00:06:00 +0000
-# Duration: 06:18
-
-6:18 --> --> Get podcast Apple Spotify YouTube Download Oct 1 2025 Nivi: We’ve all seen the pictures of the Raptor engine for the SpaceX rockets , and if you look at the various iterations, they go from easy-to-vary to hard-to-vary. Because the most recent version just doesn’t have that many parts that you can fool around with.
-
-The earlier versions have a million different parts where you could change the thickness of it, the width of it, the material, and so on. The current version barely has any parts left for you to do anything with.
+# Source: https://nav.al/simplest
+# Notes: Official nav.al page. Curated solo-Naval extract; Nivi prompt removed.
 
 Naval: There’s a theory in complexity theory that whenever you find a complex system working in nature, it’s usually the output of a very simple system or thing that was iterated over and over.
 
-We’re seeing this lately in AI research—you’re just taking very simple algorithms and dumping more and more data into them. They keep getting smarter.
+Naval: We’re seeing this lately in AI research—you’re just taking very simple algorithms and dumping more and more data into them. They keep getting smarter.
 
-What doesn’t work as well is the reverse. When you design a very complex system and then you try to make a functioning large system out of that, it just falls apart. There’s too much complexity in it. So a lot of product design is iterating on your own designs until you find the simple thing that works. And often you’ve added stuff around it that you don’t need, and then you have to go back and extract the simplicity back out of the noise.
+Naval: What doesn’t work as well is the reverse. When you design a very complex system and then you try to make a functioning large system out of that, it just falls apart. There’s too much complexity in it. So a lot of product design is iterating on your own designs until you find the simple thing that works. And often you’ve added stuff around it that you don’t need, and then you have to go back and extract the simplicity back out of the noise.
 
-You can see this in personal computing where macOS is still quite a bit harder to use than iOS. iOS is closer to the Platonic ideal of an operating system. Although an LLM-based operating system might be even closer—speaking in natural language.
+Naval: You can see this in personal computing where macOS is still quite a bit harder to use than iOS. iOS is closer to the Platonic ideal of an operating system. Although an LLM-based operating system might be even closer—speaking in natural language.
 
-Eventually, you have to remove things to get them to scale, and the Raptor engine is an example of that. As you figure out what works, then you realize what’s unnecessary and you can remove parts.
+Naval: Eventually, you have to remove things to get them to scale, and the Raptor engine is an example of that. As you figure out what works, then you realize what’s unnecessary and you can remove parts.
 
-And this is one of Musk’s great driving principles where he basically says: Before you optimize a system, that’s among the last things that you do. Before you start trying to figure out how to make something more efficient, the first thing you do is you question the requirements.
+Naval: And this is one of Musk’s great driving principles where he basically says: Before you optimize a system, that’s among the last things that you do. Before you start trying to figure out how to make something more efficient, the first thing you do is you question the requirements.
 
-You’re like, “Why does the requirement even exist?”
+Naval: You’re like, “Why does the requirement even exist?”
 
-One of the Elon methods in Jorgenson’s new book is you first go and you track down the requirement. And not which department came up with the requirement; the requirement has to come from an individual.
+Naval: One of the Elon methods in Jorgenson’s new book is you first go and you track down the requirement. And not which department came up with the requirement; the requirement has to come from an individual.
 
-Who’s the individual who said, “This is what I want.”
+Naval: Who’s the individual who said, “This is what I want.”
 
-You go back and say, “Do you really need this?”
+Naval: You go back and say, “Do you really need this?”
 
-You eliminate the requirement. And then once you’ve eliminated the requirements that are unnecessary, then you have a smaller number of requirements. Now you have parts, and you try to get rid of as many parts as you can to fulfill the requirements that are absolutely necessary.
+Naval: You eliminate the requirement. And then once you’ve eliminated the requirements that are unnecessary, then you have a smaller number of requirements. Now you have parts, and you try to get rid of as many parts as you can to fulfill the requirements that are absolutely necessary.
 
-And then after that, maybe then you start thinking about optimization, and now you’re trying to figure out how can I manufacture this part and fit it into the right place most efficiently. And then finally, you might get into cost efficiencies and economies of scale and those sorts of things.
+Naval: And then after that, maybe then you start thinking about optimization, and now you’re trying to figure out how can I manufacture this part and fit it into the right place most efficiently. And then finally, you might get into cost efficiencies and economies of scale and those sorts of things.
 
-The most critical person to take a great product from zero to one is the single person— usually the founder —who can hold the entire problem in their head and make the trade-offs, and understand why each component is where it is.
+Naval: The most critical person to take a great product from zero to one is the single person—usually the founder—who can hold the entire problem in their head and make the trade-offs, and understand why each component is where it is.
 
-And they don’t necessarily need to be the person designing each component, or manufacturing or knowing all the ins and outs, but they do need to be able to understand: Why is this piece here? And if Part A gets removed, then what happens to Parts B, C, D, E and their requirements and considerations?
+Naval: And they don’t necessarily need to be the person designing each component, or manufacturing or knowing all the ins and outs, but they do need to be able to understand: Why is this piece here? And if Part A gets removed, then what happens to Parts B, C, D, E and their requirements and considerations?
 
-It’s that holistic view of the whole product.
+Naval: It’s that holistic view of the whole product.
 
-You’ll see this in the Raptor engine design. The example that Elon gives that I thought was a good one—he was trying to get these fiberglass mats on top of the Tesla batteries produced more efficiently.
+Naval: You’ll see this in the Raptor engine design. The example that Elon gives that I thought was a good one—he was trying to get these fiberglass mats on top of the Tesla batteries produced more efficiently.
 
-So he went to the line where it was taking too long, put his sleeping bag down, and just stayed at the line. And they tried to optimize the robot that was gluing the fiberglass mats to the batteries. They were trying to attach them more efficiently or speed up that line. And they did—they managed to improve it a bit, but it was still frustratingly slow.
+Naval: So he went to the line where it was taking too long, put his sleeping bag down, and just stayed at the line. And they tried to optimize the robot that was gluing the fiberglass mats to the batteries. They were trying to attach them more efficiently or speed up that line. And they did—they managed to improve it a bit, but it was still frustratingly slow.
 
-And finally he said, “Why is this requirement here? Why are we putting fiberglass mats on top of the batteries?”
+Naval: And finally he said, “Why is this requirement here? Why are we putting fiberglass mats on top of the batteries?”
 
-The battery guy said, “It’s actually because of noise reduction, so you’ve got to go talk to the noise and vibration team.”
+Naval: The battery guy said, “It’s actually because of noise reduction, so you’ve got to go talk to the noise and vibration team.”
 
-So he goes to the noise and vibration team.
+Naval: So he goes to the noise and vibration team.
 
-He’s like, “Why do we have these mats here? What is the noise and vibration issue?”
+Naval: He’s like, “Why do we have these mats here? What is the noise and vibration issue?”
 
-And they’re like, “No, no—there’s no noise and vibration issue. They’re there because of heat, if the battery catches fire.”
+Naval: And they’re like, “No, no—there’s no noise and vibration issue. They’re there because of heat, if the battery catches fire.”
 
-And then he goes back to the battery team like, “Do we need this?”
+Naval: And then he goes back to the battery team like, “Do we need this?”
 
-And they’re like, “No. There’s not a fire issue here. It’s not a heat protection issue. That’s obsolete. It’s a noise and vibration issue.”
+Naval: And they’re like, “No. There’s not a fire issue here. It’s not a heat protection issue. That’s obsolete. It’s a noise and vibration issue.”
 
-They had each been doing things the way they were trained to do—in the way things had been done. They tested it for safety, and they tested it by putting microphones on there and tracking the noise, and they decided they didn’t need it, and so they eliminated the part.
+Naval: They had each been doing things the way they were trained to do—in the way things had been done. They tested it for safety, and they tested it by putting microphones on there and tracking the noise, and they decided they didn’t need it, and so they eliminated the part.
 
-This happens a lot with very complex systems and complex designs.
+Naval: This happens a lot with very complex systems and complex designs.
 
-It’s funny—everybody says “I’m a generalist,” which is their way of copping out on being a specialist. But really what you want to be is a polymath, which is a generalist who can pick up every specialty, at least to the 80/20 level, so they can make smart trade-offs.
-
-Nivi: The way that I suggest people gain that polymath capability—being a generalist that can pick up any specialty—is if you are going to study something, if you are going to go to school, study the theories that have the most reach.
+Naval: It’s funny—everybody says “I’m a generalist,” which is their way of copping out on being a specialist. But really what you want to be is a polymath, which is a generalist who can pick up every specialty, at least to the 80/20 level, so they can make smart trade-offs.
 
 Naval: I would summarize that further and just say study physics.
 
-Once you study physics, you’re studying how reality works . And if you have a great background in physics, you can pick up electrical engineering. You can pick up computer science. You can pick up material science. You can pick up statistics and probability. You can pick up mathematics because it’s part of it—it’s applied.
+Naval: Once you study physics, you’re studying how reality works. And if you have a great background in physics, you can pick up electrical engineering. You can pick up computer science. You can pick up material science. You can pick up statistics and probability. You can pick up mathematics because it’s part of it—it’s applied.
 
-The best people that I’ve met in almost any field have a physics background. If you don’t have a physics background, don’t cry. I have a failed physics background. You can still get there the other ways, but physics trains you to interact with reality, and it is so unforgiving that it beats all the nice falsities out of you.
+Naval: The best people that I’ve met in almost any field have a physics background. If you don’t have a physics background, don’t cry. I have a failed physics background. You can still get there the other ways, but physics trains you to interact with reality, and it is so unforgiving that it beats all the nice falsities out of you.
 
-Whereas if you’re somewhere in social science, you can have all kinds of cuckoo beliefs. Even if you pick up some of the abstruse mathematics they use in social sciences, you may have 10% real knowledge, but 90% false knowledge.
+Naval: Whereas if you’re somewhere in social science, you can have all kinds of cuckoo beliefs. Even if you pick up some of the abstruse mathematics they use in social sciences, you may have 10% real knowledge, but 90% false knowledge.
 
-The good news about physics is you can learn pretty basic physics. You don’t have to go all the way deep into quarks and quantum physics and so on. You can just go with basic balls rolling down a slope, and it’s actually a good backgrounder.
+Naval: The good news about physics is you can learn pretty basic physics. You don’t have to go all the way deep into quarks and quantum physics and so on. You can just go with basic balls rolling down a slope, and it’s actually a good backgrounder.
 
-But I think any of the STEM disciplines are worth studying. Now if you don’t have the choice of what to study and you’re already past that, just team up with people. Actually, the best people don’t necessarily even just study physics. They’re tinkerers , they’re builders, they’re building things. The tinkerers are always at the edge of knowledge because they’re always using the latest tools and the latest parts to build the cool things.
+Naval: But I think any of the STEM disciplines are worth studying. Now if you don’t have the choice of what to study and you’re already past that, just team up with people. Actually, the best people don’t necessarily even just study physics. They’re tinkerers, they’re builders, they’re building things. The tinkerers are always at the edge of knowledge because they’re always using the latest tools and the latest parts to build the cool things.
 
-So it’s the guy building the racing drone before drones are a military thing, or the guy building the fighting robots before robots are a military thing, or the person putting together the personal computer because they want the computer in their home and they’re not satisfied going to school and using the computer there. These are the people who understand things the best, and they’re advancing knowledge the fastest.
-
-Modal body text goes here.
+Naval: So it’s the guy building the racing drone before drones are a military thing, or the guy building the fighting robots before robots are a military thing, or the person putting together the personal computer because they want the computer in their home and they’re not satisfied going to school and using the computer there. These are the people who understand things the best, and they’re advancing knowledge the fastest.

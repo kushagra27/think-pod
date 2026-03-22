@@ -46,3 +46,48 @@
 ### Next Up
 - Voice cloning (Phase 4)
 - Parallel: other agents adding more podcaster personas
+
+---
+
+## 2026-03-22 — Day 3
+
+### Multi-Podcaster App
+- Added selectable podcasters in the local dev app:
+  - Chris Williamson
+  - Lex Fridman
+  - Alex Hormozi
+  - Naval Ravikant
+- Start screen now uses a dropdown selector with Chris selected by default.
+- Backend now loads podcaster config dynamically from `data/podcasters.json`.
+- Added `/api/podcasters` endpoint and wired podcaster selection through session start, LLM, and TTS flow.
+
+### Voice Cloning
+- Chris remains on existing validated Cartesia clone.
+- Lex and Alex received new cloned voices.
+- Naval had to be rebuilt from scratch because earlier source selection included mixed-speaker / Nivi contamination.
+
+### Naval Rebuild
+- Rebuilt Naval transcript corpus around official `nav.al` sources only.
+- Deprecated mixed-speaker files as primary persona sources:
+  - `a-motorcycle-for-the-mind.txt`
+  - `curate-people.txt`
+  - `in-the-arena.txt`
+- Added clean official-source Naval transcript files including:
+  - `pause-reflect-see-how-well-it-did.txt`
+  - `it-is-impossible-to-fool-mother-nature.txt`
+  - `groups-search-for-consensus-individuals-search-for-truth.txt`
+  - other short-form official `nav.al` pieces
+- Created `data/personas/naval_ravikant_v2.md`
+- Rewrote `data/personas/naval_ravikant_system_prompt.md`
+- Updated `data/podcasters.json` so Naval uses `naval_ravikant_v2.md`
+- User personally validated reviewed `naval_*` solo clips as authentic Naval.
+- Fresh Naval Cartesia clone now uses validated solo clips only.
+
+### Local Dev Status
+- Local dev server used for testing: `http://37.60.245.136:8001`
+- Naval voice sounded good again in local Think-Pod testing.
+
+### Important Workflow Notes
+- Dev happens on this VPS only.
+- Production remains on the separate DO box and should only be updated when Kush explicitly says to deploy.
+- For future cross-channel continuity, use this file plus `planning/DEVELOPMENT_PLAN.md`, `planning/MVP_IMPLEMENTATION.md`, and `data/podcasters.json` as the canonical project handoff set.

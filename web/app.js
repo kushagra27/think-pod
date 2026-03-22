@@ -6,43 +6,42 @@ let audioChunks = [];
 let isRecording = false;
 let isProcessing = false;
 
+let podcastersData = [];
+
 // ─── Init ───
 document.addEventListener('DOMContentLoaded', loadPodcasters);
 
 async function loadPodcasters() {
   try {
     const resp = await fetch('/api/podcasters');
-    const podcasters = await resp.json();
-    const grid = document.getElementById('podcaster-list');
-    grid.innerHTML = '';
-    for (const p of podcasters) {
-      const card = document.createElement('div');
-      card.className = 'podcaster-card';
-      card.dataset.id = p.id;
-      card.innerHTML = `
-        <img class="avatar" src="${p.avatar}" alt="${p.name}" onerror="this.style.display='none'">
-        <div class="info">
-          <strong>${esc(p.name)}${p.voice_cloned ? '<span class="cloned-badge">voice cloned</span>' : ''}</strong>
-          <span>${esc(p.show)}</span>
-          <div class="desc">${esc(p.description)}</div>
-        </div>
-      `;
-      card.onclick = () => selectPodcaster(p.id, p.name, card);
-      grid.appendChild(card);
+    podcastersData = await resp.json();
+    const select = document.getElementById('podcaster-select');
+    select.innerHTML = '';
+    for (const p of podcastersData) {
+      const opt = document.createElement('option');
+      opt.value = p.id;
+      opt.textContent = `${p.name} — ${p.show}`;
+      select.appendChild(opt);
+    }
+    // Default select first podcaster
+    if (podcastersData.length > 0) {
+      select.value = podcastersData[0].id;
+      onPodcasterChange();
     }
   } catch (e) {
-    document.getElementById('podcaster-list').innerHTML = '<div class="loading">Failed to load podcasters</div>';
+    const select = document.getElementById('podcaster-select');
+    select.innerHTML = '<option disabled>Failed to load</option>';
   }
 }
 
-function selectPodcaster(id, name, card) {
-  document.querySelectorAll('.podcaster-card').forEach(c => c.classList.remove('selected'));
-  card.classList.add('selected');
-  selectedPodcaster = id;
-  hostName = name;
-  const btn = document.getElementById('start-btn');
-  btn.disabled = false;
-  btn.textContent = `Start Interview with ${name}`;
+function onPodcasterChange() {
+  const select = document.getElementById('podcaster-select');
+  const p = podcastersData.find(x => x.id === select.value);
+  if (!p) return;
+  selectedPodcaster = p.id;
+  hostName = p.name;
+  document.getElementById('start-btn').disabled = false;
+  document.getElementById('start-btn').textContent = `Start Interview with ${p.name}`;
 }
 
 // ─── Session ───
@@ -65,8 +64,8 @@ async function startSession() {
     sessionId = data.session_id;
 
     // Update interview screen header
-    const avatarEl = document.querySelector(`.podcaster-card.selected .avatar`);
-    if (avatarEl) document.getElementById('host-avatar').src = avatarEl.src;
+    const p = podcastersData.find(x => x.id === selectedPodcaster);
+    if (p && p.avatar) document.getElementById('host-avatar').src = p.avatar;
     document.getElementById('host-title').textContent = `🎙️ ${data.podcaster_name}`;
 
     document.getElementById('start-screen').style.display = 'none';

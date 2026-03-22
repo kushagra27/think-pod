@@ -1,0 +1,47 @@
+# Most Books Should Be Skimmed, A Few Should Be Devoured
+# Source: https://nav.al/get
+# Notes: Official nav.al page. Curated solo-Naval extract; Nivi prompt removed.
+
+Naval: I think that’s right. If you just want to know epistemology, read David Deutsch—full stop.
+
+Naval: That said, for some people it helps to know the history, the counterarguments, where he’s coming from.
+
+Naval: The existing theories of knowledge—like the justified true belief theory or the inductive theory of knowledge—these are so deeply embedded into us, both by school learning, but also by everyday experience.
+
+Naval: Induction seems like it should work: You watch the sunrise every day, the sun is going to rise tomorrow. That just seems like common sense.
+
+Naval: So many people believe in that, that if you just read Deutsch, you would see him shooting down these things, but you yourself would not have those things on solid footing. So you might imagine some counterexample exists.
+
+Naval: When I first read Deutsch a long time ago I didn’t quite get it. I treated it just like any other book that any other physicist had written. So I would read Paul Davies and Carlo Rovelli and Deutsch, and I would treat them with the same level of contemplation, time, and respect.
+
+Naval: It turned out I was wrong.
+
+Naval: It turned out that Deutsch was actually operating at a much deeper level. He had a lot of different theories that coherently hung together, and they create a world philosophy where all the pieces reinforce each other.
+
+Naval: It might help to read others and not just skip to Deutsch, but I would definitely start with Deutsch. Then, if you’re not sure about it, I would read some of the others and then come back to Deutsch and try again, and then you’ll see how he addresses those issues.
+
+Naval: Deutsch himself would refer you to Popper. He would say, “Oh, I’m just repeating Popper.”
+
+Naval: Not quite true. I find Popper much less approachable, much harder to read, much less clear of a writer. Although I think here both Deutsch and Brett Hall would disagree with me—they find Popper very lucid; I find him very difficult to read.
+
+Naval: For whatever reason, I find Deutsch easier to read, maybe because Popper spent a lot more time elucidating core points. Popper was writing for philosophers. Deutsch is not writing for philosophers. Deutsch is not even writing for scientists. Deutsch is not writing for you. I get the feeling Deutsch is writing for himself. He is just elucidating his own thoughts and how they all connect together.
+
+Naval: I also don’t think you’re going to get maximal value out of Deutsch just reading the epistemology, although that is absolutely where everybody should start. That’s the first three chapters of The Beginning of Infinity.
+
+Naval: Ironically, in The Beginning of Infinity, the first few chapters and the last few chapters are the easiest and the most accessible. The middle is a slog because that goes into quantum computation, quantum physics, evolution, et cetera.
+
+Naval: That’s where I think people struggle because it does require—not necessarily a mathematical or scientific background but at least a comfort level with scientific concepts and principles. And he’s making a strong argument for the multiverse, which most people don’t have a dog in that fight. They haven’t thought that far ahead. They’re not wedded to the observer collapse theory of quantum mechanics because they don’t really care about quantum mechanics. It doesn’t impact their everyday life.
+
+Naval: What I got out of reading all of Deutsch was I got to see how his theory all hangs together. Every piece touches upon and relies upon another piece.
+
+Naval: He actually came up with the theory of quantum computation and extended the Church–Turing conjecture into the Church–Turing–Deutsch conjecture when he was trying to come up with a way to falsify his theory of the multiverse—which was a quantum physics theory. And to do that, he had to invent quantum computation, because to invent the experiment for how to falsify the multiverse theory he had to—in his mind—imagine an AGI, get inside the AGI’s brain and say, “If that AGI is observing something, does it collapse?”
+
+Naval: “But now I need to be inside the brain.”
+
+Naval: “Well, how do I get inside the brain of a quantum AGI? How do you even create a quantum AGI? We don’t have quantum computers!”
+
+Naval: “Okay, we need quantum computers.”
+
+Naval: So he came up with the theory of quantum computation, and that launched the field of quantum computing.
+
+Naval: That’s an example of how quantum physics and quantum computing are inextricably linked.

@@ -1,37 +1,66 @@
 {
-  "a-motorcycle-for-the-mind": {
-    "title": "A Motorcycle for the Mind",
-    "pub_date": "Wed, 18 Feb 2026 04:05:00 +0000",
-    "duration": "52:06",
-    "link": "http://nav.al/ai",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/a-motorcycle-for-the-mind.txt"
+  "blame-yourself-for-everything-and-preserve-your-agency": {
+    "title": "Blame Yourself for Everything, and Preserve Your Agency",
+    "pub_date": "2025-08-25",
+    "duration": null,
+    "link": "https://nav.al/agency",
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/blame-yourself-for-everything-and-preserve-your-agency.txt",
+    "notes": "Official nav.al page. Curated solo-Naval extract."
   },
-  "curate-people": {
-    "title": "Curate People",
-    "pub_date": "Thu, 30 Oct 2025 03:54:00 +0000",
-    "duration": "52:04",
-    "link": "https://nav.al/curate-people",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/curate-people.txt"
+  "groups-search-for-consensus-individuals-search-for-truth": {
+    "title": "Groups Search for Consensus, Individuals Search for Truth",
+    "pub_date": null,
+    "duration": null,
+    "link": "https://nav.al/consensus",
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/groups-search-for-consensus-individuals-search-for-truth.txt",
+    "notes": "Official nav.al page. Solo-Naval page."
   },
-  "in-the-arena": {
-    "title": "In the Arena",
-    "pub_date": "Tue, 07 Oct 2025 05:00:00 +0000",
-    "duration": "41:45",
-    "link": "https://nav.al/in-the-arena",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/in-the-arena.txt"
+  "it-is-impossible-to-fool-mother-nature": {
+    "title": "It Is Impossible to Fool Mother Nature",
+    "pub_date": "2025-09-22",
+    "duration": null,
+    "link": "https://nav.al/fool",
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/it-is-impossible-to-fool-mother-nature.txt",
+    "notes": "Official nav.al page. Curated solo-Naval extract."
   },
-  "find-the-simplest-thing-that-works": {
-    "title": "Find the Simplest Thing That Works",
-    "pub_date": "Thu, 02 Oct 2025 00:06:00 +0000",
-    "duration": "06:18",
-    "link": "http://nav.al/simplest",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/find-the-simplest-thing-that-works.txt"
+  "the-best-authors-respect-the-readers-time": {
+    "title": "The Best Authors Respect the Reader’s Time",
+    "pub_date": "2025-09-24",
+    "duration": null,
+    "link": "https://nav.al/density",
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/the-best-authors-respect-the-readers-time.txt",
+    "notes": "Official nav.al page. Curated solo-Naval extract."
+  },
+  "most-books-should-be-skimmed-a-few-should-be-devoured": {
+    "title": "Most Books Should Be Skimmed, A Few Should Be Devoured",
+    "pub_date": "2025-09-26",
+    "duration": null,
+    "link": "https://nav.al/get",
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/most-books-should-be-skimmed-a-few-should-be-devoured.txt",
+    "notes": "Official nav.al page. Curated solo-Naval extract."
   },
   "good-products-are-hard-to-vary": {
     "title": "Good Products Are Hard to Vary",
-    "pub_date": "Mon, 29 Sep 2025 21:30:00 +0000",
-    "duration": "03:27",
+    "pub_date": "2025-09-29",
+    "duration": null,
     "link": "https://nav.al/good-products",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/good-products-are-hard-to-vary.txt"
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/good-products-are-hard-to-vary.txt",
+    "notes": "Official nav.al page. Solo-Naval page."
+  },
+  "find-the-simplest-thing-that-works": {
+    "title": "Find the Simplest Thing That Works",
+    "pub_date": "2025-10-01",
+    "duration": null,
+    "link": "https://nav.al/simplest",
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/find-the-simplest-thing-that-works.txt",
+    "notes": "Official nav.al page. Curated solo-Naval extract."
+  },
+  "pause-reflect-see-how-well-it-did": {
+    "title": "Pause, Reflect, See How Well it Did",
+    "pub_date": "2025-08-06",
+    "duration": null,
+    "link": "https://nav.al/reflect",
+    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/pause-reflect-see-how-well-it-did.txt",
+    "notes": "Official nav.al page. Solo-Naval page."
   }
 }

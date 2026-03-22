@@ -46,12 +46,12 @@
     "show": "Naval",
     "description": "Calm precision, philosophical compression, practical clarity. Wealth, happiness, and leverage.",
     "avatar": "https://pbs.twimg.com/profile_images/1256841238298292232/ycqwaMI2_400x400.jpg",
-    "persona_file": "data/personas/naval_ravikant_v1.md",
+    "persona_file": "data/personas/naval_ravikant_v2.md",
     "prompt_file": "data/personas/naval_ravikant_system_prompt.md",
     "transcript_dir": "data/transcripts/naval-ravikant",
     "voice": {
       "provider": "cartesia",
-      "voice_id": "5cb50eba-028c-4525-9795-9278994c3a35",
+      "voice_id": "fe753f81-2bf3-403a-b41b-774ff85a3a63",
       "cloned": true
     }
   }
