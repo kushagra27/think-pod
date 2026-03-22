@@ -5,7 +5,7 @@ set -euo pipefail
 files=$(git diff --cached --name-only --diff-filter=ACMR)
 [ -z "$files" ] && exit 0
 
-blocked_file_regex='(^|/)(\.env(\..*)?$|src/server/config\.py$|.*\.(pem|key|p12|pfx)$|.*credentials.*)$'
+blocked_file_regex='(^|/)(\.env(\..*)?$|.*\.(pem|key|p12|pfx)$|.*credentials.*)$'
 secret_regex='(sk_(ant|car)_[A-Za-z0-9_-]+|AIza[0-9A-Za-z\-_]{35}|ghp_[A-Za-z0-9]{36,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16}|ASIA[0-9A-Z]{16}|xox[baprs]-[A-Za-z0-9-]{10,}|-----BEGIN (RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----)'
 
 for f in $files; do

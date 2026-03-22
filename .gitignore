@@ -24,4 +24,4 @@ __pycache__/
 
 # OS
 .DS_Store
-src/server/config.py
+# src/server/config.py — now safe to track (reads from env only, no hardcoded secrets)
