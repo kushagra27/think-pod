@@ -23,9 +23,8 @@
     "transcript_dir": "data/transcripts/lex-fridman",
     "voice": {
       "provider": "cartesia",
-      "voice_id": "7edf9efb-58fc-46ba-a648-3a00a86b111b",
-      "cloned": false,
-      "note": "Elliott - Reflective Storyteller (placeholder)"
+      "voice_id": "fee65470-5ff1-4aed-9031-4cae22575140",
+      "cloned": true
     }
   },
   "alex-hormozi": {
@@ -38,9 +37,8 @@
     "transcript_dir": "data/transcripts/alex-hormozi",
     "voice": {
       "provider": "cartesia",
-      "voice_id": "efd255c7-f030-43d3-b5d8-c7b72063be70",
-      "cloned": false,
-      "note": "Todd - Matter of Fact Salesman (placeholder)"
+      "voice_id": "c06beb70-7e8d-4440-8f00-2c3eb3bf96ee",
+      "cloned": true
     }
   },
   "naval-ravikant": {
@@ -53,9 +51,8 @@
     "transcript_dir": "data/transcripts/naval-ravikant",
     "voice": {
       "provider": "cartesia",
-      "voice_id": "6b92f628-be90-497c-8f4c-3b035002df71",
-      "cloned": false,
-      "note": "Kenji - Calm Man (placeholder)"
+      "voice_id": "5cb50eba-028c-4525-9795-9278994c3a35",
+      "cloned": true
     }
   }
 }
