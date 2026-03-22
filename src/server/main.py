@@ -8,7 +8,7 @@ from pydantic import BaseModel
 
 from . import stt, llm, tts, session
 
-app = FastAPI(title="Think-Pod", version="0.1.0")
+app = FastAPI(title="Think-Pod", version="0.2.0")
 
 WEB_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "web")
 
@@ -16,13 +16,15 @@ WEB_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.a
 class StartRequest(BaseModel):
     guest_name: str = "Guest"
     topic: str = "life, ideas, and the future"
-    podcaster: str = "chris_williamson"
+    podcaster: str = "chris-williamson"
 
 
 class StartResponse(BaseModel):
     session_id: str
     greeting_text: str
     greeting_audio: str
+    podcaster: str
+    podcaster_name: str
 
 
 class ChatTextRequest(BaseModel):
@@ -44,7 +46,24 @@ class EndResponse(BaseModel):
     turns: int
 
 
-def _run_text_turn(sess, user_text: str) -> ChatResponse:
+@app.get("/api/podcasters")
+async def list_podcasters():
+    """List all available podcasters."""
+    podcasters = llm.get_all_podcasters()
+    result = []
+    for pid, info in podcasters.items():
+        result.append({
+            "id": pid,
+            "name": info["name"],
+            "show": info["show"],
+            "description": info.get("description", ""),
+            "avatar": info.get("avatar", ""),
+            "voice_cloned": info.get("voice", {}).get("cloned", False),
+        })
+    return result
+
+
+def _run_llm_tts(sess, user_text: str) -> ChatResponse:
     if not user_text.strip():
         raise HTTPException(400, "Empty message")
 
@@ -52,25 +71,25 @@ def _run_text_turn(sess, user_text: str) -> ChatResponse:
     messages = sess.get_messages_for_llm()
     messages.append({"role": "user", "content": user_text})
     try:
-        chris_text = llm.generate_response(messages, sess.podcaster)
+        response_text = llm.generate_response(messages, sess.podcaster)
     except Exception as e:
         raise HTTPException(500, f"LLM error: {e}")
     llm_ms = int((time.time() - t0) * 1000)
 
     t0 = time.time()
     try:
-        chris_audio = tts.synthesize_b64(chris_text)
+        response_audio = tts.synthesize_b64(response_text, sess.podcaster)
     except Exception as e:
         raise HTTPException(500, f"TTS error: {e}")
     tts_ms = int((time.time() - t0) * 1000)
 
-    sess.add_turn(user_text, chris_text)
+    sess.add_turn(user_text, response_text)
     sess.save()
 
     return ChatResponse(
         user_text=user_text,
-        chris_text=chris_text,
-        chris_audio=chris_audio,
+        chris_text=response_text,
+        chris_audio=response_audio,
         turn=sess.turn,
         stt_ms=0,
         llm_ms=llm_ms,
@@ -82,6 +101,9 @@ def _run_text_turn(sess, user_text: str) -> ChatResponse:
 async def start_session(req: StartRequest):
     sess = session.create_session(req.guest_name, req.topic, req.podcaster)
 
+    info = llm.get_podcaster_info(req.podcaster)
+    podcaster_name = info.get("name", req.podcaster)
+
     try:
         greeting_text = llm.generate_greeting(req.guest_name, req.topic, req.podcaster)
     except Exception as e:
@@ -90,7 +112,7 @@ async def start_session(req: StartRequest):
     sess.add_greeting(greeting_text)
 
     try:
-        greeting_audio = tts.synthesize_b64(greeting_text)
+        greeting_audio = tts.synthesize_b64(greeting_text, req.podcaster)
     except Exception as e:
         raise HTTPException(500, f"TTS error: {e}")
 
@@ -100,6 +122,8 @@ async def start_session(req: StartRequest):
         session_id=sess.session_id,
         greeting_text=greeting_text,
         greeting_audio=greeting_audio,
+        podcaster=req.podcaster,
+        podcaster_name=podcaster_name,
     )
 
 
@@ -120,7 +144,7 @@ async def chat(session_id: str, audio: UploadFile = File(...)):
     if not user_text:
         raise HTTPException(400, "Could not transcribe audio — too short or silent?")
 
-    result = _run_text_turn(sess, user_text)
+    result = _run_llm_tts(sess, user_text)
     result.stt_ms = stt_ms
     return result
 
@@ -130,7 +154,7 @@ async def chat_text(session_id: str, req: ChatTextRequest):
     sess = session.get_session(session_id)
     if not sess:
         raise HTTPException(404, "Session not found")
-    return _run_text_turn(sess, req.text)
+    return _run_llm_tts(sess, req.text)
 
 
 @app.get("/api/session/{session_id}/transcript")
@@ -148,7 +172,6 @@ async def end_session(session_id: str):
         raise HTTPException(404, "Session not found")
 
     transcript_md = sess.get_transcript_md()
-
     md_path = os.path.join(
         os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
         "data", "sessions", f"{session_id}.md",
@@ -163,5 +186,4 @@ if os.path.exists(WEB_DIR):
     @app.get("/")
     async def serve_index():
         return FileResponse(os.path.join(WEB_DIR, "index.html"))
-
     app.mount("/static", StaticFiles(directory=WEB_DIR), name="static")

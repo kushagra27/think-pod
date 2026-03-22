@@ -1,15 +1,42 @@
-"""Text-to-speech via Cartesia API."""
+"""Text-to-speech via Cartesia API with per-podcaster voice."""
 import requests
 import base64
-from .config import CARTESIA_API_KEY, CHRIS_VOICE_ID, CARTESIA_MODEL
+import json
+import os
+from .config import CARTESIA_API_KEY, CARTESIA_MODEL, BASE_DIR
+
+_VOICE_MAP = None
 
 
-def synthesize(text: str, voice_id: str = None) -> bytes:
+def _load_voice_map() -> dict:
+    """Load voice IDs from podcasters.json."""
+    global _VOICE_MAP
+    if _VOICE_MAP is not None:
+        return _VOICE_MAP
+    path = os.path.join(BASE_DIR, "data", "podcasters.json")
+    with open(path) as f:
+        podcasters = json.load(f)
+    _VOICE_MAP = {}
+    for pid, info in podcasters.items():
+        voice = info.get("voice", {})
+        _VOICE_MAP[pid] = voice.get("voice_id", "")
+    return _VOICE_MAP
+
+
+def get_voice_id(podcaster_id: str) -> str:
+    """Get Cartesia voice ID for a podcaster."""
+    voice_map = _load_voice_map()
+    return voice_map.get(podcaster_id, voice_map.get("chris-williamson", ""))
+
+
+def synthesize(text: str, podcaster_id: str = "chris-williamson") -> bytes:
     """Convert text to speech, return MP3 bytes."""
     if not CARTESIA_API_KEY:
         raise ValueError("CARTESIA_API_KEY not set")
 
-    voice_id = voice_id or CHRIS_VOICE_ID
+    voice_id = get_voice_id(podcaster_id)
+    if not voice_id:
+        raise ValueError(f"No voice configured for {podcaster_id}")
 
     resp = requests.post(
         "https://api.cartesia.ai/tts/bytes",
@@ -34,7 +61,7 @@ def synthesize(text: str, voice_id: str = None) -> bytes:
     return resp.content
 
 
-def synthesize_b64(text: str, voice_id: str = None) -> str:
+def synthesize_b64(text: str, podcaster_id: str = "chris-williamson") -> str:
     """Convert text to speech, return base64-encoded MP3."""
-    audio_bytes = synthesize(text, voice_id)
+    audio_bytes = synthesize(text, podcaster_id)
     return base64.b64encode(audio_bytes).decode("utf-8")

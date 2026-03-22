@@ -1,11 +1,53 @@
 let sessionId = null;
+let selectedPodcaster = null;
+let hostName = '';
 let mediaRecorder = null;
 let audioChunks = [];
 let isRecording = false;
 let isProcessing = false;
-const API = '';
 
+// ─── Init ───
+document.addEventListener('DOMContentLoaded', loadPodcasters);
+
+async function loadPodcasters() {
+  try {
+    const resp = await fetch('/api/podcasters');
+    const podcasters = await resp.json();
+    const grid = document.getElementById('podcaster-list');
+    grid.innerHTML = '';
+    for (const p of podcasters) {
+      const card = document.createElement('div');
+      card.className = 'podcaster-card';
+      card.dataset.id = p.id;
+      card.innerHTML = `
+        <img class="avatar" src="${p.avatar}" alt="${p.name}" onerror="this.style.display='none'">
+        <div class="info">
+          <strong>${esc(p.name)}${p.voice_cloned ? '<span class="cloned-badge">voice cloned</span>' : ''}</strong>
+          <span>${esc(p.show)}</span>
+          <div class="desc">${esc(p.description)}</div>
+        </div>
+      `;
+      card.onclick = () => selectPodcaster(p.id, p.name, card);
+      grid.appendChild(card);
+    }
+  } catch (e) {
+    document.getElementById('podcaster-list').innerHTML = '<div class="loading">Failed to load podcasters</div>';
+  }
+}
+
+function selectPodcaster(id, name, card) {
+  document.querySelectorAll('.podcaster-card').forEach(c => c.classList.remove('selected'));
+  card.classList.add('selected');
+  selectedPodcaster = id;
+  hostName = name;
+  const btn = document.getElementById('start-btn');
+  btn.disabled = false;
+  btn.textContent = `Start Interview with ${name}`;
+}
+
+// ─── Session ───
 async function startSession() {
+  if (!selectedPodcaster) return;
   const name = document.getElementById('guest-name').value.trim() || 'Guest';
   const topic = document.getElementById('topic').value.trim() || 'life, ideas, and the future';
   const btn = document.getElementById('start-btn');
@@ -13,20 +55,25 @@ async function startSession() {
   btn.textContent = 'Starting...';
 
   try {
-    const resp = await fetch(`${API}/api/session/start`, {
+    const resp = await fetch('/api/session/start', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ guest_name: name, topic })
+      body: JSON.stringify({ guest_name: name, topic, podcaster: selectedPodcaster }),
     });
     if (!resp.ok) throw new Error(await resp.text());
     const data = await resp.json();
     sessionId = data.session_id;
 
+    // Update interview screen header
+    const avatarEl = document.querySelector(`.podcaster-card.selected .avatar`);
+    if (avatarEl) document.getElementById('host-avatar').src = avatarEl.src;
+    document.getElementById('host-title').textContent = `🎙️ ${data.podcaster_name}`;
+
     document.getElementById('start-screen').style.display = 'none';
     document.getElementById('interview-screen').style.display = 'flex';
 
-    addTranscript('Chris', data.greeting_text);
-    setStatus('speaking', 'Chris is speaking...');
+    addTranscript(hostName, data.greeting_text, true);
+    setStatus('speaking', `${hostName} is speaking...`);
     await playAudio(data.greeting_audio);
     setStatus('', 'Your turn — hold the button to talk or type below');
 
@@ -34,22 +81,22 @@ async function startSession() {
     document.getElementById('send-btn').disabled = false;
 
     if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-      await navigator.mediaDevices.getUserMedia({ audio: true });
+      try { await navigator.mediaDevices.getUserMedia({ audio: true }); }
+      catch (e) { setStatus('', 'Mic unavailable — use text box below'); }
     } else {
-      console.warn('MediaDevices not available — needs HTTPS');
-      setStatus('', 'Mic unavailable here — use text box below or open over HTTPS');
+      setStatus('', 'Mic unavailable (needs HTTPS) — use text box below');
     }
   } catch (err) {
     alert('Error starting session: ' + err.message);
     btn.disabled = false;
-    btn.textContent = 'Start Interview';
+    btn.textContent = `Start Interview with ${hostName}`;
   }
 }
 
 async function endSession() {
   if (!sessionId) return;
   try {
-    const resp = await fetch(`${API}/api/session/${sessionId}/end`, { method: 'POST' });
+    const resp = await fetch(`/api/session/${sessionId}/end`, { method: 'POST' });
     if (!resp.ok) throw new Error(await resp.text());
     const data = await resp.json();
     document.getElementById('interview-screen').style.display = 'none';
@@ -60,6 +107,7 @@ async function endSession() {
   }
 }
 
+// ─── Recording ───
 async function startRecording() {
   if (isProcessing || isRecording) return;
   if (!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia)) {
@@ -76,7 +124,6 @@ async function startRecording() {
     document.getElementById('talk-btn').classList.add('recording');
     setStatus('listening', '🔴 Recording...');
   } catch (err) {
-    console.error('Mic error:', err);
     setStatus('', 'Microphone access denied — use text box below');
   }
 }
@@ -88,49 +135,29 @@ async function stopRecording() {
   mediaRecorder.stop();
   mediaRecorder.stream.getTracks().forEach(t => t.stop());
   await new Promise(resolve => { mediaRecorder.onstop = resolve; });
-  if (audioChunks.length === 0) {
-    setStatus('', 'No audio recorded');
-    return;
-  }
+  if (audioChunks.length === 0) return;
   const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
-  if (audioBlob.size < 5000) {
-    setStatus('', 'Recording too short — hold longer');
-    return;
-  }
+  if (audioBlob.size < 5000) { setStatus('', 'Recording too short'); return; }
   await sendAudio(audioBlob);
 }
 
+// ─── Send ───
 async function sendAudio(audioBlob) {
   if (!sessionId) return;
-  isProcessing = true;
-  document.getElementById('talk-btn').disabled = true;
-  document.getElementById('send-btn').disabled = true;
-  setStatus('thinking', 'Chris is thinking...');
-
+  setProcessing(true);
+  setStatus('thinking', `${hostName} is thinking...`);
   const formData = new FormData();
   formData.append('audio', audioBlob, 'recording.webm');
-
   try {
     const t0 = Date.now();
-    const resp = await fetch(`${API}/api/session/${sessionId}/chat`, { method: 'POST', body: formData });
+    const resp = await fetch(`/api/session/${sessionId}/chat`, { method: 'POST', body: formData });
     if (!resp.ok) throw new Error(await resp.text());
     const data = await resp.json();
-    const totalMs = Date.now() - t0;
-
-    addTranscript('You', data.user_text);
-    addTranscript('Chris', data.chris_text);
-    document.getElementById('latency').textContent = `STT: ${data.stt_ms}ms | LLM: ${data.llm_ms}ms | TTS: ${data.tts_ms}ms | Total: ${totalMs}ms`;
-
-    setStatus('speaking', 'Chris is speaking...');
-    await playAudio(data.chris_audio);
-    setStatus('', 'Your turn — hold the button to talk or type below');
+    showResponse(data, Date.now() - t0);
   } catch (err) {
-    console.error('Chat error:', err);
     setStatus('', 'Error: ' + err.message);
   } finally {
-    isProcessing = false;
-    document.getElementById('talk-btn').disabled = false;
-    document.getElementById('send-btn').disabled = false;
+    setProcessing(false);
   }
 }
 
@@ -139,91 +166,91 @@ async function sendText() {
   const input = document.getElementById('text-input');
   const text = input.value.trim();
   if (!text) return;
-
-  isProcessing = true;
-  document.getElementById('talk-btn').disabled = true;
-  document.getElementById('send-btn').disabled = true;
-  addTranscript('You', text);
+  setProcessing(true);
+  addTranscript('You', text, false);
   input.value = '';
-  setStatus('thinking', 'Chris is thinking...');
-
+  setStatus('thinking', `${hostName} is thinking...`);
   try {
     const t0 = Date.now();
-    const resp = await fetch(`${API}/api/session/${sessionId}/chat-text`, {
+    const resp = await fetch(`/api/session/${sessionId}/chat-text`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text })
+      body: JSON.stringify({ text }),
     });
     if (!resp.ok) throw new Error(await resp.text());
     const data = await resp.json();
-    const totalMs = Date.now() - t0;
-
-    removeLastUserEchoIfDuplicated(text, data.user_text);
-    addTranscript('Chris', data.chris_text);
-    document.getElementById('latency').textContent = `LLM: ${data.llm_ms}ms | TTS: ${data.tts_ms}ms | Total: ${totalMs}ms`;
-
-    setStatus('speaking', 'Chris is speaking...');
-    await playAudio(data.chris_audio);
-    setStatus('', 'Your turn — hold the button to talk or type below');
+    showResponse(data, Date.now() - t0, true);
   } catch (err) {
-    console.error('Text chat error:', err);
     setStatus('', 'Error: ' + err.message);
   } finally {
-    isProcessing = false;
-    document.getElementById('talk-btn').disabled = false;
-    document.getElementById('send-btn').disabled = false;
+    setProcessing(false);
   }
 }
 
-function removeLastUserEchoIfDuplicated(sent, returned) {
-  if (sent === returned) return;
+async function showResponse(data, totalMs, skipUser = false) {
+  if (!skipUser) addTranscript('You', data.user_text, false);
+  addTranscript(hostName, data.chris_text, true);
+  const parts = [];
+  if (data.stt_ms) parts.push(`STT: ${data.stt_ms}ms`);
+  parts.push(`LLM: ${data.llm_ms}ms`, `TTS: ${data.tts_ms}ms`, `Total: ${totalMs}ms`);
+  document.getElementById('latency').textContent = parts.join(' | ');
+  setStatus('speaking', `${hostName} is speaking...`);
+  await playAudio(data.chris_audio);
+  setStatus('', 'Your turn — hold the button to talk or type below');
 }
 
-async function refreshTranscript() {
-  if (!sessionId) return;
-  try {
-    const resp = await fetch(`${API}/api/session/${sessionId}/transcript`);
-    if (!resp.ok) throw new Error(await resp.text());
-    const data = await resp.json();
-    const el = document.getElementById('transcript');
-    el.innerHTML = '';
-    for (const entry of data.transcript) {
-      addTranscript(entry.speaker === 'Chris' ? 'Chris' : entry.speaker, entry.text);
-    }
-  } catch (err) {
-    console.error('Transcript refresh error:', err);
-  }
+function setProcessing(val) {
+  isProcessing = val;
+  document.getElementById('talk-btn').disabled = val;
+  document.getElementById('send-btn').disabled = val;
 }
 
-function playAudio(base64Audio) {
-  return new Promise((resolve) => {
-    const audio = new Audio('data:audio/mp3;base64,' + base64Audio);
+// ─── Audio ───
+function playAudio(b64) {
+  return new Promise(resolve => {
+    const audio = new Audio('data:audio/mp3;base64,' + b64);
     audio.onended = resolve;
     audio.onerror = resolve;
     audio.play().catch(resolve);
   });
 }
 
+// ─── Transcript ───
+function addTranscript(speaker, text, isHost) {
+  const el = document.getElementById('transcript');
+  const entry = document.createElement('div');
+  entry.className = 'transcript-entry';
+  entry.innerHTML = `
+    <div class="speaker ${isHost ? 'speaker-host' : 'speaker-user'}">${isHost ? '🎙️' : '🗣️'} ${esc(speaker)}</div>
+    <div class="text">${esc(text)}</div>
+  `;
+  el.appendChild(entry);
+  el.scrollTop = el.scrollHeight;
+}
+
+function downloadTranscript() {
+  const entries = document.querySelectorAll('.transcript-entry');
+  let md = `# Think-Pod Session\n\n`;
+  entries.forEach(e => {
+    const speaker = e.querySelector('.speaker').textContent.trim();
+    const text = e.querySelector('.text').textContent.trim();
+    md += `**${speaker}:** ${text}\n\n`;
+  });
+  const blob = new Blob([md], { type: 'text/markdown' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `thinkpod-session-${sessionId || 'draft'}.md`;
+  a.click();
+}
+
+// ─── Helpers ───
 function setStatus(cls, text) {
   const el = document.getElementById('status');
   el.className = 'status' + (cls ? ' ' + cls : '');
   el.textContent = text;
 }
 
-function addTranscript(speaker, text) {
-  const el = document.getElementById('transcript');
-  const entry = document.createElement('div');
-  entry.className = 'transcript-entry';
-  const isChris = speaker === 'Chris';
-  entry.innerHTML = `
-    <div class="speaker ${isChris ? 'speaker-chris' : 'speaker-user'}">${isChris ? '🎙️' : '🗣️'} ${escapeHtml(speaker)}</div>
-    <div class="text">${escapeHtml(text)}</div>
-  `;
-  el.appendChild(entry);
-  el.scrollTop = el.scrollHeight;
-}
-
-function escapeHtml(text) {
+function esc(text) {
   const div = document.createElement('div');
   div.textContent = text;
   return div.innerHTML;

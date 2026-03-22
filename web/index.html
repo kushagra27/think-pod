@@ -13,6 +13,13 @@
       <p class="subtitle">A thinking exercise disguised as a podcast</p>
 
       <div class="form-group">
+        <label>Choose your interviewer</label>
+        <div id="podcaster-list" class="podcaster-grid">
+          <div class="loading">Loading podcasters...</div>
+        </div>
+      </div>
+
+      <div class="form-group">
         <label for="guest-name">Your name</label>
         <input type="text" id="guest-name" placeholder="Kush" value="">
       </div>
@@ -22,22 +29,17 @@
         <input type="text" id="topic" placeholder="early stage startups, AI, the future...">
       </div>
 
-      <div class="podcaster-info">
-        <img src="https://yt3.googleusercontent.com/0wOKjnPFSBUkwOM-wRDMJf0UHVCvz_oc3d_zfZulDCFMj7N4SZc-UD3E9k0LnUFYJHL3MLNl=s160-c-k-c0x00ffffff-no-rj" alt="Chris Williamson" class="podcaster-avatar">
-        <div>
-          <strong>Chris Williamson</strong>
-          <span>Modern Wisdom</span>
-        </div>
-      </div>
-
-      <button id="start-btn" onclick="startSession()">Start Interview</button>
+      <button id="start-btn" onclick="startSession()" disabled>Select an interviewer to start</button>
     </div>
   </div>
 
   <div id="interview-screen" class="screen" style="display:none">
     <div class="container wide">
       <div class="header">
-        <h2>🎙️ Modern Wisdom</h2>
+        <div class="header-left">
+          <img id="host-avatar" class="host-avatar" src="" alt="">
+          <h2 id="host-title">🎙️ Podcast</h2>
+        </div>
         <button id="end-btn" onclick="endSession()">End Session</button>
       </div>
 
@@ -73,7 +75,7 @@
         <div class="transcript-panel card">
           <div class="transcript-header">
             <h3>Conversation Transcript</h3>
-            <button class="small-btn" onclick="refreshTranscript()">Refresh</button>
+            <button class="small-btn" onclick="downloadTranscript()">Download</button>
           </div>
           <div id="transcript" class="transcript"></div>
         </div>

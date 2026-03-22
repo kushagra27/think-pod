@@ -2,29 +2,60 @@
   "chris-williamson": {
     "name": "Chris Williamson",
     "show": "Modern Wisdom",
+    "description": "Life lessons from the greatest thinkers. Warm, intellectually rigorous, British.",
+    "avatar": "https://yt3.googleusercontent.com/0wOKjnPFSBUkwOM-wRDMJf0UHVCvz_oc3d_zfZulDCFMj7N4SZc-UD3E9k0LnUFYJHL3MLNl=s160-c-k-c0x00ffffff-no-rj",
     "persona_file": "data/personas/chris_williamson_v2.md",
     "prompt_file": "data/personas/chris_williamson_system_prompt.md",
-    "transcript_dir": "data/transcripts/chris-williamson"
+    "transcript_dir": "data/transcripts/chris-williamson",
+    "voice": {
+      "provider": "cartesia",
+      "voice_id": "4ec2fc3a-5b02-4868-93df-26a1aa439922",
+      "cloned": true
+    }
   },
   "lex-fridman": {
     "name": "Lex Fridman",
     "show": "Lex Fridman Podcast",
+    "description": "Deep, calm, intellectually serious conversations about science, AI, and the human condition.",
+    "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kSJGBAkz-4wVDVPj40hRPYMFLzR__GFdi7w-x_UxVfKA=s160-c-k-c0x00ffffff-no-rj",
     "persona_file": "data/personas/lex_fridman_v1.md",
     "prompt_file": "data/personas/lex_fridman_system_prompt.md",
-    "transcript_dir": "data/transcripts/lex-fridman"
-  },
-  "naval-ravikant": {
-    "name": "Naval Ravikant",
-    "show": "Naval",
-    "persona_file": "data/personas/naval_ravikant_v1.md",
-    "prompt_file": "data/personas/naval_ravikant_system_prompt.md",
-    "transcript_dir": "data/transcripts/naval-ravikant"
+    "transcript_dir": "data/transcripts/lex-fridman",
+    "voice": {
+      "provider": "cartesia",
+      "voice_id": "7edf9efb-58fc-46ba-a648-3a00a86b111b",
+      "cloned": false,
+      "note": "Elliott - Reflective Storyteller (placeholder)"
+    }
   },
   "alex-hormozi": {
     "name": "Alex Hormozi",
     "show": "The Game with Alex Hormozi",
+    "description": "Direct, operator-style business conversations. Diagnose bottlenecks, force clarity, move to action.",
+    "avatar": "https://yt3.googleusercontent.com/XHCzGwvJFylj6Awo8PHgEdaDmHP0vRx1xysJJAz4VlxSXVsBaReyIPBZhrWfJB1TjZBjIDdC-Q=s160-c-k-c0x00ffffff-no-rj",
     "persona_file": "data/personas/alex_hormozi_v1.md",
     "prompt_file": "data/personas/alex_hormozi_system_prompt.md",
-    "transcript_dir": "data/transcripts/alex-hormozi"
+    "transcript_dir": "data/transcripts/alex-hormozi",
+    "voice": {
+      "provider": "cartesia",
+      "voice_id": "efd255c7-f030-43d3-b5d8-c7b72063be70",
+      "cloned": false,
+      "note": "Todd - Matter of Fact Salesman (placeholder)"
+    }
+  },
+  "naval-ravikant": {
+    "name": "Naval Ravikant",
+    "show": "Naval",
+    "description": "Calm precision, philosophical compression, practical clarity. Wealth, happiness, and leverage.",
+    "avatar": "https://pbs.twimg.com/profile_images/1256841238298292232/ycqwaMI2_400x400.jpg",
+    "persona_file": "data/personas/naval_ravikant_v1.md",
+    "prompt_file": "data/personas/naval_ravikant_system_prompt.md",
+    "transcript_dir": "data/transcripts/naval-ravikant",
+    "voice": {
+      "provider": "cartesia",
+      "voice_id": "6b92f628-be90-497c-8f4c-3b035002df71",
+      "cloned": false,
+      "note": "Kenji - Calm Man (placeholder)"
+    }
   }
 }
