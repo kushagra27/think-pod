@@ -6,6 +6,10 @@ let audioChunks = [];
 let isRecording = false;
 let isProcessing = false;
 let textOnly = false;
+let recordingTimer = null;
+let recordingSeconds = 0;
+let analyserNode = null;
+let animationFrame = null;
 
 let podcastersData = [];
 
@@ -24,7 +28,6 @@ async function loadPodcasters() {
       opt.textContent = `${p.name} — ${p.show}`;
       select.appendChild(opt);
     }
-    // Default select first podcaster
     if (podcastersData.length > 0) {
       select.value = podcastersData[0].id;
       onPodcasterChange();
@@ -46,11 +49,14 @@ function onPodcasterChange() {
 }
 
 // ─── Text-Only Toggle ───
-function toggleTextOnly() {
-  const toggle = document.getElementById('text-only-toggle');
-  textOnly = toggle.checked;
+function toggleTextOnly(source) {
+  textOnly = source.checked;
+  const startToggle = document.getElementById('text-only-toggle-start');
+  const sessionToggle = document.getElementById('text-only-toggle');
+  if (startToggle) startToggle.checked = textOnly;
+  if (sessionToggle) sessionToggle.checked = textOnly;
   const label = document.getElementById('text-only-label');
-  label.textContent = textOnly ? 'Text only (no audio)' : 'Voice enabled';
+  if (label) label.textContent = textOnly ? 'Text only (no audio)' : 'Voice enabled';
 }
 
 // ─── Session ───
@@ -72,7 +78,6 @@ async function startSession() {
     const data = await resp.json();
     sessionId = data.session_id;
 
-    // Update interview screen header
     const p = podcastersData.find(x => x.id === selectedPodcaster);
     if (p && p.avatar) document.getElementById('host-avatar').src = p.avatar;
     document.getElementById('host-title').textContent = `🎙️ ${data.podcaster_name}`;
@@ -89,7 +94,7 @@ async function startSession() {
       setStatus('speaking', `${hostName} is speaking...`);
       await playAudio(data.greeting_audio);
     }
-    setStatus('', 'Your turn — hold the button to talk or type below');
+    setStatus('', 'Tap the mic to start recording');
 
     document.getElementById('talk-btn').disabled = false;
     document.getElementById('send-btn').disabled = false;
@@ -109,6 +114,7 @@ async function startSession() {
 
 async function endSession() {
   if (!sessionId) return;
+  if (isRecording) await stopRecording();
   try {
     const resp = await fetch(`/api/session/${sessionId}/end`, { method: 'POST' });
     if (!resp.ok) throw new Error(await resp.text());
@@ -121,7 +127,16 @@ async function endSession() {
   }
 }
 
-// ─── Recording ───
+// ─── Recording (tap to start / tap to stop) ───
+async function toggleRecording() {
+  if (isProcessing) return;
+  if (isRecording) {
+    await stopRecording();
+  } else {
+    await startRecording();
+  }
+}
+
 async function startRecording() {
   if (isProcessing || isRecording) return;
   if (!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia)) {
@@ -135,7 +150,20 @@ async function startRecording() {
     mediaRecorder.ondataavailable = (e) => { if (e.data.size > 0) audioChunks.push(e.data); };
     mediaRecorder.start();
     isRecording = true;
-    document.getElementById('talk-btn').classList.add('recording');
+
+    // Visual feedback
+    const btn = document.getElementById('talk-btn');
+    btn.classList.add('recording');
+    btn.innerHTML = '⏹ Tap to Stop';
+
+    // Recording timer
+    recordingSeconds = 0;
+    updateRecordingTime();
+    recordingTimer = setInterval(updateRecordingTime, 1000);
+
+    // Audio level visualizer
+    startAudioVisualizer(stream);
+
     setStatus('listening', '🔴 Recording...');
   } catch (err) {
     setStatus('', 'Microphone access denied — use text box below');
@@ -145,14 +173,95 @@ async function startRecording() {
 async function stopRecording() {
   if (!isRecording || !mediaRecorder) return;
   isRecording = false;
-  document.getElementById('talk-btn').classList.remove('recording');
+
+  // Stop visual feedback
+  const btn = document.getElementById('talk-btn');
+  btn.classList.remove('recording');
+  btn.innerHTML = '🎤 Tap to Record';
+
+  // Stop timer
+  if (recordingTimer) { clearInterval(recordingTimer); recordingTimer = null; }
+  document.getElementById('recording-time').textContent = '';
+
+  // Stop audio visualizer
+  stopAudioVisualizer();
+
   mediaRecorder.stop();
   mediaRecorder.stream.getTracks().forEach(t => t.stop());
   await new Promise(resolve => { mediaRecorder.onstop = resolve; });
   if (audioChunks.length === 0) return;
   const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
-  if (audioBlob.size < 5000) { setStatus('', 'Recording too short'); return; }
+  if (audioBlob.size < 5000) { setStatus('', 'Recording too short — try again'); return; }
   await sendAudio(audioBlob);
+}
+
+function updateRecordingTime() {
+  const el = document.getElementById('recording-time');
+  const mins = Math.floor(recordingSeconds / 60);
+  const secs = recordingSeconds % 60;
+  el.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+  recordingSeconds++;
+}
+
+// ─── Audio Level Visualizer ───
+function startAudioVisualizer(stream) {
+  try {
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    const source = audioCtx.createMediaStreamSource(stream);
+    analyserNode = audioCtx.createAnalyser();
+    analyserNode.fftSize = 256;
+    source.connect(analyserNode);
+    analyserNode._audioCtx = audioCtx;
+
+    const canvas = document.getElementById('audio-visualizer');
+    canvas.style.display = 'block';
+    const ctx = canvas.getContext('2d');
+    const bufferLength = analyserNode.frequencyBinCount;
+    const dataArray = new Uint8Array(bufferLength);
+
+    function draw() {
+      if (!isRecording) return;
+      animationFrame = requestAnimationFrame(draw);
+      analyserNode.getByteFrequencyData(dataArray);
+
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      const barCount = 32;
+      const barWidth = canvas.width / barCount;
+      const step = Math.floor(bufferLength / barCount);
+
+      for (let i = 0; i < barCount; i++) {
+        const val = dataArray[i * step] / 255;
+        const barHeight = Math.max(2, val * canvas.height);
+        const x = i * barWidth;
+        const y = (canvas.height - barHeight) / 2;
+
+        // Color: red pulse effect
+        const r = 220 + Math.floor(val * 35);
+        const g = 50 + Math.floor(val * 30);
+        const b = 50;
+        ctx.fillStyle = `rgb(${r},${g},${b})`;
+        ctx.fillRect(x + 1, y, barWidth - 2, barHeight);
+      }
+    }
+    draw();
+  } catch (e) {
+    // AudioContext not supported — skip visualizer
+  }
+}
+
+function stopAudioVisualizer() {
+  if (animationFrame) { cancelAnimationFrame(animationFrame); animationFrame = null; }
+  if (analyserNode && analyserNode._audioCtx) {
+    analyserNode._audioCtx.close().catch(() => {});
+    analyserNode = null;
+  }
+  const canvas = document.getElementById('audio-visualizer');
+  if (canvas) {
+    canvas.style.display = 'none';
+    const ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  }
 }
 
 // ─── Send ───
@@ -215,7 +324,7 @@ async function showResponse(data, totalMs, skipUser = false) {
     setStatus('speaking', `${hostName} is speaking...`);
     await playAudio(data.chris_audio);
   }
-  setStatus('', 'Your turn — hold the button to talk or type below');
+  setStatus('', 'Tap the mic to start recording');
 }
 
 function setProcessing(val) {

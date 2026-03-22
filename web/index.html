@@ -58,14 +58,13 @@
             <button
               id="talk-btn"
               class="talk-button"
-              onmousedown="startRecording()"
-              onmouseup="stopRecording()"
-              ontouchstart="startRecording()"
-              ontouchend="stopRecording()"
+              onclick="toggleRecording()"
               disabled
             >
-              🎤 Hold to Talk
+              🎤 Tap to Record
             </button>
+            <div id="recording-time" class="recording-time"></div>
+            <canvas id="audio-visualizer" class="audio-visualizer" width="280" height="40"></canvas>
 
             <div class="text-fallback">
               <label for="text-input">Or type instead</label>
