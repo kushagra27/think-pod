@@ -169,8 +169,9 @@ All keys stored in `src/server/config.py` (gitignored) or loaded from env.
 
 ```python
 # src/server/config.py
-GROQ_API_KEY = "..."
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 CARTESIA_API_KEY = os.environ.get("CARTESIA_API_KEY", "")
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 CHRIS_VOICE_ID = "4ec2fc3a-5b02-4868-93df-26a1aa439922"
 
 # LLM — use Claude via OpenClaw's configured auth or direct API
