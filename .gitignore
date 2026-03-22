@@ -13,7 +13,14 @@ data/sessions/*.json
 __pycache__/
 *.pyc
 .env
+.env.*
 *.egg-info/
+
+# Local secrets / credentials
+*.pem
+*.key
+*.p12
+*.pfx
 
 # OS
 .DS_Store

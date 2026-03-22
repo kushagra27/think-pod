@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Scan staged content for obvious secrets and block common secret files.
+files=$(git diff --cached --name-only --diff-filter=ACMR)
+[ -z "$files" ] && exit 0
+
+blocked_file_regex='(^|/)(\.env(\..*)?$|src/server/config\.py$|.*\.(pem|key|p12|pfx)$|.*credentials.*)$'
+secret_regex='(sk_(ant|car)_[A-Za-z0-9_-]+|AIza[0-9A-Za-z\-_]{35}|ghp_[A-Za-z0-9]{36,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16}|ASIA[0-9A-Z]{16}|xox[baprs]-[A-Za-z0-9-]{10,}|-----BEGIN (RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----)'
+
+for f in $files; do
+  if [[ "$f" =~ $blocked_file_regex ]]; then
+    echo "❌ Refusing to commit likely-secret file: $f" >&2
+    echo "   Put secrets in environment variables or untracked local files instead." >&2
+    exit 1
+  fi
+  if git diff --cached -- "$f" | grep -E "$secret_regex" >/dev/null 2>&1; then
+    echo "❌ Refusing to commit suspected secret in: $f" >&2
+    echo "   Remove the secret, rotate it if needed, then commit again." >&2
+    exit 1
+  fi
+done
+
+exit 0

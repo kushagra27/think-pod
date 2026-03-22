@@ -69,6 +69,19 @@ A thinking exercise disguised as a podcast. Choose a podcaster, get interviewed 
 - [Progress Log](planning/PROGRESS.md) — what's been done, day by day
 - [Add a Podcaster](docs/ADD_PODCASTER.md) — step-by-step guide for new personas
 
+## Secret Safety
+
+- Never commit API keys, `.env` files, private keys, or local credential files.
+- Runtime secrets must come from environment variables or untracked local files only.
+- Repo guardrails:
+  - local git pre-commit hook in `.githooks/pre-commit`
+  - GitHub Actions secret scanning via `.github/workflows/secret-scan.yml`
+- Install local hooks once per clone:
+
+```bash
+./scripts/install-git-hooks.sh
+```
+
 ## License
 
 MIT
