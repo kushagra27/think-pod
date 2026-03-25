@@ -1,3 +1,9 @@
+/* Think-Pod — Frontend with Supabase Auth + Dashboard */
+
+let supabaseClient = null;
+let currentUser = null;
+let accessToken = null;
+
 let sessionId = null;
 let selectedPodcaster = null;
 let hostName = '';
@@ -10,31 +16,385 @@ let recordingTimer = null;
 let recordingSeconds = 0;
 let analyserNode = null;
 let animationFrame = null;
-
 let podcastersData = [];
 
-// ─── Init ───
-document.addEventListener('DOMContentLoaded', loadPodcasters);
+// ─── Screens ─────────────────────────────────────────────────────────
+
+const SCREENS = ['login-screen', 'dashboard-screen', 'start-screen', 'interview-screen', 'end-screen', 'transcript-view-screen'];
+
+function showScreen(id) {
+  for (const s of SCREENS) {
+    document.getElementById(s).style.display = s === id ? 'flex' : 'none';
+  }
+  // Push a simple history state so back button works
+  if (history.state !== id) {
+    history.pushState(id, '', '');
+  }
+}
+
+window.addEventListener('popstate', (e) => {
+  if (e.state && SCREENS.includes(e.state)) {
+    // Don't allow going back to interview or end if session is done
+    if (e.state === 'login-screen' && currentUser) {
+      showScreen('dashboard-screen');
+      return;
+    }
+    for (const s of SCREENS) {
+      document.getElementById(s).style.display = s === e.state ? 'flex' : 'none';
+    }
+  }
+});
+
+// ─── Init ────────────────────────────────────────────────────────────
+
+document.addEventListener('DOMContentLoaded', initApp);
+
+async function initApp() {
+  try {
+    // Fetch public config from server
+    const configResp = await fetch('/api/config');
+    const config = await configResp.json();
+
+    supabaseClient = window.supabase.createClient(config.supabase_url, config.supabase_anon_key);
+
+    // Listen for auth state changes (handles OAuth redirects, token refresh, etc.)
+    supabaseClient.auth.onAuthStateChange((event, session) => {
+      if (session) {
+        currentUser = session.user;
+        accessToken = session.access_token;
+        onLoggedIn();
+      } else if (event === 'SIGNED_OUT') {
+        currentUser = null;
+        accessToken = null;
+        showScreen('login-screen');
+      }
+    });
+
+    // Check for existing session
+    const { data: { session } } = await supabaseClient.auth.getSession();
+    if (session) {
+      currentUser = session.user;
+      accessToken = session.access_token;
+      onLoggedIn();
+    } else {
+      showScreen('login-screen');
+    }
+  } catch (e) {
+    console.error('Init error:', e);
+    showScreen('login-screen');
+  }
+}
+
+// ─── Auth ────────────────────────────────────────────────────────────
+
+function showLogin() {
+  document.getElementById('login-form').style.display = '';
+  document.getElementById('signup-form').style.display = 'none';
+}
+
+function showSignUp() {
+  document.getElementById('login-form').style.display = 'none';
+  document.getElementById('signup-form').style.display = '';
+}
+
+async function signInWithGoogle() {
+  const { error } = await supabaseClient.auth.signInWithOAuth({
+    provider: 'google',
+    options: { redirectTo: window.location.origin },
+  });
+  if (error) {
+    document.getElementById('login-error').textContent = error.message;
+  }
+}
+
+async function signInWithEmail() {
+  const email = document.getElementById('login-email').value.trim();
+  const password = document.getElementById('login-password').value;
+  const errEl = document.getElementById('login-error');
+  errEl.textContent = '';
+
+  if (!email || !password) {
+    errEl.textContent = 'Please enter email and password';
+    return;
+  }
+
+  const { error } = await supabaseClient.auth.signInWithPassword({ email, password });
+  if (error) {
+    errEl.textContent = error.message;
+  }
+}
+
+async function signUpWithEmail() {
+  const email = document.getElementById('signup-email').value.trim();
+  const password = document.getElementById('signup-password').value;
+  const errEl = document.getElementById('signup-error');
+  const successEl = document.getElementById('signup-success');
+  errEl.textContent = '';
+  successEl.textContent = '';
+
+  if (!email || !password) {
+    errEl.textContent = 'Please enter email and password';
+    return;
+  }
+  if (password.length < 6) {
+    errEl.textContent = 'Password must be at least 6 characters';
+    return;
+  }
+
+  const { data, error } = await supabaseClient.auth.signUp({ email, password });
+  if (error) {
+    errEl.textContent = error.message;
+  } else if (data.user && !data.session) {
+    successEl.textContent = 'Check your email for a confirmation link!';
+  }
+  // If session is returned, onAuthStateChange will handle it
+}
+
+async function logout() {
+  await supabaseClient.auth.signOut();
+  currentUser = null;
+  accessToken = null;
+  sessionId = null;
+  showScreen('login-screen');
+}
+
+function onLoggedIn() {
+  showDashboard();
+}
+
+// ─── Auth headers ────────────────────────────────────────────────────
+
+function authHeaders(extra) {
+  const h = { 'Authorization': 'Bearer ' + accessToken };
+  if (extra) Object.assign(h, extra);
+  return h;
+}
+
+async function authFetch(url, opts) {
+  // Refresh token if needed before each request
+  const { data: { session } } = await supabaseClient.auth.getSession();
+  if (session) {
+    accessToken = session.access_token;
+  } else {
+    // Session expired — force re-login
+    showScreen('login-screen');
+    throw new Error('Session expired');
+  }
+
+  opts = opts || {};
+  opts.headers = authHeaders(opts.headers || {});
+  const resp = await fetch(url, opts);
+  if (resp.status === 401) {
+    showScreen('login-screen');
+    throw new Error('Unauthorized');
+  }
+  return resp;
+}
+
+// ─── Dashboard ───────────────────────────────────────────────────────
+
+async function showDashboard() {
+  showScreen('dashboard-screen');
+  sessionId = null;
+
+  // Update user info
+  const userInfo = document.getElementById('user-info');
+  const meta = currentUser.user_metadata || {};
+  const displayName = meta.full_name || meta.name || currentUser.email || '';
+  userInfo.textContent = displayName;
+
+  // Load podcasters in background for start screen
+  loadPodcasters();
+
+  // Load sessions
+  await loadSessions();
+}
+
+async function loadSessions() {
+  const listEl = document.getElementById('sessions-list');
+  listEl.innerHTML = '<div class="loading">Loading sessions...</div>';
+
+  try {
+    const resp = await authFetch('/api/sessions');
+    if (!resp.ok) throw new Error('Failed to load sessions');
+    const data = await resp.json();
+    const sessions = data.sessions || [];
+
+    if (sessions.length === 0) {
+      listEl.innerHTML = '<div class="empty-state">No sessions yet — start your first interview!</div>';
+      return;
+    }
+
+    listEl.innerHTML = '';
+    for (const s of sessions) {
+      const card = document.createElement('div');
+      card.className = 'session-card';
+      const dateStr = new Date(s.created_at).toLocaleDateString('en-US', {
+        month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit'
+      });
+      const statusClass = s.status === 'active' ? 'status-active' : 'status-ended';
+      const podcasterInfo = podcastersData.find(p => p.id === s.podcaster);
+      const podcasterName = podcasterInfo ? podcasterInfo.name : s.podcaster;
+      const avatarSrc = podcasterInfo && podcasterInfo.avatar ? podcasterInfo.avatar : '';
+      const avatarHtml = avatarSrc
+        ? '<img class="session-avatar" src="' + esc(avatarSrc) + '" alt="">'
+        : '<div class="session-avatar-placeholder">🎙️</div>';
+
+      card.innerHTML =
+        '<div class="session-card-left">' +
+          avatarHtml +
+          '<div class="session-card-info">' +
+            '<div class="session-card-title">' + esc(podcasterName) + ' × ' + esc(s.guest_name) + '</div>' +
+            '<div class="session-card-topic">' + esc(s.topic) + '</div>' +
+            '<div class="session-card-meta">' + esc(dateStr) + ' · ' + s.turns + ' turns</div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="session-card-right">' +
+          '<span class="status-badge ' + statusClass + '">' + esc(s.status) + '</span>' +
+          '<div class="session-card-actions">' +
+            '<button class="small-btn" data-action="view" data-id="' + s.id + '">View</button>' +
+            (s.status === 'active' ? '<button class="small-btn accent" data-action="resume" data-id="' + s.id + '">Resume</button>' : '') +
+            '<button class="small-btn danger" data-action="delete" data-id="' + s.id + '">Delete</button>' +
+          '</div>' +
+        '</div>';
+
+      card.addEventListener('click', (e) => {
+        const btn = e.target.closest('[data-action]');
+        if (!btn) return;
+        const action = btn.dataset.action;
+        const id = btn.dataset.id;
+        if (action === 'view') viewSession(id);
+        else if (action === 'resume') resumeSession(id);
+        else if (action === 'delete') deleteSession(id);
+      });
+
+      listEl.appendChild(card);
+    }
+  } catch (e) {
+    listEl.innerHTML = '<div class="auth-error">Error loading sessions: ' + esc(e.message) + '</div>';
+  }
+}
+
+async function viewSession(id) {
+  try {
+    const resp = await authFetch('/api/sessions/' + id);
+    if (!resp.ok) throw new Error('Failed to load session');
+    const data = await resp.json();
+    const s = data.session;
+    const msgs = data.messages || [];
+
+    const podcasterInfo = podcastersData.find(p => p.id === s.podcaster);
+    const podcasterName = podcasterInfo ? podcasterInfo.name : s.podcaster;
+
+    document.getElementById('transcript-view-title').textContent =
+      podcasterName + ' × ' + s.guest_name;
+    document.getElementById('transcript-view-meta').textContent =
+      'Topic: ' + s.topic + ' · ' + s.turns + ' turns · ' +
+      new Date(s.created_at).toLocaleDateString();
+
+    const contentEl = document.getElementById('transcript-view-content');
+    contentEl.innerHTML = '';
+
+    for (const m of msgs) {
+      if (m.role === 'system') continue;
+      // Skip the initial setup prompt (turn 0, role user, starts with "Your guest today")
+      if (m.role === 'user' && m.turn_number === 0) continue;
+
+      const entry = document.createElement('div');
+      entry.className = 'transcript-entry';
+      const isHost = m.role === 'assistant';
+      const speaker = isHost ? podcasterName : s.guest_name;
+      entry.innerHTML =
+        '<div class="speaker ' + (isHost ? 'speaker-host' : 'speaker-user') + '">' +
+        (isHost ? '🎙️' : '🗣️') + ' ' + esc(speaker) + '</div>' +
+        '<div class="text">' + esc(m.content) + '</div>';
+      contentEl.appendChild(entry);
+    }
+
+    showScreen('transcript-view-screen');
+  } catch (e) {
+    alert('Error: ' + e.message);
+  }
+}
+
+async function resumeSession(id) {
+  try {
+    const resp = await authFetch('/api/sessions/' + id + '/resume', { method: 'POST' });
+    if (!resp.ok) {
+      const errText = await resp.text();
+      throw new Error(errText);
+    }
+    const data = await resp.json();
+    sessionId = data.session_id;
+    hostName = data.podcaster_name;
+
+    const p = podcastersData.find(x => x.id === data.podcaster);
+    if (p && p.avatar) document.getElementById('host-avatar').src = p.avatar;
+    document.getElementById('host-title').textContent = '🎙️ ' + data.podcaster_name;
+
+    // Clear and rebuild transcript
+    const transcriptEl = document.getElementById('transcript');
+    transcriptEl.innerHTML = '';
+    for (const t of (data.transcript || [])) {
+      const isHost = t.speaker === 'Host';
+      const speakerName = isHost ? hostName : t.speaker;
+      addTranscript(speakerName, t.text, isHost);
+    }
+
+    showScreen('interview-screen');
+    setStatus('', 'Tap the mic to continue recording');
+    document.getElementById('talk-btn').disabled = false;
+    document.getElementById('send-btn').disabled = false;
+  } catch (e) {
+    alert('Error resuming: ' + e.message);
+  }
+}
+
+async function deleteSession(id) {
+  if (!confirm('Delete this session? This cannot be undone.')) return;
+  try {
+    const resp = await authFetch('/api/sessions/' + id, { method: 'DELETE' });
+    if (!resp.ok) throw new Error('Failed to delete');
+    await loadSessions();
+  } catch (e) {
+    alert('Error: ' + e.message);
+  }
+}
+
+// ─── Start Screen ────────────────────────────────────────────────────
+
+function showStartScreen() {
+  showScreen('start-screen');
+  loadPodcasters();
+}
 
 async function loadPodcasters() {
+  if (podcastersData.length > 0) {
+    populatePodcasterSelect();
+    return;
+  }
   try {
     const resp = await fetch('/api/podcasters');
     podcastersData = await resp.json();
-    const select = document.getElementById('podcaster-select');
-    select.innerHTML = '';
-    for (const p of podcastersData) {
-      const opt = document.createElement('option');
-      opt.value = p.id;
-      opt.textContent = `${p.name} — ${p.show}`;
-      select.appendChild(opt);
-    }
-    if (podcastersData.length > 0) {
-      select.value = podcastersData[0].id;
-      onPodcasterChange();
-    }
+    populatePodcasterSelect();
   } catch (e) {
     const select = document.getElementById('podcaster-select');
     select.innerHTML = '<option disabled>Failed to load</option>';
+  }
+}
+
+function populatePodcasterSelect() {
+  const select = document.getElementById('podcaster-select');
+  select.innerHTML = '';
+  for (const p of podcastersData) {
+    const opt = document.createElement('option');
+    opt.value = p.id;
+    opt.textContent = p.name + ' — ' + p.show;
+    select.appendChild(opt);
+  }
+  if (podcastersData.length > 0) {
+    select.value = podcastersData[0].id;
+    onPodcasterChange();
   }
 }
 
@@ -45,10 +405,11 @@ function onPodcasterChange() {
   selectedPodcaster = p.id;
   hostName = p.name;
   document.getElementById('start-btn').disabled = false;
-  document.getElementById('start-btn').textContent = `Start Interview with ${p.name}`;
+  document.getElementById('start-btn').textContent = 'Start Interview with ' + p.name;
 }
 
-// ─── Text-Only Toggle ───
+// ─── Text-Only Toggle ───────────────────────────────────────────────
+
 function toggleTextOnly(source) {
   textOnly = source.checked;
   const startToggle = document.getElementById('text-only-toggle-start');
@@ -59,7 +420,8 @@ function toggleTextOnly(source) {
   if (label) label.textContent = textOnly ? 'Text only (no audio)' : 'Voice enabled';
 }
 
-// ─── Session ───
+// ─── Session ─────────────────────────────────────────────────────────
+
 async function startSession() {
   if (!selectedPodcaster) return;
   const name = document.getElementById('guest-name').value.trim() || 'Guest';
@@ -69,10 +431,10 @@ async function startSession() {
   btn.textContent = 'Starting...';
 
   try {
-    const resp = await fetch('/api/session/start', {
+    const resp = await authFetch('/api/session/start', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ guest_name: name, topic, podcaster: selectedPodcaster, text_only: textOnly }),
+      body: JSON.stringify({ guest_name: name, topic: topic, podcaster: selectedPodcaster, text_only: textOnly }),
     });
     if (!resp.ok) throw new Error(await resp.text());
     const data = await resp.json();
@@ -80,10 +442,12 @@ async function startSession() {
 
     const p = podcastersData.find(x => x.id === selectedPodcaster);
     if (p && p.avatar) document.getElementById('host-avatar').src = p.avatar;
-    document.getElementById('host-title').textContent = `🎙️ ${data.podcaster_name}`;
+    document.getElementById('host-title').textContent = '🎙️ ' + data.podcaster_name;
 
-    document.getElementById('start-screen').style.display = 'none';
-    document.getElementById('interview-screen').style.display = 'flex';
+    // Clear transcript
+    document.getElementById('transcript').innerHTML = '';
+
+    showScreen('interview-screen');
     const sessionToggle = document.getElementById('text-only-toggle');
     if (sessionToggle) sessionToggle.checked = textOnly;
     const label = document.getElementById('text-only-label');
@@ -91,7 +455,7 @@ async function startSession() {
 
     addTranscript(hostName, data.greeting_text, true);
     if (data.greeting_audio && !textOnly) {
-      setStatus('speaking', `${hostName} is speaking...`);
+      setStatus('speaking', hostName + ' is speaking...');
       await playAudio(data.greeting_audio);
     }
     setStatus('', 'Tap the mic to start recording');
@@ -108,7 +472,7 @@ async function startSession() {
   } catch (err) {
     alert('Error starting session: ' + err.message);
     btn.disabled = false;
-    btn.textContent = `Start Interview with ${hostName}`;
+    btn.textContent = 'Start Interview with ' + hostName;
   }
 }
 
@@ -116,18 +480,18 @@ async function endSession() {
   if (!sessionId) return;
   if (isRecording) await stopRecording();
   try {
-    const resp = await fetch(`/api/session/${sessionId}/end`, { method: 'POST' });
+    const resp = await authFetch('/api/session/' + sessionId + '/end', { method: 'POST' });
     if (!resp.ok) throw new Error(await resp.text());
     const data = await resp.json();
-    document.getElementById('interview-screen').style.display = 'none';
-    document.getElementById('end-screen').style.display = 'flex';
+    showScreen('end-screen');
     document.getElementById('summary').textContent = data.transcript_md;
   } catch (err) {
     alert('Error ending session: ' + err.message);
   }
 }
 
-// ─── Recording (tap to start / tap to stop) ───
+// ─── Recording (tap to start / tap to stop) ─────────────────────────
+
 async function toggleRecording() {
   if (isProcessing) return;
   if (isRecording) {
@@ -151,19 +515,15 @@ async function startRecording() {
     mediaRecorder.start();
     isRecording = true;
 
-    // Visual feedback
     const btn = document.getElementById('talk-btn');
     btn.classList.add('recording');
     btn.innerHTML = '⏹ Tap to Stop';
 
-    // Recording timer
     recordingSeconds = 0;
     updateRecordingTime();
     recordingTimer = setInterval(updateRecordingTime, 1000);
 
-    // Audio level visualizer
     startAudioVisualizer(stream);
-
     setStatus('listening', '🔴 Recording...');
   } catch (err) {
     setStatus('', 'Microphone access denied — use text box below');
@@ -174,16 +534,13 @@ async function stopRecording() {
   if (!isRecording || !mediaRecorder) return;
   isRecording = false;
 
-  // Stop visual feedback
   const btn = document.getElementById('talk-btn');
   btn.classList.remove('recording');
   btn.innerHTML = '🎤 Tap to Record';
 
-  // Stop timer
   if (recordingTimer) { clearInterval(recordingTimer); recordingTimer = null; }
   document.getElementById('recording-time').textContent = '';
 
-  // Stop audio visualizer
   stopAudioVisualizer();
 
   mediaRecorder.stop();
@@ -199,11 +556,12 @@ function updateRecordingTime() {
   const el = document.getElementById('recording-time');
   const mins = Math.floor(recordingSeconds / 60);
   const secs = recordingSeconds % 60;
-  el.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+  el.textContent = mins + ':' + secs.toString().padStart(2, '0');
   recordingSeconds++;
 }
 
-// ─── Audio Level Visualizer ───
+// ─── Audio Level Visualizer ──────────────────────────────────────────
+
 function startAudioVisualizer(stream) {
   try {
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -236,47 +594,54 @@ function startAudioVisualizer(stream) {
         const x = i * barWidth;
         const y = (canvas.height - barHeight) / 2;
 
-        // Color: red pulse effect
         const r = 220 + Math.floor(val * 35);
         const g = 50 + Math.floor(val * 30);
         const b = 50;
-        ctx.fillStyle = `rgb(${r},${g},${b})`;
+        ctx.fillStyle = 'rgb(' + r + ',' + g + ',' + b + ')';
         ctx.fillRect(x + 1, y, barWidth - 2, barHeight);
       }
     }
     draw();
   } catch (e) {
-    // AudioContext not supported — skip visualizer
+    // AudioContext not supported
   }
 }
 
 function stopAudioVisualizer() {
   if (animationFrame) { cancelAnimationFrame(animationFrame); animationFrame = null; }
   if (analyserNode && analyserNode._audioCtx) {
-    analyserNode._audioCtx.close().catch(() => {});
+    analyserNode._audioCtx.close().catch(function() {});
     analyserNode = null;
   }
-  const canvas = document.getElementById('audio-visualizer');
+  var canvas = document.getElementById('audio-visualizer');
   if (canvas) {
     canvas.style.display = 'none';
-    const ctx = canvas.getContext('2d');
+    var ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, canvas.width, canvas.height);
   }
 }
 
-// ─── Send ───
+// ─── Send ────────────────────────────────────────────────────────────
+
 async function sendAudio(audioBlob) {
   if (!sessionId) return;
   setProcessing(true);
-  setStatus('thinking', `${hostName} is thinking...`);
-  const formData = new FormData();
+  setStatus('thinking', hostName + ' is thinking...');
+  var formData = new FormData();
   formData.append('audio', audioBlob, 'recording.webm');
   formData.append('text_only', textOnly);
   try {
-    const t0 = Date.now();
-    const resp = await fetch(`/api/session/${sessionId}/chat`, { method: 'POST', body: formData });
+    var t0 = Date.now();
+    // Need auth header for FormData — can't use authFetch easily with FormData content-type
+    var { data: { session: sess } } = await supabaseClient.auth.getSession();
+    if (sess) accessToken = sess.access_token;
+    var resp = await fetch('/api/session/' + sessionId + '/chat', {
+      method: 'POST',
+      headers: { 'Authorization': 'Bearer ' + accessToken },
+      body: formData,
+    });
     if (!resp.ok) throw new Error(await resp.text());
-    const data = await resp.json();
+    var data = await resp.json();
     showResponse(data, Date.now() - t0);
   } catch (err) {
     setStatus('', 'Error: ' + err.message);
@@ -287,22 +652,22 @@ async function sendAudio(audioBlob) {
 
 async function sendText() {
   if (!sessionId || isProcessing) return;
-  const input = document.getElementById('text-input');
-  const text = input.value.trim();
+  var input = document.getElementById('text-input');
+  var text = input.value.trim();
   if (!text) return;
   setProcessing(true);
   addTranscript('You', text, false);
   input.value = '';
-  setStatus('thinking', `${hostName} is thinking...`);
+  setStatus('thinking', hostName + ' is thinking...');
   try {
-    const t0 = Date.now();
-    const resp = await fetch(`/api/session/${sessionId}/chat-text`, {
+    var t0 = Date.now();
+    var resp = await authFetch('/api/session/' + sessionId + '/chat-text', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text, text_only: textOnly }),
+      body: JSON.stringify({ text: text, text_only: textOnly }),
     });
     if (!resp.ok) throw new Error(await resp.text());
-    const data = await resp.json();
+    var data = await resp.json();
     showResponse(data, Date.now() - t0, true);
   } catch (err) {
     setStatus('', 'Error: ' + err.message);
@@ -311,17 +676,17 @@ async function sendText() {
   }
 }
 
-async function showResponse(data, totalMs, skipUser = false) {
+async function showResponse(data, totalMs, skipUser) {
   if (!skipUser) addTranscript('You', data.user_text, false);
   addTranscript(hostName, data.chris_text, true);
-  const parts = [];
-  if (data.stt_ms) parts.push(`STT: ${data.stt_ms}ms`);
-  parts.push(`LLM: ${data.llm_ms}ms`);
-  if (data.tts_ms) parts.push(`TTS: ${data.tts_ms}ms`);
-  parts.push(`Total: ${totalMs}ms`);
+  var parts = [];
+  if (data.stt_ms) parts.push('STT: ' + data.stt_ms + 'ms');
+  parts.push('LLM: ' + data.llm_ms + 'ms');
+  if (data.tts_ms) parts.push('TTS: ' + data.tts_ms + 'ms');
+  parts.push('Total: ' + totalMs + 'ms');
   document.getElementById('latency').textContent = parts.join(' | ');
   if (data.chris_audio) {
-    setStatus('speaking', `${hostName} is speaking...`);
+    setStatus('speaking', hostName + ' is speaking...');
     await playAudio(data.chris_audio);
   }
   setStatus('', 'Tap the mic to start recording');
@@ -333,57 +698,65 @@ function setProcessing(val) {
   document.getElementById('send-btn').disabled = val;
 }
 
-// ─── Audio ───
+// ─── Audio ───────────────────────────────────────────────────────────
+
 function playAudio(b64) {
-  return new Promise(resolve => {
-    const audio = new Audio('data:audio/mp3;base64,' + b64);
+  return new Promise(function(resolve) {
+    var audio = new Audio('data:audio/mp3;base64,' + b64);
     audio.onended = resolve;
     audio.onerror = resolve;
     audio.play().catch(resolve);
   });
 }
 
-// ─── Transcript ───
+// ─── Transcript ──────────────────────────────────────────────────────
+
 function addTranscript(speaker, text, isHost) {
-  const el = document.getElementById('transcript');
-  const entry = document.createElement('div');
+  var el = document.getElementById('transcript');
+  var entry = document.createElement('div');
   entry.className = 'transcript-entry';
-  entry.innerHTML = `
-    <div class="speaker ${isHost ? 'speaker-host' : 'speaker-user'}">${isHost ? '🎙️' : '🗣️'} ${esc(speaker)}</div>
-    <div class="text">${esc(text)}</div>
-  `;
+  entry.innerHTML =
+    '<div class="speaker ' + (isHost ? 'speaker-host' : 'speaker-user') + '">' +
+    (isHost ? '🎙️' : '🗣️') + ' ' + esc(speaker) + '</div>' +
+    '<div class="text">' + esc(text) + '</div>';
   el.appendChild(entry);
   el.scrollTop = el.scrollHeight;
 }
 
 function downloadTranscript() {
-  const entries = document.querySelectorAll('.transcript-entry');
-  let md = `# Think-Pod Session\n\n`;
-  entries.forEach(e => {
-    const speaker = e.querySelector('.speaker').textContent.trim();
-    const text = e.querySelector('.text').textContent.trim();
-    md += `**${speaker}:** ${text}\n\n`;
+  var entries = document.querySelectorAll('#transcript .transcript-entry');
+  var md = '# Think-Pod Session\n\n';
+  entries.forEach(function(e) {
+    var speaker = e.querySelector('.speaker').textContent.trim();
+    var text = e.querySelector('.text').textContent.trim();
+    md += '**' + speaker + ':** ' + text + '\n\n';
   });
-  const blob = new Blob([md], { type: 'text/markdown' });
-  const a = document.createElement('a');
+  var blob = new Blob([md], { type: 'text/markdown' });
+  var a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = `thinkpod-session-${sessionId || 'draft'}.md`;
+  a.download = 'thinkpod-session-' + (sessionId || 'draft') + '.md';
   a.click();
 }
 
-// ─── Helpers ───
+// ─── Helpers ─────────────────────────────────────────────────────────
+
 function setStatus(cls, text) {
-  const el = document.getElementById('status');
+  var el = document.getElementById('status');
   el.className = 'status' + (cls ? ' ' + cls : '');
   el.textContent = text;
 }
 
 function esc(text) {
-  const div = document.createElement('div');
+  var div = document.createElement('div');
   div.textContent = text;
   return div.innerHTML;
 }
 
-document.addEventListener('keydown', (e) => {
+function showDashboard() {
+  showScreen('dashboard-screen');
+  loadSessions();
+}
+
+document.addEventListener('keydown', function(e) {
   if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) sendText();
 });

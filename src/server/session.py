@@ -1,51 +1,79 @@
-"""Session state management for podcast interviews."""
-import uuid
-import json
-import os
-from datetime import datetime
-from .config import SESSION_DIR
+"""Session state management for podcast interviews — backed by Supabase."""
+from __future__ import annotations
+
+from datetime import datetime, timezone
+from . import db
 
 
 class Session:
-    def __init__(self, session_id: str, guest_name: str, topic: str, podcaster: str = "chris_williamson"):
+    """Represents an active interview session.
+
+    All mutations write through to the database immediately.
+    """
+
+    def __init__(
+        self,
+        session_id: str,
+        guest_name: str,
+        topic: str,
+        podcaster: str = "chris-williamson",
+        user_id: str = "",
+        turn: int = 0,
+        status: str = "active",
+        created_at: str | None = None,
+        messages: list[dict] | None = None,
+    ):
         self.session_id = session_id
         self.guest_name = guest_name
         self.topic = topic
         self.podcaster = podcaster
-        self.messages = []  # Claude message format [{role, content}]
-        self.transcript = []  # [{speaker, text, timestamp}]
-        self.created_at = datetime.utcnow().isoformat()
-        self.turn = 0
+        self.user_id = user_id
+        self.turn = turn
+        self.status = status
+        self.created_at = created_at or datetime.now(timezone.utc).isoformat()
+        # Claude message format [{role, content}]
+        self.messages: list[dict] = messages or []
+        # Flat transcript for display [{speaker, text, timestamp}]
+        self.transcript: list[dict] = []
 
     def add_greeting(self, greeting_text: str):
-        """Add Chris's opening greeting."""
-        # Add the setup message and greeting to history
-        self.messages.append({
-            "role": "user",
-            "content": f"Your guest today is {self.guest_name}. They want to discuss: {self.topic}. Welcome them warmly and kick things off with your first question.",
-        })
+        """Add the host's opening greeting."""
+        user_msg = (
+            f"Your guest today is {self.guest_name}. "
+            f"They want to discuss: {self.topic}. "
+            f"Welcome them warmly and kick things off with your first question."
+        )
+        self.messages.append({"role": "user", "content": user_msg})
         self.messages.append({"role": "assistant", "content": greeting_text})
         self.transcript.append({
-            "speaker": "Chris",
+            "speaker": "Host",
             "text": greeting_text,
-            "timestamp": datetime.utcnow().isoformat(),
+            "timestamp": datetime.now(timezone.utc).isoformat(),
         })
+        # Persist the two messages (setup prompt + greeting)
+        db.add_message_db(self.session_id, "user", user_msg, turn_number=0)
+        db.add_message_db(self.session_id, "assistant", greeting_text, turn_number=0)
 
-    def add_turn(self, user_text: str, chris_text: str):
-        """Add a conversation turn."""
+    def add_turn(
+        self,
+        user_text: str,
+        chris_text: str,
+        stt_ms: int = 0,
+        llm_ms: int = 0,
+        tts_ms: int = 0,
+    ):
+        """Add a conversation turn and persist to DB."""
         self.turn += 1
         self.messages.append({"role": "user", "content": user_text})
         self.messages.append({"role": "assistant", "content": chris_text})
-        self.transcript.append({
-            "speaker": self.guest_name,
-            "text": user_text,
-            "timestamp": datetime.utcnow().isoformat(),
-        })
-        self.transcript.append({
-            "speaker": "Chris",
-            "text": chris_text,
-            "timestamp": datetime.utcnow().isoformat(),
-        })
+        now = datetime.now(timezone.utc).isoformat()
+        self.transcript.append({"speaker": self.guest_name, "text": user_text, "timestamp": now})
+        self.transcript.append({"speaker": "Host", "text": chris_text, "timestamp": now})
+        # Write both messages to DB
+        db.add_message_db(self.session_id, "user", user_text, turn_number=self.turn, stt_ms=stt_ms)
+        db.add_message_db(self.session_id, "assistant", chris_text, turn_number=self.turn, llm_ms=llm_ms, tts_ms=tts_ms)
+        # Bump turn counter in sessions table
+        db.update_session_turns(self.session_id, self.turn)
 
     def get_messages_for_llm(self) -> list[dict]:
         """Get message history for Claude API."""
@@ -54,7 +82,7 @@ class Session:
     def get_transcript_md(self) -> str:
         """Generate markdown transcript."""
         lines = [
-            f"# Think-Pod Session — Chris Williamson × {self.guest_name}",
+            f"# Think-Pod Session — {self.podcaster} × {self.guest_name}",
             f"# Topic: {self.topic}",
             f"# Date: {self.created_at[:10]}",
             f"# Turns: {self.turn}",
@@ -68,31 +96,86 @@ class Session:
         return "\n".join(lines)
 
     def save(self):
-        """Save session to disk."""
-        path = os.path.join(SESSION_DIR, f"{self.session_id}.json")
-        with open(path, "w") as f:
-            json.dump({
-                "session_id": self.session_id,
-                "guest_name": self.guest_name,
-                "topic": self.topic,
-                "podcaster": self.podcaster,
-                "messages": self.messages,
-                "transcript": self.transcript,
-                "created_at": self.created_at,
-                "turn": self.turn,
-            }, f, indent=2)
+        """No-op — all writes happen per-turn now."""
+        pass
 
 
-# In-memory session store
-_sessions: dict[str, Session] = {}
+# ── Public API (backward-compatible) ──────────────────────────────────
 
-
-def create_session(guest_name: str, topic: str, podcaster: str = "chris_williamson") -> Session:
-    session_id = uuid.uuid4().hex[:12]
-    session = Session(session_id, guest_name, topic, podcaster)
-    _sessions[session_id] = session
-    return session
+def create_session(
+    guest_name: str,
+    topic: str,
+    podcaster: str = "chris-williamson",
+    user_id: str = "",
+) -> Session:
+    """Create a new session in the database and return a Session object."""
+    row = db.create_session_db(
+        user_id=user_id,
+        podcaster=podcaster,
+        guest_name=guest_name,
+        topic=topic,
+    )
+    return Session(
+        session_id=row["id"],
+        guest_name=guest_name,
+        topic=topic,
+        podcaster=podcaster,
+        user_id=user_id,
+        turn=0,
+        status="active",
+        created_at=row["created_at"],
+    )
 
 
 def get_session(session_id: str) -> Session | None:
-    return _sessions.get(session_id)
+    """Load a session from the database, including its message history."""
+    row = db.get_session_db(session_id)
+    if not row:
+        return None
+    msgs_rows = db.get_session_messages(session_id)
+    messages = [{"role": m["role"], "content": m["content"]} for m in msgs_rows]
+    sess = Session(
+        session_id=row["id"],
+        guest_name=row["guest_name"],
+        topic=row["topic"],
+        podcaster=row["podcaster"],
+        user_id=row["user_id"],
+        turn=row["turns"],
+        status=row["status"],
+        created_at=row["created_at"],
+        messages=messages,
+    )
+    # Rebuild transcript from messages for display
+    for m in msgs_rows:
+        if m["role"] == "assistant":
+            sess.transcript.append({
+                "speaker": "Host",
+                "text": m["content"],
+                "timestamp": m["created_at"],
+            })
+        elif m["role"] == "user" and m["turn_number"] > 0:
+            sess.transcript.append({
+                "speaker": row["guest_name"],
+                "text": m["content"],
+                "timestamp": m["created_at"],
+            })
+    return sess
+
+
+def list_sessions(user_id: str, limit: int = 50, offset: int = 0) -> list[dict]:
+    """List a user's sessions, newest first."""
+    return db.list_user_sessions(user_id, limit=limit, offset=offset)
+
+
+def end_session(session_id: str) -> None:
+    """Mark a session as ended."""
+    db.update_session_status(
+        session_id,
+        "ended",
+        extra={"ended_at": datetime.now(timezone.utc).isoformat()},
+    )
+
+
+def delete_session(session_id: str) -> None:
+    """Delete a session and its messages."""
+    db.delete_session_db(session_id)
