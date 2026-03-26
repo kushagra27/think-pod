@@ -17,6 +17,18 @@ let recordingSeconds = 0;
 let analyserNode = null;
 let animationFrame = null;
 let podcastersData = [];
+let _viewedSession = null; // stash for download
+
+// Base URL for API calls — works behind reverse proxy subpaths
+const BASE = (() => {
+  // If served from /thinkpod/, API calls need /thinkpod/api/...
+  // Detect by checking where index.html was served from
+  const path = window.location.pathname.replace(/\/+$/, '');
+  // If path ends with known page paths, strip them; otherwise use as-is
+  // For root serving: path = '' or '/', base = ''
+  // For /thinkpod/: path = '/thinkpod', base = '/thinkpod'
+  return path || '';
+})();
 
 // ─── Screens ─────────────────────────────────────────────────────────
 
@@ -52,33 +64,44 @@ document.addEventListener('DOMContentLoaded', initApp);
 async function initApp() {
   try {
     // Fetch public config from server
-    const configResp = await fetch('/api/config');
+    const configResp = await fetch(BASE + '/api/config');
     const config = await configResp.json();
 
-    supabaseClient = window.supabase.createClient(config.supabase_url, config.supabase_anon_key);
-
-    // Listen for auth state changes (handles OAuth redirects, token refresh, etc.)
-    supabaseClient.auth.onAuthStateChange((event, session) => {
-      if (session) {
-        currentUser = session.user;
-        accessToken = session.access_token;
-        onLoggedIn();
-      } else if (event === 'SIGNED_OUT') {
-        currentUser = null;
-        accessToken = null;
-        showScreen('login-screen');
+    supabaseClient = window.supabase.createClient(config.supabase_url, config.supabase_anon_key, {
+      auth: {
+        detectSessionInUrl: true,
+        flowType: 'pkce',
       }
     });
 
-    // Check for existing session
-    const { data: { session } } = await supabaseClient.auth.getSession();
-    if (session) {
+    // Check for existing session first (handles page load + OAuth code exchange)
+    const { data: { session }, error: sessionError } = await supabaseClient.auth.getSession();
+    if (session && !sessionError) {
       currentUser = session.user;
       accessToken = session.access_token;
       onLoggedIn();
     } else {
       showScreen('login-screen');
     }
+
+    // Listen for subsequent auth state changes (token refresh, sign out, etc.)
+    supabaseClient.auth.onAuthStateChange((event, session) => {
+      if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED') {
+        if (session) {
+          currentUser = session.user;
+          accessToken = session.access_token;
+          // Only navigate to dashboard if we're on the login screen
+          const loginScreen = document.getElementById('login-screen');
+          if (loginScreen && loginScreen.style.display !== 'none') {
+            onLoggedIn();
+          }
+        }
+      } else if (event === 'SIGNED_OUT') {
+        currentUser = null;
+        accessToken = null;
+        showScreen('login-screen');
+      }
+    });
   } catch (e) {
     console.error('Init error:', e);
     showScreen('login-screen');
@@ -100,7 +123,7 @@ function showSignUp() {
 async function signInWithGoogle() {
   const { error } = await supabaseClient.auth.signInWithOAuth({
     provider: 'google',
-    options: { redirectTo: window.location.origin },
+    options: { redirectTo: window.location.origin + BASE + '/' },
   });
   if (error) {
     document.getElementById('login-error').textContent = error.message;
@@ -215,7 +238,7 @@ async function loadSessions() {
   listEl.innerHTML = '<div class="loading">Loading sessions...</div>';
 
   try {
-    const resp = await authFetch('/api/sessions');
+    const resp = await authFetch(BASE + '/api/sessions');
     if (!resp.ok) throw new Error('Failed to load sessions');
     const data = await resp.json();
     const sessions = data.sessions || [];
@@ -277,7 +300,7 @@ async function loadSessions() {
 
 async function viewSession(id) {
   try {
-    const resp = await authFetch('/api/sessions/' + id);
+    const resp = await authFetch(BASE + '/api/sessions/' + id);
     if (!resp.ok) throw new Error('Failed to load session');
     const data = await resp.json();
     const s = data.session;
@@ -311,6 +334,7 @@ async function viewSession(id) {
       contentEl.appendChild(entry);
     }
 
+    _viewedSession = { session: s, messages: msgs, podcasterName };
     showScreen('transcript-view-screen');
   } catch (e) {
     alert('Error: ' + e.message);
@@ -319,7 +343,7 @@ async function viewSession(id) {
 
 async function resumeSession(id) {
   try {
-    const resp = await authFetch('/api/sessions/' + id + '/resume', { method: 'POST' });
+    const resp = await authFetch(BASE + '/api/sessions/' + id + '/resume', { method: 'POST' });
     if (!resp.ok) {
       const errText = await resp.text();
       throw new Error(errText);
@@ -353,7 +377,7 @@ async function resumeSession(id) {
 async function deleteSession(id) {
   if (!confirm('Delete this session? This cannot be undone.')) return;
   try {
-    const resp = await authFetch('/api/sessions/' + id, { method: 'DELETE' });
+    const resp = await authFetch(BASE + '/api/sessions/' + id, { method: 'DELETE' });
     if (!resp.ok) throw new Error('Failed to delete');
     await loadSessions();
   } catch (e) {
@@ -374,7 +398,7 @@ async function loadPodcasters() {
     return;
   }
   try {
-    const resp = await fetch('/api/podcasters');
+    const resp = await fetch(BASE + '/api/podcasters');
     podcastersData = await resp.json();
     populatePodcasterSelect();
   } catch (e) {
@@ -431,7 +455,7 @@ async function startSession() {
   btn.textContent = 'Starting...';
 
   try {
-    const resp = await authFetch('/api/session/start', {
+    const resp = await authFetch(BASE + '/api/session/start', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ guest_name: name, topic: topic, podcaster: selectedPodcaster, text_only: textOnly }),
@@ -480,7 +504,7 @@ async function endSession() {
   if (!sessionId) return;
   if (isRecording) await stopRecording();
   try {
-    const resp = await authFetch('/api/session/' + sessionId + '/end', { method: 'POST' });
+    const resp = await authFetch(BASE + '/api/session/' + sessionId + '/end', { method: 'POST' });
     if (!resp.ok) throw new Error(await resp.text());
     const data = await resp.json();
     showScreen('end-screen');
@@ -635,7 +659,7 @@ async function sendAudio(audioBlob) {
     // Need auth header for FormData — can't use authFetch easily with FormData content-type
     var { data: { session: sess } } = await supabaseClient.auth.getSession();
     if (sess) accessToken = sess.access_token;
-    var resp = await fetch('/api/session/' + sessionId + '/chat', {
+    var resp = await fetch(BASE + '/api/session/' + sessionId + '/chat', {
       method: 'POST',
       headers: { 'Authorization': 'Bearer ' + accessToken },
       body: formData,
@@ -661,7 +685,7 @@ async function sendText() {
   setStatus('thinking', hostName + ' is thinking...');
   try {
     var t0 = Date.now();
-    var resp = await authFetch('/api/session/' + sessionId + '/chat-text', {
+    var resp = await authFetch(BASE + '/api/session/' + sessionId + '/chat-text', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ text: text, text_only: textOnly }),
@@ -735,6 +759,29 @@ function downloadTranscript() {
   var a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
   a.download = 'thinkpod-session-' + (sessionId || 'draft') + '.md';
+  a.click();
+}
+
+function downloadViewedTranscript() {
+  if (!_viewedSession) return;
+  var s = _viewedSession.session;
+  var msgs = _viewedSession.messages;
+  var name = _viewedSession.podcasterName;
+  var md = '# Think-Pod Session — ' + name + ' × ' + s.guest_name + '\n';
+  md += '**Topic:** ' + s.topic + '\n';
+  md += '**Date:** ' + new Date(s.created_at).toLocaleDateString() + '\n';
+  md += '**Turns:** ' + s.turns + '\n\n---\n\n';
+  for (var i = 0; i < msgs.length; i++) {
+    var m = msgs[i];
+    if (m.role === 'system') continue;
+    if (m.role === 'user' && m.turn_number === 0) continue;
+    var speaker = m.role === 'assistant' ? '🎙️ ' + name : '🗣️ ' + s.guest_name;
+    md += '**' + speaker + ':** ' + m.content + '\n\n';
+  }
+  var blob = new Blob([md], { type: 'text/markdown' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'thinkpod-' + s.podcaster + '-' + s.id.slice(0, 8) + '.md';
   a.click();
 }
 

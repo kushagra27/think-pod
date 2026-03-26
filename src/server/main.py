@@ -42,13 +42,21 @@ def _get_jwks() -> dict:
 def _decode_supabase_jwt(token: str) -> dict:
     """Verify a Supabase access token and return its claims."""
     jwks_data = _get_jwks()
-    # Build public keys from JWKS
-    from jwt.algorithms import RSAAlgorithm
+    # Build public keys from JWKS — support both RSA and EC keys
+    from jwt.algorithms import RSAAlgorithm, ECAlgorithm
     public_keys = {}
+    key_algs = {}
     for key_data in jwks_data.get("keys", []):
         kid = key_data.get("kid")
-        if kid:
+        kty = key_data.get("kty", "")
+        if not kid:
+            continue
+        if kty == "RSA":
             public_keys[kid] = RSAAlgorithm.from_jwk(key_data)
+            key_algs[kid] = "RS256"
+        elif kty == "EC":
+            public_keys[kid] = ECAlgorithm.from_jwk(key_data)
+            key_algs[kid] = key_data.get("alg", "ES256")
 
     # Decode header to find kid
     header = jwt.get_unverified_header(token)
@@ -59,7 +67,7 @@ def _decode_supabase_jwt(token: str) -> dict:
     claims = jwt.decode(
         token,
         key=public_keys[kid],
-        algorithms=["RS256"],
+        algorithms=[key_algs[kid]],
         audience="authenticated",
         options={"verify_exp": True},
     )

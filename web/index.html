@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Think-Pod 🎙️</title>
-  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="static/style.css">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
@@ -190,12 +190,15 @@
       <div class="back-nav">
         <a href="#" onclick="showDashboard(); return false;">← Back to Dashboard</a>
       </div>
-      <h2 id="transcript-view-title">Session Transcript</h2>
+      <div class="transcript-view-header">
+        <h2 id="transcript-view-title">Session Transcript</h2>
+        <button class="small-btn" id="download-transcript-view-btn" onclick="downloadViewedTranscript()">⬇ Download</button>
+      </div>
       <div id="transcript-view-meta" class="transcript-meta"></div>
       <div id="transcript-view-content" class="transcript-view-content"></div>
     </div>
   </div>
 
-  <script src="/static/app.js"></script>
+  <script src="static/app.js"></script>
 </body>
 </html>
