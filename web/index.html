@@ -114,6 +114,14 @@
         <span class="toggle-label">Text only (skip voice)</span>
       </div>
 
+      <div class="toggle-row" style="justify-content: flex-start; margin-bottom: 1.25rem;">
+        <label class="toggle reflect-toggle">
+          <input type="checkbox" id="reflect-toggle-start" onchange="toggleReflect(this)">
+          <span class="toggle-slider reflect-slider"></span>
+        </label>
+        <span class="toggle-label">Deep Reflection <span class="reflect-hint" title="Adds psychological analysis layer. Post-session reflection document generated.">🔍</span></span>
+      </div>
+
       <button id="start-btn" onclick="startSession()">Start Interview</button>
     </div>
   </div>
@@ -125,6 +133,7 @@
         <div class="header-left">
           <img id="host-avatar" class="host-avatar" src="" alt="">
           <h2 id="host-title">🎙️ Podcast</h2>
+          <span id="reflect-badge" class="reflect-badge" style="display:none">🔍 Reflection Active</span>
         </div>
         <button id="end-btn" onclick="endSession()">End Session</button>
       </div>
@@ -177,9 +186,16 @@
 
   <!-- END SCREEN -->
   <div id="end-screen" class="screen" style="display:none">
-    <div class="container">
+    <div class="container wide">
       <h2>Session Complete 🎉</h2>
       <div id="summary"></div>
+      <div id="analysis-section" class="analysis-section" style="display:none">
+        <div class="analysis-header">
+          <h3>🔍 Your Reflection</h3>
+          <button class="small-btn" id="download-analysis-btn" onclick="downloadAnalysis()">⬇ Download .md</button>
+        </div>
+        <div id="analysis-content" class="analysis-content"></div>
+      </div>
       <button onclick="showDashboard()">Back to Dashboard</button>
     </div>
   </div>

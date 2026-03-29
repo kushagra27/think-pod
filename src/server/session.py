@@ -22,6 +22,7 @@ class Session:
         status: str = "active",
         created_at: str | None = None,
         messages: list[dict] | None = None,
+        reflect: bool = False,
     ):
         self.session_id = session_id
         self.guest_name = guest_name
@@ -35,6 +36,9 @@ class Session:
         self.messages: list[dict] = messages or []
         # Flat transcript for display [{speaker, text, timestamp}]
         self.transcript: list[dict] = []
+        # Reflection mode state (in-memory only)
+        self.reflect: bool = reflect
+        self.steering_note: str | None = None
 
     def add_greeting(self, greeting_text: str):
         """Add the host's opening greeting."""
@@ -95,6 +99,14 @@ class Session:
             lines.append("")
         return "\n".join(lines)
 
+    def get_transcript_text(self) -> str:
+        """Get plain text transcript for analysis (checkpoint/post-session)."""
+        lines = []
+        for entry in self.transcript:
+            lines.append(f"**{entry['speaker']}:** {entry['text']}")
+            lines.append("")
+        return "\n".join(lines)
+
     def save(self):
         """No-op — all writes happen per-turn now."""
         pass
@@ -107,6 +119,7 @@ def create_session(
     topic: str,
     podcaster: str = "chris-williamson",
     user_id: str = "",
+    reflect: bool = False,
 ) -> Session:
     """Create a new session in the database and return a Session object."""
     row = db.create_session_db(
@@ -124,6 +137,7 @@ def create_session(
         turn=0,
         status="active",
         created_at=row["created_at"],
+        reflect=reflect,
     )
 
 

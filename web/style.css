@@ -207,6 +207,51 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   max-height: 70vh; overflow-y: auto;
 }
 
+/* ─── Reflection Mode ────────────────────────────────────────────── */
+
+.reflect-toggle .reflect-slider { background: #333; }
+.reflect-toggle input:checked + .reflect-slider { background: #d97706; }
+.reflect-toggle input:checked + .reflect-slider::before { background: #fbbf24; }
+
+.reflect-hint {
+  cursor: help; font-size: 0.85rem; opacity: 0.7;
+}
+
+.reflect-badge {
+  font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.6rem;
+  border-radius: 999px; background: rgba(217, 119, 6, 0.15);
+  color: #d97706; letter-spacing: 0.02em; white-space: nowrap;
+}
+
+.reflect-analysis-btn {
+  background: rgba(217, 119, 6, 0.2) !important;
+  color: #fbbf24 !important;
+}
+.reflect-analysis-btn:hover {
+  background: rgba(217, 119, 6, 0.35) !important;
+}
+
+.analysis-section {
+  margin: 1.5rem 0;
+}
+.analysis-header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 0.75rem;
+}
+.analysis-header h3 {
+  color: #d97706; font-size: 1.1rem;
+}
+.analysis-content {
+  background: #111; border-radius: 12px; padding: 1.5rem; border: 1px solid #2a2000;
+  max-height: 65vh; overflow-y: auto; line-height: 1.7; color: #ccc;
+}
+.analysis-content h3 { color: #fbbf24; margin: 1.25rem 0 0.5rem; font-size: 1rem; }
+.analysis-content h4 { color: #d97706; margin: 1rem 0 0.4rem; font-size: 0.95rem; }
+.analysis-content strong { color: #e0e0e0; }
+.analysis-content em { color: #aaa; font-style: italic; }
+.analysis-content hr { border: none; border-top: 1px solid #333; margin: 1rem 0; }
+.analysis-content p { margin-bottom: 0.5rem; }
+
 /* ─── Responsive ─────────────────────────────────────────────────── */
 
 @media (max-width: 900px) {

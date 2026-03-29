@@ -1,8 +1,9 @@
 """LLM integration — Persona-driven conversation via Anthropic or Groq."""
 import os
 import json
+import re
 import requests
-from .config import GROQ_API_KEY, ANTHROPIC_API_KEY, BASE_DIR
+from .config import GROQ_API_KEY, ANTHROPIC_API_KEY, BASE_DIR, PROMPTS_DIR, PATTERNS_DIR, ANALYSIS_MODEL
 
 GROQ_MODEL = "llama-3.3-70b-versatile"
 ANTHROPIC_MODEL = "claude-sonnet-4-20250514"
@@ -126,3 +127,112 @@ def generate_greeting(guest_name: str, topic: str, podcaster: str = "chris-willi
         }
     ]
     return generate_response(messages, podcaster)
+
+
+# ── Reflection mode functions ─────────────────────────────────────────
+
+def load_prompt_file(filename: str) -> str | None:
+    """Read a prompt file from PROMPTS_DIR. Returns content or None."""
+    path = os.path.join(PROMPTS_DIR, filename)
+    if not os.path.exists(path):
+        return None
+    with open(path) as f:
+        return f.read().strip()
+
+
+def load_latest_patterns(guest_name: str) -> dict | None:
+    """Load the most recent pattern file for a guest, if any."""
+    safe_name = re.sub(r"[^\w]", "-", guest_name.lower()).strip("-")
+    if not os.path.exists(PATTERNS_DIR):
+        return None
+    pattern_files = sorted([
+        f for f in os.listdir(PATTERNS_DIR)
+        if f.startswith(safe_name) and f.endswith(".json")
+    ])
+    if not pattern_files:
+        return None
+    latest = os.path.join(PATTERNS_DIR, pattern_files[-1])
+    with open(latest) as f:
+        return json.load(f)
+
+
+def get_reflection_system_prompt(base_prompt: str, guest_name: str) -> str:
+    """Append analytical undertow to base prompt and inject prior patterns if they exist."""
+    undertow = load_prompt_file("analytical_undertow.md")
+    if not undertow:
+        return base_prompt
+
+    prompt = base_prompt + f"\n\n---\n\n{undertow}"
+
+    if guest_name:
+        prior_patterns = load_latest_patterns(guest_name)
+        if prior_patterns:
+            prompt += (
+                "\n\n## Prior Session Context\n"
+                "This guest has done previous reflection sessions. "
+                "Here are patterns identified previously — use them to inform "
+                "your questions but do not reference them directly:\n\n"
+                f"```json\n{json.dumps(prior_patterns, indent=2)}\n```"
+            )
+
+    return prompt
+
+
+def run_checkpoint_analysis(transcript_text: str) -> str:
+    """Run a checkpoint analysis on the conversation so far. Returns steering signal."""
+    checkpoint_prompt = load_prompt_file("checkpoint_analysis.md")
+    if not checkpoint_prompt:
+        return ""
+    messages = [{
+        "role": "user",
+        "content": f"Here is the conversation transcript so far:\n\n{transcript_text}\n\nAnalyze this conversation and produce your steering signals.",
+    }]
+    resp = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={"x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+        json={"model": ANALYSIS_MODEL, "max_tokens": 1024, "system": checkpoint_prompt, "messages": messages},
+        timeout=60,
+    )
+    resp.raise_for_status()
+    return resp.json()["content"][0]["text"]
+
+
+def run_post_session_analysis(transcript_text: str, prior_patterns: dict | None = None) -> str:
+    """Run full post-session analysis. Returns the analysis text."""
+    analysis_prompt = load_prompt_file("post_session_analysis.md")
+    if not analysis_prompt:
+        return ""
+
+    user_content = f"Here is the full session transcript:\n\n{transcript_text}"
+    if prior_patterns:
+        user_content += f"\n\nHere is pattern data from previous sessions:\n\n```json\n{json.dumps(prior_patterns, indent=2)}\n```"
+    user_content += "\n\nProduce both the reflection document and the structured pattern JSON."
+
+    messages = [{"role": "user", "content": user_content}]
+    resp = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={"x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+        json={"model": ANALYSIS_MODEL, "max_tokens": 4096, "system": analysis_prompt, "messages": messages},
+        timeout=120,
+    )
+    resp.raise_for_status()
+    return resp.json()["content"][0]["text"]
+
+
+def extract_pattern_json(analysis_text: str) -> dict | None:
+    """Extract the JSON block from the analysis output."""
+    match = re.search(r"```json\s*(\{.*?\})\s*```", analysis_text, re.DOTALL)
+    if match:
+        try:
+            return json.loads(match.group(1))
+        except json.JSONDecodeError:
+            return None
+    return None
+
+
+def extract_analysis_doc(analysis_text: str) -> str:
+    """Extract the document portion (everything before the JSON block)."""
+    match = re.search(r"```json", analysis_text)
+    if match:
+        return analysis_text[:match.start()].strip()
+    return analysis_text.strip()

@@ -28,9 +28,16 @@ CARTESIA_MODEL = "sonic"
 # LLM
 LLM_MODEL = "claude-sonnet-4-20250514"
 
+# Reflection mode
+CHECKPOINT_INTERVAL = 8
+ANALYSIS_MODEL = "claude-sonnet-4-20250514"
+
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PERSONA_DIR = os.path.join(BASE_DIR, "data", "personas")
 SESSION_DIR = os.path.join(BASE_DIR, "data", "sessions")
+PROMPTS_DIR = os.path.join(BASE_DIR, "data", "prompts")
+PATTERNS_DIR = os.path.join(BASE_DIR, "data", "patterns")
 
 os.makedirs(SESSION_DIR, exist_ok=True)
+os.makedirs(PATTERNS_DIR, exist_ok=True)

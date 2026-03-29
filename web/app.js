@@ -12,6 +12,8 @@ let audioChunks = [];
 let isRecording = false;
 let isProcessing = false;
 let textOnly = false;
+let reflectMode = false;
+let lastAnalysis = null;
 let recordingTimer = null;
 let recordingSeconds = 0;
 let analyserNode = null;
@@ -276,10 +278,20 @@ async function loadSessions() {
           '<span class="status-badge ' + statusClass + '">' + esc(s.status) + '</span>' +
           '<div class="session-card-actions">' +
             '<button class="small-btn" data-action="view" data-id="' + s.id + '">View</button>' +
+            '<button class="small-btn reflect-analysis-btn" data-action="analysis" data-id="' + s.id + '" style="display:none">🔍 Analysis</button>' +
             (s.status === 'active' ? '<button class="small-btn accent" data-action="resume" data-id="' + s.id + '">Resume</button>' : '') +
             '<button class="small-btn danger" data-action="delete" data-id="' + s.id + '">Delete</button>' +
           '</div>' +
         '</div>';
+
+      // Check if analysis exists for this session (async, non-blocking)
+      if (s.status === 'ended') {
+        (function(cardEl, sid) {
+          authFetch(BASE + '/api/sessions/' + sid + '/analysis', { method: 'GET' })
+            .then(function(r) { if (r.ok) { var btn = cardEl.querySelector('[data-action="analysis"]'); if (btn) btn.style.display = ''; } })
+            .catch(function() {});
+        })(card, s.id);
+      }
 
       card.addEventListener('click', (e) => {
         const btn = e.target.closest('[data-action]');
@@ -289,6 +301,7 @@ async function loadSessions() {
         if (action === 'view') viewSession(id);
         else if (action === 'resume') resumeSession(id);
         else if (action === 'delete') deleteSession(id);
+        else if (action === 'analysis') viewAnalysis(id);
       });
 
       listEl.appendChild(card);
@@ -444,6 +457,10 @@ function toggleTextOnly(source) {
   if (label) label.textContent = textOnly ? 'Text only (no audio)' : 'Voice enabled';
 }
 
+function toggleReflect(source) {
+  reflectMode = source.checked;
+}
+
 // ─── Session ─────────────────────────────────────────────────────────
 
 async function startSession() {
@@ -458,7 +475,7 @@ async function startSession() {
     const resp = await authFetch(BASE + '/api/session/start', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ guest_name: name, topic: topic, podcaster: selectedPodcaster, text_only: textOnly }),
+      body: JSON.stringify({ guest_name: name, topic: topic, podcaster: selectedPodcaster, text_only: textOnly, reflect: reflectMode }),
     });
     if (!resp.ok) throw new Error(await resp.text());
     const data = await resp.json();
@@ -476,6 +493,10 @@ async function startSession() {
     if (sessionToggle) sessionToggle.checked = textOnly;
     const label = document.getElementById('text-only-label');
     if (label) label.textContent = textOnly ? 'Text only (no audio)' : 'Voice enabled';
+
+    // Show reflect badge if active
+    const reflectBadge = document.getElementById('reflect-badge');
+    if (reflectBadge) reflectBadge.style.display = reflectMode ? 'inline-block' : 'none';
 
     addTranscript(hostName, data.greeting_text, true);
     if (data.greeting_audio && !textOnly) {
@@ -509,6 +530,18 @@ async function endSession() {
     const data = await resp.json();
     showScreen('end-screen');
     document.getElementById('summary').textContent = data.transcript_md;
+
+    // Show analysis if reflect mode produced one
+    const analysisSection = document.getElementById('analysis-section');
+    const analysisContent = document.getElementById('analysis-content');
+    if (data.analysis) {
+      lastAnalysis = data.analysis;
+      analysisContent.innerHTML = renderAnalysisMarkdown(data.analysis);
+      analysisSection.style.display = 'block';
+    } else {
+      analysisSection.style.display = 'none';
+      lastAnalysis = null;
+    }
   } catch (err) {
     alert('Error ending session: ' + err.message);
   }
@@ -802,6 +835,54 @@ function esc(text) {
 function showDashboard() {
   showScreen('dashboard-screen');
   loadSessions();
+}
+
+function renderAnalysisMarkdown(text) {
+  // Simple markdown-ish rendering for analysis documents
+  var html = esc(text);
+  // Bold: **text**
+  html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  // Italic: *text*
+  html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+  // Headers: ## text or ### text
+  html = html.replace(/^### (.+)$/gm, '<h4>$1</h4>');
+  html = html.replace(/^## (.+)$/gm, '<h3>$1</h3>');
+  // Horizontal rules
+  html = html.replace(/^---$/gm, '<hr>');
+  // Paragraphs: double newline
+  html = html.replace(/\n\n/g, '</p><p>');
+  // Single newlines to <br>
+  html = html.replace(/\n/g, '<br>');
+  return '<p>' + html + '</p>';
+}
+
+function downloadAnalysis() {
+  if (!lastAnalysis) return;
+  var blob = new Blob([lastAnalysis], { type: 'text/markdown' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'thinkpod-reflection-' + (sessionId || 'session') + '.md';
+  a.click();
+}
+
+async function viewAnalysis(id) {
+  try {
+    var resp = await authFetch(BASE + '/api/sessions/' + id + '/analysis');
+    if (!resp.ok) throw new Error('No analysis found');
+    var data = await resp.json();
+    lastAnalysis = data.analysis;
+    // Show in a simple alert-style or reuse end screen
+    var contentEl = document.getElementById('analysis-content');
+    var sectionEl = document.getElementById('analysis-section');
+    if (contentEl && sectionEl) {
+      contentEl.innerHTML = renderAnalysisMarkdown(data.analysis);
+      sectionEl.style.display = 'block';
+    }
+    document.getElementById('summary').textContent = '';
+    showScreen('end-screen');
+  } catch (e) {
+    alert('Error: ' + e.message);
+  }
 }
 
 document.addEventListener('keydown', function(e) {
