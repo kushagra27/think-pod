@@ -522,8 +522,9 @@ async function startSession() {
 }
 
 async function endSession() {
-  if (!sessionId) return;
+  if (!sessionId || isProcessing) return;
   if (isRecording) await stopRecording();
+  setProcessing(true);
   try {
     const resp = await authFetch(BASE + '/api/session/' + sessionId + '/end', { method: 'POST' });
     if (!resp.ok) throw new Error(await resp.text());
@@ -544,6 +545,8 @@ async function endSession() {
     }
   } catch (err) {
     alert('Error ending session: ' + err.message);
+  } finally {
+    setProcessing(false);
   }
 }
 
