@@ -20,7 +20,7 @@ PATTERNS_DIR = os.path.join(DATA_DIR, 'patterns')
 PROMPTS_DIR = os.path.join(DATA_DIR, 'prompts')
 PODCASTERS_FILE = os.path.join(DATA_DIR, 'podcasters.json')
 
-CHECKPOINT_INTERVAL = 8  # Run analysis every N guest exchanges
+CHECKPOINT_INTERVAL = 5  # Run analysis every N guest exchanges
 ANALYSIS_MODEL = 'claude-sonnet-4-20250514'
 CONVERSATION_MODEL = 'claude-sonnet-4-20250514'
 
@@ -187,6 +187,7 @@ def run_session(podcaster_slug='', guest_name='', topic='', reflect=False):
     analysis_prompt = None
     prior_patterns = None
     steering_note = None
+    steering_turns_remaining = 0
 
     if reflect:
         undertow_prompt = load_prompt_file('analytical_undertow.md')
@@ -297,12 +298,13 @@ def run_session(podcaster_slug='', guest_name='', topic='', reflect=False):
             print(f"  [Reflection checkpoint {checkpoint_count}...]\n")
             try:
                 steering_note = run_checkpoint(transcript_lines, checkpoint_prompt)
+                steering_turns_remaining = 3
             except Exception as e:
                 print(f"  [Checkpoint failed: {e}]\n")
                 steering_note = None
 
         # Build the user message, with optional steering note
-        if reflect and steering_note:
+        if reflect and steering_note and steering_turns_remaining > 0:
             injected_content = (
                 f'[INTERNAL STEERING — invisible to guest, do not reference directly. '
                 f'Use this to guide your next question naturally in character:\n'
@@ -310,8 +312,9 @@ def run_session(podcaster_slug='', guest_name='', topic='', reflect=False):
                 f'{guest_input}'
             )
             messages.append({'role': 'user', 'content': injected_content})
-            # Clear the steering note so it only fires once per checkpoint
-            steering_note = None
+            steering_turns_remaining -= 1
+            if steering_turns_remaining <= 0:
+                steering_note = None
         else:
             messages.append({'role': 'user', 'content': guest_input})
 

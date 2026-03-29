@@ -28,6 +28,7 @@ def create_session_db(
     podcaster: str,
     guest_name: str,
     topic: str,
+    reflect: bool = False,
 ) -> dict[str, Any]:
     """Insert a new session row and return it."""
     client = _get_client()
@@ -39,6 +40,7 @@ def create_session_db(
         "topic": topic,
         "status": "active",
         "turns": 0,
+        "reflect": reflect,
         "created_at": datetime.now(timezone.utc).isoformat(),
     }
     resp = client.table("sessions").insert(row).execute()

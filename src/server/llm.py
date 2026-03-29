@@ -197,23 +197,33 @@ def run_checkpoint_analysis(transcript_text: str) -> str:
     return resp.json()["content"][0]["text"]
 
 
-def run_post_session_analysis(transcript_text: str, prior_patterns: dict | None = None) -> str:
+def run_post_session_analysis(
+    transcript_text: str,
+    prior_patterns: dict | None = None,
+    session_date: str = "",
+    session_host: str = "",
+    guest_name: str = "",
+) -> str:
     """Run full post-session analysis. Returns the analysis text."""
     analysis_prompt = load_prompt_file("post_session_analysis.md")
     if not analysis_prompt:
         return ""
 
-    user_content = f"Here is the full session transcript:\n\n{transcript_text}"
+    user_content = "## Session Metadata\n"
+    user_content += f"- Date: {session_date}\n"
+    user_content += f"- Host: {session_host}\n"
+    user_content += f"- Guest: {guest_name}\n\n"
+    user_content += f"## Full Session Transcript\n\n{transcript_text}"
     if prior_patterns:
-        user_content += f"\n\nHere is pattern data from previous sessions:\n\n```json\n{json.dumps(prior_patterns, indent=2)}\n```"
+        user_content += f"\n\n## Pattern Data From Previous Sessions\n\n```json\n{json.dumps(prior_patterns, indent=2)}\n```"
     user_content += "\n\nProduce both the reflection document and the structured pattern JSON."
 
     messages = [{"role": "user", "content": user_content}]
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
         headers={"x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json"},
-        json={"model": ANALYSIS_MODEL, "max_tokens": 4096, "system": analysis_prompt, "messages": messages},
-        timeout=120,
+        json={"model": ANALYSIS_MODEL, "max_tokens": 8192, "system": analysis_prompt, "messages": messages},
+        timeout=240,
     )
     resp.raise_for_status()
     return resp.json()["content"][0]["text"]

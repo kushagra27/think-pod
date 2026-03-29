@@ -29,7 +29,7 @@ CARTESIA_MODEL = "sonic"
 LLM_MODEL = "claude-sonnet-4-20250514"
 
 # Reflection mode
-CHECKPOINT_INTERVAL = 8
+CHECKPOINT_INTERVAL = 5
 ANALYSIS_MODEL = "claude-sonnet-4-20250514"
 
 # Paths

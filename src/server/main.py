@@ -236,6 +236,8 @@ async def resume_session(session_id: str, user: dict = Depends(get_current_user)
     if sess.status != "active":
         raise HTTPException(400, "Session is already ended")
     info = llm.get_podcaster_info(sess.podcaster)
+    if sess.reflect:
+        _ensure_reflect_prompt(sess)
     return {
         "session_id": sess.session_id,
         "podcaster": sess.podcaster,
@@ -244,33 +246,26 @@ async def resume_session(session_id: str, user: dict = Depends(get_current_user)
         "topic": sess.topic,
         "turn": sess.turn,
         "transcript": sess.transcript,
+        "reflect": sess.reflect,
+        "checkpoint_count": len(sess.checkpoint_notes),
     }
 
 
-# ── In-memory reflect session cache ───────────────────────────────────
-# Reflection state (steering notes, reflect flag) is in-memory only.
-# We cache Session objects for active reflect sessions so chat endpoints
-# can access the reflect state without a DB column.
-_active_reflect_sessions: dict[str, session.Session] = {}
+# ── Reflect prompt cache ──────────────────────────────────────────────
+# Reflection-enhanced system prompts are cached per session ID so they
+# persist across chat requests without rebuilding every turn.
+_reflect_prompt_cache: dict[str, str] = {}
 
 
-def _get_session_with_reflect(session_id: str) -> session.Session | None:
-    """Load session, restoring reflect state from cache if available."""
-    sess = session.get_session(session_id)
-    if not sess:
-        return None
-    # Restore in-memory reflect state from cache
-    cached = _active_reflect_sessions.get(session_id)
-    if cached:
-        sess.reflect = cached.reflect
-        sess.steering_note = cached.steering_note
-    return sess
-
-
-def _save_reflect_state(sess):
-    """Update the in-memory reflect cache after a turn."""
-    if sess.reflect:
-        _active_reflect_sessions[sess.session_id] = sess
+def _ensure_reflect_prompt(sess) -> None:
+    """Build and cache the reflection-enhanced system prompt for this session if needed."""
+    if not sess.reflect:
+        return
+    cache_key = sess.session_id
+    if cache_key not in _reflect_prompt_cache:
+        base_prompt = llm._load_persona(sess.podcaster)
+        reflection_prompt = llm.get_reflection_system_prompt(base_prompt, sess.guest_name)
+        _reflect_prompt_cache[cache_key] = reflection_prompt
 
 
 # ── Interview flow endpoints (auth required) ─────────────────────────
@@ -288,28 +283,47 @@ def _run_llm_tts(sess, user_text: str, text_only: bool = False, stt_ms: int = 0)
                 steering = llm.run_checkpoint_analysis(transcript_text)
                 if steering:
                     sess.steering_note = steering
+                    sess.steering_turns_remaining = 3
+                    # Persist checkpoint to DB
+                    sess.save_checkpoint(steering)
+                    print(f"[reflect] Checkpoint {next_turn // CHECKPOINT_INTERVAL} fired for session {sess.session_id}")
         except Exception as e:
             print(f"[reflect] Checkpoint analysis failed: {e}")
 
     # Build the user message for LLM, optionally injecting steering note
     llm_user_text = user_text
-    if sess.reflect and sess.steering_note:
-        llm_user_text = (
-            f"[INTERNAL STEERING — invisible to guest, do not reference directly. "
-            f"Use this to guide your next question naturally in character:\n"
-            f"{sess.steering_note}]\n\n"
-            f"{user_text}"
-        )
-        sess.steering_note = None  # one-shot
+    if sess.reflect:
+        context_blocks: list[str] = []
+        if sess.checkpoint_notes:
+            recent_notes = sess.checkpoint_notes[-2:]
+            context_blocks.append(
+                "[PRIOR CHECKPOINT CONTEXT — invisible to guest, do not reference directly. "
+                "Maintain trajectory from these earlier reflection notes:\n"
+                + "\n\n".join(recent_notes)
+                + "]"
+            )
+        if sess.steering_note and sess.steering_turns_remaining > 0:
+            context_blocks.append(
+                "[INTERNAL STEERING — invisible to guest, do not reference directly. "
+                "Use this to guide your next question naturally in character:\n"
+                + sess.steering_note
+                + "]"
+            )
+            sess.steering_turns_remaining -= 1
+            if sess.steering_turns_remaining <= 0:
+                sess.steering_note = None
+        if context_blocks:
+            llm_user_text = "\n\n".join(context_blocks) + "\n\n" + user_text
 
     t0 = time.time()
     messages = sess.get_messages_for_llm()
     messages.append({"role": "user", "content": llm_user_text})
     try:
-        # Use reflection-enhanced prompt if available
-        reflect_key = sess.podcaster + "__reflect"
-        if sess.reflect and reflect_key in llm._PERSONA_CACHE:
-            response_text = llm._call_anthropic(messages, llm._PERSONA_CACHE[reflect_key])
+        # Use reflection-enhanced prompt if reflect mode
+        _ensure_reflect_prompt(sess)
+        cache_key = sess.session_id
+        if sess.reflect and cache_key in _reflect_prompt_cache:
+            response_text = llm._call_anthropic(messages, _reflect_prompt_cache[cache_key])
         else:
             response_text = llm.generate_response(messages, sess.podcaster)
     except Exception as e:
@@ -328,7 +342,6 @@ def _run_llm_tts(sess, user_text: str, text_only: bool = False, stt_ms: int = 0)
 
     # Store the original user text in the session (not the steering-injected version)
     sess.add_turn(user_text, response_text, stt_ms=stt_ms, llm_ms=llm_ms, tts_ms=tts_ms)
-    _save_reflect_state(sess)
 
     return ChatResponse(
         user_text=user_text,
@@ -348,33 +361,26 @@ async def start_session(req: StartRequest, user: dict = Depends(get_current_user
         reflect=req.reflect,
     )
 
-    # If reflect mode, modify the persona's system prompt with undertow + prior patterns
+    # If reflect mode, build and cache the reflection-enhanced system prompt
     if req.reflect:
-        base_prompt = llm._load_persona(req.podcaster)
-        reflection_prompt = llm.get_reflection_system_prompt(base_prompt, req.guest_name)
-        # Cache the modified prompt for this podcaster+reflect combo
-        llm._PERSONA_CACHE[req.podcaster + "__reflect"] = reflection_prompt
+        _ensure_reflect_prompt(sess)
 
     info = llm.get_podcaster_info(req.podcaster)
     podcaster_name = info.get("name", req.podcaster)
 
     try:
-        if req.reflect:
-            # Generate greeting using the reflection-enhanced prompt
+        if req.reflect and sess.session_id in _reflect_prompt_cache:
             messages = [{
                 "role": "user",
                 "content": f"Your guest today is {req.guest_name}. They want to discuss: {req.topic}. Welcome them warmly and kick things off with your first question. Keep it to 2-3 sentences max.",
             }]
-            greeting_text = llm._call_anthropic(messages, llm._PERSONA_CACHE[req.podcaster + "__reflect"])
+            greeting_text = llm._call_anthropic(messages, _reflect_prompt_cache[sess.session_id])
         else:
             greeting_text = llm.generate_greeting(req.guest_name, req.topic, req.podcaster)
     except Exception as e:
         raise HTTPException(500, f"LLM error: {e}")
 
     sess.add_greeting(greeting_text)
-
-    # Store reflect session in active sessions cache so chat endpoints can use it
-    _active_reflect_sessions[sess.session_id] = sess
 
     greeting_audio = ""
     if not req.text_only:
@@ -400,7 +406,7 @@ async def chat(
     text_only: bool = Form(False),
     user: dict = Depends(get_current_user),
 ):
-    sess = _get_session_with_reflect(session_id)
+    sess = session.get_session(session_id)
     if not sess:
         raise HTTPException(404, "Session not found")
     if sess.user_id != user["id"]:
@@ -426,7 +432,7 @@ async def chat_text(
     req: ChatTextRequest,
     user: dict = Depends(get_current_user),
 ):
-    sess = _get_session_with_reflect(session_id)
+    sess = session.get_session(session_id)
     if not sess:
         raise HTTPException(404, "Session not found")
     if sess.user_id != user["id"]:
@@ -446,7 +452,7 @@ async def get_transcript(session_id: str, user: dict = Depends(get_current_user)
 
 @app.post("/api/session/{session_id}/end", response_model=EndResponse)
 async def end_session_endpoint(session_id: str, user: dict = Depends(get_current_user)):
-    sess = _get_session_with_reflect(session_id)
+    sess = session.get_session(session_id)
     if not sess:
         raise HTTPException(404, "Session not found")
     if sess.user_id != user["id"]:
@@ -465,7 +471,14 @@ async def end_session_endpoint(session_id: str, user: dict = Depends(get_current
         try:
             transcript_text = sess.get_transcript_text()
             prior_patterns = llm.load_latest_patterns(sess.guest_name)
-            analysis_output = llm.run_post_session_analysis(transcript_text, prior_patterns)
+            session_date = sess.created_at[:10] if sess.created_at else datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            analysis_output = llm.run_post_session_analysis(
+                transcript_text,
+                prior_patterns,
+                session_date=session_date,
+                session_host=sess.podcaster,
+                guest_name=sess.guest_name,
+            )
 
             if analysis_output:
                 # Save the analysis document
@@ -490,7 +503,7 @@ async def end_session_endpoint(session_id: str, user: dict = Depends(get_current
             print(f"[reflect] Post-session analysis failed: {e}")
 
     # Clean up in-memory reflect cache
-    _active_reflect_sessions.pop(session_id, None)
+    _reflect_prompt_cache.pop(session_id, None)
 
     return EndResponse(
         transcript_md=transcript_md,

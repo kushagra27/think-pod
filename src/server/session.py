@@ -2,7 +2,9 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
+import os
 from . import db
+from .config import SESSION_DIR
 
 
 class Session:
@@ -23,6 +25,7 @@ class Session:
         created_at: str | None = None,
         messages: list[dict] | None = None,
         reflect: bool = False,
+        checkpoint_notes: list[str] | None = None,
     ):
         self.session_id = session_id
         self.guest_name = guest_name
@@ -36,9 +39,27 @@ class Session:
         self.messages: list[dict] = messages or []
         # Flat transcript for display [{speaker, text, timestamp}]
         self.transcript: list[dict] = []
-        # Reflection mode state (in-memory only)
+        # Reflection mode state
         self.reflect: bool = reflect
         self.steering_note: str | None = None
+        self.steering_turns_remaining: int = 0
+        self.checkpoint_notes: list[str] = checkpoint_notes or []
+
+    def save_checkpoint(self, steering_signal: str):
+        """Persist a checkpoint steering signal as a system message in the DB and append a session log file."""
+        checkpoint_text = f"[CHECKPOINT {self.turn}] {steering_signal}"
+        db.add_message_db(
+            self.session_id,
+            "system",
+            checkpoint_text,
+            turn_number=self.turn,
+        )
+        self.checkpoint_notes.append(steering_signal)
+        checkpoint_log = os.path.join(SESSION_DIR, f"{self.session_id}-checkpoints.md")
+        with open(checkpoint_log, "a") as f:
+            f.write(f"## Checkpoint at turn {self.turn}\n\n")
+            f.write(steering_signal.strip())
+            f.write("\n\n")
 
     def add_greeting(self, greeting_text: str):
         """Add the host's opening greeting."""
@@ -127,6 +148,7 @@ def create_session(
         podcaster=podcaster,
         guest_name=guest_name,
         topic=topic,
+        reflect=reflect,
     )
     return Session(
         session_id=row["id"],
@@ -147,7 +169,16 @@ def get_session(session_id: str) -> Session | None:
     if not row:
         return None
     msgs_rows = db.get_session_messages(session_id)
-    messages = [{"role": m["role"], "content": m["content"]} for m in msgs_rows]
+    messages = [
+        {"role": m["role"], "content": m["content"]}
+        for m in msgs_rows
+        if m["role"] in {"user", "assistant"}
+    ]
+    checkpoint_notes = [
+        m["content"].split("] ", 1)[1] if "] " in m["content"] else m["content"]
+        for m in msgs_rows
+        if m["role"] == "system" and m["content"].startswith("[CHECKPOINT")
+    ]
     sess = Session(
         session_id=row["id"],
         guest_name=row["guest_name"],
@@ -158,6 +189,8 @@ def get_session(session_id: str) -> Session | None:
         status=row["status"],
         created_at=row["created_at"],
         messages=messages,
+        reflect=row.get("reflect", False),
+        checkpoint_notes=checkpoint_notes,
     )
     # Rebuild transcript from messages for display
     for m in msgs_rows:
