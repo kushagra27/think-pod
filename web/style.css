@@ -252,6 +252,88 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 .analysis-content hr { border: none; border-top: 1px solid #333; margin: 1rem 0; }
 .analysis-content p { margin-bottom: 0.5rem; }
 
+/* ─── Go Deeper Modal ────────────────────────────────────────────── */
+
+.modal-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.8);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 1000; padding: 1rem;
+}
+
+.go-deeper-modal-content {
+  background: #111; border: 1px solid #333; border-radius: 16px;
+  padding: 1.5rem; max-width: 700px; width: 100%; max-height: 85vh;
+  display: flex; flex-direction: column;
+}
+
+.modal-header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 0.75rem;
+}
+.modal-header h3 { color: #fbbf24; font-size: 1.2rem; }
+
+.modal-close {
+  width: auto; background: none; color: #888; font-size: 1.2rem;
+  padding: 0.25rem 0.5rem; border: none;
+}
+.modal-close:hover { color: #fff; }
+
+.modal-description {
+  color: #aaa; font-size: 0.9rem; margin-bottom: 1rem; line-height: 1.5;
+}
+
+.go-deeper-textarea {
+  flex: 1; min-height: 300px; max-height: 50vh;
+  background: #0a0a0a; border: 1px solid #222; border-radius: 8px;
+  color: #ccc; padding: 1rem; font-size: 0.85rem; font-family: monospace;
+  line-height: 1.5; resize: none; overflow-y: auto;
+}
+
+.go-deeper-warning {
+  background: rgba(217, 119, 6, 0.15); border: 1px solid rgba(217, 119, 6, 0.3);
+  border-radius: 8px; padding: 0.6rem 0.75rem; margin-bottom: 0.75rem;
+  color: #fbbf24; font-size: 0.85rem;
+}
+
+.modal-actions {
+  display: flex; gap: 0.75rem; margin-top: 1rem;
+}
+
+.copy-btn {
+  flex: 1; padding: 0.75rem; background: #fbbf24; color: #000;
+  border: none; border-radius: 10px; font-weight: 600; cursor: pointer;
+}
+.copy-btn:hover { opacity: 0.9; }
+
+.open-claude-btn {
+  padding: 0.75rem 1.25rem; background: #333; color: #fff;
+  border-radius: 10px; font-weight: 600; text-decoration: none;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.9rem;
+}
+.open-claude-btn:hover { background: #444; text-decoration: none; }
+
+.copy-confirmation {
+  text-align: center; color: #22c55e; font-size: 0.9rem;
+  margin-top: 0.5rem; font-weight: 600;
+}
+
+.go-deeper-btn {
+  background: rgba(251, 191, 36, 0.15) !important;
+  color: #fbbf24 !important;
+}
+.go-deeper-btn:hover {
+  background: rgba(251, 191, 36, 0.3) !important;
+}
+
+.go-deeper-end-btn {
+  background: #fbbf24 !important; color: #000 !important;
+}
+
+.analysis-header-actions {
+  display: flex; gap: 0.5rem; align-items: center;
+}
+
 /* ─── Responsive ─────────────────────────────────────────────────── */
 
 @media (max-width: 900px) {

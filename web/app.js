@@ -279,6 +279,7 @@ async function loadSessions() {
           '<div class="session-card-actions">' +
             '<button class="small-btn" data-action="view" data-id="' + s.id + '">View</button>' +
             '<button class="small-btn reflect-analysis-btn" data-action="analysis" data-id="' + s.id + '" style="display:none">🔍 Analysis</button>' +
+            '<button class="small-btn go-deeper-btn" data-action="go-deeper" data-id="' + s.id + '" style="display:none">🧠 Go Deeper</button>' +
             (s.status === 'active' ? '<button class="small-btn accent" data-action="resume" data-id="' + s.id + '">Resume</button>' : '') +
             '<button class="small-btn danger" data-action="delete" data-id="' + s.id + '">Delete</button>' +
           '</div>' +
@@ -288,7 +289,14 @@ async function loadSessions() {
       if (s.status === 'ended') {
         (function(cardEl, sid) {
           authFetch(BASE + '/api/sessions/' + sid + '/analysis', { method: 'GET' })
-            .then(function(r) { if (r.ok) { var btn = cardEl.querySelector('[data-action="analysis"]'); if (btn) btn.style.display = ''; } })
+            .then(function(r) {
+              if (r.ok) {
+                var btn = cardEl.querySelector('[data-action="analysis"]');
+                var deeperBtn = cardEl.querySelector('[data-action="go-deeper"]');
+                if (btn) btn.style.display = '';
+                if (deeperBtn) deeperBtn.style.display = '';
+              }
+            })
             .catch(function() {});
         })(card, s.id);
       }
@@ -302,6 +310,7 @@ async function loadSessions() {
         else if (action === 'resume') resumeSession(id);
         else if (action === 'delete') deleteSession(id);
         else if (action === 'analysis') viewAnalysis(id);
+        else if (action === 'go-deeper') goDeeper(id);
       });
 
       listEl.appendChild(card);
@@ -539,9 +548,13 @@ async function endSession() {
       lastAnalysis = data.analysis;
       analysisContent.innerHTML = renderAnalysisMarkdown(data.analysis);
       analysisSection.style.display = 'block';
+      var goDeeperEndBtn = document.getElementById('go-deeper-end-btn');
+      if (goDeeperEndBtn) goDeeperEndBtn.style.display = '';
     } else {
       analysisSection.style.display = 'none';
       lastAnalysis = null;
+      var goDeeperEndBtn = document.getElementById('go-deeper-end-btn');
+      if (goDeeperEndBtn) goDeeperEndBtn.style.display = 'none';
     }
   } catch (err) {
     alert('Error ending session: ' + err.message);
@@ -888,6 +901,76 @@ async function viewAnalysis(id) {
   }
 }
 
+// ─── Go Deeper ──────────────────────────────────────────────────────
+
+async function goDeeper(id) {
+  try {
+    var resp = await authFetch(BASE + '/api/sessions/' + id + '/go-deeper');
+    if (!resp.ok) throw new Error('Could not generate prompt');
+    var data = await resp.json();
+    showGoDeeperModal(data.prompt, data.char_count);
+  } catch (e) {
+    alert('Error: ' + e.message);
+  }
+}
+
+function showGoDeeperModal(promptText, charCount) {
+  var existing = document.getElementById('go-deeper-modal');
+  if (existing) existing.remove();
+
+  var warning = '';
+  if (charCount && charCount > 80000) {
+    warning = '<div class="go-deeper-warning">This prompt is ' + Math.round(charCount / 1000) + 'k characters. You may need Claude Pro or Max for the full context.</div>';
+  }
+
+  var modal = document.createElement('div');
+  modal.id = 'go-deeper-modal';
+  modal.className = 'modal-overlay';
+  modal.innerHTML =
+    '<div class="modal-content go-deeper-modal-content">' +
+      '<div class="modal-header">' +
+        '<h3>🧠 Go Deeper</h3>' +
+        '<button class="modal-close" onclick="closeGoDeeperModal()">&#x2715;</button>' +
+      '</div>' +
+      '<p class="modal-description">Paste this into <a href="https://claude.ai" target="_blank">claude.ai</a> to explore your patterns in a collaborative conversation.</p>' +
+      warning +
+      '<textarea class="go-deeper-textarea" id="go-deeper-text" readonly>' + escapeTextarea(promptText) + '</textarea>' +
+      '<div class="modal-actions">' +
+        '<button class="copy-btn" onclick="copyGoDeeperPrompt()">Copy to Clipboard</button>' +
+        '<a href="https://claude.ai" target="_blank" class="open-claude-btn">Open Claude &#x2197;</a>' +
+      '</div>' +
+      '<div id="copy-confirmation" class="copy-confirmation" style="display:none">Copied!</div>' +
+    '</div>';
+
+  document.body.appendChild(modal);
+
+  // Close on overlay click
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) closeGoDeeperModal();
+  });
+}
+
+function closeGoDeeperModal() {
+  var modal = document.getElementById('go-deeper-modal');
+  if (modal) modal.remove();
+}
+
+function copyGoDeeperPrompt() {
+  var text = document.getElementById('go-deeper-text').value;
+  navigator.clipboard.writeText(text).then(function() {
+    var conf = document.getElementById('copy-confirmation');
+    conf.style.display = 'block';
+    setTimeout(function() { conf.style.display = 'none'; }, 2000);
+  });
+}
+
+function escapeTextarea(text) {
+  return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+// ─── Keyboard Shortcuts ─────────────────────────────────────────────
+
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) sendText();
+  if (e.key === 'Escape') closeGoDeeperModal();
 });

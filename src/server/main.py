@@ -532,6 +532,245 @@ async def get_session_analysis(session_id: str, user: dict = Depends(get_current
     return {"analysis": analysis_text, "session_id": session_id}
 
 
+# ── Go Deeper ────────────────────────────────────────────────────────
+
+def _compile_prior_sessions(
+    user_id: str,
+    current_session_id: str,
+    guest_name: str,
+    max_prior: int = 5,
+) -> str:
+    """Compile analysis docs and pattern JSONs from prior sessions."""
+    from . import db as _db
+
+    all_sessions = _db.list_user_sessions(user_id, limit=50)
+    prior = [
+        s for s in all_sessions
+        if s["id"] != current_session_id
+        and s["status"] == "ended"
+        and s.get("guest_name", "").lower() == guest_name.lower()
+    ][:max_prior]
+
+    if not prior:
+        return ""
+
+    prior = list(reversed(prior))  # chronological (oldest first)
+
+    sections = []
+    for i, s in enumerate(prior, 1):
+        sid = s["id"]
+        analysis_path = os.path.join(SESSION_DIR, f"{sid}-analysis.md")
+        if not os.path.exists(analysis_path):
+            continue
+
+        with open(analysis_path) as f:
+            analysis = f.read()
+
+        # Strip metadata headers
+        lines = analysis.split("\n")
+        cleaned_lines = [
+            l for l in lines
+            if not l.startswith("# Session:") and not l.startswith("# Date:")
+        ]
+        analysis_cleaned = "\n".join(cleaned_lines).strip()
+
+        # Find pattern JSON for this session
+        pattern_text = ""
+        pattern_files = [
+            f for f in os.listdir(PATTERNS_DIR)
+            if f.endswith(".json") and sid in f
+        ]
+        if pattern_files:
+            with open(os.path.join(PATTERNS_DIR, pattern_files[0])) as pf:
+                pattern_text = pf.read()
+
+        podcaster_info = llm.get_podcaster_info(s.get("podcaster", ""))
+        host_name = podcaster_info.get("name", s.get("podcaster", ""))
+        date_str = s["created_at"][:10] if s.get("created_at") else "unknown"
+
+        section = f"### Session {i} — {host_name} x {s.get('guest_name', '')}, {date_str}\n"
+        section += f"Topic: {s.get('topic', 'unknown')}\n\n"
+        section += f"**Analysis:**\n{analysis_cleaned}\n\n"
+        if pattern_text:
+            section += f"**Pattern Data:**\n```json\n{pattern_text}\n```\n"
+
+        sections.append(section)
+
+    if not sections:
+        return ""
+
+    return "## PRIOR SESSIONS (oldest to newest)\n\n" + "\n---\n\n".join(sections)
+
+
+def _build_go_deeper_prompt(
+    transcript: str,
+    analysis: str,
+    patterns_json: str,
+    prior_sessions: str = "",
+) -> str:
+    """Build the compiled Go Deeper prompt."""
+
+    prior_section = ""
+    if prior_sessions:
+        prior_section = f"""I've done multiple ThinkPod sessions over time. I'm including the \
+analysis and pattern data from prior sessions so you can see how my \
+patterns have evolved. Some things to look for:
+
+- Patterns that show up across every session regardless of host or \
+topic — these are probably the real ones
+- Contradictions that were identified early but still haven't been \
+resolved in later sessions
+- Avoidance topics that keep appearing — things I consistently \
+deflect from no matter who's asking
+- Whether my relationship to specific themes has shifted or stayed stuck
+- Anything the individual analyses missed because they only had one \
+conversation to work with
+
+---
+
+{prior_sessions}
+
+---
+
+"""
+
+    prompt = f"""I just did something interesting — a thinking exercise called ThinkPod \
+where I had a long conversation with an AI podcast host about my life, \
+decisions, and what's going on underneath them. The conversation had a \
+hidden layer tracking psychological patterns in what I said, and it \
+produced an analysis afterward.
+
+I'm sharing all of it with you — the conversation transcript, the \
+analysis, and some structured pattern data. I'd love your help making \
+sense of it.
+
+A few things about how I'd like this to go:
+
+- This is a collaborative exploration, not a diagnosis. I want to \
+understand myself better, not be told what's wrong with me.
+- Think of yourself as a thoughtful friend who's read my journal and \
+wants to help me see what I can't see on my own — not a therapist \
+delivering a report.
+- Start by sharing what stood out to you most, then let me guide where \
+we go from there. Ask me questions rather than making declarations.
+- Don't just repeat what the analysis already says — I've read it. \
+I'm looking for what's underneath it, connections I haven't made, \
+patterns I might be blind to.
+- If you notice contradictions between what I said and what I actually \
+did, point them out — but as curiosity, not accusation. "I noticed \
+something interesting" rather than "you're clearly doing X."
+- Use frameworks if they're helpful (psychology, philosophy, whatever \
+fits) but explain them in plain language and always tie them back to \
+my specific situation.
+- If I push back on something you say, take it seriously — I might be \
+right, or I might be defending a blind spot. Either way, the \
+pushback itself is worth exploring.
+- Be honest. I'd rather hear something uncomfortable that's true than \
+something reassuring that's vague.
+
+Here's everything from my sessions:
+
+---
+
+{prior_section}## CURRENT SESSION
+
+### Transcript
+
+{transcript}
+
+---
+
+### Reflection Analysis
+
+{analysis}
+
+---
+
+### Pattern Data
+
+```json
+{patterns_json}
+```
+
+---
+
+I've read through the analysis and I'm ready to go deeper. What jumps \
+out to you first?"""
+
+    return prompt
+
+
+@app.get("/api/sessions/{session_id}/go-deeper")
+async def get_go_deeper_prompt(session_id: str, user: dict = Depends(get_current_user)):
+    """Compile the Go Deeper prompt for a session."""
+    sess = session.get_session(session_id)
+    if not sess:
+        raise HTTPException(404, "Session not found")
+    if sess.user_id != user["id"]:
+        raise HTTPException(403, "Not your session")
+    if sess.status != "ended":
+        raise HTTPException(400, "Session must be ended first")
+
+    # Load current session's analysis
+    analysis_path = os.path.join(SESSION_DIR, f"{session_id}-analysis.md")
+    if not os.path.exists(analysis_path):
+        raise HTTPException(404, "No analysis found — run a reflection session first")
+
+    with open(analysis_path) as f:
+        analysis_text = f.read()
+
+    # Strip metadata headers from analysis
+    lines = analysis_text.split("\n")
+    cleaned_lines = [
+        l for l in lines
+        if not l.startswith("# Session:") and not l.startswith("# Date:")
+    ]
+    analysis_cleaned = "\n".join(cleaned_lines).strip()
+
+    # Get transcript from DB
+    from . import db as _db
+    messages = _db.get_session_messages(session_id)
+    transcript_lines = []
+    podcaster_info = llm.get_podcaster_info(sess.podcaster)
+    host_name = podcaster_info.get("name", sess.podcaster)
+    for m in messages:
+        if m["role"] == "system":
+            continue
+        if m["role"] == "user" and m.get("turn_number", 0) == 0:
+            continue  # skip setup prompt
+        speaker = host_name if m["role"] == "assistant" else sess.guest_name
+        transcript_lines.append(f"**{speaker}:** {m['content']}")
+    transcript_text = "\n\n".join(transcript_lines)
+
+    # Load current session's pattern JSON
+    current_patterns_text = ""
+    pattern_files = sorted([
+        f for f in os.listdir(PATTERNS_DIR)
+        if f.endswith(".json") and session_id in f
+    ])
+    if pattern_files:
+        with open(os.path.join(PATTERNS_DIR, pattern_files[0])) as pf:
+            current_patterns = json.load(pf)
+            current_patterns_text = json.dumps(current_patterns, indent=2)
+
+    # Compile prior sessions
+    prior_sessions_text = _compile_prior_sessions(
+        user_id=user["id"],
+        current_session_id=session_id,
+        guest_name=sess.guest_name,
+        max_prior=5,
+    )
+
+    compiled = _build_go_deeper_prompt(
+        transcript=transcript_text,
+        analysis=analysis_cleaned,
+        patterns_json=current_patterns_text,
+        prior_sessions=prior_sessions_text,
+    )
+
+    return {"prompt": compiled, "session_id": session_id, "char_count": len(compiled)}
+
+
 # ── Static files ──────────────────────────────────────────────────────
 
 if os.path.exists(WEB_DIR):
