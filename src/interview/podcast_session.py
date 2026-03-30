@@ -12,8 +12,18 @@ import requests
 import sys
 from datetime import datetime
 
+# Load .env from project root if present
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+_env_path = os.path.join(BASE_DIR, '.env')
+if os.path.exists(_env_path):
+    with open(_env_path) as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if _line and not _line.startswith('#') and '=' in _line:
+                _k, _v = _line.split('=', 1)
+                os.environ.setdefault(_k.strip(), _v.strip())
+
 ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
-BASE_DIR = '/root/.openclaw/workspace/projects/podcast-thinking'
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 SESSION_DIR = os.path.join(DATA_DIR, 'sessions')
 PATTERNS_DIR = os.path.join(DATA_DIR, 'patterns')
@@ -138,13 +148,20 @@ def run_checkpoint(transcript_lines, checkpoint_prompt):
     return call_claude(messages, checkpoint_prompt, model=ANALYSIS_MODEL)
 
 
-def run_post_session_analysis(transcript_lines, analysis_prompt, prior_patterns=None):
+def run_post_session_analysis(
+    transcript_lines, analysis_prompt, prior_patterns=None,
+    session_date='', host_slug='', guest_name='',
+):
     """Run full post-session analysis. Returns the analysis text."""
     transcript_text = '\n'.join(transcript_lines)
 
-    user_content = f'Here is the full session transcript:\n\n{transcript_text}'
+    user_content = '## Session Metadata\n'
+    user_content += f'- Date: {session_date}\n'
+    user_content += f'- Host: {host_slug}\n'
+    user_content += f'- Guest: {guest_name}\n\n'
+    user_content += f'## Full Session Transcript\n\n{transcript_text}'
     if prior_patterns:
-        user_content += f'\n\nHere is pattern data from previous sessions:\n\n```json\n{json.dumps(prior_patterns, indent=2)}\n```'
+        user_content += f'\n\n## Pattern Data From Previous Sessions\n\n```json\n{json.dumps(prior_patterns, indent=2)}\n```'
     user_content += '\n\nProduce both the reflection document and the structured pattern JSON.'
 
     messages = [{'role': 'user', 'content': user_content}]
@@ -203,19 +220,9 @@ def run_session(podcaster_slug='', guest_name='', topic='', reflect=False):
 
     if reflect:
         # Append analytical undertow to host system prompt
+        # Prior patterns are NOT injected here — they're only used in
+        # checkpoint analysis, post-session analysis, and Go Deeper
         system_prompt += f'\n\n---\n\n{undertow_prompt}'
-
-        # Load prior patterns for this guest if available
-        if guest_name:
-            prior_patterns = load_latest_patterns(guest_name)
-            if prior_patterns:
-                system_prompt += (
-                    f'\n\n## Prior Session Context\n'
-                    f'This guest has done previous reflection sessions. '
-                    f'Here are patterns identified previously — use them to inform '
-                    f'your questions but do not reference them directly:\n\n'
-                    f'```json\n{json.dumps(prior_patterns, indent=2)}\n```'
-                )
 
     # File paths
     mode_label = 'reflect' if reflect else 'standard'
@@ -342,7 +349,10 @@ def run_session(podcaster_slug='', guest_name='', topic='', reflect=False):
         print('  (This takes a moment — generating your reflection document.)\n')
         try:
             analysis_output = run_post_session_analysis(
-                transcript_lines, analysis_prompt, prior_patterns
+                transcript_lines, analysis_prompt, prior_patterns,
+                session_date=datetime.now().strftime('%Y-%m-%d'),
+                host_slug=podcaster_slug,
+                guest_name=guest_name,
             )
 
             # Save full analysis document

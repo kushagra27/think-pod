@@ -20,6 +20,7 @@ let analyserNode = null;
 let animationFrame = null;
 let podcastersData = [];
 let _viewedSession = null; // stash for download
+let localMode = false;
 
 // Base URL for API calls — works behind reverse proxy subpaths
 const BASE = (() => {
@@ -68,6 +69,15 @@ async function initApp() {
     // Fetch public config from server
     const configResp = await fetch(BASE + '/api/config');
     const config = await configResp.json();
+
+    // Local mode: no Supabase, no auth — go straight to dashboard
+    if (config.local_mode) {
+      localMode = true;
+      currentUser = { email: 'local@thinkpod', user_metadata: { name: 'You' } };
+      accessToken = null;
+      onLoggedIn();
+      return;
+    }
 
     supabaseClient = window.supabase.createClient(config.supabase_url, config.supabase_anon_key, {
       auth: {
@@ -196,20 +206,27 @@ function authHeaders(extra) {
 }
 
 async function authFetch(url, opts) {
-  // Refresh token if needed before each request
-  const { data: { session } } = await supabaseClient.auth.getSession();
-  if (session) {
-    accessToken = session.access_token;
-  } else {
-    // Session expired — force re-login
-    showScreen('login-screen');
-    throw new Error('Session expired');
+  if (!localMode) {
+    // Refresh token if needed before each request
+    const { data: { session } } = await supabaseClient.auth.getSession();
+    if (session) {
+      accessToken = session.access_token;
+    } else {
+      // Session expired — force re-login
+      showScreen('login-screen');
+      throw new Error('Session expired');
+    }
   }
 
   opts = opts || {};
-  opts.headers = authHeaders(opts.headers || {});
+  if (!localMode) {
+    opts.headers = authHeaders(opts.headers || {});
+  } else {
+    // Local mode: just pass through any existing headers
+    opts.headers = opts.headers || {};
+  }
   const resp = await fetch(url, opts);
-  if (resp.status === 401) {
+  if (!localMode && resp.status === 401) {
     showScreen('login-screen');
     throw new Error('Unauthorized');
   }
@@ -226,7 +243,11 @@ async function showDashboard() {
   const userInfo = document.getElementById('user-info');
   const meta = currentUser.user_metadata || {};
   const displayName = meta.full_name || meta.name || currentUser.email || '';
-  userInfo.textContent = displayName;
+  userInfo.textContent = localMode ? 'Local Mode' : displayName;
+
+  // Hide logout in local mode
+  var logoutBtn = document.querySelector('#dashboard-screen .dash-header-right .small-btn');
+  if (logoutBtn && localMode) logoutBtn.style.display = 'none';
 
   // Load podcasters in background for start screen
   loadPodcasters();
@@ -706,11 +727,15 @@ async function sendAudio(audioBlob) {
   try {
     var t0 = Date.now();
     // Need auth header for FormData — can't use authFetch easily with FormData content-type
-    var { data: { session: sess } } = await supabaseClient.auth.getSession();
-    if (sess) accessToken = sess.access_token;
+    var headers = {};
+    if (!localMode) {
+      var { data: { session: sess } } = await supabaseClient.auth.getSession();
+      if (sess) accessToken = sess.access_token;
+      headers['Authorization'] = 'Bearer ' + accessToken;
+    }
     var resp = await fetch(BASE + '/api/session/' + sessionId + '/chat', {
       method: 'POST',
-      headers: { 'Authorization': 'Bearer ' + accessToken },
+      headers: headers,
       body: formData,
     });
     if (!resp.ok) throw new Error(await resp.text());

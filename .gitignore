@@ -15,6 +15,10 @@ __pycache__/
 .env
 .env.*
 *.egg-info/
+.venv/
+
+# Local mode database
+data/thinkpod.db
 
 # Local secrets / credentials
 *.pem

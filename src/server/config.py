@@ -21,6 +21,9 @@ SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
 SUPABASE_ANON_KEY = os.environ.get("SUPABASE_ANON_KEY", "")
 SUPABASE_SERVICE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "")
 
+# Mode detection: local mode when Supabase is not configured
+LOCAL_MODE = not SUPABASE_URL
+
 # Voice
 CHRIS_VOICE_ID = "4ec2fc3a-5b02-4868-93df-26a1aa439922"
 CARTESIA_MODEL = "sonic"
@@ -38,6 +41,9 @@ PERSONA_DIR = os.path.join(BASE_DIR, "data", "personas")
 SESSION_DIR = os.path.join(BASE_DIR, "data", "sessions")
 PROMPTS_DIR = os.path.join(BASE_DIR, "data", "prompts")
 PATTERNS_DIR = os.path.join(BASE_DIR, "data", "patterns")
+
+# Local mode database
+DB_PATH = os.path.join(BASE_DIR, "data", "thinkpod.db")
 
 os.makedirs(SESSION_DIR, exist_ok=True)
 os.makedirs(PATTERNS_DIR, exist_ok=True)

@@ -62,6 +62,8 @@ def synthesize(text: str, podcaster_id: str = "chris-williamson") -> bytes:
 
 
 def synthesize_b64(text: str, podcaster_id: str = "chris-williamson") -> str:
-    """Convert text to speech, return base64-encoded MP3."""
+    """Convert text to speech, return base64-encoded MP3. Returns empty string if TTS unavailable."""
+    if not CARTESIA_API_KEY:
+        return ""
     audio_bytes = synthesize(text, podcaster_id)
     return base64.b64encode(audio_bytes).decode("utf-8")

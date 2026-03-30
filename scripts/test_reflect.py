@@ -50,8 +50,8 @@ GUEST_RESPONSES = [
 def get_test_token() -> str:
     """Create a test user via Supabase admin API and get an access token."""
     # Use admin API to create/sign-in a test user
-    test_email = "test-reflect@thinkpod.local"
-    test_password = "test-reflect-password-2026!"
+    test_email = os.environ.get("TEST_EMAIL", "test-reflect@thinkpod.local")
+    test_password = os.environ.get("TEST_PASSWORD", "test-reflect-pw-" + SUPABASE_SERVICE_KEY[:8])
 
     headers = {
         "apikey": SUPABASE_SERVICE_KEY,

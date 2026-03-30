@@ -14,7 +14,7 @@ from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pydantic import BaseModel
 
 from . import stt, llm, tts, session
-from .config import SUPABASE_URL, SUPABASE_ANON_KEY, CHECKPOINT_INTERVAL, PATTERNS_DIR, SESSION_DIR
+from .config import SUPABASE_URL, SUPABASE_ANON_KEY, CHECKPOINT_INTERVAL, PATTERNS_DIR, SESSION_DIR, LOCAL_MODE
 
 app = FastAPI(title="Think-Pod", version="0.3.0")
 
@@ -78,10 +78,16 @@ def _decode_supabase_jwt(token: str) -> dict:
 
 # ── Auth dependency ───────────────────────────────────────────────────
 
+_LOCAL_USER = {"id": "local", "email": "local@thinkpod", "user_metadata": {}}
+
+
 async def get_current_user(
     credentials: HTTPAuthorizationCredentials | None = Depends(_security),
 ) -> dict:
-    """Extract and verify user from Supabase JWT. Returns {"id": ..., "email": ..., ...}."""
+    """Extract and verify user from Supabase JWT. Returns {"id": ..., "email": ..., ...}.
+    In local mode, returns a dummy user with no auth required."""
+    if LOCAL_MODE:
+        return _LOCAL_USER
     if not credentials:
         raise HTTPException(401, "Missing authorization header")
     try:
@@ -152,10 +158,11 @@ class EndResponse(BaseModel):
 
 @app.get("/api/config")
 async def get_config():
-    """Return public Supabase config for the frontend."""
+    """Return public config for the frontend."""
     return {
         "supabase_url": SUPABASE_URL,
         "supabase_anon_key": SUPABASE_ANON_KEY,
+        "local_mode": LOCAL_MODE,
     }
 
 
@@ -406,6 +413,10 @@ async def chat(
     text_only: bool = Form(False),
     user: dict = Depends(get_current_user),
 ):
+    from .config import GROQ_API_KEY
+    if not GROQ_API_KEY:
+        raise HTTPException(400, "Voice input unavailable — GROQ_API_KEY not configured. Use text input instead.")
+
     sess = session.get_session(session_id)
     if not sess:
         raise HTTPException(404, "Session not found")
@@ -656,12 +667,22 @@ we go from there. Ask me questions rather than making declarations.
 - Don't just repeat what the analysis already says — I've read it. \
 I'm looking for what's underneath it, connections I haven't made, \
 patterns I might be blind to.
+- The analysis is a starting point, not the final word. If you see a \
+pattern it identified but didn't push far enough on — go further. \
+If you think the analysis got something wrong or oversimplified \
+something, say so. I want you to challenge the analysis too, not \
+just build on it.
 - If you notice contradictions between what I said and what I actually \
 did, point them out — but as curiosity, not accusation. "I noticed \
 something interesting" rather than "you're clearly doing X."
 - Use frameworks if they're helpful (psychology, philosophy, whatever \
 fits) but explain them in plain language and always tie them back to \
 my specific situation.
+- Look beyond the patterns to my relationship with the patterns \
+themselves. If I seem very analytical about my own psychology, \
+that's worth examining — am I using self-awareness as another \
+way to stay in control? If I frame everything as growth, is that \
+itself a pattern worth questioning?
 - If I push back on something you say, take it seriously — I might be \
 right, or I might be defending a blind spot. Either way, the \
 pushback itself is worth exploring.

@@ -157,25 +157,13 @@ def load_latest_patterns(guest_name: str) -> dict | None:
 
 
 def get_reflection_system_prompt(base_prompt: str, guest_name: str) -> str:
-    """Append analytical undertow to base prompt and inject prior patterns if they exist."""
+    """Append analytical undertow to base prompt. No prior session data injected here —
+    prior patterns are only used in checkpoint analysis, post-session analysis, and Go Deeper."""
     undertow = load_prompt_file("analytical_undertow.md")
     if not undertow:
         return base_prompt
 
-    prompt = base_prompt + f"\n\n---\n\n{undertow}"
-
-    if guest_name:
-        prior_patterns = load_latest_patterns(guest_name)
-        if prior_patterns:
-            prompt += (
-                "\n\n## Prior Session Context\n"
-                "This guest has done previous reflection sessions. "
-                "Here are patterns identified previously — use them to inform "
-                "your questions but do not reference them directly:\n\n"
-                f"```json\n{json.dumps(prior_patterns, indent=2)}\n```"
-            )
-
-    return prompt
+    return base_prompt + f"\n\n---\n\n{undertow}"
 
 
 def run_checkpoint_analysis(transcript_text: str) -> str:
