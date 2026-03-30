@@ -21,7 +21,7 @@ PROMPTS_DIR = os.path.join(DATA_DIR, 'prompts')
 PODCASTERS_FILE = os.path.join(DATA_DIR, 'podcasters.json')
 
 CHECKPOINT_INTERVAL = 5  # Run analysis every N guest exchanges
-ANALYSIS_MODEL = 'claude-sonnet-4-20250514'
+ANALYSIS_MODEL = 'claude-opus-4-6'
 CONVERSATION_MODEL = 'claude-sonnet-4-20250514'
 
 os.makedirs(SESSION_DIR, exist_ok=True)

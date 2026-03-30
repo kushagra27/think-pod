@@ -30,7 +30,7 @@ LLM_MODEL = "claude-sonnet-4-20250514"
 
 # Reflection mode
 CHECKPOINT_INTERVAL = 5
-ANALYSIS_MODEL = "claude-sonnet-4-20250514"
+ANALYSIS_MODEL = "claude-opus-4-6"
 
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
