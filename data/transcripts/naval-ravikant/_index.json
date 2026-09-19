@@ -4,7 +4,7 @@
     "pub_date": "2025-08-25",
     "duration": null,
     "link": "https://nav.al/agency",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/blame-yourself-for-everything-and-preserve-your-agency.txt",
+    "transcript_file": "/srv/projects/podcast-thinking/data/transcripts/naval-ravikant/blame-yourself-for-everything-and-preserve-your-agency.txt",
     "notes": "Official nav.al page. Curated solo-Naval extract."
   },
   "groups-search-for-consensus-individuals-search-for-truth": {
@@ -12,7 +12,7 @@
     "pub_date": null,
     "duration": null,
     "link": "https://nav.al/consensus",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/groups-search-for-consensus-individuals-search-for-truth.txt",
+    "transcript_file": "/srv/projects/podcast-thinking/data/transcripts/naval-ravikant/groups-search-for-consensus-individuals-search-for-truth.txt",
     "notes": "Official nav.al page. Solo-Naval page."
   },
   "it-is-impossible-to-fool-mother-nature": {
@@ -20,7 +20,7 @@
     "pub_date": "2025-09-22",
     "duration": null,
     "link": "https://nav.al/fool",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/it-is-impossible-to-fool-mother-nature.txt",
+    "transcript_file": "/srv/projects/podcast-thinking/data/transcripts/naval-ravikant/it-is-impossible-to-fool-mother-nature.txt",
     "notes": "Official nav.al page. Curated solo-Naval extract."
   },
   "the-best-authors-respect-the-readers-time": {
@@ -28,7 +28,7 @@
     "pub_date": "2025-09-24",
     "duration": null,
     "link": "https://nav.al/density",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/the-best-authors-respect-the-readers-time.txt",
+    "transcript_file": "/srv/projects/podcast-thinking/data/transcripts/naval-ravikant/the-best-authors-respect-the-readers-time.txt",
     "notes": "Official nav.al page. Curated solo-Naval extract."
   },
   "most-books-should-be-skimmed-a-few-should-be-devoured": {
@@ -36,7 +36,7 @@
     "pub_date": "2025-09-26",
     "duration": null,
     "link": "https://nav.al/get",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/most-books-should-be-skimmed-a-few-should-be-devoured.txt",
+    "transcript_file": "/srv/projects/podcast-thinking/data/transcripts/naval-ravikant/most-books-should-be-skimmed-a-few-should-be-devoured.txt",
     "notes": "Official nav.al page. Curated solo-Naval extract."
   },
   "good-products-are-hard-to-vary": {
@@ -44,7 +44,7 @@
     "pub_date": "2025-09-29",
     "duration": null,
     "link": "https://nav.al/good-products",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/good-products-are-hard-to-vary.txt",
+    "transcript_file": "/srv/projects/podcast-thinking/data/transcripts/naval-ravikant/good-products-are-hard-to-vary.txt",
     "notes": "Official nav.al page. Solo-Naval page."
   },
   "find-the-simplest-thing-that-works": {
@@ -52,7 +52,7 @@
     "pub_date": "2025-10-01",
     "duration": null,
     "link": "https://nav.al/simplest",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/find-the-simplest-thing-that-works.txt",
+    "transcript_file": "/srv/projects/podcast-thinking/data/transcripts/naval-ravikant/find-the-simplest-thing-that-works.txt",
     "notes": "Official nav.al page. Curated solo-Naval extract."
   },
   "pause-reflect-see-how-well-it-did": {
@@ -60,7 +60,7 @@
     "pub_date": "2025-08-06",
     "duration": null,
     "link": "https://nav.al/reflect",
-    "transcript_file": "/root/.openclaw/workspace/projects/podcast-thinking/data/transcripts/naval-ravikant/pause-reflect-see-how-well-it-did.txt",
+    "transcript_file": "/srv/projects/podcast-thinking/data/transcripts/naval-ravikant/pause-reflect-see-how-well-it-did.txt",
     "notes": "Official nav.al page. Solo-Naval page."
   }
 }
